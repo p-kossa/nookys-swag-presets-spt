@@ -1,0 +1,286 @@
+[
+  {
+    "MapName": "interchange",
+    "MapGroups": [
+      {
+        "Name": "ZoneCenter SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneCenter"
+      },
+      {
+        "Name": "ZoneRoad PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "ZoneRoad SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "ZoneRoad PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1000,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "ZoneRoad SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "ZoneRoad PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "ZoneCenterBot SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneCenterBot"
+      },
+      {
+        "Name": "ZoneOLI PMC and SCAV",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneOLI"
+      },
+      {
+        "Name": "ZoneIDEA PMC and SCAV",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneIDEA"
+      },
+      {
+        "Name": "ZoneOLIPark PMC and SCAV",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneOLIPark"
+      },
+      {
+        "Name": "ZoneTrucks PMC and SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneTrucks"
+      },
+      {
+        "Name": "ZonePowerStation SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePowerStation"
+      },
+      {
+        "Name": "ZonePowerStation PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 200,
+        "Time_max": 500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePowerStation"
+      },
+      {
+        "Name": "ZonePowerStation SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 600,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePowerStation"
+      },
+      {
+        "Name": "ZonePowerStation SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1000,
+        "Time_max": 1800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePowerStation"
+      },
+      {
+        "Name": "ZonePowerStation SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2000,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePowerStation"
+      },
+      {
+        "Name": "ZonePowerStation PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2500,
+        "Time_max": 3200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePowerStation"
+      },
+      {
+        "Name": "ZoneGoshan PMC and SCAV",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneGoshan"
+      },
+      {
+        "Name": "ZoneIDEAPark PMC and SCAV",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneIDEAPark"
+      }
+    ],
+    "MapBosses": [
+      {
+        "Name": "Killa",
+        "BossName": "bosskilla",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": true,
+        "BossZone": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "MapName": "tarkovstreets",
+    "MapGroups": [
+      {
+        "Name": "ZoneSW01 PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSW01"
+      },
+      {
+        "Name": "ZoneConstruction",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneConstruction"
+      },
+      {
+        "Name": "ZoneCinema",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneCinema"
+      },
+      {
+        "Name": "ZoneColumn SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneColumn"
+      },
+      {
+        "Name": "ZoneColumn SCAV 2",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneColumn"
+      },
+      {
+        "Name": "Late ZoneColumn SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2300,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneColumn"
+      },
+      {
+        "Name": "ZoneHotel_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_1"
+      },
+      {
+        "Name": "ZoneHotel_2",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_2"
+      },
+      {
+        "Name": "ZoneConcordia_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneConcordia_1"
+      },
+      {
+        "Name": "ZoneConcordia_2",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneConcordia_2"
+      },
+      {
+        "Name": "ZoneFactory",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneFactory"
+      },
+      {
+        "Name": "ZoneCarShowroom",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneCarShowroom"
+      },
+      {
+        "Name": "ZoneConcordiaParking",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneConcordiaParking"
+      }
+    ],
+    "MapBosses": [
+      {
+        "Name": "Gluhar",
+        "BossName": "bossgluhar",
+        "BossEscortType": "followergluharassault",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": [
+          {
+            "BossEscortType": "followergluharassault",
+            "BossEscortAmount": "2"
+          },
+          {
+            "BossEscortType": "followergluharsecurity",
+            "BossEscortAmount": "2"
+          },
+          {
+            "BossEscortType": "followergluharscout",
+            "BossEscortAmount": "2"
+          }
+        ],
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneCarShowroom"
+      },
+      {
+        "Name": "Killa",
+        "BossName": "bosskilla",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneHotel_1,ZoneHotel_2"
+      }
+    ]
+  }
+]

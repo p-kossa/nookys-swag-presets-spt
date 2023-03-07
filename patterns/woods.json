@@ -1,0 +1,294 @@
+[
+  {
+    "MapName": "woods",
+    "MapGroups": [
+      {
+        "Name": "ZoneRedHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRedHouse"
+      },
+      {
+        "Name": "ZoneRedHouse SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRedHouse"
+      },
+      {
+        "Name": "Late ZoneRedHouse SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2000,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRedHouse"
+      },
+      {
+        "Name": "ZoneClearVill PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneClearVill"
+      },
+      {
+        "Name": "ZoneClearVill SCAV",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneClearVill"
+      },
+      {
+        "Name": "ZoneBrokenVill SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneBrokenVill"
+      },
+      {
+        "Name": "ZoneBrokenVill PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneBrokenVill"
+      },
+      {
+        "Name": "ZoneHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneHouse"
+      },
+      {
+        "Name": "ZoneHouse PMC and SCAV",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneHouse"
+      },
+      {
+        "Name": "ZoneWoodCutter SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneWoodCutter"
+      },
+      {
+        "Name": "ZoneBigRocks PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneBigRocks"
+      },
+      {
+        "Name": "ZoneRoad PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "ZoneRoad SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1000,
+        "Time_max": 1500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "Late ZoneRoad PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2000,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "Late ZoneRoad SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2500,
+        "Time_max": 3300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "ZoneHighRocks PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneHighRocks"
+      },
+      {
+        "Name": "ZoneMiniHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneMiniHouse"
+      },
+      {
+        "Name": "ZoneBigRocks PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneBigRocks"
+      }
+    ],
+    "MapBosses": [
+      {
+        "BossName": "bossknight",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": [
+            {
+                "BossEscortType": "followerbigpipe",
+                "BossEscortAmount": "1"
+            },
+            {
+                "BossEscortType": "followerbirdeye",
+                "BossEscortAmount": "1"
+            }
+        ],
+        "RandomTimeSpawn": true,
+        "BossZone": "ZoneScavBase2",
+        "OnlySpawnOnce": true
+      },
+      {
+        "BossName": "bosskojaniy",
+        "BossZone": "ZoneWoodCutter",
+        "BossEscortType": "followerKojaniy",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]

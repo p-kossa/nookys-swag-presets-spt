@@ -1,0 +1,38 @@
+[
+  {
+    "MapName": "all",
+    "MapGroups": [
+      {
+        "Name": "SCAVs and PMCs",
+        "Bots": [
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      }
+    ],
+    "MapBosses": []
+  }
+]

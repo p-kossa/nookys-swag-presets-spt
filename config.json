@@ -1,0 +1,29 @@
+
+{
+	"aiDifficulty": "normal",
+	"aiAmount": "asonline",
+	"RandomWaveCount": 20,
+	"BossWaveCount": 1,
+	"SkipOtherBossWavesIfBossWaveSelected": true,
+	"WaveTimerMinSec": 70,
+	"WaveTimerMaxSec": 115,
+	"BossChance": 15,
+	"MaxBotCap": {
+		"factory": 15,
+        "customs": 25,
+        "woods": 25,
+        "shoreline": 25,
+        "lighthouse": 25,
+        "reservebase": 25,
+        "interchange": 25,
+        "laboratory": 20,
+        "tarkovstreets": 25
+	},
+	"MaxBotPerZone": 7,
+	"UseDefaultSpawns": {
+		"Waves": true,
+		"Bosses": true,
+		"TriggeredWaves": true
+	},
+	"DebugOutput": true
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "MapName": "bigmap",
+    "MapGroups": [
+      {
+        "Name": "PMCs at Dorms",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneDormitory"
+      },
+      {
+        "Name": "PMCs at Dorms",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneDormitory"
+      },
+      {
+        "Name": "SCAVs at Dorms",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneDormitory"
+      },
+      {
+        "Name": "PMCs at Dorms",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1100,
+        "Time_max": 1500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneDormitory"
+      },
+      {
+        "Name": "SCAVs at Dorms",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneDormitory"
+      },
+      {
+        "Name": "PMCs at Dorms",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2100,
+        "Time_max": 2600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneDormitory"
+      },
+      {
+        "Name": "Late Game SCAVs at Dorms",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneDormitory"
+      },
+      {
+        "Name": "ZoneCustoms",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneCustoms"
+      },
+      {
+        "Name": "ZoneCustoms SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 200,
+        "Time_max": 500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneCustoms"
+      },
+      {
+        "Name": "ZoneCustoms SCAVs 2",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneCustoms"
+      },
+      {
+        "Name": "ZoneWade",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneWade"
+      }
+    ],
+    "MapBosses": [
+      {
+        "Name": "Goon Squad Trio",
+        "BossName": "bossknight",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": [
+          {
+            "BossEscortType": "followerbigpipe",
+            "BossEscortAmount": "1"
+          },
+          {
+            "BossEscortType": "followerbirdeye",
+            "BossEscortAmount": "1"
+          },
+          {
+            "BossEscortType": "followergluharscout",
+            "BossEscortAmount": "0"
+          }
+        ],
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneScavBase"
+      },
+      {
+        "Name": "Reshala",
+        "BossName": "bossbully",
+        "BossEscortType": "followerbully",
+        "BossEscortAmount": "4",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZormDormitory,ZoneGasStation"
+      }
+    ]
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "MapName": "shoreline",
+    "MapGroups": [
+      {
+        "Name": "ZoneStartVillage PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneStartVillage"
+      },
+      {
+        "Name": "ZoneTunnel PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneTunnel"
+      },
+      {
+        "Name": "ZonePass Rats",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1000,
+        "Time_max": 1500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePassClose,ZonePassFar"
+      },
+      {
+        "Name": "ZonePass Rats",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2000,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePassClose,ZonePassFar"
+      },
+      {
+        "Name": "Late Port Campers",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2500,
+        "Time_max": 3400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePort"
+      },
+      {
+        "Name": "ZoneGasStation PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneGasStation"
+      },
+      {
+        "Name": "Late ZoneGasStation SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 3300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneGasStation"
+      },
+      {
+        "Name": "ZoneMeteoStation PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneMeteoStation"
+      },
+      {
+        "Name": "ZoneGreenHouses PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneGreenHouses"
+      },
+      {
+        "Name": "ZoneRailWays PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneRailWays"
+      },
+      {
+        "Name": "ZoneBusStation PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneBusStation"
+      },
+      {
+        "Name": "ZoneForestTruck PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneForestTruck"
+      },
+      {
+        "Name": "ZonePowerStation PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZonePowerStation"
+      },
+      {
+        "Name": "Resort PMCs",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSanatorium1"
+      },
+      {
+        "Name": "Resort PMCs",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSanatorium1"
+      },
+      {
+        "Name": "Resort PMCs",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 800,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSanatorium1"
+      },
+      {
+        "Name": "Resort SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSanatorium1"
+      },
+      {
+        "Name": "Resort 2 PMCs",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSanatorium2"
+      },
+      {
+        "Name": "Resort 2 PMCs",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSanatorium2"
+      },
+      {
+        "Name": "Resort 2 PMCs",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 800,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSanatorium2"
+      },
+      {
+        "Name": "Resort 2 SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 1700,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSanatorium2"
+      }
+    ],
+    "MapBosses": [
+      {
+        "BossName": "bosssanitar",
+        "BossZone": "ZonePort,ZoneGreenHouses,ZoneSanatorium1,ZoneGreenHouses,ZoneSanatorium2",
+        "BossEscortType": "followersanitar",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]
