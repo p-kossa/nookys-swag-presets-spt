@@ -7,15 +7,23 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 1
+            "MaxBotCount": 2
           },
           {
             "BotType": "sptusec",
-            "MaxBotCount": 1
+            "MaxBotCount": 2
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 1
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sectantpriest",
+            "MaxBotCount": 2   
+          },
+          {
+            "BotType": "sectantwarrior",
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 30,
@@ -35,17 +43,6 @@
         "Supports": null,
         "RandomTimeSpawn": true,
         "OnlySpawnOnce": true,
-        "BossZone": null
-      },
-      {
-        "Name": "Cultists",
-        "BossName": "sectantpriest",
-        "BossEscortType": "sectantwarrior",
-        "BossEscortAmount": "2",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
         "BossZone": null
       }
     ]
