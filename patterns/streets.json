@@ -7,17 +7,129 @@
         "Bots": [
           {
             "BotType": "sptUsec",
-            "MaxBotCount": 1
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneSW01"
       },
       {
-        "Name": "ZoneConstruction",
+        "Name": "ZoneSW01 PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSW01"
+      },
+      {
+        "Name": "ZoneSW01 PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1100,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSW01"
+      },
+      {
+        "Name": "ZoneSW01 PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1200,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSW01"
+      },
+      {
+        "Name": "ZoneSW01 PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1700,
+        "Time_max": 2100,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSW01"
+      },
+      {
+        "Name": "ZoneSW01 PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSW01"
+      },
+      {
+        "Name": "ZoneSW01 PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2700,
+        "Time_max": 3300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSW01"
+      },
+      {
+        "Name": "ZoneConstruction PMC",
         "Bots": [
           {
             "BotType": "sptUsec",
@@ -27,11 +139,11 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneConstruction"
       },
       {
-        "Name": "ZoneCinema",
+        "Name": "ZoneCinema PMC",
         "Bots": [
           {
             "BotType": "sptBear",
@@ -41,7 +153,49 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneCinema"
+      },
+      {
+        "Name": "ZoneCinema PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 700,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneCinema"
+      },
+      {
+        "Name": "ZoneCinema PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 800,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneCinema"
+      },
+      {
+        "Name": "ZoneCinema",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1500,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneCinema"
       },
       {
@@ -55,7 +209,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneColumn"
       },
       {
@@ -69,7 +223,7 @@
         "Time_min": 300,
         "Time_max": 800,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneColumn"
       },
       {
@@ -83,7 +237,7 @@
         "Time_min": 2300,
         "Time_max": 3000,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneColumn"
       },
       {
@@ -91,6 +245,10 @@
         "Bots": [
           {
             "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
             "MaxBotCount": 2
           }
         ],
@@ -101,8 +259,138 @@
         "BotZone": "ZoneHotel_1"
       },
       {
+        "Name": "ZoneHotel_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_1"
+      },
+      {
+        "Name": "ZoneHotel_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_1"
+      },
+      {
+        "Name": "ZoneHotel_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1100,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_1"
+      },
+      {
+        "Name": "ZoneHotel_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1500,
+        "Time_max": 1900,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_1"
+      },
+      {
+        "Name": "ZoneHotel_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2100,
+        "Time_max": 2500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_1"
+      },
+      {
+        "Name": "ZoneHotel_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2600,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_1"
+      },
+      {
+        "Name": "ZoneHotel_1",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 3100,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_1"
+      },
+      {
         "Name": "ZoneHotel_2",
         "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
           {
             "BotType": "sptBear",
             "MaxBotCount": 2
@@ -110,6 +398,132 @@
         ],
         "Time_min": 30,
         "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_2"
+      },
+      {
+        "Name": "ZoneHotel_2",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_2"
+      },
+      {
+        "Name": "ZoneHotel_2",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_2"
+      },
+      {
+        "Name": "ZoneHotel_2",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1100,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_2"
+      },
+      {
+        "Name": "ZoneHotel_2",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1500,
+        "Time_max": 1800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_2"
+      },
+      {
+        "Name": "ZoneHotel_2",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1900,
+        "Time_max": 2300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_2"
+      },
+      {
+        "Name": "ZoneHotel_2",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2400,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHotel_2"
+      },
+      {
+        "Name": "ZoneHotel_2",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2900,
+        "Time_max": 3600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneHotel_2"
@@ -125,7 +539,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneConcordia_1"
       },
       {
@@ -139,7 +553,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneConcordia_2"
       },
       {
@@ -153,7 +567,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneFactory"
       },
       {
@@ -171,7 +585,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneCarShowroom"
       },
       {
@@ -185,7 +599,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneConcordiaParking"
       }
     ],

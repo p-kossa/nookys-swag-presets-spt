@@ -1,0 +1,62 @@
+[
+  {
+    "MapName": "factory4_night",
+    "MapGroups": [
+      {
+        "Name": "Staying up late at the Factory",
+        "Bots": [
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
+        "Name": "Cultists",
+        "Bots": [
+          {
+            "BotType": "sectantpriest",
+
+          }
+        ]
+      }
+    ],
+    "MapBosses": [
+      {
+        "Name": "Tagilla",
+        "BossName": "bosstagilla",
+        "BossEscortType": "followerbully",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": true,
+        "BossZone": null
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BossZone": null
+      }
+    ]
+  }
+]
