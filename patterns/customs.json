@@ -17,7 +17,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
       },
       {
@@ -35,7 +35,7 @@
         "Time_min": 300,
         "Time_max": 600,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
       },
       {
@@ -49,12 +49,16 @@
         "Time_min": 700,
         "Time_max": 1000,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
       },
       {
         "Name": "PMCs at Dorms",
         "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
           {
             "BotType": "sptBear",
             "MaxBotCount": 2
@@ -63,21 +67,25 @@
         "Time_min": 1100,
         "Time_max": 1500,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
       },
       {
-        "Name": "SCAVs at Dorms",
+        "Name": "PMCs at Dorms",
         "Bots": [
           {
-            "BotType": "assault",
-            "MaxBotCount": 3
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 1600,
         "Time_max": 2000,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
       },
       {
@@ -95,7 +103,7 @@
         "Time_min": 2100,
         "Time_max": 2600,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
       },
       {
@@ -109,7 +117,7 @@
         "Time_min": 2800,
         "Time_max": 3400,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
       },
       {
@@ -123,7 +131,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneCustoms"
       },
       {
@@ -141,7 +149,7 @@
         "Time_min": 200,
         "Time_max": 500,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneCustoms"
       },
       {
@@ -159,7 +167,7 @@
         "Time_min": 700,
         "Time_max": 1400,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneCustoms"
       },
       {
@@ -173,7 +181,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneWade"
       }
     ],
