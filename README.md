@@ -1,5 +1,5 @@
 # Nooky's SWAG Custom Presets
-![Version: 1.1.1](https://img.shields.io/badge/Version-1.1.1-informational?style=flat-square)
+![Version: 1.2.0](https://img.shields.io/badge/Version-1.2.0-informational?style=flat-square)
 
 **SWAG 1.4.2 by props IS REQUIRED!**
 
