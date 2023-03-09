@@ -13,7 +13,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneRedHouse"
       },
       {
@@ -25,9 +25,37 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 1000,
+        "Time_max": 600,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneRedHouse"
+      },
+      {
+        "Name": "ZoneRedHouse PMC",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1100,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneRedHouse"
+      },
+      {
+        "Name": "ZoneRedHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1300,
+        "Time_max": 1800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneRedHouse"
       },
       {
@@ -41,7 +69,7 @@
         "Time_min": 2000,
         "Time_max": 3000,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneRedHouse"
       },
       {
@@ -55,7 +83,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneClearVill"
       },
       {
@@ -67,9 +95,51 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 1000,
+        "Time_max": 600,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneClearVill"
+      },
+      {
+        "Name": "ZoneClearVill PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1100,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneClearVill"
+      },
+      {
+        "Name": "ZoneClearVill PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1400,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneClearVill"
+      },
+      {
+        "Name": "ZoneClearVill SCAV",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneClearVill"
       },
       {
@@ -83,7 +153,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneBrokenVill"
       },
       {
@@ -97,7 +167,7 @@
         "Time_min": 300,
         "Time_max": 1000,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneBrokenVill"
       },
       {
@@ -111,7 +181,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneHouse"
       },
       {
@@ -125,7 +195,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneHouse"
       },
       {
@@ -143,7 +213,97 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneWoodCutter"
+      },
+      {
+        "Name": "ZoneWoodCutter PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneWoodCutter"
+      },
+      {
+        "Name": "ZoneWoodCutter PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneWoodCutter"
+      },
+      {
+        "Name": "ZoneWoodCutter PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1400,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneWoodCutter"
+      },
+      {
+        "Name": "ZoneWoodCutter PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneWoodCutter"
+      },
+      {
+        "Name": "ZoneWoodCutter PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2700,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneWoodCutter"
       },
       {
@@ -157,7 +317,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneBigRocks"
       },
       {
@@ -171,7 +331,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
       },
       {
@@ -185,7 +345,7 @@
         "Time_min": 1000,
         "Time_max": 1500,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
       },
       {
@@ -199,7 +359,7 @@
         "Time_min": 2000,
         "Time_max": 2400,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
       },
       {
@@ -213,7 +373,7 @@
         "Time_min": 2500,
         "Time_max": 3300,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
       },
       {
@@ -227,7 +387,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneHighRocks"
       },
       {
@@ -241,7 +401,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneMiniHouse"
       },
       {
@@ -255,7 +415,7 @@
         "Time_min": 30,
         "Time_max": 50,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
+        "OnlySpawnOnce": false,
         "BotZone": "ZoneBigRocks"
       }
     ],
