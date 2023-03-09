@@ -32,8 +32,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 300,
-        "Time_max": 600,
+        "Time_min": 450,
+        "Time_max": 800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
@@ -46,26 +46,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 700,
-        "Time_max": 1000,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneDormitory"
-      },
-      {
-        "Name": "PMCs at Dorms",
-        "Bots": [
-          {
-            "BotType": "sptUsec",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sptBear",
-            "MaxBotCount": 2
-          }
-        ],
         "Time_min": 1100,
-        "Time_max": 1500,
+        "Time_max": 1400,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
@@ -82,8 +64,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 1600,
-        "Time_max": 2000,
+        "Time_min": 1500,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
@@ -100,8 +82,26 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 2100,
-        "Time_max": 2600,
+        "Time_min": 1900,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneDormitory"
+      },
+      {
+        "Name": "PMCs at Dorms",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2500,
+        "Time_max": 2900,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
@@ -114,8 +114,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 2800,
-        "Time_max": 3400,
+        "Time_min": 3000,
+        "Time_max": 3600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"

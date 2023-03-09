@@ -176,6 +176,10 @@
           {
             "BotType": "sptBear",
             "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 30,
@@ -185,15 +189,109 @@
         "BotZone": "ZoneHouse"
       },
       {
-        "Name": "ZoneHouse PMC and SCAV",
+        "Name": "ZoneHouse PMC",
         "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          },
           {
             "BotType": "sptUsec",
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHouse"
+      },
+      {
+        "Name": "ZoneHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 600,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHouse"
+      },
+      {
+        "Name": "ZoneHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1200,
+        "Time_max": 1800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHouse"
+      },
+      {
+        "Name": "ZoneHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1800,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHouse"
+      },
+      {
+        "Name": "ZoneHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2400,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHouse"
+      },
+      {
+        "Name": "ZoneHouse PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 3000,
+        "Time_max": 3600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneHouse"

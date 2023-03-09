@@ -21,11 +21,11 @@
         "Bots": [
           {
             "BotType": "pmcbot",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
-        "Time_min": 600,
-        "Time_max": 1200,
+        "Time_min": 300,
+        "Time_max": 800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneSubCommand"
@@ -35,7 +35,21 @@
         "Bots": [
           {
             "BotType": "pmcbot",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 800,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubCommand"
+      },
+      {
+        "Name": "D2 Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 1400,
@@ -49,11 +63,11 @@
         "Bots": [
           {
             "BotType": "pmcbot",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
-        "Time_min": 2400,
-        "Time_max": 3600,
+        "Time_min": 2200,
+        "Time_max": 3000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneSubCommand"
@@ -87,15 +101,109 @@
         "BotZone": "ZoneBunkerStorage"
       },
       {
-        "Name": "ZoneBarrack PMC Duo",
+        "Name": "ZoneBarrack PMCs",
         "Bots": [
           {
             "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
             "MaxBotCount": 2
           }
         ],
         "Time_min": 30,
         "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneBarrack"
+      },
+      {
+        "Name": "ZoneBarrack PMCs",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneBarrack"
+      },
+      {
+        "Name": "ZoneBarrack PMCs",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 600,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneBarrack"
+      },
+      {
+        "Name": "ZoneBarrack PMCs",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1200,
+        "Time_max": 1800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneBarrack"
+      },
+      {
+        "Name": "ZoneBarrack PMCs",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1800,
+        "Time_max": 2500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneBarrack"
+      },
+      {
+        "Name": "ZoneBarrack PMCs",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2500,
+        "Time_max": 3600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBarrack"
