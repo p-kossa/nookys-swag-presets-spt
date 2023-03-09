@@ -48,12 +48,26 @@
         "Name": "ZoneRoad PMC",
         "Bots": [
           {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1100,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneRoad"
+      },
+      {
+        "Name": "ZoneRoad PMC",
+        "Bots": [
+          {
             "BotType": "sptUsec",
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 1000,
-        "Time_max": 1400,
+        "Time_min": 1100,
+        "Time_max": 1500,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
@@ -101,7 +115,7 @@
         "BotZone": "ZoneCenterBot"
       },
       {
-        "Name": "ZoneOLI PMC and SCAV",
+        "Name": "ZoneOLI PMC",
         "Bots": [
           {
             "BotType": "sptBear",
@@ -115,7 +129,7 @@
         "BotZone": "ZoneOLI"
       },
       {
-        "Name": "ZoneIDEA PMC and SCAV",
+        "Name": "ZoneIDEA PMC",
         "Bots": [
           {
             "BotType": "sptUsec",
@@ -129,7 +143,77 @@
         "BotZone": "ZoneIDEA"
       },
       {
-        "Name": "ZoneOLIPark PMC and SCAV",
+        "Name": "ZoneOLIPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 400,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneOLIPark"
+      },
+      {
+        "Name": "ZoneOLIPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1100,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneOLIPark"
+      },
+      {
+        "Name": "ZoneOLIPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1700,
+        "Time_max": 2300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneOLIPark"
+      },
+      {
+        "Name": "ZoneOLIPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2400,
+        "Time_max": 2900,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneOLIPark"
+      },
+      {
+        "Name": "ZoneOLIPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 3000,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneOLIPark"
+      },
+      {
+        "Name": "ZoneOLIPark PMC",
         "Bots": [
           {
             "BotType": "sptUsec",
@@ -143,7 +227,7 @@
         "BotZone": "ZoneOLIPark"
       },
       {
-        "Name": "ZoneTrucks PMC and SCAV",
+        "Name": "ZoneTrucks SCAV",
         "Bots": [
           {
             "BotType": "assault",
@@ -161,7 +245,7 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 30,
@@ -199,10 +283,10 @@
         "BotZone": "ZonePowerStation"
       },
       {
-        "Name": "ZonePowerStation SCAV",
+        "Name": "ZonePowerStation PMC",
         "Bots": [
           {
-            "BotType": "assault",
+            "BotType": "sptUsec",
             "MaxBotCount": 1
           }
         ],
@@ -213,10 +297,10 @@
         "BotZone": "ZonePowerStation"
       },
       {
-        "Name": "ZonePowerStation SCAV",
+        "Name": "ZonePowerStation PMC",
         "Bots": [
           {
-            "BotType": "assault",
+            "BotType": "sptBear",
             "MaxBotCount": 1
           }
         ],
@@ -255,7 +339,7 @@
         "BotZone": "ZoneGoshan"
       },
       {
-        "Name": "ZoneIDEAPark PMC and SCAV",
+        "Name": "ZoneIDEAPark PMC",
         "Bots": [
           {
             "BotType": "sptUsec",
@@ -264,6 +348,62 @@
         ],
         "Time_min": 30,
         "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneIDEAPark"
+      },
+      {
+        "Name": "ZoneIDEAPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 700,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneIDEAPark"
+      },
+      {
+        "Name": "ZoneIDEAPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 800,
+        "Time_max": 1300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneIDEAPark"
+      },
+      {
+        "Name": "ZoneIDEAPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 1500,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneIDEAPark"
+      },
+      {
+        "Name": "ZoneIDEAPark PMC",
+        "Bots": [
+          {
+            "BotType": "sptUsec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2100,
+        "Time_max": 3000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneIDEAPark"

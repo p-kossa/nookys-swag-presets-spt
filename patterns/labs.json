@@ -3,7 +3,7 @@
     "MapName": "laboratory",
     "MapGroups": [
       {
-        "Name": "Raiders",
+        "Name": "Basement Raiders",
         "Bots": [
           {
             "BotType": "pmcbot",
@@ -31,7 +31,7 @@
         "BotZone": "BotZoneGate1"
       },
       {
-        "Name": "more PMCs",
+        "Name": "PMCs",
         "Bots": [
           {
             "BotType": "sptBear",
@@ -66,8 +66,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 900,
-        "Time_max": 1400,
+        "Time_min": 700,
+        "Time_max": 1000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": null
@@ -80,8 +80,50 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 1800,
-        "Time_max": 2400,
+        "Time_min": 1000,
+        "Time_max": 1300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
+        "Name": "Keep em' coming",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 1300,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
+        "Name": "Keep em' coming",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
+        "Name": "Keep em' coming",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 2000,
+        "Time_max": 2600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": null
