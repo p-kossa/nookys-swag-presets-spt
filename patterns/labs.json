@@ -3,6 +3,48 @@
     "MapName": "laboratory",
     "MapGroups": [
       {
+        "Name": "It's fuckin Labs, man",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
         "Name": "Basement Raiders",
         "Bots": [
           {
@@ -34,7 +76,7 @@
         "Name": "PMCs",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],

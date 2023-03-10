@@ -3,6 +3,40 @@
     "MapName": "interchange",
     "MapGroups": [
       {
+        "Name": "More spawns cause Interchange is slow af like Woods",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
         "Name": "ZoneCenter SCAV",
         "Bots": [
           {
@@ -20,7 +54,7 @@
         "Name": "ZoneRoad PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -48,7 +82,7 @@
         "Name": "ZoneRoad PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -62,7 +96,7 @@
         "Name": "ZoneRoad PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -90,7 +124,7 @@
         "Name": "ZoneRoad PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -118,7 +152,7 @@
         "Name": "ZoneOLI PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -132,7 +166,7 @@
         "Name": "ZoneIDEA PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -146,7 +180,7 @@
         "Name": "ZoneOLIPark PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -160,7 +194,7 @@
         "Name": "ZoneOLIPark PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -174,7 +208,7 @@
         "Name": "ZoneOLIPark PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -188,7 +222,7 @@
         "Name": "ZoneOLIPark PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -202,7 +236,7 @@
         "Name": "ZoneOLIPark PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -216,7 +250,7 @@
         "Name": "ZoneOLIPark PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -258,7 +292,7 @@
         "Name": "ZonePowerStation PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -286,7 +320,7 @@
         "Name": "ZonePowerStation PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -300,7 +334,7 @@
         "Name": "ZonePowerStation PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -314,7 +348,7 @@
         "Name": "ZonePowerStation PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -328,7 +362,7 @@
         "Name": "ZoneGoshan PMC and SCAV",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -342,7 +376,7 @@
         "Name": "ZoneIDEAPark PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -356,7 +390,7 @@
         "Name": "ZoneIDEAPark PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -370,7 +404,7 @@
         "Name": "ZoneIDEAPark PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -384,7 +418,7 @@
         "Name": "ZoneIDEAPark PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -398,7 +432,7 @@
         "Name": "ZoneIDEAPark PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],

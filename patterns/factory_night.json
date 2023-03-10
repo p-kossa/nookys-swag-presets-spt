@@ -10,7 +10,23 @@
             "MaxBotCount": 2
           },
           {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
             "BotType": "sptusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sectantpriest",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sectantwarrior",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
             "MaxBotCount": 2
           },
           {
@@ -26,56 +42,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": null
-      },
-      {
-        "Name": "The Kool-Aid Drinkers Have Arrived",
-        "Bots": [
-          {
-            "BotType": "sectantpriest",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sectantwarrior",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sectantpriest",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sectantwarrior",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 300,
-        "Time_max": 1000,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": null
-      },
-      {
-        "Name": "Staying up late at the Factory",
-        "Bots": [
-          {
-            "BotType": "sptbear",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "sptusec",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          }
-        ],
-        "Time_min": 1100,
-        "Time_max": 2000,
+        "Time_min": null,
+        "Time_max": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": null

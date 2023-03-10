@@ -3,14 +3,132 @@
     "MapName": "bigmap",
     "MapGroups": [
       {
+        "Name": "More spawns to speed things up",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
+        "Name": "ZoneSnipeFactory SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 120,
+        "Time_max": 500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSnipeFactory"
+      },
+      {
+        "Name": "ZoneSnipeTower SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 240,
+        "Time_max": 700,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSnipeTower"
+      },
+      {
+        "Name": "ZoneBlockPostSniper SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 90,
+        "Time_max": 240,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneBlockPostSniper"
+      },
+      {
+        "Name": "ZoneSnipeBrige SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 400,
+        "Time_max": 900,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": "ZoneSnipeBrige"
+      },
+      {
+        "Name": "ZoneGasStation PMC Spawn",
+        "Bots": [
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneGasStation"
+      },
+      {
+        "Name": "ZoneBlockPost PMC Spawn",
+        "Bots": [
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 50,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneBlockPost"
+      },
+      {
         "Name": "PMCs at Dorms",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 3
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 3
           }
         ],
@@ -24,15 +142,15 @@
         "Name": "PMCs at Dorms",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 3
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 450,
+        "Time_min": 400,
         "Time_max": 800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
@@ -56,11 +174,11 @@
         "Name": "PMCs at Dorms",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -74,11 +192,11 @@
         "Name": "PMCs at Dorms",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -92,11 +210,11 @@
         "Name": "PMCs at Dorms",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -121,10 +239,10 @@
         "BotZone": "ZoneDormitory"
       },
       {
-        "Name": "ZoneCustoms",
+        "Name": "ZoneCustoms PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -135,14 +253,10 @@
         "BotZone": "ZoneCustoms"
       },
       {
-        "Name": "ZoneCustoms SCAVs",
+        "Name": "ZoneCustoms PMCs",
         "Bots": [
           {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -153,19 +267,43 @@
         "BotZone": "ZoneCustoms"
       },
       {
-        "Name": "ZoneCustoms SCAVs 2",
+        "Name": "ZoneCustoms PMCs",
         "Bots": [
           {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 700,
-        "Time_max": 1400,
+        "Time_min": 600,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneCustoms"
+      },
+      {
+        "Name": "ZoneCustoms PMCs",
+        "Bots": [
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1200,
+        "Time_max": 1800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneCustoms"
+      },
+      {
+        "Name": "ZoneCustoms PMCs",
+        "Bots": [
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1800,
+        "Time_max": 2500,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneCustoms"

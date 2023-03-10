@@ -1,5 +1,5 @@
 # Nooky's SWAG Custom Presets
-![Version: 1.1.2](https://img.shields.io/badge/Version-1.1.2-informational?style=flat-square)
+![Version: 1.1.3](https://img.shields.io/badge/Version-1.1.3-informational?style=flat-square)
 
 **SWAG 1.4.2 by props IS REQUIRED!**
 
@@ -11,7 +11,7 @@ https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 
 This is an extension of SWAG by props which adds spawns to your raids in "waves". What I've done is create my own custom SWAG presets that try to achieve the following:
 
-- **out-of-the-box "live" SWAG** - do you like SWAG but don't feel like messing with config files? just copy and paste these and play, no other action needed!
+- **out-of-the-box "live" spawns** - do you like spawn mods but don't feel like messing with config files? Get yourself SWAG and copy and paste these and play, no other action needed!
 
 - **no more dead raids** - my presets have bots spawning in ALL zones of the map consistently throughout your raid. Think you're safe heading to your Trailer Park extract with 5 mins left? Think again.
 
@@ -89,8 +89,8 @@ gl hf.
 
 Yes! Thanks to SWAG number of waves and intervals between them are entirely configurable.
 ```json
-	"WaveTimerMinSec": 70,
-	"WaveTimerMaxSec": 115
+	"WaveTimerMinSec": 30,
+	"WaveTimerMaxSec": 120
 ```
 
 for more spread out waves and/or longer raids. Or you could just simply add more waves:

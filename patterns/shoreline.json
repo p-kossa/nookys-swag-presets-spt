@@ -3,10 +3,72 @@
     "MapName": "shoreline",
     "MapGroups": [
       {
+        "Name": "More spawns to speed things up",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
+        "Name": "ZoneBunkeSniper SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 120,
+        "Time_max": 450,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneBunkeSniper"
+      },
+      {
+        "Name": "ZonePowerStationSniper SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 400,
+        "Time_max": 900,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZonePowerStationSniper"
+      },
+      {
         "Name": "ZoneStartVillage PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -20,7 +82,7 @@
         "Name": "ZoneTunnel PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -48,7 +110,7 @@
         "Name": "ZonePass Rats",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -62,7 +124,7 @@
         "Name": "Late Port Campers",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -76,7 +138,7 @@
         "Name": "ZoneGasStation PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -108,7 +170,7 @@
         "Name": "ZoneMeteoStation PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -122,7 +184,7 @@
         "Name": "ZoneGreenHouses PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -136,7 +198,7 @@
         "Name": "ZoneRailWays PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -150,7 +212,7 @@
         "Name": "ZoneBusStation PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -164,7 +226,7 @@
         "Name": "ZoneForestTruck PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -178,7 +240,7 @@
         "Name": "ZonePowerStation PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -192,11 +254,11 @@
         "Name": "Resort PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -210,11 +272,11 @@
         "Name": "Resort PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -228,11 +290,11 @@
         "Name": "Resort PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -246,11 +308,11 @@
         "Name": "Resort PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -264,11 +326,11 @@
         "Name": "Resort PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -282,11 +344,11 @@
         "Name": "Resort 2 PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -300,11 +362,11 @@
         "Name": "Resort 2 PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -318,11 +380,11 @@
         "Name": "Resort 2 PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -336,11 +398,11 @@
         "Name": "Resort 2 PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -354,11 +416,11 @@
         "Name": "Resort 2 PMCs",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],

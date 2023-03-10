@@ -3,10 +3,44 @@
     "MapName": "woods",
     "MapGroups": [
       {
+        "Name": "More spawns cause Woods is so slow",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
         "Name": "ZoneRedHouse PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -48,7 +82,7 @@
         "Name": "ZoneRedHouse PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -76,7 +110,7 @@
         "Name": "ZoneClearVill PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -90,7 +124,7 @@
         "Name": "ZoneClearVill SCAV",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -104,7 +138,7 @@
         "Name": "ZoneClearVill PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -118,7 +152,7 @@
         "Name": "ZoneClearVill PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -160,7 +194,7 @@
         "Name": "ZoneBrokenVill PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -174,11 +208,11 @@
         "Name": "ZoneHouse PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -192,11 +226,11 @@
         "Name": "ZoneHouse PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -210,11 +244,11 @@
         "Name": "ZoneHouse PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -228,11 +262,11 @@
         "Name": "ZoneHouse PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -246,11 +280,11 @@
         "Name": "ZoneHouse PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -264,11 +298,11 @@
         "Name": "ZoneHouse PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -282,11 +316,7 @@
         "Name": "ZoneHouse PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
-            "MaxBotCount": 1
-          },
-          {
-            "BotType": "sptUsec",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -302,10 +332,6 @@
           {
             "BotType": "assault",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
           }
         ],
         "Time_min": 30,
@@ -318,11 +344,7 @@
         "Name": "ZoneWoodCutter PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -336,11 +358,7 @@
         "Name": "ZoneWoodCutter PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sptUsec",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -354,11 +372,7 @@
         "Name": "ZoneWoodCutter PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -372,11 +386,7 @@
         "Name": "ZoneWoodCutter PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -390,11 +400,7 @@
         "Name": "ZoneWoodCutter PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sptUsec",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           }
         ],
@@ -408,7 +414,7 @@
         "Name": "ZoneBigRocks PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -422,7 +428,7 @@
         "Name": "ZoneRoad PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -450,7 +456,7 @@
         "Name": "Late ZoneRoad PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -478,7 +484,7 @@
         "Name": "ZoneHighRocks PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -492,7 +498,7 @@
         "Name": "ZoneMiniHouse PMC",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 1
           }
         ],
@@ -506,7 +512,7 @@
         "Name": "ZoneBigRocks PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
