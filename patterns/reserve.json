@@ -3,6 +3,40 @@
     "MapName": "rezervbase",
     "MapGroups": [
       {
+        "Name": "More spawns to speed things up",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
         "Name": "D2 Raiders",
         "Bots": [
           {
@@ -90,7 +124,7 @@
         "Name": "ZoneBunkerStorage PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
@@ -104,11 +138,11 @@
         "Name": "ZoneBarrack PMCs",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -122,11 +156,11 @@
         "Name": "ZoneBarrack PMCs",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -140,11 +174,11 @@
         "Name": "ZoneBarrack PMCs",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -158,11 +192,11 @@
         "Name": "ZoneBarrack PMCs",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -176,11 +210,11 @@
         "Name": "ZoneBarrack PMCs",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -194,11 +228,11 @@
         "Name": "ZoneBarrack PMCs",
         "Bots": [
           {
-            "BotType": "sptBear",
+            "BotType": "sptbear",
             "MaxBotCount": 2
           },
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -226,7 +260,7 @@
         "Name": "ZonePTOR2 PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
@@ -240,7 +274,7 @@
         "Name": "ZoneRailStrorage PMC",
         "Bots": [
           {
-            "BotType": "sptUsec",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],

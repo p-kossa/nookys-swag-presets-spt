@@ -1,58 +1,54 @@
 [
-    {
-      "MapName": "factory4_day",
-      "MapGroups": [
-        {
-          "Name": "Just Factory Things",
-          "Bots": [
-            {
-              "BotType": "sptbear",
-              "MaxBotCount": 1
-            },
-            {
-              "BotType": "sptusec",
-              "MaxBotCount": 1
-            },
-            {
-              "BotType": "sptbear",
-              "MaxBotCount": 1
-            },
-            {
-              "BotType": "sptusec",
-              "MaxBotCount": 1
-            },
-            {
-              "BotType": "assault",
-              "MaxBotCount": 1
-            },
-            {
-              "BotType": "assault",
-              "MaxBotCount": 1
-            },
-            {
-              "BotType": "assault",
-              "MaxBotCount": 1
-            }
-          ],
-          "Time_min": 30,
-          "Time_max": 50,
-          "RandomTimeSpawn": false,
-          "OnlySpawnOnce": false,
-          "BotZone": null
-        }
-      ],
-      "MapBosses": [
-        {
-          "Name": "Tagilla",
-          "BossName": "bosstagilla",
-          "BossEscortType": "followerbully",
-          "BossEscortAmount": "0",
-          "Time": -1,
-          "Supports": null,
-          "RandomTimeSpawn": false,
-          "OnlySpawnOnce": true,
-          "BossZone": null
-        }
-      ]
-    }
-  ]
+  {
+    "MapName": "factory4_day",
+    "MapGroups": [
+      {
+        "Name": "Just Factory Things",
+        "Bots": [
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      }
+    ],
+    "MapBosses": [
+      {
+        "Name": "Tagilla",
+        "BossName": "bosstagilla",
+        "BossEscortType": "followerbully",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": null
+      }
+    ]
+  }
+]

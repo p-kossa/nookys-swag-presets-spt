@@ -5,25 +5,25 @@
 	"RandomWaveCount": 20,
 	"BossWaveCount": 1,
 	"SkipOtherBossWavesIfBossWaveSelected": true,
-	"WaveTimerMinSec": 70,
+	"WaveTimerMinSec": 30,
 	"WaveTimerMaxSec": 120,
 	"BossChance": 15,
 	"MaxBotCap": {
-		"factory": 15,
-        "customs": 25,
-        "woods": 25,
-        "shoreline": 25,
-        "lighthouse": 25,
-        "reservebase": 25,
-        "interchange": 25,
+		"factory": 14,
+        "customs": 24,
+        "woods": 26,
+        "shoreline": 26,
+        "lighthouse": 26,
+        "reservebase": 24,
+        "interchange": 24,
         "laboratory": 20,
-        "tarkovstreets": 25
+        "tarkovstreets": 24
 	},
-	"MaxBotPerZone": 7,
+	"MaxBotPerZone": 6,
 	"UseDefaultSpawns": {
-		"Waves": true,
-		"Bosses": true,
+		"Waves": false,
+		"Bosses": false,
 		"TriggeredWaves": true
 	},
-	"DebugOutput": true
+	"DebugOutput": false
 }
