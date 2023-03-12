@@ -6,8 +6,16 @@
         "Name": "It's fuckin Labs, man",
         "Bots": [
           {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
+          },
+          {
             "BotType": "pmcbot",
             "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 2
           },
           {
             "BotType": "pmcbot",
@@ -18,8 +26,16 @@
             "MaxBotCount": 1
           },
           {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
+          },
+          {
             "BotType": "pmcbot",
             "MaxBotCount": 1
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 3
           },
           {
             "BotType": "pmcbot",
@@ -27,6 +43,14 @@
           },
           {
             "BotType": "pmcbot",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptbear",
             "MaxBotCount": 2
           },
           {
