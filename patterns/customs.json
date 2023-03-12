@@ -97,11 +97,11 @@
         "Bots": [
           {
             "BotType": "sptusec",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneGasStation"
@@ -114,8 +114,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBlockPost"
@@ -125,15 +125,15 @@
         "Bots": [
           {
             "BotType": "sptusec",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           },
           {
             "BotType": "sptbear",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneDormitory"
@@ -246,8 +246,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneCustoms"
@@ -316,8 +316,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneWade"

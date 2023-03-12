@@ -7,27 +7,27 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           },
           {
             "BotType": "sptusec",
-            "MaxBotCount": 1
+            "MaxBotCount": 2
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           },
           {
             "BotType": "sptbear",
-            "MaxBotCount": 1
-          },
-          {
-            "BotType": "assault",
             "MaxBotCount": 2
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
           }
         ],
         "Time_min": null,
@@ -44,8 +44,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRedHouse"
@@ -114,8 +114,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneClearVill"
@@ -184,8 +184,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBrokenVill"
@@ -216,8 +216,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneHouse"
@@ -334,8 +334,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneWoodCutter"
@@ -418,8 +418,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBigRocks"
@@ -432,8 +432,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
@@ -488,8 +488,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneHighRocks"
@@ -502,8 +502,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneMiniHouse"
@@ -516,8 +516,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBigRocks"
