@@ -7,7 +7,7 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           },
           {
             "BotType": "sptusec",
@@ -15,7 +15,7 @@
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           },
           {
             "BotType": "sptbear",
@@ -23,11 +23,11 @@
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           }
         ],
         "Time_min": null,
@@ -72,8 +72,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneStartVillage"
@@ -86,8 +86,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneTunnel"
@@ -121,14 +121,42 @@
         "BotZone": "ZonePassClose,ZonePassFar"
       },
       {
-        "Name": "Late Port Campers",
+        "Name": "Port Campers",
         "Bots": [
           {
             "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 2500,
+        "Time_min": 800,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZonePort"
+      },
+      {
+        "Name": "Port Campers",
+        "Bots": [
+          {
+            "BotType": "sptBear",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1700,
+        "Time_max": 2500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZonePort"
+      },
+      {
+        "Name": "Port Campers",
+        "Bots": [
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2600,
         "Time_max": 3400,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
@@ -142,8 +170,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneGasStation"
@@ -174,8 +202,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneMeteoStation"
@@ -188,8 +216,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneGreenHouses"
@@ -202,8 +230,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRailWays"
@@ -216,8 +244,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBusStation"
@@ -230,8 +258,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneForestTruck"
@@ -244,8 +272,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZonePowerStation"
@@ -262,8 +290,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneSanatorium1"
@@ -352,8 +380,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneSanatorium2"

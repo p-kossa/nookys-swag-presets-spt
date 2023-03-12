@@ -44,8 +44,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneCenter"
@@ -58,8 +58,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
@@ -72,8 +72,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 300,
-        "Time_max": 600,
+        "Time_min": 100,
+        "Time_max": 300,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
@@ -142,8 +142,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneCenterBot"
@@ -156,8 +156,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneOLI"
@@ -170,8 +170,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneIDEA"
@@ -181,11 +181,11 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
-        "Time_min": 400,
-        "Time_max": 1000,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneOLIPark"
@@ -198,8 +198,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 1100,
-        "Time_max": 1600,
+        "Time_min": 300,
+        "Time_max": 700,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneOLIPark"
@@ -240,8 +240,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 3000,
-        "Time_max": 3600,
+        "Time_min": 1000,
+        "Time_max": 2000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneOLIPark"
@@ -254,8 +254,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 2000,
+        "Time_max": 3000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneOLIPark"
@@ -268,8 +268,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneTrucks"
@@ -282,8 +282,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZonePowerStation"
@@ -366,8 +366,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneGoshan"
@@ -380,8 +380,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneIDEAPark"
@@ -394,8 +394,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 300,
-        "Time_max": 700,
+        "Time_min": 100,
+        "Time_max": 300,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneIDEAPark"

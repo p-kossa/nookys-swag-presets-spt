@@ -7,7 +7,7 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           },
           {
             "BotType": "sptusec",
@@ -15,7 +15,7 @@
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           },
           {
             "BotType": "sptbear",
@@ -23,11 +23,11 @@
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           }
         ],
         "Time_min": null,
@@ -41,11 +41,11 @@
         "Bots": [
           {
             "BotType": "pmcbot",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneSubCommand"
@@ -128,8 +128,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBunkerStorage"
@@ -146,8 +146,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBarrack"
@@ -250,8 +250,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZonePTOR2"
@@ -264,8 +264,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZonePTOR2"
@@ -278,8 +278,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 50,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRailStrorage"

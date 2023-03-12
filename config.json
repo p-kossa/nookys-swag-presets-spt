@@ -2,11 +2,11 @@
 {
 	"aiDifficulty": "normal",
 	"aiAmount": "asonline",
-	"RandomWaveCount": 20,
+	"RandomWaveCount": 25,
 	"BossWaveCount": 1,
 	"SkipOtherBossWavesIfBossWaveSelected": true,
 	"WaveTimerMinSec": 30,
-	"WaveTimerMaxSec": 120,
+	"WaveTimerMaxSec": 60,
 	"BossChance": 15,
 	"MaxBotCap": {
 		"factory": 14,
@@ -14,7 +14,7 @@
         "woods": 26,
         "shoreline": 26,
         "lighthouse": 26,
-        "reservebase": 24,
+        "reserve": 24,
         "interchange": 24,
         "laboratory": 20,
         "tarkovstreets": 24
