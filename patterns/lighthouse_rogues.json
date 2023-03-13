@@ -1,0 +1,190 @@
+[
+  {
+    "MapName": "lighthouse",
+    "MapGroups": [
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 70,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 70,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 200,
+        "Time_max": 440,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter,Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 500,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter,Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Roof",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter,Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+      },
+      {
+        "Name": "Rogue Party at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter"
+      },
+      {
+        "Name": "Rogue Party on the Roof",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+      }
+    ],
+    "MapBosses": []
+  }
+]
