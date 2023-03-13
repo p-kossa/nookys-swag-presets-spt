@@ -1,0 +1,52 @@
+[
+  {
+    "MapName": "bigmap",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "ZoneSnipeBrige SCAV Sniper",
+        "BossName": "marksman",
+        "BossEscortType": "marksman",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneSnipeBrige"
+      },
+      {
+        "Name": "ZoneBlockPostSniper SCAV Sniper",
+        "BossName": "marksman",
+        "BossEscortType": "marksman",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneBlockPostSniper"
+      },
+      {
+        "Name": "ZoneSnipeTower SCAV Sniper",
+        "BossName": "marksman",
+        "BossEscortType": "marksman",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneSnipeTower"
+      },
+      {
+        "Name": "ZoneSnipeFactory SCAV Sniper",
+        "BossName": "marksman",
+        "BossEscortType": "marksman",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneSnipeFactory"
+      }
+    ]
+  }
+]

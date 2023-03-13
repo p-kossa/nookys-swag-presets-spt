@@ -1,0 +1,37 @@
+[
+  {
+    "MapName": "woods",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "BossName": "bossknight",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": [
+            {
+                "BossEscortType": "followerbigpipe",
+                "BossEscortAmount": "1"
+            },
+            {
+                "BossEscortType": "followerbirdeye",
+                "BossEscortAmount": "1"
+            }
+        ],
+        "RandomTimeSpawn": false,
+        "BossZone": "ZoneScavBase2",
+        "OnlySpawnOnce": true
+      },
+      {
+        "BossName": "bosskojaniy",
+        "BossZone": "ZoneWoodCutter",
+        "BossEscortType": "followerKojaniy",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]

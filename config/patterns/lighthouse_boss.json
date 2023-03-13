@@ -1,0 +1,38 @@
+[
+  {
+    "MapName": "lighthouse",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "BossName": "bossknight",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": [
+            {
+                "BossEscortType": "followerbigpipe",
+                "BossEscortAmount": "1"
+            },
+            {
+                "BossEscortType": "followerbirdeye",
+                "BossEscortAmount": "1"
+            }
+        ],
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "Zone_Chalet,Zone_Containers,Zone_TreatmentBeach"
+      },
+      {
+        "Name": "Zryachiy",
+        "BossName": "bossZryachiy",
+        "BossEscortType": "followerZryachiy",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "Zone_Island"
+      }
+    ]
+  }
+]

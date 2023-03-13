@@ -1,0 +1,41 @@
+[
+  {
+    "MapName": "lighthouse",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,1,1,1,1,1,2,2",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "Zone_Chalet"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,0,0,0,0,1,1,1,2,2",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "Zone_Rocks"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,0,0,1,1,1,2,2",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "Zone_DestroyedHouse"
+      }
+    ]
+  }
+]

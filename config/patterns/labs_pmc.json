@@ -1,0 +1,63 @@
+[
+  {
+    "MapName": "laboratory",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,1,1,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneGate2"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneGate1"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,1,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneFloor2"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneFloor1"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneBasement"
+      }
+    ]
+  }
+]

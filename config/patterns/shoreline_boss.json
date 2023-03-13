@@ -1,0 +1,42 @@
+[
+  {
+    "MapName": "shoreline",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "Goon Squad Trio",
+        "BossName": "bossknight",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": [
+          {
+            "BossEscortType": "followerbigpipe",
+            "BossEscortAmount": "1"
+          },
+          {
+            "BossEscortType": "followerbirdeye",
+            "BossEscortAmount": "1"
+          },
+          {
+            "BossEscortType": "followergluharscout",
+            "BossEscortAmount": "0"
+          }
+        ],
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneMeteoStation"
+      },
+      {
+        "BossName": "bosssanitar",
+        "BossZone": "ZonePort,ZoneSanatorium1,ZoneGreenHouses,ZoneSanatorium2",
+        "BossEscortType": "followersanitar",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]

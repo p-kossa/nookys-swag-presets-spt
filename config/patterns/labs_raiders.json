@@ -1,0 +1,63 @@
+[
+  {
+    "MapName": "laboratory",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "pmcbot",
+        "BossName": "pmcbot",
+        "BossEscortType": "pmcbot",
+        "BossEscortAmount": "1,1,2,2,3",
+        "Time": 300,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneBasement"
+      },
+      {
+        "Name": "pmcbot",
+        "BossName": "pmcbot",
+        "BossEscortType": "pmcbot",
+        "BossEscortAmount": "1,1,1,2,2,3",
+        "Time": 600,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneFloor2"
+      },
+      {
+        "Name": "pmcbot",
+        "BossName": "pmcbot",
+        "BossEscortType": "pmcbot",
+        "BossEscortAmount": "1,2,2,2,2,3",
+        "Time": 900,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneFloor1"
+      },
+      {
+        "Name": "pmcbot",
+        "BossName": "pmcbot",
+        "BossEscortType": "pmcbot",
+        "BossEscortAmount": "1,1,1,2,2,3",
+        "Time": 1200,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneFloor2"
+      },
+      {
+        "Name": "pmcbot",
+        "BossName": "pmcbot",
+        "BossEscortType": "pmcbot",
+        "BossEscortAmount": "1,2,2,2,2,3",
+        "Time": 1500,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "BotZoneFloor1"
+      }
+    ]
+  }
+]

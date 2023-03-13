@@ -1,0 +1,63 @@
+[
+  {
+    "MapName": "tarkovstreets",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneFactory"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,0,1,1,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneCinema"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,0,0,0,0,1,1,1,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneConcordia_2"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,0,0,1,1,1,1,2",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneColumn"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,0,1,1,1,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneSW01"
+      }
+    ]
+  }
+]
