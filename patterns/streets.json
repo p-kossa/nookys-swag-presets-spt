@@ -3,6 +3,40 @@
     "MapName": "tarkovstreets",
     "MapGroups": [
       {
+        "Name": "More spawns to speed things up",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      },
+      {
         "Name": "ZoneSnipeCinema SCAV Sniper",
         "Bots": [
           {
@@ -11,7 +45,7 @@
           }
         ],
         "Time_min": 120,
-        "Time_max": 600,
+        "Time_max": 300,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneSnipeCinema"
@@ -25,7 +59,7 @@
           }
         ],
         "Time_min": 340,
-        "Time_max": 600,
+        "Time_max": 500,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneSnipeCarShowroom"

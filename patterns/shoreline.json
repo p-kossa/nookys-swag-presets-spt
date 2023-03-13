@@ -44,8 +44,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 120,
-        "Time_max": 450,
+        "Time_min": 70,
+        "Time_max": 200,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneBunkeSniper"
@@ -58,8 +58,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 400,
-        "Time_max": 900,
+        "Time_min": 200,
+        "Time_max": 450,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZonePowerStationSniper"
@@ -460,6 +460,30 @@
       }
     ],
     "MapBosses": [
+      {
+        "Name": "Goon Squad Trio",
+        "BossName": "bossknight",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": [
+          {
+            "BossEscortType": "followerbigpipe",
+            "BossEscortAmount": "1"
+          },
+          {
+            "BossEscortType": "followerbirdeye",
+            "BossEscortAmount": "1"
+          },
+          {
+            "BossEscortType": "followergluharscout",
+            "BossEscortAmount": "0"
+          }
+        ],
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneMeteoStation"
+      },
       {
         "BossName": "bosssanitar",
         "BossZone": "ZonePort,ZoneGreenHouses,ZoneSanatorium1,ZoneGreenHouses,ZoneSanatorium2",

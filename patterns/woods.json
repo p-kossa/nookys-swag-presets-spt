@@ -37,6 +37,48 @@
         "BotZone": null
       },
       {
+        "Name": "ZoneHighRocks SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 45,
+        "Time_max": 150,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHighRocks"
+      },
+      {
+        "Name": "ZoneHighRocks SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 170,
+        "Time_max": 400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHighRocks"
+      },
+      {
+        "Name": "ZoneHighRocks SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 700,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHighRocks"
+      },
+      {
         "Name": "ZoneRedHouse PMC",
         "Bots": [
           {
@@ -479,20 +521,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
-      },
-      {
-        "Name": "ZoneHighRocks PMC",
-        "Bots": [
-          {
-            "BotType": "sptusec",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneHighRocks"
       },
       {
         "Name": "ZoneMiniHouse PMC",
