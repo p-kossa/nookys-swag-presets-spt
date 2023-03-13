@@ -148,12 +148,12 @@
         "Name": "Zone_Bridge SCAV",
         "Bots": [
           {
-            "BotType": "assault",
+            "BotType": "sptusec",
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 10,
-        "Time_max": 30,
+        "Time_min": 200,
+        "Time_max": 400,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "Zone_Bridge"
@@ -190,12 +190,12 @@
         "Name": "Zone_OldHouse SCAV",
         "Bots": [
           {
-            "BotType": "assault",
+            "BotType": "sptusec",
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 10,
-        "Time_max": 30,
+        "Time_min": 200,
+        "Time_max": 400,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "Zone_OldHouse"

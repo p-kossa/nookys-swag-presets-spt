@@ -22,8 +22,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 70,
-        "Time_max": 180,
+        "Time_min": 5,
+        "Time_max": 20,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter"
@@ -48,8 +48,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 70,
-        "Time_max": 180,
+        "Time_min": 5,
+        "Time_max": 20,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
@@ -74,8 +74,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 200,
-        "Time_max": 440,
+        "Time_min": 180,
+        "Time_max": 300,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter,Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
@@ -100,7 +100,7 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 500,
+        "Time_min": 400,
         "Time_max": 800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
