@@ -1,62 +1,62 @@
 [
   {
-    "MapName": "bigmap",
+    "MapName": "shoreline",
     "MapGroups": [
       {
-        "Name": "ZoneSnipeFactory SCAV Sniper",
+        "Name": "ZoneBunkeSniper SCAV Sniper",
         "Bots": [
           {
             "BotType": "marksman",
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 30,
-        "Time_max": 60,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneSnipeFactory"
-      },
-      {
-        "Name": "ZoneSnipeTower SCAV Sniper",
-        "Bots": [
-          {
-            "BotType": "marksman",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 100,
+        "Time_min": 70,
         "Time_max": 200,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "ZoneSnipeTower"
+        "BotZone": "ZoneBunkeSniper"
       },
       {
-        "Name": "ZoneBlockPostSniper SCAV Sniper",
+        "Name": "ZonePowerStationSniper SCAV Sniper",
         "Bots": [
           {
             "BotType": "marksman",
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 90,
-        "Time_max": 180,
+        "Time_min": 200,
+        "Time_max": 450,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "ZoneBlockPostSniper"
+        "BotZone": "ZonePowerStationSniper"
       },
       {
-        "Name": "ZoneSnipeBrige SCAV Sniper",
+        "Name": "ZoneBunkeSniper SCAV Sniper",
         "Bots": [
           {
             "BotType": "marksman",
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 60,
-        "Time_max": 120,
+        "Time_min": 70,
+        "Time_max": 200,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "ZoneSnipeBrige"
+        "BotZone": "ZoneBunkeSniper"
+      },
+      {
+        "Name": "ZonePowerStationSniper SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 200,
+        "Time_max": 450,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZonePowerStationSniper"
       }
     ],
     "MapBosses": []

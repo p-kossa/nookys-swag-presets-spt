@@ -7,7 +7,7 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           },
           {
             "BotType": "sptusec",
@@ -15,7 +15,7 @@
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           },
           {
             "BotType": "sptbear",
@@ -23,11 +23,11 @@
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           },
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
         "Time_min": null,
@@ -52,7 +52,7 @@
         "Time_max": 600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks"
+        "BotZone": "Zone_TreatmentContainers"
       },
       {
         "Name": "Treatment Area PMCs",
@@ -70,7 +70,7 @@
         "Time_max": 1100,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks"
+        "BotZone": "Zone_TreatmentBeach"
       },
       {
         "Name": "Treatment Area PMCs",
@@ -88,7 +88,7 @@
         "Time_max": 1700,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks"
+        "BotZone": "Zone_TreatmentRocks"
       },
       {
         "Name": "Treatment Area PMCs",
@@ -106,7 +106,7 @@
         "Time_max": 2400,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks"
+        "BotZone": "Zone_TreatmentContainers"
       },
       {
         "Name": "Treatment Area PMCs",
@@ -124,7 +124,7 @@
         "Time_max": 2900,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks"
+        "BotZone": "Zone_TreatmentBeach"
       },
       {
         "Name": "Treatment Area PMCs",
@@ -142,7 +142,7 @@
         "Time_max": 3600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks"
+        "BotZone": "Zone_TreatmentRocks"
       },
       {
         "Name": "Zone_Bridge SCAV",

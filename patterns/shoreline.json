@@ -65,6 +65,34 @@
         "BotZone": "ZonePowerStationSniper"
       },
       {
+        "Name": "ZoneBunkeSniper SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 70,
+        "Time_max": 200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneBunkeSniper"
+      },
+      {
+        "Name": "ZonePowerStationSniper SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 200,
+        "Time_max": 450,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZonePowerStationSniper"
+      },
+      {
         "Name": "ZoneStartVillage PMC",
         "Bots": [
           {
@@ -77,20 +105,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneStartVillage"
-      },
-      {
-        "Name": "ZoneTunnel PMC",
-        "Bots": [
-          {
-            "BotType": "sptusec",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneTunnel"
       },
       {
         "Name": "ZonePass Rats",
@@ -195,20 +209,6 @@
         "BotZone": "ZoneGasStation"
       },
       {
-        "Name": "ZoneMeteoStation PMC",
-        "Bots": [
-          {
-            "BotType": "sptusec",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneMeteoStation"
-      },
-      {
         "Name": "ZoneGreenHouses PMC",
         "Bots": [
           {
@@ -283,11 +283,11 @@
         "Bots": [
           {
             "BotType": "sptusec",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           },
           {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 10,
@@ -486,7 +486,7 @@
       },
       {
         "BossName": "bosssanitar",
-        "BossZone": "ZonePort,ZoneGreenHouses,ZoneSanatorium1,ZoneGreenHouses,ZoneSanatorium2",
+        "BossZone": "ZonePort,ZoneSanatorium1,ZoneGreenHouses,ZoneSanatorium2",
         "BossEscortType": "followersanitar",
         "BossEscortAmount": "2",
         "Time": -1,

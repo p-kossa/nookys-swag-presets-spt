@@ -3,186 +3,858 @@
     "MapName": "lighthouse",
     "MapGroups": [
       {
-        "Name": "Rogue Starting Spawns at Treatment",
+        "Name": "Rogue Wave",
         "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 3
           }
         ],
-        "Time_min": 5,
-        "Time_max": 20,
-        "RandomTimeSpawn": false,
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter"
+        "BotZone": null
       },
       {
-        "Name": "Rogue Starting Spawns at Treatment",
+        "Name": "A Whole Lotta Red",
         "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 3
           }
         ],
-        "Time_min": 5,
-        "Time_max": 20,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BotZone": "Zone_TreatmentContainers"
       },
       {
-        "Name": "Rogue Starting Spawns at Treatment",
+        "Name": "A Whole Lotta Red",
         "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 3
           }
         ],
-        "Time_min": 180,
-        "Time_max": 300,
+        "Time_min": 10,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter,Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BotZone": "Zone_TreatmentRocks"
       },
       {
-        "Name": "Rogue Starting Spawns at Treatment",
+        "Name": "A Whole Lotta Red",
         "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 3
-          },
+          }
+        ],
+        "Time_min": 10,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Containers"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Blockpost"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
           {
             "BotType": "exusec",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 10,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentBeach"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 400,
         "Time_max": 800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter,Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BotZone": "Zone_Helicopter"
       },
       {
-        "Name": "Rogue Starting Spawns at Roof",
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 10,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofRocks"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 10,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofBeach"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 10,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofContainers"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 10,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Island"
+      },
+      {
+        "Name": "A Whole Lotta Red",
         "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "exusec",
-            "MaxBotCount": 3
-          },
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentRocks"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
           {
             "BotType": "exusec",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Containers"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Blockpost"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentBeach"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Helicopter"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofRocks"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofBeach"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofContainers"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 350,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Island"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 900,
-        "Time_max": 1400,
+        "Time_max": 1600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter,Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BotZone": "Zone_TreatmentContainers"
       },
       {
-        "Name": "Rogue Party at Treatment",
+        "Name": "A Whole Lotta Red",
         "Bots": [
           {
             "BotType": "exusec",
-            "MaxBotCount": 1
-          },
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentRocks"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Containers"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Blockpost"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentBeach"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Helicopter"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofRocks"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofBeach"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofContainers"
+      },
+      {
+        "Name": "A Whole Lotta Red",
+        "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 1
           }
         ],
-        "Time_min": null,
-        "Time_max": null,
-        "RandomTimeSpawn": true,
+        "Time_min": 900,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_TreatmentContainers,Zone_TreatmentBeach,Zone_TreatmentRocks,Zone_Containers,Zone_Blockpost,Zone_Helicopter"
+        "BotZone": "Zone_Island"
       },
       {
-        "Name": "Rogue Party on the Roof",
+        "Name": "Rogue Starting Spawns at Treatment",
         "Bots": [
           {
             "BotType": "exusec",
-            "MaxBotCount": 1
-          },
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 2
-          },
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Containers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Blockpost"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentBeach"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Helicopter"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofBeach"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofContainers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
           {
             "BotType": "exusec",
             "MaxBotCount": 1
           }
         ],
-        "Time_min": null,
-        "Time_max": null,
-        "RandomTimeSpawn": true,
+        "Time_min": 1600,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BotZone": "Zone_Island"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Containers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Blockpost"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentBeach"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Helicopter"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofBeach"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofContainers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 2800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Island"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentContainers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Containers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Blockpost"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_TreatmentBeach"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Helicopter"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofRocks"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofBeach"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_RoofContainers"
+      },
+      {
+        "Name": "Rogue Starting Spawns at Treatment",
+        "Bots": [
+          {
+            "BotType": "exusec",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 2800,
+        "Time_max": 3600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "Zone_Island"
       }
     ],
     "MapBosses": []

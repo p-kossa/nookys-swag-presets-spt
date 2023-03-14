@@ -1,0 +1,120 @@
+[
+  {
+    "MapName": "rezervbase",
+    "MapGroups": [
+      {
+        "Name": "D2 Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 10,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubCommand"
+      },
+      {
+        "Name": "D2 Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubCommand"
+      },
+      {
+        "Name": "D2 Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 800,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubCommand"
+      },
+      {
+        "Name": "D2 Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1400,
+        "Time_max": 2200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubCommand"
+      },
+      {
+        "Name": "D2 Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 2200,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubCommand"
+      },
+      {
+        "Name": "ZoneSubStorage Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubStorage"
+      },
+      {
+        "Name": "ZoneSubStorage Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 600,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubStorage"
+      },
+      {
+        "Name": "ZoneSubStorage Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1000,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubStorage"
+      }
+    ],
+    "MapBosses": []
+  }
+]

@@ -37,90 +37,6 @@
         "BotZone": null
       },
       {
-        "Name": "D2 Raiders",
-        "Bots": [
-          {
-            "BotType": "pmcbot",
-            "MaxBotCount": 3
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "D2 Raiders",
-        "Bots": [
-          {
-            "BotType": "pmcbot",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 300,
-        "Time_max": 800,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "D2 Raiders",
-        "Bots": [
-          {
-            "BotType": "pmcbot",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 800,
-        "Time_max": 1400,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "D2 Raiders",
-        "Bots": [
-          {
-            "BotType": "pmcbot",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 1400,
-        "Time_max": 2200,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "D2 Raiders",
-        "Bots": [
-          {
-            "BotType": "pmcbot",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 2200,
-        "Time_max": 3000,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "ZoneSubStorage Raiders",
-        "Bots": [
-          {
-            "BotType": "pmcbot",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 300,
-        "Time_max": 600,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneSubStorage"
-      },
-      {
         "Name": "ZoneBunkerStorage PMC",
         "Bots": [
           {
@@ -139,11 +55,11 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           },
           {
             "BotType": "sptusec",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 10,
@@ -157,11 +73,11 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           },
           {
             "BotType": "sptusec",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 300,
@@ -193,11 +109,11 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           },
           {
             "BotType": "sptusec",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 1200,
@@ -275,7 +191,7 @@
         "Bots": [
           {
             "BotType": "sptusec",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 10,
@@ -307,7 +223,7 @@
             }
         ],
         "RandomTimeSpawn": false,
-        "BossZone": "ZoneRailStrorage,ZoneRailStrorage,ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneBarrack,ZoneBarrack,ZoneSubStorage",
+        "BossZone": "ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneSubStorage",
         "OnlySpawnOnce": true
       }
     ]

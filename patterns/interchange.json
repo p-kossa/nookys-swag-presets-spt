@@ -37,20 +37,6 @@
         "BotZone": null
       },
       {
-        "Name": "ZoneCenter SCAV",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneCenter"
-      },
-      {
         "Name": "ZoneRoad PMC",
         "Bots": [
           {
@@ -58,22 +44,8 @@
             "MaxBotCount": 1
           }
         ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneRoad"
-      },
-      {
-        "Name": "ZoneRoad SCAV",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 100,
-        "Time_max": 300,
+        "Time_min": 300,
+        "Time_max": 700,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZoneRoad"
@@ -83,7 +55,7 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 700,
@@ -107,20 +79,6 @@
         "BotZone": "ZoneRoad"
       },
       {
-        "Name": "ZoneRoad SCAV",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 1600,
-        "Time_max": 2000,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneRoad"
-      },
-      {
         "Name": "ZoneRoad PMC",
         "Bots": [
           {
@@ -135,39 +93,11 @@
         "BotZone": "ZoneRoad"
       },
       {
-        "Name": "ZoneCenterBot SCAV",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneCenterBot"
-      },
-      {
-        "Name": "ZoneOLI PMC",
-        "Bots": [
-          {
-            "BotType": "sptbear",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneOLI"
-      },
-      {
         "Name": "ZoneIDEA PMC",
         "Bots": [
           {
             "BotType": "sptusec",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 10,
@@ -261,34 +191,6 @@
         "BotZone": "ZoneOLIPark"
       },
       {
-        "Name": "ZoneTrucks SCAV",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneTrucks"
-      },
-      {
-        "Name": "ZonePowerStation SCAV",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZonePowerStation"
-      },
-      {
         "Name": "ZonePowerStation PMC",
         "Bots": [
           {
@@ -298,20 +200,6 @@
         ],
         "Time_min": 200,
         "Time_max": 500,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZonePowerStation"
-      },
-      {
-        "Name": "ZonePowerStation SCAV",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 600,
-        "Time_max": 1200,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": "ZonePowerStation"
@@ -359,7 +247,7 @@
         "BotZone": "ZonePowerStation"
       },
       {
-        "Name": "ZoneGoshan PMC and SCAV",
+        "Name": "ZoneGoshan PMC",
         "Bots": [
           {
             "BotType": "sptbear",
@@ -376,22 +264,8 @@
         "Name": "ZoneIDEAPark PMC",
         "Bots": [
           {
-            "BotType": "sptusec",
-            "MaxBotCount": 1
-          }
-        ],
-        "Time_min": 10,
-        "Time_max": 30,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "ZoneIDEAPark"
-      },
-      {
-        "Name": "ZoneIDEAPark PMC",
-        "Bots": [
-          {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 100,

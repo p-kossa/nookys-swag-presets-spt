@@ -7,66 +7,28 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
-        "Time_min": 60,
-        "Time_max": 200,
-        "RandomTimeSpawn": false,
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_Chalet,Zone_LongRoad"
+        "BotZone": "Zone_Chalet"
       },
       {
         "Name": "more SCAVs at Chalet and LongRoad",
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
-        "Time_min": 200,
-        "Time_max": 500,
-        "RandomTimeSpawn": false,
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
         "OnlySpawnOnce": false,
-        "BotZone": "Zone_Chalet,Zone_LongRoad"
-      },
-      {
-        "Name": "more SCAVs at Chalet and LongRoad",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 500,
-        "Time_max": 800,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": "Zone_Chalet,Zone_LongRoad"
+        "BotZone": "Zone_LongRoad"
       }
     ],
     "MapBosses": []
