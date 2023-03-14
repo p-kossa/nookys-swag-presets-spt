@@ -37,6 +37,20 @@
         "BotZone": null
       },
       {
+        "Name": "ZoneCrossRoad PMC Spawn",
+        "Bots": [
+          {
+            "BotType": "sptbear",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 10,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneCrossRoad"
+      },
+      {
         "Name": "ZoneGasStation PMC Spawn",
         "Bots": [
           {
@@ -201,7 +215,7 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 200,
@@ -229,7 +243,7 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 2
+            "MaxBotCount": 1
           }
         ],
         "Time_min": 1200,

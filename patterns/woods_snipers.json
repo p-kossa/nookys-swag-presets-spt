@@ -1,0 +1,50 @@
+[
+  {
+    "MapName": "woods",
+    "MapGroups": [
+      {
+        "Name": "ZoneHighRocks SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 45,
+        "Time_max": 120,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHighRocks"
+      },
+      {
+        "Name": "ZoneHighRocks SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 150,
+        "Time_max": 300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHighRocks"
+      },
+      {
+        "Name": "ZoneHighRocks SCAV Sniper",
+        "Bots": [
+          {
+            "BotType": "marksman",
+            "MaxBotCount": 1
+          }
+        ],
+        "Time_min": 200,
+        "Time_max": 500,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneHighRocks"
+      }
+    ],
+    "MapBosses": []
+  }
+]
