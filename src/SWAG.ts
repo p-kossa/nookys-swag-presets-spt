@@ -200,7 +200,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       locations[map].MaxBotPerZone = config.MaxBotPerZone;
     }
 
-    if (config.UseDefaultSpawns.Waves === false) {
+    if (config.pmcWaves === false) {
       // PMCs should never convert - we need full control here
       aki_bots.pmc.convertIntoPmcChance.assault.min = 0
       aki_bots.pmc.convertIntoPmcChance.assault.max = 0
@@ -513,6 +513,10 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let player = false
     let botType = SWAG.roleCase[bot.BotType.toLowerCase()]
     let botCount = bot.MaxBotCount
+
+    if (botCount === 0) {
+      slots = 0
+    }
 
     // check if requested botType is a PMC
     if (botType === "sptUsec" || botType === "sptBear") {

@@ -18,12 +18,12 @@
         "Name": "assault",
         "BossName": "assault",
         "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,1",
+        "BossEscortAmount": "0,0,1,1",
         "Time": 25,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZonePort"
+        "BossZone": "ZoneGasStation"
       },
       {
         "Name": "assault",
@@ -34,7 +34,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneGasStation"
+        "BossZone": "ZoneTunnel"
       },
       {
         "Name": "assault",
@@ -57,17 +57,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": "ZoneForestTruck"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,1,1,1,2,2,2",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneGreenHouses"
       },
       {
         "Name": "assault",
@@ -100,6 +89,17 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
+        "BossZone": "ZoneBunker"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
         "BossZone": "ZoneBusStation"
       },
       {
@@ -112,6 +112,17 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": "ZoneIsland"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneMeteoStation"
       }
     ]
   }

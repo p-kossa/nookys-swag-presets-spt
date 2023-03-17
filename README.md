@@ -46,7 +46,7 @@ When you load your server and launcher, look at your server console logs. SWAG s
 
 - What happens if I want to enable default waves?
 
-You'll experience the same PMC and SCAV starting spawns in each raid as well as vanilla SPT spawn waves, so a mix of PMCs and SCAVs. I recommend leaving these "false" with my presets, but leave **triggered** waves "true".
+Regardless of "pmcWave" setting you should see normal vanilla SPT waves of a mix of PMC/SCAVs in addition to my preset spawns.
 
 - What is "pmcWave" and what does it do?
 
@@ -56,7 +56,7 @@ If set to "false" (default) what you should expect to see in you raids:
 - SCAV spawns shortly after
 - SCAV waves throughout the duration of the raid
 
-If using "pmcWave: true", what you should expect:
+If set to "true", what you should expect:
 
 - PMC spawns spread around the map at the start of every raid
 - SCAV spawns shortly after
@@ -121,5 +121,7 @@ for more spread out waves and/or longer raids. Or you could just simply add more
 ```
 "RandomWaveCount": 20
 ```
+
+I **STRONGLY RECOMMEND** setting "pmcWaves" to true if your raids are longer than 60 minutes.
 
 ### REMINDER - THIS IS A WORK IN PROGRESS - I'm always open for improvements, please give me feedback in the comments or find me in the SPT Discord!

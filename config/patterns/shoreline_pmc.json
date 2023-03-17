@@ -4,6 +4,39 @@
     "MapGroups": [],
     "MapBosses": [
       {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,1,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneGreenHouses"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,0,0,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZonePort"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,0,0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZonePort"
+      },
+      {
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
@@ -29,7 +62,7 @@
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,0,0,0,1,1",
+        "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -78,7 +111,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
+        "BossZone": "ZoneSanatorium1"
       },
       {
         "Name": "sptusec",
@@ -89,7 +122,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
+        "BossZone": "ZoneSanatorium2"
       },
       {
         "Name": "sptbear",

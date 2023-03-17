@@ -1,6 +1,6 @@
 [
   {
-    "MapName": "reservbase",
+    "MapName": "rezervbase",
     "MapGroups": [],
     "MapBosses": [
       {
@@ -15,21 +15,10 @@
         "BossZone": "ZoneBarrack"
       },
       {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZonePTOR1"
-      },
-      {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
+        "BossEscortAmount": "0,0,0,1,1,1,1,1,2",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -73,7 +62,7 @@
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
+        "BossEscortAmount": "0,0,0,0,1,1,1,1,2",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,

@@ -1,19 +1,9 @@
 [
   {
-    "MapName": "reservbase",
+    "MapName": "rezervbase",
     "MapGroups": [],
     "MapBosses": [
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,1,1,1,2",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneBarrack"
-      },
+
       {
         "Name": "assault",
         "BossName": "assault",
@@ -24,61 +14,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": "ZonePTOR1"
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZonePTOR2"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,1,1,2",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneRailStorage"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,1,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneBunkerStorage"
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubStorage"
       }
     ]
   }
