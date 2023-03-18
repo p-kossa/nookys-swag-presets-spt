@@ -1,14 +1,117 @@
 [
   {
     "MapName": "shoreline",
-    "MapGroups": [],
+    "MapGroups": [
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1200,
+        "Time_max": 2700,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZonePowerStation",
+          "ZoneGreenHouses",
+          "ZoneSanatorium1",
+          "ZoneSanatorium2",
+          "ZoneBusStation",
+          "ZoneMeteoStation",
+          "ZoneForestGasStation",
+          "ZoneForestTruck",
+          "ZoneRailWays",
+          "ZoneStartVillage",
+          "ZoneIsland",
+          "ZonePort",
+          "ZoneBunker",
+          "ZonePassClose",
+          "ZonePassFar",
+          "ZoneTunnel"
+        ]
+      }
+    ],
     "MapBosses": [
       {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,1,1",
-        "Time": 25,
+        "BossEscortAmount": "0,0,0,0,0,0,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneMeteoStation"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,0,0,1",
+        "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
@@ -19,17 +122,6 @@
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,0,0,0,0,1",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZonePort"
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,0,0,0,0,1,1,1,2",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -123,61 +215,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": "ZoneSanatorium2"
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,0,0,0,1,1,1,2",
-        "Time": 800,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,0,0,1,1,1,2",
-        "Time": 1300,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,0,0,0,0,1,1,1,2",
-        "Time": 1900,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,0,0,0,0,0,1,1,1",
-        "Time": 2500,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,0,0,0,0,1,1,1",
-        "Time": 3200,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
       }
     ]
   }

@@ -1,7 +1,69 @@
 [
   {
     "MapName": "interchange",
-    "MapGroups": [],
+    "MapGroups": [
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneGoshan",
+          "ZoneRoad",
+          "ZoneIDEA",
+          "ZoneOLIPark",
+          "ZoneIDEAPark",
+          "ZoneOLI",
+          "ZoneCenter",
+          "ZonePowerStation",
+          "ZoneCenterBot",
+          "ZoneTrucks"
+        ]
+      }
+    ],
     "MapBosses": [
       {
         "Name": "sptusec",

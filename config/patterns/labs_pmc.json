@@ -1,7 +1,34 @@
 [
   {
     "MapName": "laboratory",
-    "MapGroups": [],
+    "MapGroups": [
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 600,
+        "Time_max": 1800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "BotZoneFloor2",
+          "BotZoneBasement",
+          "BotZoneFloor1"
+        ]
+      }
+    ],
     "MapBosses": [
       {
         "Name": "sptbear",
