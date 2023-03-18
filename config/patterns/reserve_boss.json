@@ -1,0 +1,32 @@
+[
+  {
+    "MapName": "rezervbase",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "Gluhar",
+        "BossName": "bossgluhar",
+        "BossEscortType": "followergluharassault",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": [
+            {
+                "BossEscortType": "followergluharassault",
+                "BossEscortAmount": "2"
+            },
+            {
+                "BossEscortType": "followergluharsecurity",
+                "BossEscortAmount": "2"
+            },
+            {
+                "BossEscortType": "followergluharscout",
+                "BossEscortAmount": "2"
+            }
+        ],
+        "RandomTimeSpawn": false,
+        "BossZone": "ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneSubStorage",
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]

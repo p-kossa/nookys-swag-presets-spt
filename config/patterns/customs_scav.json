@@ -1,0 +1,30 @@
+[
+  {
+    "MapName": "bigmap",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossZone": "ZoneWade",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,1,1,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossZone": "ZoneScavBase",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,1,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]

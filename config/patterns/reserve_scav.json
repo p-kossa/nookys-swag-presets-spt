@@ -1,0 +1,20 @@
+[
+  {
+    "MapName": "rezervbase",
+    "MapGroups": [],
+    "MapBosses": [
+
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZonePTOR1"
+      }
+    ]
+  }
+]

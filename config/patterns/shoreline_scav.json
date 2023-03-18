@@ -1,0 +1,129 @@
+[
+  {
+    "MapName": "shoreline",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,1,1,1,2",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,1,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneGasStation"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,1,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneTunnel"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,1,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneGreenHouses"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneForestTruck"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,1,1,1,1,2,2",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZonePowerStation"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneForestGasStation"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneBunker"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneBusStation"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneIsland"
+      },
+      {
+        "Name": "assault",
+        "BossName": "assault",
+        "BossEscortType": "assault",
+        "BossEscortAmount": "0,0,0,1",
+        "Time": 25,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneMeteoStation"
+      }
+    ]
+  }
+]

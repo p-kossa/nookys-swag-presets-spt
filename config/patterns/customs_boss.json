@@ -1,0 +1,43 @@
+[
+  {
+    "MapName": "bigmap",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "Goon Squad Trio",
+        "BossName": "bossknight",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": [
+          {
+            "BossEscortType": "followerbigpipe",
+            "BossEscortAmount": "1"
+          },
+          {
+            "BossEscortType": "followerbirdeye",
+            "BossEscortAmount": "1"
+          },
+          {
+            "BossEscortType": "followergluharscout",
+            "BossEscortAmount": "0"
+          }
+        ],
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneScavBase"
+      },
+      {
+        "Name": "Reshala",
+        "BossName": "bossbully",
+        "BossEscortType": "followerbully",
+        "BossEscortAmount": "4",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZormDormitory,ZoneGasStation"
+      }
+    ]
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "MapName": "woods",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,1,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneRoad"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneBigRocks"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,1,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneMiniHouse"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneWoodCutter"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneWoodCutter"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,1,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneHouse"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,1,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneHouse"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneRedHouse"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneRedHouse"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,0,0,0,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneClearVill"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,0,0,0,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneClearVill"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,0,0,0,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneBrokenVill"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,0,0,0,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneBrokenVill"
+      }
+    ]
+  }
+]

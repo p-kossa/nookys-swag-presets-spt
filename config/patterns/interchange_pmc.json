@@ -1,0 +1,107 @@
+[
+  {
+    "MapName": "interchange",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,0,0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneRoad"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,0,0,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneOLI"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,0,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneIDEA"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZonePowerStation"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,0,0,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneTrucks"
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,0,0,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneIDEAPark,ZoneOLIPark"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,0,0,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneIDEAPark,ZoneOLIPark"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,0,1,1,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneCenterBot"
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "BossEscortAmount": "0,0,0,1,1,1,1,2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": "ZoneGoshan"
+      }
+    ]
+  }
+]
