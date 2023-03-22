@@ -52,13 +52,13 @@ Regardless of "pmcWave" setting you should see normal vanilla SPT waves of a mix
 
 - What is "pmcWave" and what does it do?
 
-If set to "false" (default) what you should expect to see in you raids:
+If set to "false" what you should expect to see in you raids:
 
 - PMC spawns spread around the map at the start of every raid
 - SCAV spawns shortly after
 - SCAV waves throughout the duration of the raid
 
-If set to "true", what you should expect:
+If set to "true" (default), what you should expect:
 
 - PMC spawns spread around the map at the start of every raid
 - SCAV spawns shortly after
