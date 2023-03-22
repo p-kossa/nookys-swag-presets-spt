@@ -85,9 +85,9 @@ If you want fewer, go low.
 
 Defaults:
 
-`pmcSpawnWeight: 30`
+`pmcSpawnWeight: 25`
 
-`scavSpawnWeight: 80`
+`scavSpawnWeight: 70`
 
 - How does SnipeChance and BossChance work?
 
