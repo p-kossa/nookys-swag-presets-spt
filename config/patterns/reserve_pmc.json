@@ -1,7 +1,54 @@
 [
   {
     "MapName": "rezervbase",
-    "MapGroups": [],
+    "MapGroups": [
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 900,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneBarrack",
+          "ZoneRailStrorage",
+          "ZoneBunkerStorage",
+          "ZoneSubStorage",
+          "ZonePTOR2",
+          "ZonePTOR1",
+          "ZoneSubCommand"
+        ]
+      }
+    ],
     "MapBosses": [
       {
         "Name": "sptusec",
@@ -26,17 +73,6 @@
         "BossZone": "ZonePTOR2"
       },
       {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
@@ -45,7 +81,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneRailStorage"
+        "BossZone": "ZoneRailStrorage"
       },
       {
         "Name": "sptusec",

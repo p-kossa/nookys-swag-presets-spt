@@ -25,13 +25,15 @@ This is an extension of SWAG by props which adds spawns to your raids in "waves"
 Be sure you have SWAG 1.4.2 installed first!
 
 
-- download the .zip from the above link
+1. delete your "patterns" folder: `SWAG/config/patterns`
 
-- copy all files from nookys-swag-presets-spt/
+2. download the .zip, extract/copy/paste and overwrite into your SWAG folder: `user/mods/SWAG/`
 
-- paste them into your SWAG base directory: "user/mods/SWAG" and overwrite
+3. play the game
 
-- play the game!
+**IMPORTANT: SWAG patterns may not load properly until your 2nd raid!**
+
+If you're experiencing weird spawns in your 1st raid after loading up the game, quit (SVM safe exit is a nice option) and re-load into your 2nd raid and you should be good to go.
 
 ## How to Uninstall
 
@@ -64,11 +66,36 @@ If set to "true", what you should expect:
 - small number of PMC waves throughout the duration of the raid
 - PMC spawns at POIs throughout the duration of the raid (Dorms, Resort, etc.)
 
-So, generally if you want more PvP/PMCs in your raids then you probably want to set this to "true".
+So, if you're not sure which to choose...
+
+If you want a pure live experience where PMC numbers are finite, set pmcWaves: false
+
+if you:
+  - play long raids (1 hr+)
+  - enjoy lots of PvP all over the map
+
+then set pmcWaves: true (default)
+
+- What is pmc/scavSpawnWeight?
+
+These are values that determine a chance to reduce a number of spawns in each wave. So, generally speaking:
+
+If you want more SCAVs and/or PMCs, then you want a higher number.
+If you want fewer, go low.
+
+Defaults:
+
+`pmcSpawnWeight: 30`
+
+`scavSpawnWeight: 80`
 
 - How does SnipeChance and BossChance work?
 
 These are both flat percentages for sniper SCAVs or bosses to spawn in your raids. Default is 50% and 20%, respectively.
+
+- What is ScavInLabs?
+
+By default my spawns prevent SCAVs from spawning in Labs - however, if you'd still like to see those dummies at the Lab just set this to "true" and the usual SCAV waves should show up throughout the raid.
 
 - Can I change the max map bot cap?
 

@@ -1,41 +1,84 @@
 [
   {
     "MapName": "lighthouse",
-    "MapGroups": [],
-    "MapBosses": [
+    "MapGroups": [
       {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,1,1,1,1,1,2,2",
-        "Time": 25,
-        "Supports": null,
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 45,
+        "Time_max": 90,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Chalet"
+        "BotZone": null
       },
       {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,0,0,1,1,1,2,2",
-        "Time": 25,
-        "Supports": null,
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 720,
+        "Time_max": 1620,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "Zone_Rocks"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,1,1,1,2,2",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "Zone_DestroyedHouse"
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "Zone_Chalet",
+          "Zone_Rocks",
+          "Zone_Bridge",
+          "Zone_LongRoad",
+          "Zone_DestroyedHouse",
+          "Zone_Village",
+          "Zone_Containers"
+        ]
       }
-    ]
+    ],
+    "MapBosses": []
   }
 ]

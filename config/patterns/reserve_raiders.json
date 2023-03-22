@@ -1,7 +1,22 @@
 [
   {
     "MapName": "rezervbase",
-    "MapGroups": [],
+    "MapGroups": [
+      {
+        "Name": "Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 1200,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": "ZoneSubCommand"
+      }
+    ],
     "MapBosses": [
       {
         "Name": "pmcbot",
@@ -19,51 +34,7 @@
         "BossName": "pmcbot",
         "BossEscortType": "pmcbot",
         "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 300,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
-        "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 600,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
-        "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 900,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
-        "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 1200,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
-        "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 1500,
+        "Time": 800,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
@@ -75,50 +46,6 @@
         "BossEscortType": "pmcbot",
         "BossEscortAmount": "0,0,0,1,1,2,2",
         "Time": 1800,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
-        "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 2100,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
-        "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 2400,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
-        "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 2700,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
-      },
-      {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
-        "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 3000,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,

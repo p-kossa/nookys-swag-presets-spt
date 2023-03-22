@@ -1,19 +1,94 @@
 [
   {
     "MapName": "woods",
-    "MapGroups": [],
-    "MapBosses": [
+    "MapGroups": [
       {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,1,1,1,1,2",
-        "Time": 25,
-        "Supports": null,
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 45,
+        "Time_max": 90,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneScavBase2"
+        "BotZone": null
+      },
+      {
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 720,
+        "Time_max": 1620,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneScavBase2",
+          "ZoneMiniHouse",
+          "ZoneBigRocks",
+          "ZoneRedHouse",
+          "ZoneWoodCutter",
+          "ZoneRoad",
+          "ZoneHouse",
+          "ZoneClearVill",
+          "ZoneBrokenVill"
+        ]
       }
-    ]
+    ],
+    "MapBosses": []
   }
 ]

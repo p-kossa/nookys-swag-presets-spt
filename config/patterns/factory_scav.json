@@ -1,52 +1,22 @@
 [
   {
     "MapName": "factory4_day",
-    "MapGroups": [],
-    "MapBosses": [
+    "MapGroups": [
       {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,0,0,1",
-        "Time": 25,
-        "Supports": null,
+        "Name": "SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 4
+          }
+        ],
+        "Time_min": 15,
+        "Time_max": 30,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZone"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "BotZone"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "BotZone"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,0,0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "BotZone"
+        "BotZone": null
       }
-    ]
+    ],
+    "MapBosses": []
   }
 ]

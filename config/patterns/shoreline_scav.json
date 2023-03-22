@@ -1,129 +1,129 @@
 [
   {
     "MapName": "shoreline",
-    "MapGroups": [],
-    "MapBosses": [
+    "MapGroups": [
       {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,1,1,1,2",
-        "Time": 25,
-        "Supports": null,
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 45,
+        "Time_max": 90,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1,ZoneSanatorium2"
+        "BotZone": null
       },
       {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,1,1",
-        "Time": 25,
-        "Supports": null,
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 780,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneGasStation"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,1,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneTunnel"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,1,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneGreenHouses"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneForestTruck"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,1,1,1,1,2,2",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZonePowerStation"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneForestGasStation"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneBunker"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneBusStation"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneIsland"
-      },
-      {
-        "Name": "assault",
-        "BossName": "assault",
-        "BossEscortType": "assault",
-        "BossEscortAmount": "0,0,0,1",
-        "Time": 25,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneMeteoStation"
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZonePowerStation",
+          "ZoneGreenHouses",
+          "ZoneSanatorium1",
+          "ZoneSanatorium2",
+          "ZoneBusStation",
+          "ZoneMeteoStation",
+          "ZoneForestGasStation",
+          "ZoneForestTruck",
+          "ZoneRailWays",
+          "ZoneStartVillage",
+          "ZoneIsland",
+          "ZonePort",
+          "ZoneBunker",
+          "ZonePassClose",
+          "ZonePassFar",
+          "ZoneTunnel"
+        ]
       }
-    ]
+    ],
+    "MapBosses": []
   }
 ]
