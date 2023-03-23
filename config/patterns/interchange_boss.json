@@ -12,7 +12,15 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": null
+        "BossZone": [
+          "ZoneIDEA",
+          "ZoneGoshan",
+          "ZoneOLI",
+          "ZoneCenter",
+          "ZoneCenterBot",
+          "ZoneOLIPark",
+          "ZoneIDEAPark"
+        ]
       }
     ]
   }

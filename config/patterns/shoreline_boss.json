@@ -25,11 +25,11 @@
         ],
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneMeteoStation"
+        "BossZone": ["ZoneMeteoStation"]
       },
       {
         "BossName": "bosssanitar",
-        "BossZone": "ZonePort,ZoneSanatorium1,ZoneGreenHouses,ZoneSanatorium2",
+        "BossZone": ["ZonePort","ZoneSanatorium1","ZoneGreenHouses","ZoneSanatorium2"],
         "BossEscortType": "followersanitar",
         "BossEscortAmount": "2",
         "Time": -1,

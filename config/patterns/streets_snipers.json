@@ -12,7 +12,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSnipeSW01"
+        "BossZone": ["ZoneSnipeSW01"]
       },
       {
         "Name": "ZoneSnipeBuilding SCAV Sniper",
@@ -23,7 +23,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSnipeBuilding"
+        "BossZone": ["ZoneSnipeBuilding"]
       },
       {
         "Name": "ZoneSnipeCinema SCAV Sniper",
@@ -34,7 +34,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSnipeCinema"
+        "BossZone": ["ZoneSnipeCinema"]
       },
       {
         "Name": "ZoneSnipeCarShowroom SCAV Sniper",
@@ -45,7 +45,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSnipeCarShowroom"
+        "BossZone": ["ZoneSnipeCarShowroom"]
       }
     ]
   }

@@ -12,7 +12,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneBasement"
+        "BossZone": ["BotZoneBasement"]
       },
       {
         "Name": "pmcbot",
@@ -23,7 +23,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor2"
+        "BossZone": ["BotZoneFloor2"]
       },
       {
         "Name": "pmcbot",
@@ -34,7 +34,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor1"
+        "BossZone": ["BotZoneFloor1"]
       },
       {
         "Name": "pmcbot",
@@ -45,7 +45,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneBasement"
+        "BossZone": ["BotZoneBasement"]
       },
       {
         "Name": "pmcbot",
@@ -56,7 +56,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor2"
+        "BossZone": ["BotZoneFloor2"]
       },
       {
         "Name": "pmcbot",
@@ -67,7 +67,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor2"
+        "BossZone": ["BotZoneFloor2"]
       },
       {
         "Name": "pmcbot",
@@ -78,7 +78,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor2"
+        "BossZone": ["BotZoneFloor2"]
       },
       {
         "Name": "pmcbot",
@@ -89,7 +89,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor2"
+        "BossZone": ["BotZoneFloor2"]
       },
       {
         "Name": "pmcbot",
@@ -100,7 +100,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor2"
+        "BossZone": ["BotZoneFloor2"]
       }
     ]
   }

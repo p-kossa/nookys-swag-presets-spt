@@ -27,7 +27,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
+        "BossZone": ["ZoneSubCommand"]
       },
       {
         "Name": "pmcbot",
@@ -38,7 +38,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
+        "BossZone": ["ZoneSubCommand"]
       },
       {
         "Name": "pmcbot",
@@ -49,7 +49,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubCommand"
+        "BossZone": ["ZoneSubCommand"]
       }
     ]
   }

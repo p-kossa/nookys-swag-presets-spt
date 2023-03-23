@@ -24,7 +24,7 @@
             }
         ],
         "RandomTimeSpawn": false,
-        "BossZone": "ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneSubStorage",
+        "BossZone": ["ZoneRailStrorage","ZonePTOR1","ZonePTOR2","ZoneBarrack","ZoneSubStorage"],
         "OnlySpawnOnce": true
       }
     ]

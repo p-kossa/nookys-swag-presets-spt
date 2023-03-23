@@ -19,12 +19,12 @@
             }
         ],
         "RandomTimeSpawn": false,
-        "BossZone": "ZoneScavBase2",
+        "BossZone": ["ZoneScavBase2"],
         "OnlySpawnOnce": true
       },
       {
         "BossName": "bosskojaniy",
-        "BossZone": "ZoneWoodCutter",
+        "BossZone": ["ZoneWoodCutter"],
         "BossEscortType": "followerKojaniy",
         "BossEscortAmount": "2",
         "Time": -1,

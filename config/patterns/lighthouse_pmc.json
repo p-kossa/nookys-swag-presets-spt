@@ -8,30 +8,10 @@
           {
             "BotType": "pmc",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
           }
         ],
-        "Time_min": 900,
-        "Time_max": 2400,
+        "Time_min": 600,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -46,38 +26,6 @@
       {
         "Name": "PMCs",
         "Bots": [
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
           {
             "BotType": "pmc",
             "MaxBotCount": 2
@@ -110,7 +58,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Bridge"
+        "BossZone": ["Zone_Bridge"]
       },
       {
         "Name": "sptbear",
@@ -121,7 +69,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Rocks"
+        "BossZone": ["Zone_Rocks"]
       },
       {
         "Name": "sptusec",
@@ -132,7 +80,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Chalet"
+        "BossZone": ["Zone_Chalet"]
       },
       {
         "Name": "sptbear",
@@ -143,7 +91,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Village"
+        "BossZone": ["Zone_Village"]
       },
       {
         "Name": "sptusec",
@@ -154,7 +102,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_LongRoad"
+        "BossZone": ["Zone_LongRoad"]
       },
       {
         "Name": "sptbear",
@@ -165,7 +113,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_DestroyedHouse"
+        "BossZone": ["Zone_DestroyedHouse"]
       }
     ]
   }

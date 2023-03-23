@@ -1,23 +1,34 @@
-import { DependencyContainer } from "tsyringe";
-import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
 import {
-BossLocationSpawn,
-ILocationBase,
-Wave,
+  BossLocationSpawn,
+  ILocationBase,
+  Wave,
 } from "@spt-aki/models/eft/common/ILocationBase";
 import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
+import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
+import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
 import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
 import { ILocations } from "@spt-aki/models/spt/server/ILocations";
+import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { ConfigServer } from "@spt-aki/servers/ConfigServer";
+import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
+import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { DependencyContainer } from "tsyringe";
 import * as ClassDef from "./ClassDef";
+import {
+  BossPattern,
+  GroupPattern,
+  aiAmountProper,
+  diffProper,
+  pmcType,
+  roleCase,
+  GlobalRandomWaveTimer,
+} from "./ClassDef";
 
 import config from "../config/config.json";
+import { roles } from "./ClassDef";
+import { spawn } from "child_process";
 
 const modName = "SWAG";
 let logger: ILogger;
@@ -32,79 +43,25 @@ let BossWaveSpawnedOnceAlready: boolean;
 const customPatterns: Record<string, ClassDef.GroupPattern> = {};
 
 type LocationName = keyof Omit<ILocations, "base">;
-type LocationBackupData = Record<LocationName,  { waves: Wave[], BossLocationSpawn: BossLocationSpawn[], openZones: string[] } | undefined>;
+type LocationBackupData = Record<
+  LocationName,
+  | {
+      waves: Wave[];
+      BossLocationSpawn: BossLocationSpawn[];
+      openZones: string[];
+    }
+  | undefined
+>;
+
+type GlobalPatterns = Record<string, MapPatterns>;
+type MapPatterns = {
+  MapGroups: GroupPattern[];
+  MapBosses: BossPattern[];
+};
+
+const globalPatterns: GlobalPatterns = {};
 
 class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
-  public static roleCase: object = {
-    assault: "assault",
-    exusec: "exUsec",
-    marksman: "marksman",
-    pmcbot: "pmcBot",
-    sectantpriest: "sectantPriest",
-    sectantwarrior: "sectantWarrior",
-    assaultgroup: "assaultGroup",
-    bossbully: "bossBully",
-    bosstagilla: "bossTagilla",
-    bossgluhar: "bossGluhar",
-    bosskilla: "bossKilla",
-    bosskojaniy: "bossKojaniy",
-    bosssanitar: "bossSanitar",
-    followerbully: "followerBully",
-    followergluharassault: "followerGluharAssault",
-    followergluharscout: "followerGluharScout",
-    followergluharsecurity: "followerGluharSecurity",
-    followergluharsnipe: "followerGluharSnipe",
-    followerkojaniy: "followerKojaniy",
-    followersanitar: "followerSanitar",
-    followertagilla: "followerTagilla",
-    cursedassault: "cursedAssault",
-    pmc: "pmc",
-    usec: "usec",
-    bear: "bear",
-    sptbear: "sptBear",
-    sptusec: "sptUsec",
-    bosstest: "bossTest",
-    followertest: "followerTest",
-    gifter: "gifter",
-    bossknight: "bossKnight",
-    followerbigpipe: "followerBigPipe",
-    followerbirdeye: "followerBirdEye",
-    bosszryachiy: "bossZryachiy",
-    followerzryachiy: "followerZryachiy",
-  };
-
-  public static pmcType: string[] = ["sptbear", "sptusec"];
-
-  public static validMaps: string[] = [
-    "bigmap",
-    "factory4_day",
-    "factory4_night",
-    "interchange",
-    "laboratory",
-    "lighthouse",
-    "rezervbase",
-    "shoreline",
-    "tarkovstreets",
-    "woods",
-  ];
-
-  public static diffProper = {
-    easy: "easy",
-    asonline: "normal",
-    normal: "normal",
-    hard: "hard",
-    impossible: "impossible",
-    random: "random",
-  };
-
-  public static aiAmountProper = {
-    low: 0.5,
-    asonline: 1,
-    medium: 1,
-    high: 2,
-    horde: 4,
-  };
-
   public static savedLocationData: LocationBackupData = {
     factory4_day: undefined,
     factory4_night: undefined,
@@ -126,9 +83,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     town: undefined,
   };
 
-  public static actual_bot_type = {
-    name: ""
-  }
+  public static pmcType: string[] = ["sptbear", "sptusec"];
 
   public static randomWaveTimer = {
     time_min: 0,
@@ -138,167 +93,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   public static actual_timers = {
     time_min: 0,
     time_max: 0
-  }
-
-  public static pmcWaveTimer = {
-    customs: {
-      time_min: 0,
-      time_max: 0
-    },
-    woods: {
-      time_min: 0,
-      time_max: 0
-    },
-    factory4_day: {
-      time_min: 0,
-      time_max: 0
-    },
-    tarkovstreets: {
-      time_min: 0,
-      time_max: 0
-    },
-    lighthouse: {
-      time_min: 0,
-      time_max: 0
-    },
-    factory4_night: {
-      time_min: 0,
-      time_max: 0
-    },
-    interchange: {
-      time_min: 0,
-      time_max: 0
-    },
-    shoreline: {
-      time_min: 0,
-      time_max: 0
-    },
-    rezervbase: {
-      time_min: 0,
-      time_max: 0
-    }
-  }
-
-  public static scavWaveTimer = {
-    customs: {
-      time_min: 0,
-      time_max: 0
-    },
-    woods: {
-      time_min: 0,
-      time_max: 0
-    },
-    factory4_day: {
-      time_min: 0,
-      time_max: 0
-    },
-    tarkovstreets: {
-      time_min: 0,
-      time_max: 0
-    },
-    lighthouse: {
-      time_min: 0,
-      time_max: 0
-    },
-    factory4_night: {
-      time_min: 0,
-      time_max: 0
-    },
-    interchange: {
-      time_min: 0,
-      time_max: 0
-    },
-    shoreline: {
-      time_min: 0,
-      time_max: 0
-    },
-    rezervbase: {
-      time_min: 0,
-      time_max: 0
-    }
-  }
-
-  public static raiderWaveTimer = {
-    customs: {
-      time_min: 0,
-      time_max: 0
-    },
-    woods: {
-      time_min: 0,
-      time_max: 0
-    },
-    factory4_day: {
-      time_min: 0,
-      time_max: 0
-    },
-    tarkovstreets: {
-      time_min: 0,
-      time_max: 0
-    },
-    lighthouse: {
-      time_min: 0,
-      time_max: 0
-    },
-    factory4_night: {
-      time_min: 0,
-      time_max: 0
-    },
-    interchange: {
-      time_min: 0,
-      time_max: 0
-    },
-    shoreline: {
-      time_min: 0,
-      time_max: 0
-    },
-    rezervbase: {
-      time_min: 0,
-      time_max: 0
-    }
-  }
-
-  public static cultistWaveTimer = {
-    customs: {
-      time_min: 0,
-      time_max: 0
-    },
-    woods: {
-      time_min: 0,
-      time_max: 0
-    },
-    factory4_day: {
-      time_min: 0,
-      time_max: 0
-    },
-    tarkovstreets: {
-      time_min: 0,
-      time_max: 0
-    },
-    lighthouse: {
-      time_min: 0,
-      time_max: 0
-    },
-    factory4_night: {
-      time_min: 0,
-      time_max: 0
-    },
-    interchange: {
-      time_min: 0,
-      time_max: 0
-    },
-    shoreline: {
-      time_min: 0,
-      time_max: 0
-    },
-    rezervbase: {
-      time_min: 0,
-      time_max: 0
-    }
-  }
-
-  public static zoneCounter = {
-    zones: 0,
-    count: 0
   }
 
   public static waveCounter = {
@@ -330,16 +124,25 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       "aki"
     );
 
-    staticRouterModService.registerStaticRouter(`${modName}/client/locations`,
-    [
-      {
-        url: "/client/locations",
-        action: (url: string, info: any, sessionID: string, output: string): any => {
-          SWAG.ClearDefaultSpawns();
-          SWAG.ConfigureMaps();
-          return output;
-        }
-      }], "aki");
+    staticRouterModService.registerStaticRouter(
+      `${modName}/client/locations`,
+      [
+        {
+          url: "/client/locations",
+          action: (
+            url: string,
+            info: any,
+            sessionID: string,
+            output: string
+          ): any => {
+            SWAG.ClearDefaultSpawns();
+            SWAG.ConfigureMaps();
+            return output;
+          },
+        },
+      ],
+      "aki"
+    );
   }
 
   postDBLoad(container: DependencyContainer): void {
@@ -448,7 +251,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     // read all customPatterns and push them to the locations table. Invalid maps were being read, those should be filteredout as it causes an error when
     // assigning an openzone to a map that doesn't exist (base)
     Object.keys(locations).filter(
-      (name) => this.validMaps.includes(name)
+      (name) => ClassDef.validMaps.includes(name)
     ).forEach((globalmap: LocationName) => {
       for (let pattern in customPatterns) {
         //read mapWrapper in pattern and set its values to be used locally
@@ -465,8 +268,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           config.DebugOutput && logger.warning(`Configuring ${globalmap}`);
 
           // Configure random wave timer.. needs to be reset each map
-          SWAG.randomWaveTimer.time_min = config.WaveTimerMinSec;
-          SWAG.randomWaveTimer.time_max = config.WaveTimerMaxSec;
+          SWAG.randomWaveTimer.time_min = config.GlobalRandomWaveTimer.WaveTimerMinSec;
+          SWAG.randomWaveTimer.time_max = config.GlobalRandomWaveTimer.WaveTimerMaxSec;
 
           SWAG.SetUpGroups(mapGroups, mapBosses, globalmap);
         }
@@ -485,7 +288,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     const isRandomMin = group.Time_min === null || group.Time_min === undefined;
     const isRandomMax = group.Time_max === null || group.Time_max === undefined;
 
-    return group.RandomTimeSpawn || isRandomMax || isRandomMin
+    return group.RandomTimeSpawn || isRandomMax || isRandomMin;
   }
 
   static SetUpGroups(
@@ -536,12 +339,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     //if StaticGroups is not empty, set up bot spawning for static groups
     if (StaticGroups.length > 0) {
-      for (let i = 0; i < config.RandomWaveCount; i++) {
-        SWAG.SetUpStaticBots(StaticGroups, globalmap, AlreadySpawnedGroups);
-      }
-      SWAG.actual_timers.time_min = 0
-      SWAG.actual_timers.time_max = 0
-      SWAG.waveCounter.count = 1
+      SWAG.SetUpStaticBots(StaticGroups, globalmap, AlreadySpawnedGroups);
     }
 
     //if RandomBossGroups is not empty, set up bot spawning for random boss groups
@@ -603,11 +401,17 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   ): void {
     //read StaticGroups and set local values
     for (let group of StaticGroups) {
-      SWAG.SpawnBots(
-        group,
-        globalmap,
-        AlreadySpawnedGroups
-      );
+      for (let i = 0; i < config.RandomWaveCount; i++) {
+        SWAG.SpawnBots(
+          group,
+          globalmap,
+          AlreadySpawnedGroups
+        );
+      }
+      // i've completed looping through waves, so lets reset timers for the next group
+      SWAG.actual_timers.time_min = 0
+      SWAG.actual_timers.time_max = 0
+      SWAG.waveCounter.count = 1
     }
   }
 
@@ -667,51 +471,63 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     AlreadySpawnedGroups.push(group);
 
     //read group and create wave from individual bots but same timing and location if StaticGroupBotZone is not null
-    for (let bot of group.Bots) {
-      const wave: Wave = SWAG.ConfigureBotWave(
-        group,
-        bot,
-        globalmap
-      );
-
-      locations[globalmap].base.waves.push(wave);
-      SWAG.actual_bot_type.name = SWAG.roleCase[bot.BotType.toLowerCase()]
+    if (group.BotZone != null) {
+      for (let zone of group.BotZone) {
+        for (let bot of group.Bots) {
+          const wave: Wave = SWAG.ConfigureBotWave(
+            group,
+            bot,
+            globalmap,
+            zone
+          );
+    
+          locations[globalmap].base.waves.push(wave);
+        }
+      }
+      // now we increment
+      if (group.RandomTimeSpawn === false) {
+        SWAG.incrementTime();
+      }
     }
-
-    if (SWAG.waveCounter.count == 0 && SWAG.zoneCounter.count == 0) {
-      SWAG.setSpawnTimer(globalmap, SWAG.actual_bot_type.name)
+    else {
+      let zone = null
+      for (let bot of group.Bots) {
+        const wave: Wave = SWAG.ConfigureBotWave(
+          group,
+          bot,
+          globalmap,
+          zone
+        );
+  
+        locations[globalmap].base.waves.push(wave);
+      }
     }
-
-    // now that we've iterated through a wave we need to increment timers for the next wave
-    SWAG.actual_bot_type.name = ""
   }
 
   static ConfigureBotWave(
     group: ClassDef.GroupPattern,
     bot: ClassDef.Bot,
-    globalmap: LocationName
+    globalmap: LocationName,
+    zone: any
   ): Wave {
     const isRandom = SWAG.isGroupRandom(group);
 
     let slots = 1
     let player = false
-    let botType = SWAG.roleCase[bot.BotType.toLowerCase()]
+    let botType = roleCase[bot.BotType.toLowerCase()]
     let botCount = bot.MaxBotCount
 
-    // if this is true then we'll assume this is the 1st wave, so timers should be set to whatever they're defined to in the config
-    // We also need to set the starting intervals for each map timer
     if (group.OnlySpawnOnce === false && group.RandomTimeSpawn === false) {
       if (SWAG.waveCounter.count == 1) {
         SWAG.actual_timers.time_min = group.Time_min
         SWAG.actual_timers.time_max = group.Time_max
-        SWAG.setDefaultTimers(globalmap, botType)
       }
-    } else {
+    }
+    else {
       SWAG.actual_timers.time_min = group.Time_min
       SWAG.actual_timers.time_max = group.Time_max
     }
 
-    let pmcs = ["sptUsec", "sptBear"]
     let pmc_random_weight = SWAG.getRandIntInclusive(1, 100)
     let scav_random_weight = SWAG.getRandIntInclusive(1, 100)
 
@@ -756,24 +572,10 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       slots = 0
     }
 
-    // this is the "magic", sort of
-    let spawn_zone = group.BotZone
-    if (group.OnlySpawnOnce === false && group.RandomTimeSpawn === false) {
-      SWAG.zoneCounter.zones = group.BotZone.length
-
-      // This is the last zone, so we need to correct the index for later
-      if (SWAG.zoneCounter.count == SWAG.zoneCounter.zones) {
-        spawn_zone = group.BotZone[SWAG.zoneCounter.count - 1]
-      }
-      else {
-        spawn_zone = group.BotZone[SWAG.zoneCounter.count]
-      }
-    }
-
     // check if requested botType is a PMC
     if (botType === "pmc") {
       // let's roll a random PMC type
-      botType = pmcs[Math.floor(Math.random() * pmcs.length)]
+      botType = pmcType[Math.floor(Math.random() * pmcType.length)]
     }
 
     const wave: Wave = {
@@ -784,14 +586,14 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       slots_min: slots,
       slots_max: Math.floor(
         botCount *
-          SWAG.aiAmountProper[
+          aiAmountProper[
             config.aiAmount ? config.aiAmount.toLowerCase() : "asonline"
           ]
       ),
-      BotPreset: SWAG.diffProper[config.aiDifficulty.toLowerCase()],
+      BotPreset: diffProper[config.aiDifficulty.toLowerCase()],
       SpawnPoints:
-        !!spawn_zone
-          ? spawn_zone
+        !!zone
+          ? zone
           : (SWAG.savedLocationData[globalmap].openZones && SWAG.savedLocationData[globalmap].openZones.length > 0
             ? randomUtil.getStringArrayValue(SWAG.savedLocationData[globalmap].openZones)
             : ""),
@@ -805,22 +607,14 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     if (isRandom) {
 
       //wave time increment is getting bigger each wave. Fix this by adding maxtimer to min timer
-      SWAG.randomWaveTimer.time_min += config.WaveTimerMaxSec;
-      SWAG.randomWaveTimer.time_max += config.WaveTimerMaxSec;
+      SWAG.randomWaveTimer.time_min += config.GlobalRandomWaveTimer.WaveTimerMaxSec;
+      SWAG.randomWaveTimer.time_max += config.GlobalRandomWaveTimer.WaveTimerMaxSec;
     }
 
     // increment fixed wave timers so that we have use different timed patterns
     // increment per map
     else if (group.OnlySpawnOnce === false) {
-      if (SWAG.zoneCounter.count == (SWAG.zoneCounter.zones - 1)) {
-        SWAG.setMapTimer(globalmap, botType)
-        SWAG.zoneCounter.count = 0
-        SWAG.waveCounter.count = 0
-      }
-      else {
-        SWAG.waveCounter.count += 2
-        SWAG.zoneCounter.count++
-      }
+      SWAG.waveCounter.count += 2
     }
 
     config.DebugOutput && logger.info("SWAG: Configured Bot Wave: " + JSON.stringify(wave));
@@ -833,18 +627,27 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     globalmap: LocationName
   ): BossLocationSpawn {
     //read support bots if defined, set the difficulty to match config
-    boss?.Supports?.forEach((escort => {
-      escort.BossEscortDifficult = [SWAG.diffProper[config.aiDifficulty.toLowerCase()]];
-      escort.BossEscortType = SWAG.roleCase[escort.BossEscortType.toLowerCase()];
+    boss?.Supports?.forEach((escort) => {
+      escort.BossEscortDifficult = [diffProper[config.aiDifficulty.toLowerCase()]];
+      escort.BossEscortType = roleCase[escort.BossEscortType.toLowerCase()];
     })
 
     //set bossWaveSpawnedOnceAlready to true if not already
     BossWaveSpawnedOnceAlready = true;
 
     let spawnChance = config.BossChance
-    let botType = SWAG.roleCase[boss.BossName.toLowerCase()]
 
-    if (botType == "marksman" ) {
+    // Always spawn Lighthouse boss, regardless of BossChance (unless it's 0)
+    if (boss.BossName === "bosszryachiy" && config.BossChance > 0) {
+      spawnChance = 100
+    }
+
+    let botType = roleCase[boss.BossName.toLowerCase()]
+
+    // We'll assume a zone is always defined as a list (it must be)
+    let boss_spawn_zone = boss.BossZone[0]
+
+    if (botType === "marksman" ) {
       spawnChance = config.SniperChance
     }
 
@@ -865,21 +668,27 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       spawnChance = 100
     }
 
+    if (boss.BossZone.length > 1) {
+      // let's just pick one zone, can't trust BSG to do this correctly
+      let random_zone = SWAG.getRandIntInclusive(0, boss.BossZone.length - 1)
+      boss_spawn_zone = boss.BossZone[random_zone]
+    }
+
     const wave: BossLocationSpawn = {
-      BossName: SWAG.roleCase[boss.BossName.toLowerCase()],
+      BossName: botType,
       // If we are configuring a boss wave, we have already passed an internal check to add the wave based off the bossChance.
       // Set the bossChance to guarntee the added boss wave is spawned
       BossChance: spawnChance,
       BossZone:
-        !!boss.BossZone
-          ? boss.BossZone
+        !!boss_spawn_zone
+          ? boss_spawn_zone
           : (SWAG.savedLocationData[globalmap].openZones && SWAG.savedLocationData[globalmap].openZones.length > 0
             ? randomUtil.getStringArrayValue(SWAG.savedLocationData[globalmap].openZones)
             : ""),
       BossPlayer: false,
-      BossDifficult: SWAG.diffProper[config.aiDifficulty.toLowerCase()],
-      BossEscortType: SWAG.roleCase[boss.BossEscortType.toLowerCase()],
-      BossEscortDifficult: SWAG.diffProper[config.aiDifficulty.toLowerCase()],
+      BossDifficult: diffProper[config.aiDifficulty.toLowerCase()],
+      BossEscortType: roleCase[boss.BossEscortType.toLowerCase()],
+      BossEscortDifficult: diffProper[config.aiDifficulty.toLowerCase()],
       BossEscortAmount: boss.BossEscortAmount,
       Time: boss.Time,
       Supports: boss.Supports,
@@ -893,541 +702,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     return wave;
   }
 
-  static setDefaultTimers(map_name: any, bot_type: any): void {
-    switch (bot_type) {
-      case "pmc":
-      case "sptBear":
-      case "sptUsec":
-        SWAG.setDefaultPmcTimers(map_name)
-        break;
-      case "assault":
-        SWAG.setDefaultScavTimers(map_name)
-        break;
-      case "pmcBot":
-        SWAG.setDefaultRaiderTimers(map_name)
-        break;
-      case "sectantPriest":
-      case "sectantWarrior":
-        SWAG.setDefaultCultistTimers(map_name)
-    }
-  }
-
-  static setDefaultPmcTimers(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.pmcWaveTimer.customs.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.customs.time_max = SWAG.actual_timers.time_max
-        break;
-      case "woods":
-        SWAG.pmcWaveTimer.woods.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.woods.time_max = SWAG.actual_timers.time_max
-        break;
-      case "factory4_day":
-        SWAG.pmcWaveTimer.factory4_day.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.factory4_day.time_max = SWAG.actual_timers.time_max
-        break;
-      case "factory4_night":
-        SWAG.pmcWaveTimer.factory4_night.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.factory4_night.time_max = SWAG.actual_timers.time_max
-      case "tarkovstreets":
-        SWAG.pmcWaveTimer.tarkovstreets.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.tarkovstreets.time_max = SWAG.actual_timers.time_max
-        break;
-      case "lighthouse":
-        SWAG.pmcWaveTimer.lighthouse.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.lighthouse.time_max = SWAG.actual_timers.time_max
-        break;
-      case "interchange":
-        SWAG.pmcWaveTimer.interchange.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.interchange.time_max = SWAG.actual_timers.time_max
-        break;
-      case "rezervbase":
-        SWAG.pmcWaveTimer.rezervbase.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.rezervbase.time_max = SWAG.actual_timers.time_max
-      case "shoreline":
-        SWAG.pmcWaveTimer.shoreline.time_min = SWAG.actual_timers.time_min
-        SWAG.pmcWaveTimer.shoreline.time_max = SWAG.actual_timers.time_max
-    }
-  }
-
-  static setDefaultScavTimers(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.scavWaveTimer.customs.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.customs.time_max = SWAG.actual_timers.time_max
-        break;
-      case "woods":
-        SWAG.scavWaveTimer.woods.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.woods.time_max = SWAG.actual_timers.time_max
-        break;
-      case "factory4_day":
-        SWAG.scavWaveTimer.factory4_day.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.factory4_day.time_max = SWAG.actual_timers.time_max
-        break;
-      case "factory4_night":
-        SWAG.scavWaveTimer.factory4_night.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.factory4_night.time_max = SWAG.actual_timers.time_max
-      case "tarkovstreets":
-        SWAG.scavWaveTimer.tarkovstreets.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.tarkovstreets.time_max = SWAG.actual_timers.time_max
-        break;
-      case "lighthouse":
-        SWAG.scavWaveTimer.lighthouse.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.lighthouse.time_max = SWAG.actual_timers.time_max
-        break;
-      case "interchange":
-        SWAG.scavWaveTimer.interchange.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.interchange.time_max = SWAG.actual_timers.time_max
-        break;
-      case "rezervbase":
-        SWAG.scavWaveTimer.rezervbase.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.rezervbase.time_max = SWAG.actual_timers.time_max
-        break;
-      case "shoreline":
-        SWAG.scavWaveTimer.shoreline.time_min = SWAG.actual_timers.time_min
-        SWAG.scavWaveTimer.shoreline.time_max = SWAG.actual_timers.time_max
-        break;
-    }
-  }
-
-  static setDefaultRaiderTimers(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.raiderWaveTimer.customs.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.customs.time_max = SWAG.actual_timers.time_max
-        break;
-      case "woods":
-        SWAG.raiderWaveTimer.woods.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.woods.time_max = SWAG.actual_timers.time_max
-        break;
-      case "factory4_day":
-        SWAG.raiderWaveTimer.factory4_day.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.factory4_day.time_max = SWAG.actual_timers.time_max
-        break;
-      case "factory4_night":
-        SWAG.raiderWaveTimer.factory4_night.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.factory4_night.time_max = SWAG.actual_timers.time_max
-      case "tarkovstreets":
-        SWAG.raiderWaveTimer.tarkovstreets.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.tarkovstreets.time_max = SWAG.actual_timers.time_max
-        break;
-      case "lighthouse":
-        SWAG.raiderWaveTimer.lighthouse.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.lighthouse.time_max = SWAG.actual_timers.time_max
-        break;
-      case "interchange":
-        SWAG.raiderWaveTimer.interchange.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.interchange.time_max = SWAG.actual_timers.time_max
-        break;
-      case "rezervbase":
-        SWAG.raiderWaveTimer.rezervbase.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.rezervbase.time_max = SWAG.actual_timers.time_max
-        break;
-      case "shoreline":
-        SWAG.raiderWaveTimer.shoreline.time_min = SWAG.actual_timers.time_min
-        SWAG.raiderWaveTimer.shoreline.time_max = SWAG.actual_timers.time_max
-        break;
-    }
-  }
-
-  static setDefaultCultistTimers(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.cultistWaveTimer.customs.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.customs.time_max = SWAG.actual_timers.time_max
-        break;
-      case "woods":
-        SWAG.cultistWaveTimer.woods.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.woods.time_max = SWAG.actual_timers.time_max
-        break;
-      case "factory4_day":
-        SWAG.cultistWaveTimer.factory4_day.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.factory4_day.time_max = SWAG.actual_timers.time_max
-        break;
-      case "factory4_night":
-        SWAG.cultistWaveTimer.factory4_night.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.factory4_night.time_max = SWAG.actual_timers.time_max
-      case "tarkovstreets":
-        SWAG.cultistWaveTimer.tarkovstreets.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.tarkovstreets.time_max = SWAG.actual_timers.time_max
-        break;
-      case "lighthouse":
-        SWAG.cultistWaveTimer.lighthouse.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.lighthouse.time_max = SWAG.actual_timers.time_max
-        break;
-      case "interchange":
-        SWAG.cultistWaveTimer.interchange.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.interchange.time_max = SWAG.actual_timers.time_max
-        break;
-      case "rezervbase":
-        SWAG.cultistWaveTimer.rezervbase.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.rezervbase.time_max = SWAG.actual_timers.time_max
-        break;
-      case "shoreline":
-        SWAG.cultistWaveTimer.shoreline.time_min = SWAG.actual_timers.time_min
-        SWAG.cultistWaveTimer.shoreline.time_max = SWAG.actual_timers.time_max
-        break;
-    }
-  }
-
-  static setSpawnTimer(map_name: any, bot_type: any): void {
-    switch (bot_type) {
-      case "pmc":
-      case "sptBear":
-      case "sptUsec":
-        SWAG.setPmcSpawnMapTimer(map_name)
-        break;
-      case "assault":
-        SWAG.setScavSpawnMapTimer(map_name)
-        break;
-      case "pmcBot":
-        SWAG.setRaiderSpawnMapTimer(map_name)
-        break;
-      case "sectantPriest":
-      case "sectantWarrior":
-        SWAG.setCultistSpawnMapTimer(map_name)
-        break;
-    }
-  }
-
-  static setPmcSpawnMapTimer(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.customs.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.customs.time_max
-        break;
-      case "woods":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.woods.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.woods.time_max
-        break;
-      case "factory4_day":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.factory4_day.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.factory4_day.time_max
-        break;
-      case "factory4_night":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.factory4_night.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.factory4_night.time_max
-      case "tarkovstreets":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.tarkovstreets.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.tarkovstreets.time_max
-        break;
-      case "lighthouse":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.lighthouse.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.lighthouse.time_max
-        break;
-      case "interchange":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.interchange.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.interchange.time_max
-        break;
-      case "rezervbase":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.rezervbase.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.rezervbase.time_max
-        break;
-      case "shoreline":
-        SWAG.actual_timers.time_min = SWAG.pmcWaveTimer.shoreline.time_min
-        SWAG.actual_timers.time_max = SWAG.pmcWaveTimer.shoreline.time_max
-        break;
-    }
-  }
-
-  static setScavSpawnMapTimer(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.customs.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.customs.time_max
-        break;
-      case "woods":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.woods.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.woods.time_max
-        break;
-      case "factory4_day":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.factory4_day.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.factory4_day.time_max
-        break;
-      case "factory4_night":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.factory4_night.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.factory4_night.time_max
-      case "tarkovstreets":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.tarkovstreets.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.tarkovstreets.time_max
-        break;
-      case "lighthouse":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.lighthouse.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.lighthouse.time_max
-        break;
-      case "interchange":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.interchange.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.interchange.time_max
-        break;
-      case "rezervbase":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.rezervbase.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.rezervbase.time_max
-        break;
-      case "shoreline":
-        SWAG.actual_timers.time_min = SWAG.scavWaveTimer.shoreline.time_min
-        SWAG.actual_timers.time_max = SWAG.scavWaveTimer.shoreline.time_max
-        break;
-    }
-  }
-
-  static setRaiderSpawnMapTimer(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.customs.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.customs.time_max
-        break;
-      case "woods":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.woods.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.woods.time_max
-        break;
-      case "factory4_day":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.factory4_day.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.factory4_day.time_max
-        break;
-      case "factory4_night":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.factory4_night.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.factory4_night.time_max
-      case "tarkovstreets":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.tarkovstreets.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.tarkovstreets.time_max
-        break;
-      case "lighthouse":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.lighthouse.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.lighthouse.time_max
-        break;
-      case "interchange":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.interchange.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.interchange.time_max
-        break;
-      case "rezervbase":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.rezervbase.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.rezervbase.time_max
-        break;
-      case "shoreline":
-        SWAG.actual_timers.time_min = SWAG.raiderWaveTimer.shoreline.time_min
-        SWAG.actual_timers.time_max = SWAG.raiderWaveTimer.shoreline.time_max
-        break;
-    }
-  }
-
-  static setCultistSpawnMapTimer(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.customs.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.customs.time_max
-        break;
-      case "woods":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.woods.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.woods.time_max
-        break;
-      case "factory4_day":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.factory4_day.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.factory4_day.time_max
-        break;
-      case "factory4_night":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.factory4_night.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.factory4_night.time_max
-      case "tarkovstreets":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.tarkovstreets.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.tarkovstreets.time_max
-        break;
-      case "lighthouse":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.lighthouse.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.lighthouse.time_max
-        break;
-      case "interchange":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.interchange.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.interchange.time_max
-        break;
-      case "rezervbase":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.rezervbase.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.rezervbase.time_max
-        break;
-      case "shoreline":
-        SWAG.actual_timers.time_min = SWAG.cultistWaveTimer.shoreline.time_min
-        SWAG.actual_timers.time_max = SWAG.cultistWaveTimer.shoreline.time_max
-        break;
-    }
-  }
-
-  static setMapTimer(map_name: any, bot_type: any): void {
-    switch (bot_type) {
-      case "pmc":
-      case "sptBear":
-      case "sptUsec":
-        SWAG.incrementPmcTimer(map_name)
-        break;
-      case "assault":
-        SWAG.incrementScavTimer(map_name)
-        break;
-      case "pmcBot":
-        SWAG.incrementRaiderTimer(map_name)
-        break;
-      case "sectantPriest":
-      case "sectantWarrior":
-        SWAG.incrementCultistTimer(map_name)
-        break;
-    }
-  }
-
-  static incrementPmcTimer(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.pmcWaveTimer.customs.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.customs.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "woods":
-        SWAG.pmcWaveTimer.woods.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.woods.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "factory4_day":
-        SWAG.pmcWaveTimer.factory4_day.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.factory4_day.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "factory4_night":
-        SWAG.pmcWaveTimer.factory4_night.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.factory4_night.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-      case "tarkovstreets":
-        SWAG.pmcWaveTimer.tarkovstreets.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.tarkovstreets.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "lighthouse":
-        SWAG.pmcWaveTimer.lighthouse.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.lighthouse.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "interchange":
-        SWAG.pmcWaveTimer.interchange.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.interchange.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "rezervbase":
-        SWAG.pmcWaveTimer.rezervbase.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.rezervbase.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "shoreline":
-        SWAG.pmcWaveTimer.shoreline.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.pmcWaveTimer.shoreline.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-    }
-  }
-
-  static incrementScavTimer(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.scavWaveTimer.customs.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.customs.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "woods":
-        SWAG.scavWaveTimer.woods.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.woods.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "factory4_day":
-        SWAG.scavWaveTimer.factory4_day.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.factory4_day.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "factory4_night":
-        SWAG.scavWaveTimer.factory4_night.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.factory4_night.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-      case "tarkovstreets":
-        SWAG.scavWaveTimer.tarkovstreets.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.tarkovstreets.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "lighthouse":
-        SWAG.scavWaveTimer.lighthouse.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.lighthouse.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "interchange":
-        SWAG.scavWaveTimer.interchange.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.interchange.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "rezervbase":
-        SWAG.scavWaveTimer.rezervbase.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.rezervbase.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "shoreline":
-        SWAG.scavWaveTimer.shoreline.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.scavWaveTimer.shoreline.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-    }
-  }
-
-  static incrementRaiderTimer(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.raiderWaveTimer.customs.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.customs.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "woods":
-        SWAG.raiderWaveTimer.woods.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.woods.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "factory4_day":
-        SWAG.raiderWaveTimer.factory4_day.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.factory4_day.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "factory4_night":
-        SWAG.raiderWaveTimer.factory4_night.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.factory4_night.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-      case "tarkovstreets":
-        SWAG.raiderWaveTimer.tarkovstreets.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.tarkovstreets.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "lighthouse":
-        SWAG.raiderWaveTimer.lighthouse.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.lighthouse.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "interchange":
-        SWAG.raiderWaveTimer.interchange.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.interchange.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "rezervbase":
-        SWAG.raiderWaveTimer.rezervbase.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.rezervbase.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "shoreline":
-        SWAG.raiderWaveTimer.shoreline.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.raiderWaveTimer.shoreline.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-    }
-  }
-
-  static incrementCultistTimer(map_name: any): void {
-    switch (map_name) {
-      case "bigmap":
-        SWAG.cultistWaveTimer.customs.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.customs.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "woods":
-        SWAG.cultistWaveTimer.woods.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.woods.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "factory4_day":
-        SWAG.cultistWaveTimer.factory4_day.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.factory4_day.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "factory4_night":
-        SWAG.cultistWaveTimer.factory4_night.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.factory4_night.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-      case "tarkovstreets":
-        SWAG.cultistWaveTimer.tarkovstreets.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.tarkovstreets.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "lighthouse":
-        SWAG.cultistWaveTimer.lighthouse.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.lighthouse.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "interchange":
-        SWAG.cultistWaveTimer.interchange.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.interchange.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "rezervbase":
-        SWAG.cultistWaveTimer.rezervbase.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.rezervbase.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-      case "shoreline":
-        SWAG.cultistWaveTimer.shoreline.time_min += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        SWAG.cultistWaveTimer.shoreline.time_max += (SWAG.actual_timers.time_max - SWAG.actual_timers.time_min)
-        break;
-    }
+  static incrementTime(): void {
+    let min = SWAG.actual_timers.time_min
+    let max = SWAG.actual_timers.time_max
+    SWAG.actual_timers.time_min = max
+    SWAG.actual_timers.time_max = SWAG.actual_timers.time_min + (max - min)
   }
 
   static getRandIntInclusive(min: number, max: number): number {

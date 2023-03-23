@@ -20,18 +20,18 @@
         ],
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Chalet,Zone_Containers,Zone_TreatmentBeach"
+        "BossZone": ["Zone_Chalet","Zone_Containers","Zone_TreatmentBeach"]
       },
       {
         "Name": "Zryachiy",
-        "BossName": "bossZryachiy",
-        "BossEscortType": "followerZryachiy",
+        "BossName": "bosszryachiy",
+        "BossEscortType": "followerzryachiy",
         "BossEscortAmount": "2",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Island"
+        "BossZone": ["Zone_Island"]
       }
     ]
   }

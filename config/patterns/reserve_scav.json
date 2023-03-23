@@ -38,33 +38,9 @@
           {
             "BotType": "assault",
             "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
           }
         ],
-        "Time_min": 720,
+        "Time_min": 500,
         "Time_max": 1620,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
@@ -76,6 +52,25 @@
           "ZonePTOR2",
           "ZonePTOR1",
           "ZoneSubCommand"
+        ]
+      },
+      {
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 500,
+        "Time_max": 2000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneBarrack",
+          "ZoneRailStrorage",
+          "ZonePTOR2",
+          "ZonePTOR1"
         ]
       }
     ],

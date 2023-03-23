@@ -8,42 +8,10 @@
           {
             "BotType": "pmc",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
           }
         ],
-        "Time_min": 900,
-        "Time_max": 2400,
+        "Time_min": 600,
+        "Time_max": 1600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -57,6 +25,26 @@
           "ZoneClearVill",
           "ZoneBrokenVill"
         ]
+      },
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 480,
+        "Time_max": 1300,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneMiniHouse",
+          "ZoneRedHouse",
+          "ZoneWoodCutter",
+          "ZoneRoad",
+          "ZoneHouse"
+        ]
       }
     ],
     "MapBosses": [
@@ -69,7 +57,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneRoad"
+        "BossZone": ["ZoneRoad"]
       },
       {
         "Name": "sptusec",
@@ -80,7 +68,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneBigRocks"
+        "BossZone": ["ZoneBigRocks"]
       },
       {
         "Name": "sptusec",
@@ -91,7 +79,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneMiniHouse"
+        "BossZone": ["ZoneMiniHouse"]
       },
       {
         "Name": "sptbear",
@@ -102,7 +90,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneWoodCutter"
+        "BossZone": ["ZoneWoodCutter"]
       },
       {
         "Name": "sptusec",
@@ -113,7 +101,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneWoodCutter"
+        "BossZone": ["ZoneWoodCutter"]
       },
       {
         "Name": "sptbear",
@@ -124,7 +112,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneHouse"
+        "BossZone": ["ZoneHouse"]
       },
       {
         "Name": "sptusec",
@@ -135,7 +123,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneHouse"
+        "BossZone": ["ZoneHouse"]
       },
       {
         "Name": "sptbear",
@@ -146,7 +134,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneRedHouse"
+        "BossZone": ["ZoneRedHouse"]
       },
       {
         "Name": "sptusec",
@@ -157,7 +145,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneRedHouse"
+        "BossZone": ["ZoneRedHouse"]
       },
       {
         "Name": "sptbear",
@@ -168,7 +156,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneClearVill"
+        "BossZone": ["ZoneClearVill"]
       },
       {
         "Name": "sptusec",
@@ -179,7 +167,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneClearVill"
+        "BossZone": ["ZoneClearVill"]
       },
       {
         "Name": "sptusec",
@@ -190,7 +178,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneBrokenVill"
+        "BossZone": ["ZoneBrokenVill"]
       },
       {
         "Name": "sptbear",
@@ -201,7 +189,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneBrokenVill"
+        "BossZone": ["ZoneBrokenVill"]
       }
     ]
   }

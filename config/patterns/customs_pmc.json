@@ -8,46 +8,10 @@
           {
             "BotType": "pmc",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
           }
         ],
-        "Time_min": 900,
-        "Time_max": 2400,
+        "Time_min": 600,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -62,13 +26,27 @@
           "ZoneFactoryCenter",
           "ZoneOldAZS"
         ]
+      },
+      {
+        "Name": "PMCs at Dorms",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 600,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": ["ZoneDormitory"]
       }
     ],
     "MapBosses": [
       {
         "Name": "sptbear",
         "BossName": "sptbear",
-        "BossZone": "ZoneBrige,ZoneWade",
+        "BossZone": ["ZoneBrige","ZoneWade"],
         "BossEscortType": "sptbear",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
@@ -79,7 +57,7 @@
       {
         "Name": "sptusec",
         "BossName": "sptusec",
-        "BossZone": "ZoneGasStation,ZoneBlockPost",
+        "BossZone": ["ZoneGasStation","ZoneBlockPost"],
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
@@ -90,7 +68,7 @@
       {
         "Name": "sptbear",
         "BossName": "sptbear",
-        "BossZone": "ZoneGasStation,ZoneBlockPost",
+        "BossZone": ["ZoneGasStation","ZoneBlockPost"],
         "BossEscortType": "sptbear",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
@@ -101,7 +79,7 @@
       {
         "Name": "sptbear",
         "BossName": "sptbear",
-        "BossZone": "ZoneCrossRoad",
+        "BossZone": ["ZoneCrossRoad"],
         "BossEscortType": "sptbear",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
@@ -112,7 +90,7 @@
       {
         "Name": "sptusec",
         "BossName": "sptusec",
-        "BossZone": "ZoneTankSquare",
+        "BossZone": ["ZoneTankSquare"],
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
@@ -123,7 +101,7 @@
       {
         "Name": "sptusec",
         "BossName": "sptusec",
-        "BossZone": "ZoneCustoms",
+        "BossZone": ["ZoneCustoms"],
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,0,0,0,0,0,1,1,1,2",
         "Time": -1,
@@ -134,7 +112,7 @@
       {
         "Name": "sptusec",
         "BossName": "sptusec",
-        "BossZone": "ZoneDormitory",
+        "BossZone": ["ZoneDormitory"],
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,1,1,1,2",
         "Time": -1,
@@ -145,7 +123,7 @@
       {
         "Name": "sptbear",
         "BossName": "sptbear",
-        "BossZone": "ZoneDormitory",
+        "BossZone": ["ZoneDormitory"],
         "BossEscortType": "sptbear",
         "BossEscortAmount": "0,0,1,1,1,2",
         "Time": -1,
@@ -156,7 +134,7 @@
       {
         "Name": "sptusec",
         "BossName": "sptusec",
-        "BossZone": "ZoneOldAZS",
+        "BossZone": ["ZoneOldAZS"],
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
@@ -167,7 +145,7 @@
       {
         "Name": "sptbear",
         "BossName": "sptbear",
-        "BossZone": "ZoneFactorySide",
+        "BossZone": ["ZoneFactorySide"],
         "BossEscortType": "sptbear",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
@@ -178,7 +156,7 @@
       {
         "Name": "sptusec",
         "BossName": "sptusec",
-        "BossZone": "ZoneFactoryCenter",
+        "BossZone": ["ZoneFactoryCenter"],
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
