@@ -28,6 +28,22 @@
         "Bots": [
           {
             "BotType": "pmc",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "Zone_Chalet"
+        ]
+      },
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "pmc",
             "MaxBotCount": 2
           }
         ],

@@ -53,6 +53,23 @@
           "Zone_Village",
           "Zone_Containers"
         ]
+      },
+      {
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "Zone_Chalet",
+          "Zone_LongRoad"
+        ]
       }
     ],
     "MapBosses": []
