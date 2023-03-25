@@ -8,42 +8,10 @@
           {
             "BotType": "pmc",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
           }
         ],
-        "Time_min": 1200,
-        "Time_max": 3000,
+        "Time_min": 600,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -57,6 +25,26 @@
           "ZoneCarShowRoom",
           "ZoneCinema"
         ]
+      },
+      {
+        "Name": "PMCs at POIs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 500,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneHotel_2",
+          "ZoneHotel_1",
+          "ZoneConcordia_2",
+          "ZoneConcordia_1",
+          "ZoneCarShowRoom"
+        ]
       }
     ],
     "MapBosses": [
@@ -69,7 +57,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneFactory"
+        "BossZone": ["ZoneFactory"]
       },
       {
         "Name": "sptusec",
@@ -80,7 +68,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneConcordia_1"
+        "BossZone": ["ZoneConcordia_1"]
       },
       {
         "Name": "sptbear",
@@ -91,7 +79,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneCarShowroom"
+        "BossZone": ["ZoneCarShowroom"]
       },
       {
         "Name": "sptusec",
@@ -102,7 +90,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSW01"
+        "BossZone": ["ZoneSW01"]
       },
       {
         "Name": "sptbear",
@@ -113,7 +101,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneCinema"
+        "BossZone": ["ZoneCinema"]
       },
       {
         "Name": "sptusec",
@@ -124,7 +112,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneHotel_1,ZoneHotel_2"
+        "BossZone": ["ZoneHotel_1","ZoneHotel_2"]
       },
       {
         "Name": "sptbear",
@@ -135,7 +123,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneHotel_1,ZoneHotel_2"
+        "BossZone": ["ZoneHotel_1","ZoneHotel_2"]
       },
       {
         "Name": "sptbear",
@@ -146,7 +134,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneConcordiaParking"
+        "BossZone": ["ZoneConcordiaParking"]
       },
       {
         "Name": "sptbear",
@@ -157,40 +145,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneConstruction"
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,0,1,1,1",
-        "Time": 600,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneHotel_1,ZoneHotel_2"
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,0,0,0,1,1",
-        "Time": 1300,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneHotel_1,ZoneHotel_2"
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,0,1,1,1",
-        "Time": 2000,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": "ZoneHotel_1,ZoneHotel_2"
+        "BossZone": ["ZoneConstruction"]
       }
     ]
   }

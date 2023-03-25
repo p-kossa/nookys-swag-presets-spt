@@ -8,34 +8,10 @@
           {
             "BotType": "pmc",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
           }
         ],
-        "Time_min": 900,
-        "Time_max": 2400,
+        "Time_min": 600,
+        "Time_max": 2000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -46,6 +22,24 @@
           "ZonePTOR2",
           "ZonePTOR1",
           "ZoneSubCommand"
+        ]
+      },
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 800,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneBarrack",
+          "ZoneRailStrorage",
+          "ZoneBunkerStorage"
         ]
       }
     ],
@@ -59,7 +53,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneBarrack"
+        "BossZone": ["ZoneBarrack"]
       },
       {
         "Name": "sptbear",
@@ -70,7 +64,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZonePTOR2"
+        "BossZone": ["ZonePTOR2"]
       },
       {
         "Name": "sptbear",
@@ -81,7 +75,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneRailStrorage"
+        "BossZone": ["ZoneRailStrorage"]
       },
       {
         "Name": "sptusec",
@@ -92,7 +86,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneBunkerStorage"
+        "BossZone": ["ZoneBunkerStorage"]
       },
       {
         "Name": "sptbear",
@@ -103,7 +97,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSubStorage"
+        "BossZone": ["ZoneSubStorage"]
       }
     ]
   }

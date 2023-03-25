@@ -7,12 +7,12 @@
         "Name": "Rogue",
         "BossName": "exusec",
         "BossEscortType": "exusec",
-        "BossEscortAmount": "0",
-        "Time": -1,
+        "BossEscortAmount": "1,2,3",
+        "Time": 120,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Island"
+        "BossZone": ["Zone_Island"]
       },
       {
         "Name": "Rogue",
@@ -23,7 +23,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_TreatmentContainers"
+        "BossZone": ["Zone_TreatmentContainers"]
       },
       {
         "Name": "Rogue",
@@ -34,7 +34,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_TreatmentBeach"
+        "BossZone": ["Zone_TreatmentBeach"]
       },
       {
         "Name": "Rogue",
@@ -45,7 +45,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_TreatmentRocks"
+        "BossZone": ["Zone_TreatmentRocks"]
       },
       {
         "Name": "Rogue",
@@ -56,7 +56,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Containers"
+        "BossZone": ["Zone_Containers"]
       },
       {
         "Name": "Rogue",
@@ -67,7 +67,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Blockpost"
+        "BossZone": ["Zone_Blockpost"]
       },
       {
         "Name": "Rogue",
@@ -78,7 +78,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Hellicopter"
+        "BossZone": ["Zone_Hellicopter"]
       },
       {
         "Name": "Rogue",
@@ -89,7 +89,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofRocks"
+        "BossZone": ["Zone_RoofRocks"]
       },
       {
         "Name": "Rogue",
@@ -100,7 +100,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofBeach"
+        "BossZone": ["Zone_RoofBeach"]
       },
       {
         "Name": "Rogue",
@@ -111,7 +111,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofContainers"
+        "BossZone": ["Zone_RoofContainers"]
       },
       {
         "Name": "Rogue",
@@ -122,7 +122,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BossZone": ["Zone_RoofBeach","Zone_RoofContainers","Zone_RoofRocks"]
       },
       {
         "Name": "Rogue",
@@ -133,7 +133,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Hellicopter,Zone_Blockpost,Zone_TreatmentRocks,Zone_TreatmentContainers,Zone_TreatmentBeach"
+        "BossZone": ["Zone_Hellicopter","Zone_Blockpost","Zone_TreatmentRocks","Zone_TreatmentContainers","Zone_TreatmentBeach"]
       },
       {
         "Name": "Rogue",
@@ -144,7 +144,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BossZone": ["Zone_RoofBeach","Zone_RoofContainers","Zone_RoofRocks"]
       },
       {
         "Name": "Rogue",
@@ -155,7 +155,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Hellicopter,Zone_Blockpost,Zone_TreatmentRocks,Zone_TreatmentContainers,Zone_TreatmentBeach"
+        "BossZone": ["Zone_Hellicopter","Zone_Blockpost","Zone_TreatmentRocks","Zone_TreatmentContainers","Zone_TreatmentBeach"]
       },
       {
         "Name": "Rogue",
@@ -166,7 +166,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BossZone": ["Zone_RoofBeach","Zone_RoofContainers","Zone_RoofRocks"]
       },
       {
         "Name": "Rogue",
@@ -177,7 +177,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Hellicopter,Zone_Blockpost,Zone_TreatmentRocks,Zone_TreatmentContainers,Zone_TreatmentBeach"
+        "BossZone": ["Zone_Hellicopter","Zone_Blockpost","Zone_TreatmentRocks","Zone_TreatmentContainers","Zone_TreatmentBeach"]
       },
       {
         "Name": "Rogue",
@@ -188,7 +188,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BossZone": ["Zone_RoofBeach","Zone_RoofContainers","Zone_RoofRocks"]
       },
       {
         "Name": "Rogue",
@@ -199,7 +199,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Hellicopter,Zone_Blockpost,Zone_TreatmentRocks,Zone_TreatmentContainers,Zone_TreatmentBeach"
+        "BossZone": ["Zone_Hellicopter","Zone_Blockpost","Zone_TreatmentRocks","Zone_TreatmentContainers","Zone_TreatmentBeach"]
       },
       {
         "Name": "Rogue",
@@ -210,7 +210,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BossZone": ["Zone_RoofBeach","Zone_RoofContainers","Zone_RoofRocks"]
       },
       {
         "Name": "Rogue",
@@ -221,7 +221,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Hellicopter,Zone_Blockpost,Zone_TreatmentRocks,Zone_TreatmentContainers,Zone_TreatmentBeach"
+        "BossZone": ["Zone_Hellicopter","Zone_Blockpost","Zone_TreatmentRocks","Zone_TreatmentContainers","Zone_TreatmentBeach"]
       },
       {
         "Name": "Rogue",
@@ -232,7 +232,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_RoofBeach,Zone_RoofContainers,Zone_RoofRocks"
+        "BossZone": ["Zone_RoofBeach","Zone_RoofContainers","Zone_RoofRocks"]
       },
       {
         "Name": "Rogue",
@@ -243,7 +243,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "Zone_Hellicopter,Zone_Blockpost,Zone_TreatmentRocks,Zone_TreatmentContainers,Zone_TreatmentBeach"
+        "BossZone": ["Zone_Hellicopter","Zone_Blockpost","Zone_TreatmentRocks","Zone_TreatmentContainers","Zone_TreatmentBeach"]
       }
     ]
   }

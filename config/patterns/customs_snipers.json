@@ -12,7 +12,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSnipeBrige"
+        "BossZone": ["ZoneSnipeBrige"]
       },
       {
         "Name": "ZoneBlockPostSniper SCAV Sniper",
@@ -23,7 +23,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneBlockPostSniper"
+        "BossZone": ["ZoneBlockPostSniper"]
       },
       {
         "Name": "ZoneSnipeTower SCAV Sniper",
@@ -34,7 +34,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSnipeTower"
+        "BossZone": ["ZoneSnipeTower"]
       },
       {
         "Name": "ZoneSnipeFactory SCAV Sniper",
@@ -45,7 +45,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSnipeFactory"
+        "BossZone": ["ZoneSnipeFactory"]
       }
     ]
   }

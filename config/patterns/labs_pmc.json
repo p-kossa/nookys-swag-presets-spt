@@ -19,7 +19,7 @@
           }
         ],
         "Time_min": 600,
-        "Time_max": 1800,
+        "Time_max": 1600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -39,7 +39,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor2"
+        "BossZone": ["BotZoneFloor2"]
       },
       {
         "Name": "sptusec",
@@ -50,7 +50,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneBasement"
+        "BossZone": ["BotZoneBasement"]
       },
       {
         "Name": "sptbear",
@@ -61,7 +61,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor1"
+        "BossZone": ["BotZoneFloor1"]
       },
       {
         "Name": "sptusec",
@@ -72,7 +72,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor1"
+        "BossZone": ["BotZoneFloor1"]
       },
       {
         "Name": "sptusec",
@@ -83,7 +83,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneFloor2"
+        "BossZone": ["BotZoneFloor2"]
       },
       {
         "Name": "sptbear",
@@ -94,7 +94,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "BotZoneBasement"
+        "BossZone": ["BotZoneBasement"]
       }
     ]
   }

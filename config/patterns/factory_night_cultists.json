@@ -1,44 +1,107 @@
 [
   {
     "MapName": "factory4_night",
-    "MapGroups": [
+    "MapGroups": [],
+    "MapBosses": [
       {
-        "Name": "Starting Cultists",
-        "Bots": [
-          {
-            "BotType": "sectantpriest",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sectantwarrior",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 30,
-        "Time_max": 60,
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 180,
+        "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BotZone": null
+        "BossZone": ["BotZone"]
       },
       {
         "Name": "Cultists",
-        "Bots": [
-          {
-            "BotType": "sectantpriest",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "sectantwarrior",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 240,
-        "Time_max": 480,
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 480,
+        "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": ["BotZone"]
+        "OnlySpawnOnce": true,
+        "BossZone": ["BotZone"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 780,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["BotZone"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 1080,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["BotZone"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 1380,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["BotZone"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 1680,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["BotZone"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 1980,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["BotZone"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 2280,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["BotZone"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "2",
+        "Time": 2580,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["BotZone"]
       }
-    ],
-    "MapBosses": []
+    ]
   }
 ]

@@ -8,70 +8,10 @@
           {
             "BotType": "pmc",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
           }
         ],
-        "Time_min": 1200,
-        "Time_max": 2700,
+        "Time_min": 600,
+        "Time_max": 2000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -92,6 +32,24 @@
           "ZonePassFar",
           "ZoneTunnel"
         ]
+      },
+      {
+        "Name": "PMCs at POIs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 600,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneSanatorium1",
+          "ZoneSanatorium2",
+          "ZonePort"
+        ]
       }
     ],
     "MapBosses": [
@@ -104,7 +62,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneMeteoStation"
+        "BossZone": ["ZoneMeteoStation"]
       },
       {
         "Name": "sptbear",
@@ -115,7 +73,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneGreenHouses"
+        "BossZone": ["ZoneGreenHouses"]
       },
       {
         "Name": "sptusec",
@@ -126,7 +84,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZonePort"
+        "BossZone": ["ZonePort"]
       },
       {
         "Name": "sptusec",
@@ -137,7 +95,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneStartVillage"
+        "BossZone": ["ZoneStartVillage"]
       },
       {
         "Name": "sptbear",
@@ -148,7 +106,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneTunnel"
+        "BossZone": ["ZoneTunnel"]
       },
       {
         "Name": "sptusec",
@@ -159,7 +117,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZonePassFar,ZonePassClose"
+        "BossZone": ["ZonePassFar","ZonePassClose"]
       },
       {
         "Name": "sptusec",
@@ -170,7 +128,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneBunker"
+        "BossZone": ["ZoneBunker"]
       },
       {
         "Name": "sptbear",
@@ -181,7 +139,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneRailWays"
+        "BossZone": ["ZoneRailWays"]
       },
       {
         "Name": "sptbear",
@@ -192,7 +150,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneForestSpawn"
+        "BossZone": ["ZoneForestSpawn"]
       },
       {
         "Name": "sptbear",
@@ -203,7 +161,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium1"
+        "BossZone": ["ZoneSanatorium1"]
       },
       {
         "Name": "sptusec",
@@ -214,7 +172,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": "ZoneSanatorium2"
+        "BossZone": ["ZoneSanatorium2"]
       }
     ]
   }
