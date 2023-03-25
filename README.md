@@ -1,7 +1,7 @@
 # Nooky's SWAG Custom Presets
 ![Version: 1.1.9](https://img.shields.io/badge/Version-1.1.9-informational?style=flat-square)
 
-**SWAG 1.4.2 by props IS REQUIRED!**
+**SWAG 1.4.3 by props IS REQUIRED!**
 
 https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 
