@@ -483,11 +483,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             globalmap,
             zone
           );
-    
+
           locations[globalmap].base.waves.push(wave);
         }
       }
-      // now we increment
+      // now we increment only AFTER all zones have been filled with the above group
       if (group.RandomTimeSpawn === false) {
         SWAG.incrementTime();
       }
@@ -501,7 +501,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           globalmap,
           zone
         );
-  
+
         locations[globalmap].base.waves.push(wave);
       }
     }
@@ -639,16 +639,33 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     BossWaveSpawnedOnceAlready = true;
 
     let spawnChance = config.BossChance
+    let boss_spawn_zone = null
+    let botType = roleCase[boss.BossName.toLowerCase()]
+    let trigger_id = ""
+    let trigger_name = ""
+
+    // if there's a trigger defined then we need to define it for this wave
+    // additionally, we'll assume there's a BossChance defined, if there isn't then we'll guarantee this spawn at 100
+    if (boss.TriggerId) {
+      trigger_id = boss.TriggerId
+      trigger_name = boss.TriggerName
+      spawnChance = boss.BossChance ? boss.BossChance : 100
+    }
 
     // Always spawn Lighthouse boss, regardless of BossChance (unless it's 0)
     if (boss.BossName === "bosszryachiy" && config.BossChance > 0) {
       spawnChance = 100
     }
 
-    let botType = roleCase[boss.BossName.toLowerCase()]
-
-    // We'll assume a zone is always defined as a list (it must be)
-    let boss_spawn_zone = boss.BossZone[0]
+    if (boss.BossZone.length > 1) {
+      // let's just pick one zone, can't trust BSG to do this correctly
+      let random_zone = SWAG.getRandIntInclusive(0, boss.BossZone.length - 1)
+      boss_spawn_zone = boss.BossZone[random_zone]
+    }
+    // if it's not > 1 and not null, then we'll assume there's a single zone defined instead
+    else if (boss.BossZone != null) {
+      boss_spawn_zone = boss.BossZone[0]
+    }
 
     if (botType === "marksman" ) {
       spawnChance = config.SniperChance
@@ -671,12 +688,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       spawnChance = 100
     }
 
-    if (boss.BossZone.length > 1) {
-      // let's just pick one zone, can't trust BSG to do this correctly
-      let random_zone = SWAG.getRandIntInclusive(0, boss.BossZone.length - 1)
-      boss_spawn_zone = boss.BossZone[random_zone]
-    }
-
     const wave: BossLocationSpawn = {
       BossName: botType,
       // If we are configuring a boss wave, we have already passed an internal check to add the wave based off the bossChance.
@@ -696,8 +707,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       Time: boss.Time,
       Supports: boss.Supports,
       RandomTimeSpawn: boss.RandomTimeSpawn,
-      TriggerId: "",
-      TriggerName: "",
+      TriggerId: trigger_id,
+      TriggerName: trigger_name,
     };
 
     config.DebugOutput && logger.warning("SWAG: Configured Boss Wave: " + JSON.stringify(wave));

@@ -1,106 +1,214 @@
 [
   {
     "MapName": "laboratory",
-    "MapGroups": [],
+    "MapGroups": [
+      {
+        "Name": "Raiders",
+        "Bots": [
+          {
+            "BotType": "pmcbot",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 2400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "BotZoneFloor1",
+          "BotZoneFloor2",
+          "BotZoneBasement"
+        ]
+      }
+    ],
     "MapBosses": [
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 45,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,1,2,2,3",
-        "Time": 200,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor1"],
+        "Delay": 0,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneBasement"]
+        "Time": 900
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 45,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,1,1,2,2,3",
-        "Time": 400,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor2"],
+        "Delay": 0,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor2"]
+        "Time": 300
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 45,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,2,2,2,2,3",
-        "Time": 600,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneBasement"],
+        "Delay": 0,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor1"]
+        "Time": 450,
+        "TriggerId": "autoId_00008_EXFIL",
+        "TriggerName": "interactObject"
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 45,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,1,1,2,2,3",
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneBasement"],
+        "Delay": 0,
+        "RandomTimeSpawn": false,
         "Time": 800,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneBasement"]
+        "TriggerId": "autoId_00010_EXFIL",
+        "TriggerName": "interactObject"
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 40,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,2,2,2,2,3",
-        "Time": 1000,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneBasement"],
+        "Delay": 0,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor2"]
+        "Time": -1,
+        "TriggerId": "autoId_00007_EXFIL",
+        "TriggerName": "interactObject"
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 45,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,2,2,2,2,3",
-        "Time": 1300,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor2"],
+        "Delay": 0,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor2"]
+        "Time": -1,
+        "TriggerId": "autoId_00007_EXFIL",
+        "TriggerName": "interactObject"
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 35,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,2,2,2,2,3",
-        "Time": 1600,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor1"],
+        "Delay": 0,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor2"]
+        "Time": 600,
+        "TriggerId": "autoId_00632_EXFIL",
+        "TriggerName": "interactObject"
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 35,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,2,2,2,2,3",
-        "Time": 1900,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor2"],
+        "Delay": 0,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor2"]
+        "Time": 600,
+        "TriggerId": "autoId_00632_EXFIL",
+        "TriggerName": "interactObject"
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 35,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,2,2,2,2,3",
-        "Time": 2300,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor1"],
+        "Delay": 0,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor2"]
+        "Time": -1,
+        "TriggerId": "autoId_00012_EXFIL",
+        "TriggerName": "interactObject"
+      },
+      {
+        "BossChance": 35,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor2"],
+        "Delay": 0,
+        "RandomTimeSpawn": false,
+        "Time": -1,
+        "TriggerId": "autoId_00012_EXFIL",
+        "TriggerName": "interactObject"
+      },
+      {
+        "BossChance": 35,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor1"],
+        "Delay": 0,
+        "RandomTimeSpawn": false,
+        "Time": 1200,
+        "TriggerId": "autoId_00014_EXFIL",
+        "TriggerName": "interactObject"
+      },
+      {
+        "BossChance": 35,
+        "BossEscortAmount": "1,1,2,2,1,1,2,2,2,2,1,1,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor2"],
+        "Delay": 0,
+        "RandomTimeSpawn": false,
+        "Time": 1200,
+        "TriggerId": "autoId_00014_EXFIL",
+        "TriggerName": "interactObject"
+      },
+      {
+        "BossChance": 35,
+        "BossEscortAmount": "1,1,2,2,1,1,2,2,2,2,1,1,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor1"],
+        "Delay": 0,
+        "RandomTimeSpawn": false,
+        "Time": -1,
+        "TriggerId": "autoId_00009_EXFIL",
+        "TriggerName": "interactObject"
+      },
+      {
+        "BossChance": 35,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneFloor2"],
+        "Delay": 0,
+        "RandomTimeSpawn": false,
+        "Time": -1,
+        "TriggerId": "autoId_00009_EXFIL",
+        "TriggerName": "interactObject"
+      },
+      {
+        "BossChance": 40,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneGate2"],
+        "Delay": 8,
+        "RandomTimeSpawn": false,
+        "Time": -1,
+        "TriggerId": "autoId_00014_EXFIL",
+        "TriggerName": "interactObject"
+      },
+      {
+        "BossChance": 45,
+        "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["BotZoneGate1"],
+        "Delay": 8,
+        "RandomTimeSpawn": false,
+        "Time": -1,
+        "TriggerId": "autoId_00632_EXFIL",
+        "TriggerName": "interactObject"
       }
     ]
   }
