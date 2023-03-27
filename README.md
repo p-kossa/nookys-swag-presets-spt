@@ -1,5 +1,5 @@
 # Nooky's SWAG Custom Presets
-![Version: 1.1.9](https://img.shields.io/badge/Version-1.1.9-informational?style=flat-square)
+![Version: 1.1.10](https://img.shields.io/badge/Version-1.1.10-informational?style=flat-square)
 
 **SWAG 1.4.3 by props IS REQUIRED!**
 
@@ -30,10 +30,6 @@ Be sure you have SWAG 1.4.2 installed first!
 2. download the .zip, extract/copy/paste and overwrite into your SWAG folder: `user/mods/SWAG/`
 
 3. play the game
-
-**IMPORTANT: SWAG patterns may not load properly until your 2nd raid!**
-
-If you're experiencing weird spawns in your 1st raid after loading up the game, quit (SVM safe exit is a nice option) and re-load into your 2nd raid and you should be good to go.
 
 ## How to Uninstall
 
@@ -110,7 +106,7 @@ Yes - feel free to tune any of these to your liking - my default caps are just m
         "reserve": 24,
         "interchange": 24,
         "laboratory": 20,
-        "tarkovstreets": 22
+        "tarkovstreets": 24
 	}
 ```
 

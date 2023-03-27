@@ -15,6 +15,7 @@ import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/Stati
 import { JsonUtil } from "@spt-aki/utils/JsonUtil";
 import { RandomUtil } from "@spt-aki/utils/RandomUtil";
 import { DependencyContainer } from "tsyringe";
+import { LocationCallbacks } from "@spt-aki/callbacks/LocationCallbacks";
 import * as ClassDef from "./ClassDef";
 import {
   BossPattern,
@@ -32,6 +33,7 @@ import { spawn } from "child_process";
 
 const modName = "SWAG";
 let logger: ILogger;
+let LocationCallbacks; LocationCallbacks;
 let jsonUtil: JsonUtil;
 let configServer: ConfigServer;
 let botConfig: IBotConfig;
@@ -137,7 +139,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           ): any => {
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
-            return output;
+            return LocationCallbacks.getLocationData(url, info, sessionID);
           },
         },
       ],
@@ -147,6 +149,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
   postDBLoad(container: DependencyContainer): void {
     logger = container.resolve<ILogger>("WinstonLogger");
+    LocationCallbacks = container.resolve<LocationCallbacks>("LocationCallbacks");
     jsonUtil = container.resolve<JsonUtil>("JsonUtil");
     configServer = container.resolve<ConfigServer>("ConfigServer");
     botConfig = configServer.getConfig<IBotConfig>(ConfigTypes.BOT);
