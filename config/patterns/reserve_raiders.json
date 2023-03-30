@@ -10,46 +10,62 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 1200,
+        "Time_min": 600,
         "Time_max": 2400,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": "ZoneSubCommand"
+        "BotZone": [
+          "ZoneSubCommand",
+          "ZoneRailStrorage"
+        ]
       }
     ],
     "MapBosses": [
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 35,
+        "BossEscortAmount": "2,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "1,2,3",
+        "BossName": "pmcbot",
+        "BossZone": ["ZoneRailStrorage"],
+        "RandomTimeSpawn": false,
+        "Supports": null,
+        "Time": 1470
+      },
+      {
+        "BossChance": 40,
+        "BossEscortAmount": "2,2,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["ZoneRailStrorage"],
+        "RandomTimeSpawn": false,
+        "Supports": null,
         "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneSubCommand"]
+        "TriggerId": "autoId_00632_EXFIL",
+        "TriggerName": "interactObject"
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 35,
+        "BossEscortAmount": "2,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 800,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["ZoneSubCommand"],
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneSubCommand"]
+        "Supports": null,
+        "Time": -1,
+        "TriggerId": "autoId_00000_D2_LEVER",
+        "TriggerName": "interactObject"
       },
       {
-        "Name": "pmcbot",
-        "BossName": "pmcbot",
+        "BossChance": 25,
+        "BossEscortAmount": "2,2,2,2,3",
         "BossEscortType": "pmcbot",
-        "BossEscortAmount": "0,0,0,1,1,2,2",
-        "Time": 1800,
-        "Supports": null,
+        "BossName": "pmcbot",
+        "BossZone": ["ZoneSubCommand"],
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneSubCommand"]
+        "Supports": null,
+        "Time": 3,
+        "TriggerId": "raider_simple_patroling",
+        "TriggerName": "interactObject"
       }
     ]
   }

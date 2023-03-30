@@ -57,7 +57,7 @@
       {
         "Name": "sptusec",
         "BossName": "sptusec",
-        "BossZone": ["ZoneGasStation","ZoneBlockPost"],
+        "BossZone": ["ZoneBlockPost"],
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,
@@ -68,7 +68,7 @@
       {
         "Name": "sptbear",
         "BossName": "sptbear",
-        "BossZone": ["ZoneGasStation","ZoneBlockPost"],
+        "BossZone": ["ZoneGasStation"],
         "BossEscortType": "sptbear",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,

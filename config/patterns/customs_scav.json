@@ -41,7 +41,7 @@
           }
         ],
         "Time_min": 500,
-        "Time_max": 1620,
+        "Time_max": 1200,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -66,10 +66,28 @@
           }
         ],
         "Time_min": 600,
-        "Time_max": 1500,
+        "Time_max": 1000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": ["ZoneDormitory"]
+      },
+      {
+        "Name": "SCAVs at Customs and Factory",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 400,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneCustoms",
+          "ZoneFactoryCenter",
+          "ZoneFactorySide"
+        ]
       }
     ],
     "MapBosses": []
