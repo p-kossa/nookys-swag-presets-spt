@@ -12,8 +12,6 @@ All spawns share some keys, in particular these two are quite important:
 if "RandomTimeSpawn" is false, then a time must be defined for the spawn.
 if "RandomTimeSpawn" is true, then the waves generated will abide by the GLOBAL wave interval defined in your config.json
 
-if "OnlySpawnOnce" is true,
-
 Each map has two different types of bot spawns: "normal" waves and boss waves
 
 They're each defined differently in patterns:
