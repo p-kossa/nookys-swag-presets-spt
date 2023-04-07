@@ -8,29 +8,21 @@
           {
             "BotType": "assault",
             "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
           }
         ],
-        "Time_min": 45,
-        "Time_max": 90,
+        "Time_min": 30,
+        "Time_max": 45,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BotZone": null
+        "BotZone": [
+          "ZoneBarrack",
+          "ZoneRailStrorage",
+          "ZoneBunkerStorage",
+          "ZoneSubStorage",
+          "ZonePTOR2",
+          "ZonePTOR1",
+          "ZoneSubCommand"
+        ]
       },
       {
         "Name": "assaults",
@@ -40,8 +32,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 500,
-        "Time_max": 1620,
+        "Time_min": 300,
+        "Time_max": 900,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -62,8 +54,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 500,
-        "Time_max": 2000,
+        "Time_min": 220,
+        "Time_max": 800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [

@@ -8,40 +8,31 @@
           {
             "BotType": "assault",
             "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
           }
         ],
-        "Time_min": 45,
-        "Time_max": 90,
+        "Time_min": 30,
+        "Time_max": 45,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BotZone": null
+        "BotZone": [
+          "Zone_Chalet",
+          "Zone_Rocks",
+          "Zone_Bridge",
+          "Zone_LongRoad",
+          "Zone_DestroyedHouse",
+          "Zone_Village"
+        ]
       },
       {
-        "Name": "assaults",
+        "Name": "SCAVs",
         "Bots": [
           {
             "BotType": "assault",
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 400,
-        "Time_max": 1420,
+        "Time_min": 300,
+        "Time_max": 900,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -50,12 +41,11 @@
           "Zone_Bridge",
           "Zone_LongRoad",
           "Zone_DestroyedHouse",
-          "Zone_Village",
-          "Zone_Containers"
+          "Zone_Village"
         ]
       },
       {
-        "Name": "assaults",
+        "Name": "more SCAVs",
         "Bots": [
           {
             "BotType": "assault",
@@ -69,6 +59,30 @@
         "BotZone": [
           "Zone_Chalet",
           "Zone_LongRoad"
+        ]
+      },
+      {
+        "Name": "WTP SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 400,
+        "Time_max": 1800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "Zone_TreatmentContainers",
+          "Zone_TreatmentRocks",
+          "Zone_Containers",
+          "Zone_Blockpost",
+          "Zone_Hellicopter",
+          "Zone_RoofRocks",
+          "Zone_RoofContainers",
+          "Zone_TreatmentBeach",
+          "Zone_RoofBeach"
         ]
       }
     ],
