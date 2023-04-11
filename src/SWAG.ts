@@ -533,8 +533,17 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     let pmc_random_weight = SWAG.getRandIntInclusive(1, 100)
     let scav_random_weight = SWAG.getRandIntInclusive(1, 100)
+    let rogue_random_weight = SWAG.getRandIntInclusive(1, 100)
+    let raider_random_weight = SWAG.getRandIntInclusive(1, 100)
 
     if (botType === "pmc" || botType === "sptUsec" || botType === "sptBear" ) {
+
+      // check if requested botType is a PMC
+      if (botType === "pmc") {
+        // let's roll a random PMC type
+        botType = pmcType[Math.floor(Math.random() * pmcType.length)]
+      }
+
       player = true
 
       // pmcWaves is false then we need to skip this PMC wave
@@ -550,7 +559,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         }
       }
       // if pmcWaves is true, let's roll for a PMC to be 0-1 inclusive
-      // hopefully this will help ease the PMC spam mid-raid
+      // hopefully this will help ease the PMC spam throughout the duration of raids
       // also need to check < 4, so that we don't fuck with the Factory starting spawns
       else if (pmc_random_weight >= config.pmcSpawnWeight && botCount < 4) {
         slots = 0
@@ -570,15 +579,23 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       }
     }
 
+    else if (botType === "exUsec") {
+      if (rogue_random_weight >= config.RogueChance) {
+        slots = 0
+        botCount = 0
+      }
+    }
+
+    else if (botType === "pmcBot") {
+      if (raider_random_weight >= config.RaiderChance) {
+        slots = 0
+        botCount = 0
+      }
+    }
+
     // if botCount is 0, slots should always be 0
     if (botCount === 0) {
       slots = 0
-    }
-
-    // check if requested botType is a PMC
-    if (botType === "pmc") {
-      // let's roll a random PMC type
-      botType = pmcType[Math.floor(Math.random() * pmcType.length)]
     }
 
     const wave: Wave = {
@@ -638,23 +655,41 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     //set bossWaveSpawnedOnceAlready to true if not already
     BossWaveSpawnedOnceAlready = true;
 
-    let spawnChance = config.BossChance
+    // first check if BossChance is defined for this spawn
+    let spawnChance = boss.BossChance ? boss.BossChance : 100
+    let raiderChance = config.RaiderChance
+    let rogueChance = config.RogueChance
+
     let boss_spawn_zone = null
     let botType = roleCase[boss.BossName.toLowerCase()]
     let trigger_id = ""
     let trigger_name = ""
 
-    // if there's a trigger defined then we need to define it for this wave
-    // additionally, we'll assume there's a BossChance defined, if there isn't then we'll guarantee this spawn at 100
-    if (boss.TriggerId) {
-      trigger_id = boss.TriggerId
-      trigger_name = boss.TriggerName
-      spawnChance = boss.BossChance ? boss.BossChance : 100
-    }
-
-    // Always spawn Lighthouse boss, regardless of BossChance (unless it's 0)
-    if (boss.BossName === "bosszryachiy" && config.BossChance > 0) {
-      spawnChance = 100
+    switch (boss.BossName) {
+      case 'bosszryachiy':
+        spawnChance = config.BossChance.zryachiy
+        break;
+      case 'bossknight':
+        spawnChance = config.BossChance.goons
+        break;
+      case 'bosstagilla':
+        spawnChance = config.BossChance.tagilla
+        break;
+      case 'bossgluhar':
+        spawnChance = config.BossChance.gluhar
+        break;
+      case 'bosssanitar':
+        spawnChance = config.BossChance.sanitar
+        break;
+      case 'bosskojaniy':
+        spawnChance = config.BossChance.shturman
+        break;
+      case 'bossbully':
+        spawnChance = config.BossChance.reshala
+        break;
+      case 'bosskilla':
+        spawnChance = config.BossChance.killa
+        break;
     }
 
     // if it's null skip this part
@@ -673,22 +708,27 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     if (botType === "marksman" ) {
       spawnChance = config.SniperChance
     }
-
     // Guarantee any "boss spawn" that's not a boss
-    if (botType === "sptUsec" || botType === "sptBear") {
-
+    else if (botType === "sptUsec" || botType === "sptBear") {
       // if PMC waves are false and this is NOT a starting PMC spawn, then we need to skip it
       if (config.pmcWaves === false && boss.Time != -1) {
         spawnChance = 0
-      } else {
-        // This makes sure the starting PMCs do spawn, regardless of pmcWaves option
-        spawnChance = 100
       }
     }
+    // check if BossChance is defined for these,
+    // otherwise use what's defined in config.json
+    else if (botType === "exUsec") {
+      spawnChance = boss.BossChance ? boss.BossChance : rogueChance
+    }
 
-    // if it's anything other than a PMC or boss then guarantee its spawn
-    else if (botType === "assault" || botType === "pmcBot" || botType === "exUsec" || botType === "sectantPriest" || botType === "sectantWarrior") {
-      spawnChance = 100
+    else if (botType === "pmcBot") {
+      spawnChance = boss.BossChance ? boss.BossChance : raiderChance
+    }
+
+    // if there's a trigger defined then we need to define it for this wave
+    if (boss.TriggerId) {
+      trigger_id = boss.TriggerId
+      trigger_name = boss.TriggerName
     }
 
     const wave: BossLocationSpawn = {

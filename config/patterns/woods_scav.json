@@ -7,30 +7,24 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 45,
-        "Time_max": 90,
+        "Time_min": 30,
+        "Time_max": 45,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BotZone": null
+        "BotZone": [
+          "ZoneScavBase2",
+          "ZoneMiniHouse",
+          "ZoneBigRocks",
+          "ZoneRedHouse",
+          "ZoneWoodCutter",
+          "ZoneRoad",
+          "ZoneHouse",
+          "ZoneClearVill",
+          "ZoneBrokenVill"
+        ]
       },
       {
         "Name": "assaults",
@@ -40,8 +34,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 400,
-        "Time_max": 1220,
+        "Time_min": 300,
+        "Time_max": 1000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -65,7 +59,7 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 1000,
+        "Time_max": 700,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [

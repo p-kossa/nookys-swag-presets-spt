@@ -8,29 +8,30 @@
           {
             "BotType": "assault",
             "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
           }
         ],
-        "Time_min": 45,
-        "Time_max": 90,
+        "Time_min": 30,
+        "Time_max": 45,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BotZone": null
+        "BotZone": [
+          "ZonePowerStation",
+          "ZoneGreenHouses",
+          "ZoneSanatorium1",
+          "ZoneSanatorium2",
+          "ZoneBusStation",
+          "ZoneMeteoStation",
+          "ZoneForestGasStation",
+          "ZoneForestTruck",
+          "ZoneRailWays",
+          "ZoneStartVillage",
+          "ZoneIsland",
+          "ZonePort",
+          "ZoneBunker",
+          "ZonePassClose",
+          "ZonePassFar",
+          "ZoneTunnel"
+        ]
       },
       {
         "Name": "assaults",
@@ -40,8 +41,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 500,
-        "Time_max": 1800,
+        "Time_min": 300,
+        "Time_max": 1300,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -61,6 +62,24 @@
           "ZonePassClose",
           "ZonePassFar",
           "ZoneTunnel"
+        ]
+      },
+      {
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 220,
+        "Time_max": 900,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneGreenHouses",
+          "ZoneSanatorium1",
+          "ZoneSanatorium2"
         ]
       }
     ],

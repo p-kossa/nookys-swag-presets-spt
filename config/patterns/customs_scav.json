@@ -8,42 +8,12 @@
           {
             "BotType": "assault",
             "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
           }
         ],
-        "Time_min": 45,
-        "Time_max": 90,
+        "Time_min": 30,
+        "Time_max": 45,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BotZone": null
-      },
-      {
-        "Name": "assaults",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          }
-        ],
-        "Time_min": 500,
-        "Time_max": 1200,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
         "BotZone": [
           "ZoneScavBase",
           "ZoneBlockPost",
@@ -58,6 +28,27 @@
         ]
       },
       {
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 400,
+        "Time_max": 1000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneScavBase",
+          "ZoneBlockPost",
+          "ZoneBrige",
+          "ZoneTankSquare",
+          "ZoneCrossRoad",
+          "ZoneOldAZS"
+        ]
+      },
+      {
         "Name": "SCAVs at Dorms",
         "Bots": [
           {
@@ -65,8 +56,8 @@
             "MaxBotCount": 3
           }
         ],
-        "Time_min": 600,
-        "Time_max": 1000,
+        "Time_min": 300,
+        "Time_max": 600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": ["ZoneDormitory"]
@@ -76,11 +67,11 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           }
         ],
-        "Time_min": 400,
-        "Time_max": 1000,
+        "Time_min": 300,
+        "Time_max": 700,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [

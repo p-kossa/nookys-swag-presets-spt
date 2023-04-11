@@ -8,7 +8,16 @@ export interface SWAGConfig {
   aiAmount: "low" | "asonline" | "medium" | "high" | "horde";
   RandomWaveCount: number;
   BossWaveCount: number;
-  BossChance: number;
+  BossChance: {
+    gluhar: number,
+    killa: number,
+    tagilla: number,
+    zryachiy: number,
+    sanitar: number,
+    reshala: number,
+    shturman: number,
+    goons: number
+  }
   SkipOtherBossWavesIfBossWaveSelected: boolean;
   GlobalRandomWaveTimer: {
     WaveTimerMinSec: number;

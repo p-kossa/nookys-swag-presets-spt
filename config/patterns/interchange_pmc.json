@@ -11,7 +11,7 @@
           }
         ],
         "Time_min": 600,
-        "Time_max": 1800,
+        "Time_max": 2000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -35,8 +35,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 600,
-        "Time_max": 1800,
+        "Time_min": 300,
+        "Time_max": 1200,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -111,7 +111,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneIDEAPark","ZoneOLIPark"]
+        "BossZone": ["ZoneIDEAPark"]
       },
       {
         "Name": "sptusec",
@@ -122,7 +122,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneIDEAPark","ZoneOLIPark"]
+        "BossZone": ["ZoneOLIPark"]
       },
       {
         "Name": "sptusec",
