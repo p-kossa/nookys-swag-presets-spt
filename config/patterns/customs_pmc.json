@@ -155,20 +155,9 @@
         "OnlySpawnOnce": true
       },
       {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossZone": ["ZoneFactorySide"],
-        "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true
-      },
-      {
         "Name": "sptusec",
         "BossName": "sptusec",
-        "BossZone": ["ZoneFactoryCenter"],
+        "BossZone": ["ZoneFactorySide","ZoneFactoryCenter"],
         "BossEscortType": "sptusec",
         "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
         "Time": -1,

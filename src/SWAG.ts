@@ -537,6 +537,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let raider_random_weight = SWAG.getRandIntInclusive(1, 100)
 
     if (botType === "pmc" || botType === "sptUsec" || botType === "sptBear" ) {
+      player = true
 
       // check if requested botType is a PMC
       if (botType === "pmc") {
@@ -544,11 +545,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         botType = pmcType[Math.floor(Math.random() * pmcType.length)]
       }
 
-      player = true
-
       // pmcWaves is false then we need to skip this PMC wave
       if (config.pmcWaves === false) {
-
         // if it's Factory then we need the Factory PMC waves, but not the "all" waves, so we need to make sure botCount > 2
         if (globalmap === "factory4_day" || globalmap === "factory4_night" && botCount > 2) {
           slots = 1
@@ -659,6 +657,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let spawnChance = boss.BossChance ? boss.BossChance : 100
     let raiderChance = config.RaiderChance
     let rogueChance = config.RogueChance
+    let pmcChance = config.pmcChance
 
     let boss_spawn_zone = null
     let botType = roleCase[boss.BossName.toLowerCase()]
@@ -710,6 +709,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
     // Guarantee any "boss spawn" that's not a boss
     else if (botType === "sptUsec" || botType === "sptBear") {
+      spawnChance = boss.BossChance ? boss.BossChance : pmcChance
       // if PMC waves are false and this is NOT a starting PMC spawn, then we need to skip it
       if (config.pmcWaves === false && boss.Time != -1) {
         spawnChance = 0
