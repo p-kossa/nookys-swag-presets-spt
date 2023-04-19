@@ -11,6 +11,7 @@ import { ILocations } from "@spt-aki/models/spt/server/ILocations";
 import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { ConfigServer } from "@spt-aki/servers/ConfigServer";
 import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
 import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
 import { JsonUtil } from "@spt-aki/utils/JsonUtil";
 import { RandomUtil } from "@spt-aki/utils/RandomUtil";
@@ -102,6 +103,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   }
 
   preAkiLoad(container: DependencyContainer): void {
+    const HttpResponse = container.resolve<HttpResponseUtil>("HttpResponseUtil");
+
     const staticRouterModService = container.resolve<StaticRouterModService>(
       "StaticRouterModService"
     );
@@ -123,7 +126,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           },
         },
       ],
-      "aki"
+      "SWAG"
     );
 
     staticRouterModService.registerStaticRouter(
@@ -143,7 +146,33 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           },
         },
       ],
-      "aki"
+      "SWAG"
+    );
+
+    staticRouterModService.registerStaticRouter(
+      `${modName}/client/raid/configuration`,
+      [
+        {
+          url: "/client/raid/configuration",
+          action: (
+            url: string,
+            info: any,
+            sessionID: string,
+            output: string
+          ): any => {
+            try {
+              // Get Realism DB tables
+              const tables = container.resolve<DatabaseServer>("DatabaseServer").getTables();
+              return HttpResponse.nullResponse();
+            }
+            catch (e) {
+                logger.error("SWAG: Failed To Modify DB At Raid Start" + e);
+                return HttpResponse.nullResponse();
+            }
+          }
+        }
+      ],
+      "SWAG"
     );
   }
 
