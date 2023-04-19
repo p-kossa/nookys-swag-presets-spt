@@ -160,15 +160,19 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ): any => {
+
             try {
-              // Get Realism DB tables
-              const tables = container.resolve<DatabaseServer>("DatabaseServer").getTables();
+              // PMCs should never convert - we need full control here
+              const aki_bots = configServer.getConfig("aki-bot")
+              aki_bots.pmc.convertIntoPmcChance = 0
+              logger.info("SWAG: PMC conversion is turned OFF (this might conflict with SVM or Realism depending on your load order, make sure this loads AFTER!)")
               return HttpResponse.nullResponse();
             }
             catch (e) {
-                logger.error("SWAG: Failed To Modify DB At Raid Start" + e);
-                return HttpResponse.nullResponse();
+              logger.info("SWAG: Failed To modify PMC conversion, you may have more PMCs than you're supposed to" + e);
+              return HttpResponse.nullResponse();
             }
+
           }
         }
       ],
@@ -186,13 +190,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     locations = databaseServer.getTables().locations;
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
 
-    const aki_bots = configServer.getConfig("aki-bot")
-
-    SWAG.SetConfigCaps(aki_bots);
+    SWAG.SetConfigCaps();
     SWAG.ReadAllPatterns();
   }
 
-  static SetConfigCaps(aki_bots): void {
+  static SetConfigCaps(): void {
     //Set Max Bot Caps.. these names changed
     botConfig.maxBotCap["factory4_day"] = config.MaxBotCap["factory"];
     botConfig.maxBotCap["factory4_night"] = config.MaxBotCap["factory"];
@@ -210,20 +212,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       locations[map].MaxBotPerZone = config.MaxBotPerZone;
     }
 
-    // PMCs should never convert - we need full control here
-    aki_bots.pmc.convertIntoPmcChance.assault.min = 0
-    aki_bots.pmc.convertIntoPmcChance.assault.max = 0
-
-    aki_bots.pmc.convertIntoPmcChance.cursedassault.min = 0
-    aki_bots.pmc.convertIntoPmcChance.cursedassault.max = 0
-
-    aki_bots.pmc.convertIntoPmcChance.pmcbot.min = 0
-    aki_bots.pmc.convertIntoPmcChance.pmcbot.max = 0
-
-    aki_bots.pmc.convertIntoPmcChance.exusec.min = 0
-    aki_bots.pmc.convertIntoPmcChance.exusec.max = 0
-
-    logger.info("SWAG: PMC conversion is turned OFF (this might conflict with SVM depending on your load order)")
     logger.info("SWAG: Config/Bot Caps Set");
   }
 
