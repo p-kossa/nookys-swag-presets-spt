@@ -11,6 +11,10 @@ import { ILocations } from "@spt-aki/models/spt/server/ILocations";
 import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { ConfigServer } from "@spt-aki/servers/ConfigServer";
 import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
+import { ApplicationContext } from "@spt-aki/context/ApplicationContext";
+import { WeatherController } from "@spt-aki/controllers/WeatherController";
+import { IGetRaidConfigurationRequestData } from "@spt-aki/models/eft/match/IGetRaidConfigurationRequestData";
 import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
 import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
 import { JsonUtil } from "@spt-aki/utils/JsonUtil";
@@ -24,8 +28,7 @@ import {
   aiAmountProper,
   diffProper,
   pmcType,
-  roleCase,
-  GlobalRandomWaveTimer,
+  roleCase
 } from "./ClassDef";
 
 import config from "../config/config.json";
@@ -165,14 +168,77 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
               // PMCs should never convert - we need full control here
               const aki_bots = configServer.getConfig("aki-bot")
               aki_bots.pmc.convertIntoPmcChance = 0
-              logger.info("SWAG: PMC conversion is turned OFF (this might conflict with SVM or Realism depending on your load order, make sure this loads AFTER!)")
+              logger.info("SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)")
+
+              const appContext = container.resolve<ApplicationContext>("ApplicationContext");
+              const matchInfoStartOff = appContext.getLatestValue(ContextVariableType.RAID_CONFIGURATION).getValue<IGetRaidConfigurationRequestData>();
+              const weatherController = container.resolve<WeatherController>("WeatherController");
+
+              const time = weatherController.generate().time;
+
+              let realTime = "";
+
+              if (matchInfoStartOff.timeVariant === "PAST") {
+                realTime = getTime(time, 12);
+              }
+              if (matchInfoStartOff.timeVariant === "CURR") {
+                realTime = time;
+              }
+
+              function getTime(time, hourDiff) {
+                let [h, m] = time.split(':');
+                if (parseInt(h) == 0) {
+                    return `${h}:${m}`
+                }
+                h = Math.abs(parseInt(h) - hourDiff);
+                return `${h}:${m}`
+              }
+
+              function getTOD(time) {
+                let TOD = "";
+                let [h, m] = time.split(':');
+                if ((matchInfoStartOff.location != "factory4_night" && parseInt(h) >= 5 && parseInt(h) < 22) || (matchInfoStartOff.location === "factory4_day" || matchInfoStartOff.location === "Laboratory" || matchInfoStartOff.location === "laboratory")) {
+                    TOD = "day";
+                }
+                else {
+                    TOD = "night";
+                }
+                return TOD;
+              }
+
+              let time_of_day = getTOD(realTime);
+
+              // set map caps
+              if (time_of_day === "day") {
+                aki_bots.maxBotCap.factory4_day = config.MaxBotCap["factory"];
+                aki_bots.maxBotCap.bigmap = config.MaxBotCap["customs"];
+                aki_bots.maxBotCap.interchange = config.MaxBotCap["interchange"];
+                aki_bots.maxBotCap.shoreline = config.MaxBotCap["shoreline"];
+                aki_bots.maxBotCap.woods = config.MaxBotCap["woods"];
+                aki_bots.maxBotCap.rezervbase = config.MaxBotCap["reserve"];
+                aki_bots.maxBotCap.laboratory = config.MaxBotCap["laboratory"];
+                aki_bots.maxBotCap.lighthouse = config.MaxBotCap["lighthouse"];
+                aki_bots.maxBotCap.tarkovstreets = config.MaxBotCap["tarkovstreets"];
+                logger.info("SWAG: Max Bot Caps set");
+              }
+              else if (time_of_day === "night") {
+                aki_bots.maxBotCap.factory4_night = config.NightMaxBotCap["factory4_night"];
+                aki_bots.maxBotCap.bigmap = config.NightMaxBotCap["customs"];
+                aki_bots.maxBotCap.interchange = config.NightMaxBotCap["interchange"];
+                aki_bots.maxBotCap.shoreline = config.NightMaxBotCap["shoreline"];
+                aki_bots.maxBotCap.woods = config.NightMaxBotCap["woods"];
+                aki_bots.maxBotCap.rezervbase = config.NightMaxBotCap["reserve"];
+                aki_bots.maxBotCap.laboratory = config.NightMaxBotCap["laboratory"];
+                aki_bots.maxBotCap.lighthouse = config.NightMaxBotCap["lighthouse"];
+                aki_bots.maxBotCap.tarkovstreets = config.NightMaxBotCap["tarkovstreets"];
+                logger.info("SWAG: Night Raid Max Bot Caps set");
+              }
               return HttpResponse.nullResponse();
             }
             catch (e) {
               logger.info("SWAG: Failed To modify PMC conversion, you may have more PMCs than you're supposed to" + e);
               return HttpResponse.nullResponse();
             }
-
           }
         }
       ],
@@ -195,24 +261,10 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   }
 
   static SetConfigCaps(): void {
-    //Set Max Bot Caps.. these names changed
-    botConfig.maxBotCap["factory4_day"] = config.MaxBotCap["factory"];
-    botConfig.maxBotCap["factory4_night"] = config.MaxBotCap["factory"];
-    botConfig.maxBotCap["bigmap"] = config.MaxBotCap["customs"];
-    botConfig.maxBotCap["interchange"] = config.MaxBotCap["interchange"];
-    botConfig.maxBotCap["shoreline"] = config.MaxBotCap["shoreline"];
-    botConfig.maxBotCap["woods"] = config.MaxBotCap["woods"];
-    botConfig.maxBotCap["rezervbase"] = config.MaxBotCap["reserve"];
-    botConfig.maxBotCap["laboratory"] = config.MaxBotCap["laboratory"];
-    botConfig.maxBotCap["lighthouse"] = config.MaxBotCap["lighthouse"];
-    botConfig.maxBotCap["tarkovstreets"] = config.MaxBotCap["tarkovstreets"];
-
     //Set Max Bots Per Zone Per Map
     for (let map in locations) {
       locations[map].MaxBotPerZone = config.MaxBotPerZone;
     }
-
-    logger.info("SWAG: Config/Bot Caps Set");
   }
 
   /**

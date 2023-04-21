@@ -34,6 +34,17 @@ export interface SWAGConfig {
     laboratory: number;
     tarkovstreets: number;
   };
+  NightMaxBotCap: {
+    factory_night: number;
+    customs: number;
+    woods: number;
+    shoreline: number;
+    lighthouse: number;
+    reservebase: number;
+    interchange: number;
+    laboratory: number;
+    tarkovstreets: number;
+  };
   MaxBotPerZone: number;
   UseDefaultSpawns: {
     Waves: boolean;

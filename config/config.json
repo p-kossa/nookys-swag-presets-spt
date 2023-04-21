@@ -19,7 +19,7 @@
     "shturman": 20,
     "goons": 20
   },
-  "pmcChance": 75,
+  "pmcChance": 60,
   "RogueChance": 80,
   "RaiderChance": 80,
 	"SniperChance": 50,
@@ -38,6 +38,17 @@
 		"laboratory": 14,
 		"tarkovstreets": 23
 	},
+  "NightMaxBotCap": {
+		"factory_night": 10,
+		"customs": 18,
+		"woods": 20,
+		"shoreline": 22,
+		"lighthouse": 22,
+		"reserve": 18,
+		"interchange": 18,
+		"laboratory": 14,
+		"tarkovstreets": 18
+  },
 	"MaxBotPerZone": 7,
 	"UseDefaultSpawns": {
 		"Waves": false,

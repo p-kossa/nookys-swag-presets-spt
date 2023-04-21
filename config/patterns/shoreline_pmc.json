@@ -120,6 +120,17 @@
         "BossZone": ["ZonePassFar","ZonePassClose"]
       },
       {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "BossEscortAmount": "0,0,0,0,0,0,0,0,1",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZonePassFar","ZonePassClose"]
+      },
+      {
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
