@@ -222,7 +222,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
                 logger.info("SWAG: Max Bot Caps set");
               }
               else if (time_of_day === "night") {
-                aki_bots.maxBotCap.factory4_night = config.NightMaxBotCap["factory4_night"];
+                aki_bots.maxBotCap.factory4_night = config.NightMaxBotCap["factory_night"];
                 aki_bots.maxBotCap.bigmap = config.NightMaxBotCap["customs"];
                 aki_bots.maxBotCap.interchange = config.NightMaxBotCap["interchange"];
                 aki_bots.maxBotCap.shoreline = config.NightMaxBotCap["shoreline"];

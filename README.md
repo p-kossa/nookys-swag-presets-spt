@@ -119,30 +119,30 @@ Yes - feel free to tune any of these to your liking - my default caps are just m
 ```json
 	"MaxBotCap": {
 		"factory": 14,
-		"customs": 24,
-		"woods": 26,
-		"shoreline": 26,
-		"lighthouse": 28,
+		"customs": 25,
+		"woods": 27,
+		"shoreline": 28,
+		"lighthouse": 30,
 		"reserve": 24,
 		"interchange": 24,
 		"laboratory": 14,
-		"tarkovstreets": 23
-	}
+		"tarkovstreets": 25
+	},
 ```
 
 You can also set separate caps for night raids:
 ```json
   "NightMaxBotCap": {
-		"factory_night": 10,
-		"customs": 18,
-		"woods": 20,
-		"shoreline": 10,
-		"lighthouse": 22,
-		"reserve": 18,
-		"interchange": 18,
+		"factory_night": 14,
+		"customs": 25,
+		"woods": 27,
+		"shoreline": 28,
+		"lighthouse": 30,
+		"reserve": 24,
+		"interchange": 24,
 		"laboratory": 14,
-		"tarkovstreets": 18
-  }
+		"tarkovstreets": 25
+  },
 ```
 
 - This is a bit chaotic, I'm getting killed everywhere! How can I turn down the amount of spawns?
