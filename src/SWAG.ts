@@ -125,7 +125,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           ): any => {
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
-            return output;
+            return LocationCallbacks.getLocationData(url, info, sessionID);
           },
         },
       ],
@@ -232,8 +232,13 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
                 aki_bots.maxBotCap.lighthouse = config.NightMaxBotCap["lighthouse"];
                 aki_bots.maxBotCap.tarkovstreets = config.NightMaxBotCap["tarkovstreets"];
                 logger.info("SWAG: Night Raid Max Bot Caps set");
+
+                SWAG.ClearDefaultSpawns();
+                SWAG.ConfigureNightMaps(matchInfoStartOff.location);
+                logger.info("SWAG: Night raid patterns have been generated successfully")
+
+                return LocationCallbacks.getLocationData(url, info, sessionID);
               }
-              return HttpResponse.nullResponse();
             }
             catch (e) {
               logger.info("SWAG: Failed To modify PMC conversion, you may have more PMCs than you're supposed to" + e);
@@ -314,6 +319,43 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       customPatterns[tempname] = temppattern;
 
       logger.info("SWAG: Loaded Pattern: " + tempname);
+    }
+  }
+
+  //This is the main top level function
+  static ConfigureNightMaps(location): void {
+
+    let pattern_name = ""
+
+    switch (location) {
+      case "bigmap":
+        pattern_name = "customs_night.json";
+        break;
+      case "rezervbase":
+        pattern_name = "reserve_night.json";
+        break;
+      default:
+        pattern_name = "";
+    }
+
+    //read mapWrapper in pattern and set its values to be used locally
+    const mapWrapper: ClassDef.MapWrapper = customPatterns[pattern_name][0];
+    const mapName: string = mapWrapper.MapName.toLowerCase();
+    const mapGroups: ClassDef.GroupPattern[] = mapWrapper.MapGroups;
+    const mapBosses: ClassDef.BossPattern[] = mapWrapper.MapBosses;
+
+    //reset the bossWaveSpawnedOnceAlready flag
+    BossWaveSpawnedOnceAlready = false;
+
+    //if mapName is not the same as the globalmap, skip. otherwise if all or matches, continue
+    if (mapName === location) {
+      config.DebugOutput && logger.warning(`Configuring ${location} for NIGHT`);
+
+      // Configure random wave timer.. needs to be reset each map
+      SWAG.randomWaveTimer.time_min = config.GlobalRandomWaveTimer.WaveTimerMinSec;
+      SWAG.randomWaveTimer.time_max = config.GlobalRandomWaveTimer.WaveTimerMaxSec;
+
+      SWAG.SetUpGroups(mapGroups, mapBosses, location);
     }
   }
 
