@@ -36,6 +36,17 @@ Copy, paste and overrwrite my files with the SWAG defaults, that's it!
 
 ---
 
+## Mod Compatibility
+The rule of thumb is: if it's compatible with SWAG, then it's compatible with this mod.
+
+There are some exceptions:
+
+Realism
+If using options in the "Bots" tab, be sure you only have "Bot Changes" checked and nothing else, otherwise you have experience mod conflicts. You also must be sure SWAG loads AFTER Realism (it should by default unless you rename your mod folders)
+
+SVM
+Similar to Realism, if using any "Bots" options be sure SWAG loads AFTER SVM.
+
 ## FAQ
 - I want to modify these, how can I do that?
 
@@ -94,6 +105,10 @@ Defaults:
 
 These are both flat percentages for sniper SCAVs or bosses to spawn in your raids. Default is 50% and 20%, respectively.
 
+- pmcChance?
+
+Same as above, except this setting affects only START-OF-RAID PMCs. Default is 60.
+
 - What is ScavInLabs?
 
 By default my spawns prevent SCAVs from spawning in Labs - however, if you'd still like to see those dummies at the Lab just set this to "true" and the usual SCAV waves should show up throughout the raid.
@@ -104,15 +119,30 @@ Yes - feel free to tune any of these to your liking - my default caps are just m
 ```json
 	"MaxBotCap": {
 		"factory": 14,
-        "customs": 24,
-        "woods": 26,
-        "shoreline": 26,
-        "lighthouse": 30,
-        "reserve": 24,
-        "interchange": 24,
-        "laboratory": 20,
-        "tarkovstreets": 24
+		"customs": 24,
+		"woods": 26,
+		"shoreline": 26,
+		"lighthouse": 28,
+		"reserve": 24,
+		"interchange": 24,
+		"laboratory": 14,
+		"tarkovstreets": 23
 	}
+```
+
+You can also set separate caps for night raids:
+```json
+  "NightMaxBotCap": {
+		"factory_night": 10,
+		"customs": 18,
+		"woods": 20,
+		"shoreline": 10,
+		"lighthouse": 22,
+		"reserve": 18,
+		"interchange": 18,
+		"laboratory": 14,
+		"tarkovstreets": 18
+  }
 ```
 
 - This is a bit chaotic, I'm getting killed everywhere! How can I turn down the amount of spawns?
