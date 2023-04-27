@@ -10,23 +10,45 @@
     "WaveTimerMaxSec": 120
   },
 	"BossChance": {
-    "gluhar": 20,
-    "killa": 20,
-    "tagilla": 20,
-    "zryachiy": 100,
-    "sanitar": 20,
-    "reshala": 20,
-    "shturman": 20,
-    "goons": 20
+    "glukhar": {
+      "reserve": 25,
+      "streets": 15
+    },
+    "killa": {
+      "interchange": 25,
+      "streets": 15
+    },
+    "tagilla": {
+      "factory": 25
+    },
+    "zryachiy": {
+      "lighthouse": 100
+    },
+    "sanitar": {
+      "shoreline": 25
+    },
+    "reshala": {
+      "customs": 25
+    },
+    "shturman": {
+      "woods": 25
+    },
+    "goons": {
+      "customs": 25,
+      "woods": 22,
+      "shoreline": 22,
+      "lighthouse": 25
+    }
   },
   "pmcChance": 60,
-  "RogueChance": 80,
-  "RaiderChance": 80,
-	"SniperChance": 50,
+  "pmcGroupChance": "asonline",
+  "rogueChance": 80,
+  "raiderChance": 80,
+	"sniperChance": 50,
 	"pmcWaves": true,
 	"pmcSpawnWeight": 20,
 	"scavSpawnWeight": 80,
-  "ScavInLabs": false,
+  "scavInLabs": false,
 	"MaxBotCap": {
 		"factory": 14,
 		"customs": 25,
@@ -35,8 +57,8 @@
 		"lighthouse": 30,
 		"reserve": 24,
 		"interchange": 24,
-		"laboratory": 14,
-		"tarkovstreets": 25
+		"labs": 14,
+		"streets": 25
 	},
   "NightMaxBotCap": {
 		"factory_night": 14,
@@ -46,8 +68,8 @@
 		"lighthouse": 30,
 		"reserve": 24,
 		"interchange": 24,
-		"laboratory": 14,
-		"tarkovstreets": 25
+		"labs": 14,
+		"streets": 25
   },
 	"MaxBotPerZone": 7,
 	"UseDefaultSpawns": {
