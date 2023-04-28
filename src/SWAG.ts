@@ -28,7 +28,8 @@ import {
   aiAmountProper,
   diffProper,
   pmcType,
-  roleCase
+  roleCase,
+  reverseMapNames
 } from "./ClassDef";
 
 import config from "../config/config.json";
@@ -210,27 +211,27 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
               // set map caps
               if (time_of_day === "day") {
-                aki_bots.maxBotCap.factory4_day = config.MaxBotCap["factory"];
-                aki_bots.maxBotCap.bigmap = config.MaxBotCap["customs"];
-                aki_bots.maxBotCap.interchange = config.MaxBotCap["interchange"];
-                aki_bots.maxBotCap.shoreline = config.MaxBotCap["shoreline"];
-                aki_bots.maxBotCap.woods = config.MaxBotCap["woods"];
-                aki_bots.maxBotCap.rezervbase = config.MaxBotCap["reserve"];
-                aki_bots.maxBotCap.laboratory = config.MaxBotCap["laboratory"];
-                aki_bots.maxBotCap.lighthouse = config.MaxBotCap["lighthouse"];
-                aki_bots.maxBotCap.tarkovstreets = config.MaxBotCap["tarkovstreets"];
+                aki_bots.maxBotCap.factory4_day = config.MaxBotCap.factory;
+                aki_bots.maxBotCap.bigmap = config.MaxBotCap.customs;
+                aki_bots.maxBotCap.interchange = config.MaxBotCap.interchange;
+                aki_bots.maxBotCap.shoreline = config.MaxBotCap.shoreline;
+                aki_bots.maxBotCap.woods = config.MaxBotCap.woods;
+                aki_bots.maxBotCap.rezervbase = config.MaxBotCap.reserve;
+                aki_bots.maxBotCap.laboratory = config.MaxBotCap.labs
+                aki_bots.maxBotCap.lighthouse = config.MaxBotCap.lighthouse;
+                aki_bots.maxBotCap.tarkovstreets = config.MaxBotCap.streets;
                 logger.info("SWAG: Max Bot Caps set");
               }
               else if (time_of_day === "night") {
-                aki_bots.maxBotCap.factory4_night = config.NightMaxBotCap["factory_night"];
-                aki_bots.maxBotCap.bigmap = config.NightMaxBotCap["customs"];
-                aki_bots.maxBotCap.interchange = config.NightMaxBotCap["interchange"];
-                aki_bots.maxBotCap.shoreline = config.NightMaxBotCap["shoreline"];
-                aki_bots.maxBotCap.woods = config.NightMaxBotCap["woods"];
-                aki_bots.maxBotCap.rezervbase = config.NightMaxBotCap["reserve"];
-                aki_bots.maxBotCap.laboratory = config.NightMaxBotCap["laboratory"];
-                aki_bots.maxBotCap.lighthouse = config.NightMaxBotCap["lighthouse"];
-                aki_bots.maxBotCap.tarkovstreets = config.NightMaxBotCap["tarkovstreets"];
+                aki_bots.maxBotCap.factory4_night = config.NightMaxBotCap.factory_night;
+                aki_bots.maxBotCap.bigmap = config.NightMaxBotCap.customs;
+                aki_bots.maxBotCap.interchange = config.NightMaxBotCap.interchange;
+                aki_bots.maxBotCap.shoreline = config.NightMaxBotCap.shoreline;
+                aki_bots.maxBotCap.woods = config.NightMaxBotCap.woods;
+                aki_bots.maxBotCap.rezervbase = config.NightMaxBotCap.reserve;
+                aki_bots.maxBotCap.laboratory = config.NightMaxBotCap.labs;
+                aki_bots.maxBotCap.lighthouse = config.NightMaxBotCap.lighthouse;
+                aki_bots.maxBotCap.tarkovstreets = config.NightMaxBotCap.streets;
                 logger.info("SWAG: Night Raid Max Bot Caps set");
               }
               return HttpResponse.nullResponse();
@@ -640,21 +641,21 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         botCount = 1
       }
       // If this is Labs, then don't allow SCAVs to spawn
-      if (globalmap === "laboratory" && config.ScavInLabs === false) {
+      if (globalmap === "laboratory" && config.scavInLabs === false) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "exUsec") {
-      if (rogue_random_weight >= config.RogueChance) {
+      if (rogue_random_weight >= config.rogueChance) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "pmcBot") {
-      if (raider_random_weight >= config.RaiderChance) {
+      if (raider_random_weight >= config.raiderChance) {
         slots = 0
         botCount = 0
       }
@@ -724,8 +725,9 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     // first check if BossChance is defined for this spawn
     let spawnChance = boss.BossChance ? boss.BossChance : 100
-    let raiderChance = config.RaiderChance
-    let rogueChance = config.RogueChance
+    let group_chance = boss.BossEscortAmount
+    let raiderChance = config.raiderChance
+    let rogueChance = config.rogueChance
     let pmcChance = config.pmcChance
 
     let boss_spawn_zone = null
@@ -735,28 +737,28 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     switch (boss.BossName) {
       case 'bosszryachiy':
-        spawnChance = config.BossChance.zryachiy
+        spawnChance = config.BossChance.zryachiy[reverseMapNames[globalmap]]
         break;
       case 'bossknight':
-        spawnChance = config.BossChance.goons
+        spawnChance = config.BossChance.goons[reverseMapNames[globalmap]]
         break;
       case 'bosstagilla':
-        spawnChance = config.BossChance.tagilla
+        spawnChance = config.BossChance.tagilla[reverseMapNames[globalmap]]
         break;
       case 'bossgluhar':
-        spawnChance = config.BossChance.gluhar
+        spawnChance = config.BossChance.glukhar[reverseMapNames[globalmap]]
         break;
       case 'bosssanitar':
-        spawnChance = config.BossChance.sanitar
+        spawnChance = config.BossChance.sanitar[reverseMapNames[globalmap]]
         break;
       case 'bosskojaniy':
-        spawnChance = config.BossChance.shturman
+        spawnChance = config.BossChance.shturman[reverseMapNames[globalmap]]
         break;
       case 'bossbully':
-        spawnChance = config.BossChance.reshala
+        spawnChance = config.BossChance.reshala[reverseMapNames[globalmap]]
         break;
       case 'bosskilla':
-        spawnChance = config.BossChance.killa
+        spawnChance = config.BossChance.killa[reverseMapNames[globalmap]]
         break;
     }
 
@@ -774,7 +776,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 
     if (botType === "marksman" ) {
-      spawnChance = config.SniperChance
+      spawnChance = config.sniperChance
     }
     // Guarantee any "boss spawn" that's not a boss
     else if (botType === "sptUsec" || botType === "sptBear") {
@@ -783,6 +785,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       if (config.pmcWaves === false && boss.Time != -1) {
         spawnChance = 0
       }
+      group_chance = SWAG.generateBossEscortAmount(config.pmcGroupChance)
     }
     // check if BossChance is defined for these,
     // otherwise use what's defined in config.json
@@ -815,7 +818,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       BossDifficult: diffProper[config.aiDifficulty.toLowerCase()],
       BossEscortType: roleCase[boss.BossEscortType.toLowerCase()],
       BossEscortDifficult: diffProper[config.aiDifficulty.toLowerCase()],
-      BossEscortAmount: boss.BossEscortAmount,
+      BossEscortAmount: group_chance,
       Time: boss.Time,
       Supports: boss.Supports,
       RandomTimeSpawn: boss.RandomTimeSpawn,
@@ -826,6 +829,45 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     config.DebugOutput && logger.warning("SWAG: Configured Boss Wave: " + JSON.stringify(wave));
 
     return wave;
+  }
+
+  // thanks ChatGPT
+  static generateBossEscortAmount(group_chance: string): string {
+    const groupProbabilities: number[] = {
+      "asonline": [0.70, 0.20, 0.7, 0.03],
+      "low": [0.85, 0.11, 0.04, 0],
+      "none": [1, 0, 0, 0],
+      "high": [0.2, 0.30, 0.25, 0.15],
+      "max": [0, 0, 0.5, 0.5]
+    }[group_chance] || [0.80, 0.12, 0.06, 0.02];
+
+    const groupSizes: number[] = [0, 0, 0, 0];
+    const groupSizeString: string[] = [];
+
+    for (let i = 0; i < 15; i++) {
+      let groupIndex = SWAG.getRandomIndex(groupProbabilities);
+      groupSizes[groupIndex]++;
+    }
+
+    for (let i = 0; i < groupSizes.length; i++) {
+      for (let j = 0; j < groupSizes[i]; j++) {
+        groupSizeString.push(i.toString());
+      }
+    }
+
+    return groupSizeString.join(",");
+  }
+
+  static getRandomIndex(probabilities: number[]): number {
+    const random = Math.random();
+    let sum = 0;
+    for (let i = 0; i < probabilities.length; i++) {
+      sum += probabilities[i];
+      if (random < sum) {
+        return i;
+      }
+    }
+    return probabilities.length - 1;
   }
 
   static incrementTime(): void {

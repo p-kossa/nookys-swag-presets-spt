@@ -9,15 +9,21 @@ export interface SWAGConfig {
   RandomWaveCount: number;
   BossWaveCount: number;
   BossChance: {
-    gluhar: number,
-    killa: number,
-    tagilla: number,
-    zryachiy: number,
-    sanitar: number,
-    reshala: number,
-    shturman: number,
-    goons: number
-  }
+    gluhar: {
+      reserve: number;
+      streets: number;
+    };
+    killa: {
+      interchange: number;
+      streets: number;
+    };
+    tagilla: number;
+    zryachiy: number;
+    sanitar: number;
+    reshala: number;
+    shturman: number;
+    goons: number;
+  };
   SkipOtherBossWavesIfBossWaveSelected: boolean;
   GlobalRandomWaveTimer: {
     WaveTimerMinSec: number;
@@ -192,6 +198,19 @@ export const roleCase: object = {
   followerbirdeye: "followerBirdEye",
   bosszryachiy: "bossZryachiy",
   followerzryachiy: "followerZryachiy",
+};
+
+export const reverseMapNames: object = {
+  factory4_day: "factory",
+  factory4_night: "factory_night",
+  customs: "bigmap",
+  woods: "woods",
+  shoreline: "shoreline",
+  lighthouse: "lighthouse",
+  rezervbase: "reserve",
+  interchange: "interchange",
+  laboratory: "labs",
+  tarkovstreets: "streets"
 };
 
 export const diffProper = {

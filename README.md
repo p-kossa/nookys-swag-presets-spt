@@ -1,5 +1,5 @@
 # Nooky's SWAG Custom Presets
-![Version: 1.2.1](https://img.shields.io/badge/Version-1.2.1-informational?style=flat-square)
+![Version: 1.2.2](https://img.shields.io/badge/Version-1.2.2-informational?style=flat-square)
 
 **SWAG 1.4.3+ by props IS REQUIRED!**
 
@@ -60,9 +60,9 @@ When you load your server and launcher, look at your server console logs. SWAG s
 
 - What happens if I want to enable default waves?
 
-Regardless of "pmcWave" setting you should see normal vanilla SPT waves of a mix of PMC/SCAVs in addition to my preset spawns.
+Regardless of "pmcWaves" setting you should see normal vanilla SPT waves of a mix of PMC/SCAVs in addition to my preset spawns.
 
-- What is "pmcWave" and what does it do?
+- What is "pmcWaves" and what does it do?
 
 If set to "false" what you should expect to see in you raids:
 
@@ -88,6 +88,26 @@ if you:
 
 then set pmcWaves: true (default)
 
+- what is pmcGroupChance?
+
+`pmcGroupChance` can be one of the following strings:
+
+"none"
+"low"
+"asonline"
+"high"
+"max"
+
+where each string represents a certain range of probabilities that the **START-OF-RAID PMCs** will spawn solo or in a group.
+
+"none" - no groups
+"low" - mostly solo, rare duos, even more rare trios, no quads
+"asonline" - ~70% solo, ~20% duos, rare trios, rare quads
+"high" - lower chances of solo, mostly duos and trios, some quads
+"max" - no solos, no duos, 50/50 trios and quads
+
+Please keep in mind that increasing group chance **will spawn more PMCs in your raids at the start** (obviously) so you may want to adjust other settings as well so that things stay somewhat balanced (like bot caps, `pmcChance`, etc...)
+
 - What is pmc/scavSpawnWeight?
 
 These are values that determine a chance to reduce a number of spawns in each wave. So, generally speaking:
@@ -97,9 +117,9 @@ If you want fewer, go low.
 
 Defaults:
 
-`pmcSpawnWeight: 25`
+`pmcSpawnWeight: 20`
 
-`scavSpawnWeight: 70`
+`scavSpawnWeight: 80`
 
 - How does SnipeChance and BossChance work?
 
