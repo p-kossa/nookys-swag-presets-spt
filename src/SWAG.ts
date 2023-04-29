@@ -834,7 +834,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   // thanks ChatGPT
   static generateBossEscortAmount(group_chance: string): string {
     const groupProbabilities: number[] = {
-      "asonline": [0.70, 0.20, 0.7, 0.03],
+      "asonline": [0.70, 0.20, 0.07, 0.03],
       "low": [0.85, 0.11, 0.04, 0],
       "none": [1, 0, 0, 0],
       "high": [0.2, 0.30, 0.25, 0.15],
