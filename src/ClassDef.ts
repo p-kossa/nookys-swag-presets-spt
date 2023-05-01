@@ -203,7 +203,7 @@ export const roleCase: object = {
 export const reverseMapNames: object = {
   factory4_day: "factory",
   factory4_night: "factory_night",
-  customs: "bigmap",
+  bigmap: "customs",
   woods: "woods",
   shoreline: "shoreline",
   lighthouse: "lighthouse",
