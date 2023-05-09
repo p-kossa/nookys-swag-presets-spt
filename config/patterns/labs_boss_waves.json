@@ -1,0 +1,116 @@
+[
+  {
+    "MapName": "laboratory",
+    "MapGroups": [
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "bosskilla",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1,
+        "Time_max": 5,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "BotZoneFloor2",
+          "BotZoneBasement",
+          "BotZoneFloor1"
+        ]
+      },
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "bosssanitar",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 5,
+        "Time_max": 15,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "BotZoneFloor2",
+          "BotZoneBasement",
+          "BotZoneFloor1"
+        ]
+      },
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "bosskilla",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1,
+        "Time_max": 5,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "BotZoneFloor2",
+          "BotZoneBasement",
+          "BotZoneFloor1"
+        ]
+      },
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "bossbully",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 5,
+        "Time_max": 15,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "BotZoneFloor2",
+          "BotZoneBasement",
+          "BotZoneFloor1"
+        ]
+      },
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "bosskojaniy",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 1,
+        "Time_max": 5,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "BotZoneFloor2",
+          "BotZoneBasement",
+          "BotZoneFloor1"
+        ]
+      },
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "bossgluhar",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 5,
+        "Time_max": 15,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "BotZoneFloor2",
+          "BotZoneBasement",
+          "BotZoneFloor1"
+        ]
+      }
+    ],
+    "MapBosses": []
+  }
+]

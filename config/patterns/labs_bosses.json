@@ -1,0 +1,36 @@
+[
+  {
+    "MapName": "laboratory",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "BossName": "bosssanitar",
+        "BossEscortType": "followersanitar",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Killa",
+        "BossName": "bosskilla",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "BossName": "bosskojaniy",
+        "BossEscortType": "followerkojaniy",
+        "BossEscortAmount": "2",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]
