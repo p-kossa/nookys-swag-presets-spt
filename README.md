@@ -1,11 +1,114 @@
 # Nooky's SWAG Custom Presets
-![Version: 1.2.2](https://img.shields.io/badge/Version-1.2.2-informational?style=flat-square)
+![Version: 1.2.3](https://img.shields.io/badge/Version-1.2.3-informational?style=flat-square)
 
 **SWAG 1.4.3+ by props IS REQUIRED!**
 
 https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 
 **THIS IS A WORK IN PROGRESS**
+
+---
+
+## Config Reference
+
+```
+{
+	"aiDifficulty": "normal",   <------- bot difficulty, the same as in-game.
+	"aiAmount": "asonline",   <------- in-game AI amount - this only affects SCAV and PMC (if pmcWaves: true) waves
+	"RandomWaveCount": 7,   <------- # of waves
+	"BossWaveCount": 1,   <------- # of boss waves - don't change this unless you want to experiment
+	"SkipOtherBossWavesIfBossWaveSelected": false,   <------- same as BossWaveCount, don't change this unless you want to experiment
+  "GlobalRandomWaveTimer": {
+    "WaveTimerMinSec": 60,   <------- global wave timers - these only apply to RANDOM waves, i.e. all_scav.json
+    "WaveTimerMaxSec": 120
+  },
+	"BossChance": {   <------- set your own boss chance, per boss, per map. it's just a flat percentage. (OPTIONAL) if you add a boss to a NEW MAP then you have to add it below
+    "glukhar": {
+      "reserve": 25,
+      "streets": 15
+    },
+    "killa": {
+      "interchange": 25,
+      "streets": 15
+    },
+    "tagilla": {
+      "factory": 25
+    },
+    "zryachiy": {
+      "lighthouse": 100
+    },
+    "sanitar": {
+      "shoreline": 25
+    },
+    "reshala": {
+      "customs": 25
+    },
+    "shturman": {
+      "woods": 25
+    },
+    "goons": {
+      "customs": 25,
+      "woods": 22,
+      "shoreline": 22,
+      "lighthouse": 25
+    },
+    "cultists": {
+      "customs": 10,
+      "woods": 10,
+      "shoreline": 10,
+      "factory_night": 100
+    }
+  },
+  "PMCs": {
+    "pmcWaves": true,   <------- set to true if you want PMCs to spawn throughout the duration of your raids (waves). false disables all PMC waves so that only your start-of-raid PMCs spawn.
+    "pmcSpawnWeight": 35,   <------- A flat percentage that is checked before spawning a wave - SWAG will roll a random number between 1-100 and check if it's greater than this weight, if it is then that wave will be "skipped". So, more PMCs, higher weight. Fewer PMCs, lower weight.
+    "pmcChance": 65,   <------- A flat percentage, similar to BossChance above, this affects all start-of-raid PMCs. See FAQ below for more details.
+    "pmcGroupChance": "asonline"   <------- Affects chance start-of-raid PMCs are solo or in a group. See FAQ below for more details.
+  },
+  "Others": {
+    "scavWaves": true,   <------- same as pmcWaves, except this disables ALL SCAVs.
+    "scavSpawnWeight": 80,   <------- same as pmcSpawnWeight
+    "sniperChance": 50,   <------- same as BossChance, pmcChance, etc.
+    "scavInLabs": false   <------- if false, no SCAVs should spawn in Labs. if true, SCAV waves will spawn as normal.
+    "rogueChance": {   <------- same as BossChance, pmcChance, etc. (OPTIONAL) if you add rogues to a NEW MAP then you have to add it below
+      "lighthouse": 75
+    },
+    "raiderChance": {   <------- same as BossChance, pmcChance, etc. (OPTIONAL) if you add raiders to a NEW MAP then you have to add it below
+      "laboratory": 60,
+      "reserve": 75
+    }
+  },
+	"MaxBotCap": {   <------- Max bot caps - this is the max allowed bot spawns on each map. Once the cap is reached the game still stop spawning bots and then start a queue - once bots die new ones will take their place.
+		"factory": 14,
+		"customs": 24,
+		"woods": 27,
+		"shoreline": 28,
+		"lighthouse": 30,
+		"reserve": 23,
+		"interchange": 24,
+		"labs": 14,
+		"streets": 24
+	},
+  "NightMaxBotCap": {   <------- same as MaxBotCap, except this is specifically for night raids. when you load into a night raid specifically, then the below caps are used instead for each map.
+		"factory_night": 14,
+		"customs": 24,
+		"woods": 27,
+		"shoreline": 28,
+		"lighthouse": 30,
+		"reserve": 23,
+		"interchange": 24,
+		"labs": 14,
+		"streets": 24
+  },
+	"MaxBotPerZone": 7,   <------- Max allowed bots per zone.
+	"UseDefaultSpawns": {   <------- vanilla SPT spawns - don't change this unless you want to experiment
+		"Waves": false,
+		"Bosses": false,
+		"TriggeredWaves": false
+	},
+	"DebugOutput": false   <------- debug logs - set to true if you want to see SWAG wave details, SWAG will print each generated wave to your console logs. useful for when experimenting (it's a lot of log spam, be warned)
+}
+```
 
 ## What is this?
 
@@ -88,6 +191,10 @@ if you:
 
 then set pmcWaves: true (default)
 
+- What is "scavWaves"?
+
+Same thing as pmcWaves - don't want to see our cheeki breeki bozos anymore? Set this to false.
+
 - what is pmcGroupChance?
 
 `pmcGroupChance` can be one of the following strings:
@@ -101,10 +208,10 @@ then set pmcWaves: true (default)
 where each string represents a certain range of probabilities that the **START-OF-RAID PMCs** will spawn solo or in a group.
 
 "none" - no groups
-"low" - mostly solo, rare duos, even more rare trios, no quads
-"asonline" - ~70% solo, ~20% duos, rare trios, rare quads
-"high" - lower chances of solo, mostly duos and trios, some quads
-"max" - no solos, no duos, 50/50 trios and quads
+"low" - mostly solo, rare duos, even more rare trios, no quads, no 5-mans
+"asonline" - ~70% solo, ~20% duos, rare trios, rare quads, even more rare 5-mans
+"high" - lower chances of solo, mostly duos and trios, some quads, some 5-mans
+"max" - no solos, no duos, a mix of trios/quads/5-mans
 
 Please keep in mind that increasing group chance **will spawn more PMCs in your raids at the start** (obviously) so you may want to adjust other settings as well so that things stay somewhat balanced (like bot caps, `pmcChance`, etc...)
 

@@ -38,38 +38,54 @@
       "woods": 22,
       "shoreline": 22,
       "lighthouse": 25
+    },
+    "cultists": {
+      "customs": 10,
+      "woods": 10,
+      "shoreline": 10,
+      "factory_night": 100
     }
   },
-  "pmcChance": 60,
-  "pmcGroupChance": "asonline",
-  "rogueChance": 80,
-  "raiderChance": 80,
-	"sniperChance": 50,
-	"pmcWaves": true,
-	"pmcSpawnWeight": 20,
-	"scavSpawnWeight": 80,
-  "scavInLabs": false,
+  "PMCs": {
+    "pmcWaves": true,
+    "pmcSpawnWeight": 30,
+    "pmcChance": 65,
+    "pmcGroupChance": "asonline"
+  },
+  "Others": {
+    "scavWaves": true,
+    "scavSpawnWeight": 80,
+    "sniperChance": 50,
+    "scavInLabs": false,
+    "rogueChance": {
+      "lighthouse": 75
+    },
+    "raiderChance": {
+      "laboratory": 85,
+      "reserve": 65
+    }
+  },
 	"MaxBotCap": {
 		"factory": 14,
-		"customs": 25,
+		"customs": 24,
 		"woods": 27,
 		"shoreline": 28,
 		"lighthouse": 30,
-		"reserve": 24,
+		"reserve": 23,
 		"interchange": 24,
-		"labs": 14,
-		"streets": 25
+		"laboratory": 14,
+		"streets": 24
 	},
   "NightMaxBotCap": {
 		"factory_night": 14,
-		"customs": 25,
+		"customs": 24,
 		"woods": 27,
 		"shoreline": 28,
 		"lighthouse": 30,
-		"reserve": 24,
+		"reserve": 23,
 		"interchange": 24,
-		"labs": 14,
-		"streets": 25
+		"laboratory": 14,
+		"streets": 24
   },
 	"MaxBotPerZone": 7,
 	"UseDefaultSpawns": {

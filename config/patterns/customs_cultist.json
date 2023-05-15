@@ -1,0 +1,52 @@
+[
+  {
+    "MapName": "bigmap",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "4",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneTankSquare","ZoneScavBase"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "4",
+        "Time": 1200,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneTankSquare","ZoneScavBase"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "4",
+        "Time": 2400,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneTankSquare","ZoneScavBase"]
+      },
+      {
+        "Name": "Cultists",
+        "BossName": "sectantpriest",
+        "BossEscortType": "sectantwarrior",
+        "BossEscortAmount": "4",
+        "Time": 3600,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneTankSquare","ZoneScavBase"]
+      }
+    ]
+  }
+]

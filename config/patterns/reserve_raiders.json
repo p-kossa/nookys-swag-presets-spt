@@ -1,25 +1,7 @@
 [
   {
     "MapName": "rezervbase",
-    "MapGroups": [
-      {
-        "Name": "Raiders",
-        "Bots": [
-          {
-            "BotType": "pmcbot",
-            "MaxBotCount": 3
-          }
-        ],
-        "Time_min": 600,
-        "Time_max": 2400,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneSubCommand",
-          "ZoneRailStrorage"
-        ]
-      }
-    ],
+    "MapGroups": [],
     "MapBosses": [
       {
         "BossEscortAmount": "2,2,2,2,3",

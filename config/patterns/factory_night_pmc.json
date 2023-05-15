@@ -14,8 +14,8 @@
             "MaxBotCount": 4
           }
         ],
-        "Time_min": 1,
-        "Time_max": 5,
+        "Time_min": -1,
+        "Time_max": -1,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": ["BotZone"]
@@ -32,8 +32,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 600,
-        "Time_max": 1420,
+        "Time_min": 500,
+        "Time_max": 1600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": ["BotZone"]

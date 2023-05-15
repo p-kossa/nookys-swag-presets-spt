@@ -9,20 +9,15 @@ export interface SWAGConfig {
   RandomWaveCount: number;
   BossWaveCount: number;
   BossChance: {
-    gluhar: {
-      reserve: number;
-      streets: number;
-    };
-    killa: {
-      interchange: number;
-      streets: number;
-    };
+    gluhar: number;
+    killa: number;
     tagilla: number;
     zryachiy: number;
     sanitar: number;
     reshala: number;
     shturman: number;
     goons: number;
+    cultists: number;
   };
   SkipOtherBossWavesIfBossWaveSelected: boolean;
   GlobalRandomWaveTimer: {
@@ -209,7 +204,7 @@ export const reverseMapNames: object = {
   lighthouse: "lighthouse",
   rezervbase: "reserve",
   interchange: "interchange",
-  laboratory: "labs",
+  laboratory: "laboratory",
   tarkovstreets: "streets"
 };
 
