@@ -10,8 +10,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 1,
-        "Time_max": 5,
+        "Time_min": -1,
+        "Time_max": -1,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": [
@@ -30,14 +30,10 @@
           {
             "BotType": "pmc",
             "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
           }
         ],
-        "Time_min": 600,
-        "Time_max": 1600,
+        "Time_min": 400,
+        "Time_max": 3000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -52,7 +48,6 @@
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,1,1,1",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -63,7 +58,6 @@
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,0,0,1,1,1,1,1,2",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -74,7 +68,6 @@
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,1,1",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -85,7 +78,6 @@
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,1,1,2",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -96,7 +88,6 @@
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "BossEscortAmount": "0,1,1,1",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -107,7 +98,6 @@
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "BossEscortAmount": "0,1,1,1,2",
         "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,

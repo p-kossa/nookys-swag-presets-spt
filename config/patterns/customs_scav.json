@@ -24,7 +24,9 @@
           "ZoneCustoms",
           "ZoneFactorySide",
           "ZoneFactoryCenter",
-          "ZoneOldAZS"
+          "ZoneOldAZS",
+          "ZoneWade",
+          "ZoneGasStation"
         ]
       },
       {
@@ -32,11 +34,11 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
-        "Time_min": 400,
-        "Time_max": 1000,
+        "Time_min": 300,
+        "Time_max": 1600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -45,7 +47,13 @@
           "ZoneBrige",
           "ZoneTankSquare",
           "ZoneCrossRoad",
-          "ZoneOldAZS"
+          "ZoneDormitory",
+          "ZoneCustoms",
+          "ZoneFactorySide",
+          "ZoneFactoryCenter",
+          "ZoneOldAZS",
+          "ZoneWade",
+          "ZoneGasStation"
         ]
       },
       {
@@ -53,11 +61,11 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 300,
-        "Time_max": 600,
+        "Time_max": 800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": ["ZoneDormitory"]
@@ -67,11 +75,11 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 300,
-        "Time_max": 700,
+        "Time_max": 900,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
