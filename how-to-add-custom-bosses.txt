@@ -1,0 +1,86 @@
+Examples patterns:
+
+useccommander.json
+[
+  {
+    "MapName": "laboratory",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "useccommander",
+        "BossName": "useccommander",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "4",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": null
+      }
+    ]
+  }
+]
+
+or as waves:
+
+[
+  {
+    "MapName": "laboratory",
+    "MapGroups": [
+      {
+        "Name": "death",
+        "Bots": [
+          {
+            "BotType": "useccommander",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 5,
+        "Time_max": 15,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "BotZoneFloor2",
+          "BotZoneBasement",
+          "BotZoneFloor1"
+        ]
+      }
+    ],
+    "MapBosses": []
+  }
+]
+
+---
+
+IF YOU ADD CUSTOM BOSSES USING BOSS SPAWNS PLEASE READ:
+you have to add the new boss to your SWAG config.json:
+
+	"BossChance": {
+    "glukhar": {
+      "reserve": 25,
+      "streets": 15
+    },
+    "killa": {
+      "interchange": 25,
+      "streets": 15
+    },
+    "tagilla": {
+      "factory": 25
+    },
+    "zryachiy": {
+      "lighthouse": 100
+    },
+    "sanitar": {
+      "shoreline": 25
+    },
+    "reshala": {
+      "customs": 25
+    },
+    "shturman": {
+      "woods": 25
+    },
+    "useccommander": {   <----------- the name must be the same name as the pattern file
+      "laboratory": 100   <------------ same as other bosses
+    },
+
+if you add new bosses via WAVES then this step is not needed!

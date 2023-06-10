@@ -591,7 +591,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     let slots = 1
     let player = false
-    let botType = roleCase[bot.BotType.toLowerCase()]
+    let botType = roleCase[bot.BotType.toLowerCase()] ? roleCase[bot.BotType.toLowerCase()] : bot.BotType 
     let botCount = bot.MaxBotCount
 
     if (group.OnlySpawnOnce === false && group.RandomTimeSpawn === false) {
@@ -736,7 +736,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let pmcChance = config.PMCs.pmcChance
 
     let boss_spawn_zone = null
-    let bossName = roleCase[boss.BossName.toLowerCase()]
+    let bossName = roleCase[boss.BossName.toLowerCase()] ? roleCase[boss.BossName.toLowerCase()] : boss.BossName
     let trigger_id = ""
     let trigger_name = ""
 
@@ -774,6 +774,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       case 'exusec':
         spawnChance = boss.BossChance ? boss.BossChance : config.Others.rogueChance[reverseMapNames[globalmap]]
         break;
+      default:
+        spawnChance = boss.BossChance ? boss.BossChance : config.Others[bossName][reverseMapNames[globalmap]]
     }
 
     // if it's null skip this part
