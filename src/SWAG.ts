@@ -774,10 +774,10 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       case 'exusec':
         spawnChance = boss.BossChance ? boss.BossChance : config.Others.rogueChance[reverseMapNames[globalmap]]
         break;
-      case 'sptBear':
+      case 'sptbear':
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance
         break;
-      case 'sptUsec':
+      case 'sptusec':
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance
         break;
       default:
