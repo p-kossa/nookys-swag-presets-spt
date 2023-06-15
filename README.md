@@ -1,7 +1,7 @@
 # Nooky's SWAG Custom Presets
 ![Version: 1.3.0](https://img.shields.io/badge/Version-1.3.0-informational?style=flat-square)
 
-**All credit goes go SWAG by Props**
+**All credit goes to SWAG by Props**
 
 https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 
