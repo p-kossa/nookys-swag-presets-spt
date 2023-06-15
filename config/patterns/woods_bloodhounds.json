@@ -1,0 +1,18 @@
+[
+  {
+    "MapName": "woods",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "BossName": "bloodhound",
+        "BossEscortType": "bloodhound",
+        "BossEscortAmount": "3,4",
+        "Time": -1,
+        "BossZone": ["ZoneMiniHouse","ZoneClearVill","ZoneRoad","ZoneBrokenVill","ZoneScavBase2"],
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]

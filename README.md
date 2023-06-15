@@ -1,7 +1,7 @@
 # Nooky's SWAG Custom Presets
-![Version: 1.2.4](https://img.shields.io/badge/Version-1.2.4-informational?style=flat-square)
+![Version: 1.3.0](https://img.shields.io/badge/Version-1.3.0-informational?style=flat-square)
 
-**SWAG 1.4.3+ by props IS REQUIRED!**
+**All credit goes go SWAG by Props**
 
 https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 
@@ -125,9 +125,7 @@ This is an extension of SWAG by props which adds spawns to your raids in "waves"
 
 ## How To Install
 
-Be sure you have SWAG 1.4.3+ installed first!
-
-1. delete your "patterns" folder: `SWAG/config/patterns`
+1. if you already have SWAG installed, delete your "patterns" folder first: `SWAG/config/patterns`
 
 2. download the .zip, extract/copy/paste and overwrite into your SWAG folder: `user/mods/SWAG/`
 

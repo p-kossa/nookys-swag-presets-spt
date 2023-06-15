@@ -44,6 +44,18 @@
       "woods": 10,
       "shoreline": 10,
       "factory_night": 100
+    },
+    "rogues": {
+      "lighthouse": 75
+    },
+    "raiders": {
+      "laboratory": 85,
+      "reserve": 65
+    },
+    "bloodhounds": {
+      "customs": 45,
+      "woods": 45,
+      "shoreline": 45
     }
   },
   "PMCs": {
@@ -56,14 +68,7 @@
     "scavWaves": true,
     "scavSpawnWeight": 80,
     "sniperChance": 50,
-    "scavInLabs": false,
-    "rogueChance": {
-      "lighthouse": 75
-    },
-    "raiderChance": {
-      "laboratory": 85,
-      "reserve": 65
-    }
+    "scavInLabs": false
   },
 	"MaxBotCap": {
 		"factory": 14,
