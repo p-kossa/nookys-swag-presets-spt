@@ -1,0 +1,40 @@
+[
+  {
+    "MapName": "factory4_night",
+    "MapGroups": [
+      {
+        "Name": "SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 15,
+        "Time_max": 30,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": ["BotZone"]
+      },
+      {
+        "Name": "SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 120,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": ["BotZone"]
+      }
+    ],
+    "MapBosses": []
+  }
+]

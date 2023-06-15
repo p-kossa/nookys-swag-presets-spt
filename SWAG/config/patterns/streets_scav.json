@@ -1,0 +1,86 @@
+[
+  {
+    "MapName": "tarkovstreets",
+    "MapGroups": [
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "ZoneHotel_2",
+          "ZoneHotel_1",
+          "ZoneConcordia_2",
+          "ZoneConcordia_1",
+          "ZoneConstruction",
+          "ZoneColumn",
+          "ZoneConcordiaParking",
+          "ZoneCarShowroom",
+          "ZoneCinema",
+          "ZoneSW01",
+          "ZoneFactory"
+        ]
+      },
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "ZoneHotel_2",
+          "ZoneHotel_1",
+          "ZoneConcordia_2",
+          "ZoneConcordia_1",
+          "ZoneConstruction",
+          "ZoneColumn",
+          "ZoneConcordiaParking",
+          "ZoneCarShowroom",
+          "ZoneCinema",
+          "ZoneSW01",
+          "ZoneFactory"
+        ]
+      },
+      {
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 1400,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneHotel_2",
+          "ZoneHotel_1",
+          "ZoneConcordia_2",
+          "ZoneConcordia_1",
+          "ZoneConstruction",
+          "ZoneColumn",
+          "ZoneConcordiaParking",
+          "ZoneCarShowroom",
+          "ZoneCinema",
+          "ZoneSW01",
+          "ZoneFactory"
+        ]
+      }
+    ],
+    "MapBosses": []
+  }
+]

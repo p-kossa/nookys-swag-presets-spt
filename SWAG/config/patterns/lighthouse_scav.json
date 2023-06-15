@@ -1,0 +1,112 @@
+[
+  {
+    "MapName": "lighthouse",
+    "MapGroups": [
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "Zone_Chalet",
+          "Zone_Rocks",
+          "Zone_Bridge",
+          "Zone_LongRoad",
+          "Zone_DestroyedHouse",
+          "Zone_Village"
+        ]
+      },
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "Zone_Chalet",
+          "Zone_Rocks",
+          "Zone_Bridge",
+          "Zone_LongRoad",
+          "Zone_DestroyedHouse",
+          "Zone_Village"
+        ]
+      },
+      {
+        "Name": "SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 1100,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "Zone_Chalet",
+          "Zone_Rocks",
+          "Zone_Bridge",
+          "Zone_LongRoad",
+          "Zone_DestroyedHouse",
+          "Zone_Village"
+        ]
+      },
+      {
+        "Name": "more SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 250,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "Zone_Chalet",
+          "Zone_LongRoad"
+        ]
+      },
+      {
+        "Name": "WTP SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 400,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "Zone_TreatmentContainers",
+          "Zone_TreatmentRocks",
+          "Zone_Containers",
+          "Zone_Blockpost",
+          "Zone_Hellicopter",
+          "Zone_RoofRocks",
+          "Zone_RoofContainers",
+          "Zone_TreatmentBeach",
+          "Zone_RoofBeach"
+        ]
+      }
+    ],
+    "MapBosses": []
+  }
+]

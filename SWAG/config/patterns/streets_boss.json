@@ -1,0 +1,43 @@
+[
+  {
+    "MapName": "tarkovstreets",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "Gluhar",
+        "BossName": "bossgluhar",
+        "BossEscortType": "followergluharassault",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": [
+          {
+            "BossEscortType": "followergluharassault",
+            "BossEscortAmount": "2"
+          },
+          {
+            "BossEscortType": "followergluharsecurity",
+            "BossEscortAmount": "2"
+          },
+          {
+            "BossEscortType": "followergluharscout",
+            "BossEscortAmount": "2"
+          }
+        ],
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneCarShowroom"]
+      },
+      {
+        "Name": "Killa",
+        "BossName": "bosskilla",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneHotel_1","ZoneHotel_2"]
+      }
+    ]
+  }
+]

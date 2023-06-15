@@ -1,7 +1,7 @@
 # Nooky's SWAG Custom Presets
-![Version: 1.2.4](https://img.shields.io/badge/Version-1.2.4-informational?style=flat-square)
+![Version: 1.3.0](https://img.shields.io/badge/Version-1.3.0-informational?style=flat-square)
 
-**SWAG 1.4.3+ by props IS REQUIRED!**
+**All credit goes to SWAG by Props**
 
 https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 
@@ -125,17 +125,16 @@ This is an extension of SWAG by props which adds spawns to your raids in "waves"
 
 ## How To Install
 
-Be sure you have SWAG 1.4.3+ installed first!
+1. if you already have SWAG installed, delete your "patterns" folder first: `SWAG/config/patterns`
 
-1. delete your "patterns" folder: `SWAG/config/patterns`
-
-2. download the .zip, extract/copy/paste and overwrite into your SWAG folder: `user/mods/SWAG/`
+2. download the .zip, extract/copy/paste and overwrite into SPT MODS FOLDER ---> `<YOUR SPT FOLDER>/user/mods/`
 
 3. play the game
 
 ## How to Uninstall
 
-Copy, paste and overrwrite my files with the SWAG defaults, that's it!
+If you want to revert to base SWAG - delete the patterns folder and re-install base SWAG
+If you want to uninstall SWAG completely - just delete the SWAG folder.
 
 ---
 
@@ -151,6 +150,14 @@ SVM
 Similar to Realism, if using any "Bots" options be sure SWAG loads AFTER SVM.
 
 ## FAQ
+- I'm getting X, Y, Z errors // I can't load into raids // My spawns aren't working // etc...
+Try a couple of things first:
+- look at your mod list, see if there are any possible conflicts
+- do a full re-install of SWAG
+- delete the contents of your cache: `<YOUR SPT FOLDER>/user/cache/`
+
+If you're still experiencing issues please leave a comment on this mod page (best option) or find me on the SPT discord.
+
 - I want to modify these, how can I do that?
 
 I've added a short guide to help with this: "how-to-modify-spawns.txt"

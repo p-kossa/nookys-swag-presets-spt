@@ -1,0 +1,184 @@
+[
+  {
+    "MapName": "bigmap",
+    "MapGroups": [
+      {
+        "Name": "PMCs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 450,
+        "Time_max": 3000,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneScavBase",
+          "ZoneBlockPost",
+          "ZoneBrige",
+          "ZoneTankSquare",
+          "ZoneCrossRoad",
+          "ZoneDormitory",
+          "ZoneCustoms",
+          "ZoneFactorySide",
+          "ZoneFactoryCenter",
+          "ZoneOldAZS",
+          "ZoneWade",
+          "ZoneGasStation"
+        ]
+      },
+      {
+        "Name": "PMCs at Dorms",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": ["ZoneDormitory"]
+      },
+      {
+        "Name": "PMCs at Customs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": ["ZoneCustoms"]
+      }
+    ],
+    "MapBosses": [
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossZone": ["ZoneBrige","ZoneWade"],
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneBrige","ZoneWade"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneBlockPost"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossZone": ["ZoneGasStation"],
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossZone": ["ZoneCrossRoad"],
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneTankSquare"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneCustoms"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneDormitory"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossZone": ["ZoneDormitory"],
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneOldAZS"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneFactorySide","ZoneFactoryCenter"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossZone": ["ZoneFactorySide","ZoneFactoryCenter"],
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "MapName": "woods",
+    "MapGroups": [
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "ZoneScavBase2",
+          "ZoneMiniHouse",
+          "ZoneBigRocks",
+          "ZoneRedHouse",
+          "ZoneWoodCutter",
+          "ZoneRoad",
+          "ZoneHouse",
+          "ZoneClearVill",
+          "ZoneBrokenVill"
+        ]
+      },
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "ZoneScavBase2",
+          "ZoneMiniHouse",
+          "ZoneBigRocks",
+          "ZoneRedHouse",
+          "ZoneWoodCutter",
+          "ZoneRoad",
+          "ZoneHouse",
+          "ZoneClearVill",
+          "ZoneBrokenVill"
+        ]
+      },
+      {
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 400,
+        "Time_max": 1200,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneScavBase2",
+          "ZoneMiniHouse",
+          "ZoneBigRocks",
+          "ZoneRedHouse",
+          "ZoneWoodCutter",
+          "ZoneRoad",
+          "ZoneHouse",
+          "ZoneClearVill",
+          "ZoneBrokenVill"
+        ]
+      },
+      {
+        "Name": "More SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneMiniHouse",
+          "ZoneRedHouse",
+          "ZoneWoodCutter",
+          "ZoneRoad",
+          "ZoneHouse"
+        ]
+      }
+    ],
+    "MapBosses": []
+  }
+]

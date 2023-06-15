@@ -1,0 +1,94 @@
+[
+  {
+    "MapName": "bigmap",
+    "MapGroups": [
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "ZoneScavBase",
+          "ZoneBlockPost",
+          "ZoneBrige",
+          "ZoneTankSquare",
+          "ZoneCrossRoad",
+          "ZoneDormitory",
+          "ZoneCustoms",
+          "ZoneFactorySide",
+          "ZoneFactoryCenter",
+          "ZoneOldAZS",
+          "ZoneWade",
+          "ZoneGasStation"
+        ]
+      },
+      {
+        "Name": "assaults",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 450,
+        "Time_max": 1600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneScavBase",
+          "ZoneBlockPost",
+          "ZoneBrige",
+          "ZoneTankSquare",
+          "ZoneCrossRoad",
+          "ZoneDormitory",
+          "ZoneCustoms",
+          "ZoneFactorySide",
+          "ZoneFactoryCenter",
+          "ZoneOldAZS",
+          "ZoneWade",
+          "ZoneGasStation"
+        ]
+      },
+      {
+        "Name": "SCAVs at Dorms",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 800,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": ["ZoneDormitory"]
+      },
+      {
+        "Name": "SCAVs at Customs and Factory",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 900,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": [
+          "ZoneCustoms",
+          "ZoneFactoryCenter",
+          "ZoneFactorySide"
+        ]
+      }
+    ],
+    "MapBosses": []
+  }
+]

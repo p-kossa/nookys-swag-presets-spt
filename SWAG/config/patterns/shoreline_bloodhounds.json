@@ -1,0 +1,18 @@
+[
+  {
+    "MapName": "shoreline",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "BossName": "bloodhound",
+        "BossEscortType": "bloodhound",
+        "BossEscortAmount": "3,4",
+        "Time": -1,
+        "BossZone": ["ZoneStartVillage","ZoneGasStation","ZoneForestGasStation","ZonePowerStation"],
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "MapName": "interchange",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "Name": "Killa",
+        "BossName": "bosskilla",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": [
+          "ZoneIDEA",
+          "ZoneGoshan",
+          "ZoneOLI",
+          "ZoneCenter",
+          "ZoneCenterBot"
+        ]
+      }
+    ]
+  }
+]
