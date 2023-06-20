@@ -61,7 +61,7 @@
   "PMCs": {
     "pmcWaves": true,
     "pmcSpawnWeight": 30,
-    "pmcChance": 65,
+    "pmcChance": 55,
     "pmcGroupChance": "asonline"
   },
   "Others": {
@@ -71,28 +71,38 @@
     "scavInLabs": false
   },
 	"MaxBotCap": {
-		"factory": 14,
-		"customs": 24,
-		"woods": 27,
-		"shoreline": 28,
-		"lighthouse": 30,
-		"reserve": 23,
-		"interchange": 24,
+		"factory": 12,
+		"customs": 21,
+		"woods": 25,
+		"shoreline": 26,
+		"lighthouse": 28,
+		"reserve": 20,
+		"interchange": 21,
 		"laboratory": 14,
-		"streets": 24
+		"streets": 20
 	},
   "NightMaxBotCap": {
-		"factory_night": 14,
-		"customs": 24,
-		"woods": 27,
-		"shoreline": 28,
-		"lighthouse": 30,
-		"reserve": 23,
-		"interchange": 24,
+		"factory_night": 12,
+		"customs": 21,
+		"woods": 25,
+		"shoreline": 26,
+		"lighthouse": 28,
+		"reserve": 20,
+		"interchange": 21,
 		"laboratory": 14,
-		"streets": 24
+		"streets": 20
   },
-	"MaxBotPerZone": 7,
+	"MaxBotPerZone": {
+		"factory": 15,
+		"customs": 6,
+		"woods": 7,
+		"shoreline": 5,
+		"lighthouse": 5,
+		"reserve": 6,
+		"interchange": 5,
+		"laboratory": 5,
+		"streets": 4
+  },
 	"UseDefaultSpawns": {
 		"Waves": false,
 		"Bosses": false,

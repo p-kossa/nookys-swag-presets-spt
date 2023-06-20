@@ -268,8 +268,9 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   static SetConfigCaps(): void {
     //Set Max Bots Per Zone Per Map
     for (let map in locations) {
-      locations[map].MaxBotPerZone = config.MaxBotPerZone;
+      locations[map].MaxBotPerZone = config.MaxBotPerZone[reverseMapNames[map]];
     }
+    logger.info("SWAG: MaxBotPerZone set for each map")
   }
 
   /**
@@ -648,8 +649,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         botCount = 0
       }
 
-      // SCAV weight check - let's not skip any starting waves, so check for OnlySpawnOnce here
-      else if (scav_random_weight >= config.Others.scavSpawnWeight && group.OnlySpawnOnce === false) {
+      // SCAV weight check - this now applies to all waves, including starting waves
+      else if (scav_random_weight >= config.Others.scavSpawnWeight) {
+        // don't skip SCAV factory waves
+        if (globalmap === "factory4_day" || globalmap === "factory4_night") {
+          slots = 1
+        }
         slots = 0
         botCount = 0
       }

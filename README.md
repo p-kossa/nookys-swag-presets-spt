@@ -127,13 +127,14 @@ This is an extension of SWAG by props which adds spawns to your raids in "waves"
 
 1. if you already have SWAG installed, delete your "patterns" folder first: `SWAG/config/patterns`
 
-2. download the .zip, extract/copy/paste and overwrite into your SWAG folder: `user/mods/SWAG/`
+2. download the .zip, extract/copy/paste and overwrite into SPT MODS FOLDER ---> `<YOUR SPT FOLDER>/user/mods/`
 
 3. play the game
 
 ## How to Uninstall
 
-Copy, paste and overrwrite my files with the SWAG defaults, that's it!
+If you want to revert to base SWAG - delete the patterns folder and re-install base SWAG
+If you want to uninstall SWAG completely - just delete the SWAG folder.
 
 ---
 
@@ -149,6 +150,14 @@ SVM
 Similar to Realism, if using any "Bots" options be sure SWAG loads AFTER SVM.
 
 ## FAQ
+- I'm getting X, Y, Z errors // I can't load into raids // My spawns aren't working // etc...
+Try a couple of things first:
+- look at your mod list, see if there are any possible conflicts
+- do a full re-install of SWAG
+- delete the contents of your cache: `<YOUR SPT FOLDER>/user/cache/`
+
+If you're still experiencing issues please leave a comment on this mod page (best option) or find me on the SPT discord.
+
 - I want to modify these, how can I do that?
 
 I've added a short guide to help with this: "how-to-modify-spawns.txt"

@@ -7,7 +7,7 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 30,
@@ -17,16 +17,33 @@
         "BotZone": [
           "ZoneScavBase",
           "ZoneBlockPost",
-          "ZoneBrige",
           "ZoneTankSquare",
           "ZoneCrossRoad",
-          "ZoneDormitory",
-          "ZoneCustoms",
           "ZoneFactorySide",
           "ZoneFactoryCenter",
           "ZoneOldAZS",
           "ZoneWade",
           "ZoneGasStation"
+        ]
+      },
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 3
+          }
+        ],
+        "Time_min": 30,
+        "Time_max": 45,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "ZoneScavBase",
+          "ZoneBrige",
+          "ZoneCrossRoad",
+          "ZoneDormitory",
+          "ZoneCustoms"
         ]
       },
       {
