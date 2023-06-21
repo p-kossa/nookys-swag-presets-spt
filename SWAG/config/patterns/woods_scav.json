@@ -7,11 +7,35 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 45,
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "ZoneScavBase2",
+          "ZoneMiniHouse",
+          "ZoneBigRocks",
+          "ZoneRedHouse",
+          "ZoneWoodCutter",
+          "ZoneRoad",
+          "ZoneHouse",
+          "ZoneClearVill",
+          "ZoneBrokenVill"
+        ]
+      },
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": [
@@ -31,11 +55,11 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
-        "Time_min": 300,
-        "Time_max": 1000,
+        "Time_min": 400,
+        "Time_max": 1200,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -59,7 +83,7 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 700,
+        "Time_max": 600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [

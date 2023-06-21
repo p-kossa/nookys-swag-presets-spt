@@ -7,7 +7,7 @@
 	"SkipOtherBossWavesIfBossWaveSelected": false,
   "GlobalRandomWaveTimer": {
     "WaveTimerMinSec": 60,
-    "WaveTimerMaxSec": 120
+    "WaveTimerMaxSec": 180
   },
 	"BossChance": {
     "glukhar": {
@@ -60,13 +60,13 @@
   },
   "PMCs": {
     "pmcWaves": true,
-    "pmcSpawnWeight": 30,
-    "pmcChance": 55,
+    "pmcSpawnWeight": 20,
+    "pmcChance": 60,
     "pmcGroupChance": "asonline"
   },
   "Others": {
     "scavWaves": true,
-    "scavSpawnWeight": 80,
+    "scavSpawnWeight": 65,
     "sniperChance": 50,
     "scavInLabs": false
   },
@@ -76,10 +76,10 @@
 		"woods": 25,
 		"shoreline": 26,
 		"lighthouse": 28,
-		"reserve": 20,
+		"reserve": 19,
 		"interchange": 21,
 		"laboratory": 14,
-		"streets": 20
+		"streets": 19
 	},
   "NightMaxBotCap": {
 		"factory_night": 12,
@@ -94,6 +94,7 @@
   },
 	"MaxBotPerZone": {
 		"factory": 15,
+    "factory_night": 15,
 		"customs": 6,
 		"woods": 7,
 		"shoreline": 5,

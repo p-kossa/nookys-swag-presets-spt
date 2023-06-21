@@ -7,11 +7,11 @@
         "Bots": [
           {
             "BotType": "sptbear",
-            "MaxBotCount": 5
+            "MaxBotCount": 4
           },
           {
             "BotType": "sptusec",
-            "MaxBotCount": 5
+            "MaxBotCount": 4
           }
         ],
         "Time_min": -1,
@@ -33,7 +33,7 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 800,
+        "Time_max": 1000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": ["BotZone"]

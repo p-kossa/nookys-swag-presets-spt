@@ -33,17 +33,28 @@
           }
         ],
         "Time_min": 400,
-        "Time_max": 2000,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
           "ZoneBarrack",
           "ZoneRailStrorage",
-          "ZoneBunkerStorage"
+          "ZoneBunkerStorage",
+          "ZoneSubCommand"
         ]
       }
     ],
     "MapBosses": [
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneSubCommand"]
+      },
       {
         "Name": "sptusec",
         "BossName": "sptusec",

@@ -7,11 +7,36 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
-        "Time_min": 30,
-        "Time_max": 45,
+        "Time_min": 60,
+        "Time_max": 180,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BotZone": [
+          "ZoneGoshan",
+          "ZoneRoad",
+          "ZoneIDEA",
+          "ZoneOLIPark",
+          "ZoneIDEAPark",
+          "ZoneOLI",
+          "ZoneCenter",
+          "ZonePowerStation",
+          "ZoneCenterBot",
+          "ZoneTrucks"
+        ]
+      },
+      {
+        "Name": "Starting SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 60,
+        "Time_max": 180,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": [
@@ -35,8 +60,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 220,
-        "Time_max": 1200,
+        "Time_min": 400,
+        "Time_max": 1400,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -55,8 +80,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 300,
-        "Time_max": 1100,
+        "Time_min": 450,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
