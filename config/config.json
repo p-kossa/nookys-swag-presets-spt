@@ -87,7 +87,18 @@
 		"laboratory": 14,
 		"streets": 24
   },
-	"MaxBotPerZone": 7,
+	"MaxBotPerZone": {
+		"customs": 4,
+		"woods": 5,
+		"shoreline": 4,
+		"lighthouse": 5,
+		"factory": 15,
+		"interchange": 5,
+		"reserve": 4,
+		"laboratory": 3,
+		"streets": 5
+	},
+	
 	"UseDefaultSpawns": {
 		"Waves": false,
 		"Bosses": false,
