@@ -72,7 +72,18 @@ const globalPatterns: GlobalPatterns = {};
 function mapNameTranslator(maplocation: string): string {
 	//dynamic map name translator. goes into server/database/locations/MAP/base.json and gets the "Name":[...] Entry of the map in lowerCase Style
 	let translatedMapName = locations[maplocation]?.base?.Name?.toLowerCase();
-	return translatedMapName;
+	
+	if(translatedMapName === "streets of tarkov") {
+		return "streets";
+	}
+	
+	if(translatedMapName === "reservebase") {
+		return "reserve";
+	}
+	
+	else {
+		return translatedMapName;
+	}
 }
 
 class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
