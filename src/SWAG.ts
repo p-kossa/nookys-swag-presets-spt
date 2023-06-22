@@ -28,8 +28,9 @@ import {
   aiAmountProper,
   diffProper,
   pmcType,
-  roleCase,
-  reverseMapNames
+  //these lines could be removed when merging. this is the import of the old reversemapnames. it got replaced by mapNameTranslator
+  //reverseMapNames,
+  roleCase
 } from "./ClassDef";
 
 import config from "../config/config.json";
@@ -67,6 +68,12 @@ type MapPatterns = {
 };
 
 const globalPatterns: GlobalPatterns = {};
+
+function mapNameTranslator(maplocation: string): string {
+	//dynamic map name translator. goes into server/database/locations/MAP/base.json and gets the "Name":[...] Entry of the map in lowerCase Style
+	let translatedMapName = locations[maplocation]?.base?.Name?.toLowerCase();
+	return translatedMapName;
+}
 
 class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   public static savedLocationData: LocationBackupData = {
@@ -261,14 +268,32 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     locations = databaseServer.getTables().locations;
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
 
-    SWAG.SetConfigCaps();
+    SWAG.SetMaxBotPerZonePerMap();
     SWAG.ReadAllPatterns();
   }
 
-  static SetConfigCaps(): void {
-    //Set Max Bots Per Zone Per Map
+
+	//Sets the MaxBotPerZone defined in the config.json for each map.
+   static SetMaxBotPerZonePerMap(): void {
+	//get the map names from 'DB': locations folder --> map folder name
     for (let map in locations) {
-      locations[map].MaxBotPerZone = config.MaxBotPerZone;
+		//call the translator to translate from folder style
+		let map_name_translator = mapNameTranslator(map);
+		//if undefined: maps like hideout or even new maps not yet released --> fallback value (see else)
+		if(config.MaxBotPerZone[map_name_translator] != undefined) {
+			//set the MaxBotPerZone of that location to the value stated in the config.json
+			locations[map].MaxBotPerZone = config.MaxBotPerZone[map_name_translator];
+			//mirrors the changes in the console, can be removed when merging
+			logger.info(map_name_translator+": "+locations[map].MaxBotPerZone);
+		}
+		
+		else {
+			//set fallback value for all 'unknown' / unplayable maps
+			locations[map].MaxBotPerZone = config.MaxBotPerZone["fallback"];
+			//mirrors the changes in the console, can be removed when merging
+			logger.info(map_name_translator+": "+config.MaxBotPerZone["fallback"]);
+		}
+
     }
   }
 
@@ -655,14 +680,14 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 
     else if (botType === "exUsec") {
-      if (rogue_random_weight >= config.Others.rogueChance[reverseMapNames[globalmap]]) {
+      if (rogue_random_weight >= config.Others.rogueChance[mapNameTranslator(globalmap)]) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "pmcBot") {
-      if (raider_random_weight >= config.Others.raiderChance[reverseMapNames[globalmap]]) {
+      if (raider_random_weight >= config.Others.raiderChance[mapNameTranslator(globalmap)]) {
         slots = 0
         botCount = 0
       }
@@ -742,37 +767,37 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     switch (boss.BossName) {
       case 'bosszryachiy':
-        spawnChance = config.BossChance.zryachiy[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.zryachiy[mapNameTranslator(globalmap)]
         break;
       case 'bossknight':
-        spawnChance = config.BossChance.goons[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.goons[mapNameTranslator(globalmap)]
         break;
       case 'bosstagilla':
-        spawnChance = config.BossChance.tagilla[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.tagilla[mapNameTranslator(globalmap)]
         break;
       case 'bossgluhar':
-        spawnChance = config.BossChance.glukhar[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.glukhar[mapNameTranslator(globalmap)]
         break;
       case 'bosssanitar':
-        spawnChance = config.BossChance.sanitar[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.sanitar[mapNameTranslator(globalmap)]
         break;
       case 'bosskojaniy':
-        spawnChance = config.BossChance.shturman[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.shturman[mapNameTranslator(globalmap)]
         break;
       case 'bossbully':
-        spawnChance = config.BossChance.reshala[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.reshala[mapNameTranslator(globalmap)]
         break;
       case 'bosskilla':
-        spawnChance = config.BossChance.killa[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.killa[mapNameTranslator(globalmap)]
         break;
       case 'sectantpriest':
-        spawnChance = config.BossChance.cultists[reverseMapNames[globalmap]]
+        spawnChance = config.BossChance.cultists[mapNameTranslator(globalmap)]
         break;
       case 'pmcbot':
-        spawnChance = boss.BossChance ? boss.BossChance : config.Others.raiderChance[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.Others.raiderChance[mapNameTranslator(globalmap)]
         break;
       case 'exusec':
-        spawnChance = boss.BossChance ? boss.BossChance : config.Others.rogueChance[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.Others.rogueChance[mapNameTranslator(globalmap)]
         break;
       case 'sptbear':
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance
@@ -781,13 +806,13 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance
         break;
       case 'marksman':
-        spawnChance = boss.BossChance ? boss.BossChance : config.Others.sniperChance[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.Others.sniperChance[mapNameTranslator(globalmap)]
         break;
       case 'assault':
         spawnChance = boss.BossChance ? boss.BossChance : 100
         break;
       default:
-        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance[bossName][reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance[bossName][mapNameTranslator(globalmap)]
         break;
     }
 
@@ -852,7 +877,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   }
 
   // thanks ChatGPT
-  static generatePmcGroupChance(group_chance: string, weights?: number[]): string {
+static generatePmcGroupChance(group_chance: string, weights?: number[]): string {
     const defaultWeights: { [key: string]: number[] } = {
       asonline: [0.60, 0.20, 0.10, 0.07, 0.03],
       low: [0.80, 0.15, 0.05, 0, 0],
@@ -860,20 +885,22 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       high: [0.10, 0.15, 0.30, 0.30, 0.15],
       max: [0, 0, 0.20, 0.50, 0.30]
     };
-
+	
     const totalIntegers = Math.floor(Math.random() * 30) + 1; // Random length from 1 to 15 inclusive
     const selectedWeights = weights || defaultWeights[group_chance];
 
     let bossEscortAmount: number[] = [];
-    for (let i = 0; i < selectedWeights.length; i++) {
-      const count = Math.round(totalIntegers * selectedWeights[i]);
-      bossEscortAmount.push(...Array(count).fill(i));
-    }
+	
+	for (let i = 0; i < selectedWeights.length; i++) {
+			const count = Math.round(totalIntegers * selectedWeights[i]);
+			bossEscortAmount.push(...Array(count).fill(i));
+	}
+		
+	bossEscortAmount.sort((a, b) => a - b); // Sort the occurrences in ascending order
+	return bossEscortAmount.join(',');
+}
 
-    bossEscortAmount.sort((a, b) => a - b); // Sort the occurrences in ascending order
 
-    return bossEscortAmount.join(',');
-  }
 
   static incrementTime(): void {
     let min = SWAG.actual_timers.time_min

@@ -195,6 +195,10 @@ export const roleCase: object = {
   followerzryachiy: "followerZryachiy",
 };
 
+/** These lines could be removed when mergin
+It is the old implementation of the translation of the map names
+Replaced by mapNameTranslator
+
 export const reverseMapNames: object = {
   factory4_day: "factory",
   factory4_night: "factory_night",
@@ -207,7 +211,7 @@ export const reverseMapNames: object = {
   laboratory: "laboratory",
   tarkovstreets: "streets"
 };
-
+**/
 export const diffProper = {
   easy: "easy",
   asonline: "normal",
