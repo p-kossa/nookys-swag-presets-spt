@@ -124,8 +124,7 @@ SWAG (Simple AI Wave Generator) is a mod that gives you full control over all bo
 
 ## How to Uninstall
 
-If you want to revert to base SWAG - delete the patterns folder and re-install base SWAG
-If you want to uninstall SWAG completely - just delete the SWAG folder.
+Delete the SWAG folder
 
 ---
 
