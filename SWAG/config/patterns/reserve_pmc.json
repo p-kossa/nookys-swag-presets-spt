@@ -1,6 +1,6 @@
 [
   {
-    "MapName": "lighthouse",
+    "MapName": "rezervbase",
     "MapGroups": [
       {
         "Name": "PMCs",
@@ -11,16 +11,17 @@
           }
         ],
         "Time_min": 500,
-        "Time_max": 2000,
+        "Time_max": 2600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
-          "Zone_Chalet",
-          "Zone_Rocks",
-          "Zone_Bridge",
-          "Zone_LongRoad",
-          "Zone_DestroyedHouse",
-          "Zone_Village"
+          "ZoneBarrack",
+          "ZoneRailStrorage",
+          "ZoneBunkerStorage",
+          "ZoneSubStorage",
+          "ZonePTOR2",
+          "ZonePTOR1",
+          "ZoneSubCommand"
         ]
       },
       {
@@ -31,109 +32,119 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 300,
-        "Time_max": 900,
+        "Time_min": 400,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
-          "Zone_Chalet"
-        ]
-      },
-      {
-        "Name": "PMCs",
-        "Bots": [
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 500,
-        "Time_max": 3000,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "Zone_TreatmentContainers",
-          "Zone_TreatmentRocks",
-          "Zone_Containers",
-          "Zone_Blockpost",
-          "Zone_Hellicopter",
-          "Zone_RoofRocks",
-          "Zone_RoofContainers",
-          "Zone_TreatmentBeach",
-          "Zone_RoofBeach"
+          "ZoneBarrack",
+          "ZoneRailStrorage",
+          "ZoneBunkerStorage",
+          "ZoneSubCommand"
         ]
       }
     ],
     "MapBosses": [
       {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["Zone_Bridge"]
-      },
-      {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["Zone_Rocks"]
+        "BossZone": ["ZoneSubCommand"]
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["Zone_Chalet"]
+        "BossZone": ["ZoneBarrack"]
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["Zone_Chalet"]
+        "BossZone": ["ZoneBarrack"]
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["Zone_Village"]
+        "BossZone": ["ZonePTOR1"]
+      },
+
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZonePTOR2"]
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneRailStrorage"]
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["Zone_LongRoad"]
+        "BossZone": ["ZoneRailStrorage"]
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneBunkerStorage"]
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["Zone_DestroyedHouse"]
+        "BossZone": ["ZoneBunkerStorage"]
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneSubStorage"]
       }
     ]
   }

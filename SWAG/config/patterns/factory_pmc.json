@@ -3,37 +3,37 @@
     "MapName": "factory4_day",
     "MapGroups": [
       {
-        "Name": "SCAVs",
+        "Name": "PMCs",
         "Bots": [
           {
-            "BotType": "assault",
-            "MaxBotCount": 2
+            "BotType": "sptbear",
+            "MaxBotCount": 4
           },
           {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
+            "BotType": "sptusec",
+            "MaxBotCount": 4
           }
         ],
-        "Time_min": 15,
-        "Time_max": 30,
+        "Time_min": -1,
+        "Time_max": -1,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": ["BotZone"]
       },
       {
-        "Name": "SCAVs",
+        "Name": "PMCs",
         "Bots": [
           {
-            "BotType": "assault",
-            "MaxBotCount": 3
+            "BotType": "sptbear",
+            "MaxBotCount": 2
+          },
+          {
+            "BotType": "sptusec",
+            "MaxBotCount": 2
           }
         ],
-        "Time_min": 120,
-        "Time_max": 400,
+        "Time_min": 300,
+        "Time_max": 1000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": ["BotZone"]

@@ -268,8 +268,9 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   static SetConfigCaps(): void {
     //Set Max Bots Per Zone Per Map
     for (let map in locations) {
-      locations[map].MaxBotPerZone = config.MaxBotPerZone;
+      locations[map].MaxBotPerZone = config.MaxBotPerZone[reverseMapNames[map]];
     }
+    logger.info("SWAG: MaxBotPerZone set for each map")
   }
 
   /**
@@ -591,7 +592,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     let slots = 1
     let player = false
-    let botType = roleCase[bot.BotType.toLowerCase()] ? roleCase[bot.BotType.toLowerCase()] : bot.BotType 
+    let botType = roleCase[bot.BotType.toLowerCase()] ? roleCase[bot.BotType.toLowerCase()] : bot.BotType
     let botCount = bot.MaxBotCount
 
     if (group.OnlySpawnOnce === false && group.RandomTimeSpawn === false) {
@@ -609,6 +610,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let scav_random_weight = SWAG.getRandIntInclusive(1, 100)
     let rogue_random_weight = SWAG.getRandIntInclusive(1, 100)
     let raider_random_weight = SWAG.getRandIntInclusive(1, 100)
+    let bloodhound_random_weight = SWAG.getRandIntInclusive(1, 100)
 
     if (botType === "pmc" || botType === "sptUsec" || botType === "sptBear" ) {
       player = true
@@ -647,22 +649,33 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         botCount = 0
       }
 
-      // SCAV weight check - let's not skip any starting waves, so check for OnlySpawnOnce here
-      else if (scav_random_weight >= config.Others.scavSpawnWeight && group.OnlySpawnOnce === false) {
+      // SCAV weight check - this now applies to all waves, including starting waves
+      else if (scav_random_weight >= config.Others.scavSpawnWeight) {
+        // don't skip SCAV factory waves
+        if (globalmap === "factory4_day" || globalmap === "factory4_night") {
+          slots = 1
+        }
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "exUsec") {
-      if (rogue_random_weight >= config.Others.rogueChance[reverseMapNames[globalmap]]) {
+      if (rogue_random_weight >= config.BossChance.rogues[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "pmcBot") {
-      if (raider_random_weight >= config.Others.raiderChance[reverseMapNames[globalmap]]) {
+      if (raider_random_weight >= config.BossChance.raiders[reverseMapNames[globalmap]]) {
+        slots = 0
+        botCount = 0
+      }
+    }
+
+    else if (botType === "arenaFighterEvent") {
+      if (bloodhound_random_weight >= config.BossChance.bloodhounds[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
@@ -769,10 +782,13 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         spawnChance = config.BossChance.cultists[reverseMapNames[globalmap]]
         break;
       case 'pmcbot':
-        spawnChance = boss.BossChance ? boss.BossChance : config.Others.raiderChance[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.raiders[reverseMapNames[globalmap]]
         break;
       case 'exusec':
-        spawnChance = boss.BossChance ? boss.BossChance : config.Others.rogueChance[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.rogues[reverseMapNames[globalmap]]
+        break;
+      case 'bloodhound':
+        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.bloodhounds[reverseMapNames[globalmap]]
         break;
       case 'sptbear':
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance
@@ -804,17 +820,16 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       }
     }
 
-    if (bossName === "marksman" ) {
-      spawnChance = config.Others.sniperChance
-    }
-    // Guarantee any "boss spawn" that's not a boss
-    else if (bossName === "sptUsec" || bossName === "sptBear") {
+    if (bossName === "sptUsec" || bossName === "sptBear") {
       spawnChance = boss.BossChance ? boss.BossChance : pmcChance
       // if PMC waves are false and this is NOT a starting PMC spawn, then we need to skip it
       if (config.PMCs.pmcWaves === false && boss.Time != -1) {
         spawnChance = 0
       }
       group_chance = boss.BossEscortAmount ? boss.BossEscortAmount : SWAG.generatePmcGroupChance(config.PMCs.pmcGroupChance)
+    }
+    else if (bossName === "marksman" ) {
+      spawnChance = config.Others.sniperChance
     }
 
     // if there's a trigger defined then we need to define it for this wave

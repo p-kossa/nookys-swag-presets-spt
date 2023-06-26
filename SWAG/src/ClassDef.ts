@@ -193,6 +193,7 @@ export const roleCase: object = {
   followerbirdeye: "followerBirdEye",
   bosszryachiy: "bossZryachiy",
   followerzryachiy: "followerZryachiy",
+  bloodhound: "arenaFighterEvent"
 };
 
 export const reverseMapNames: object = {

@@ -1,6 +1,6 @@
 [
   {
-    "MapName": "tarkovstreets",
+    "MapName": "interchange",
     "MapGroups": [
       {
         "Name": "PMCs",
@@ -11,39 +11,38 @@
           }
         ],
         "Time_min": 450,
-        "Time_max": 3200,
+        "Time_max": 2900,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
-          "ZoneHotel_2",
-          "ZoneHotel_1",
-          "ZoneConcordia_2",
-          "ZoneConcordia_1",
-          "ZoneConstruction",
-          "ZoneColumn",
-          "ZoneConcordiaParking",
-          "ZoneCarShowroom",
-          "ZoneCinema"
+          "ZoneGoshan",
+          "ZoneRoad",
+          "ZoneIDEA",
+          "ZoneOLIPark",
+          "ZoneIDEAPark",
+          "ZoneOLI",
+          "ZoneCenter",
+          "ZonePowerStation",
+          "ZoneCenterBot",
+          "ZoneTrucks"
         ]
       },
       {
-        "Name": "PMCs at POIs",
+        "Name": "PMCs",
         "Bots": [
           {
             "BotType": "pmc",
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 450,
-        "Time_max": 1800,
+        "Time_min": 300,
+        "Time_max": 900,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
-          "ZoneHotel_2",
-          "ZoneHotel_1",
-          "ZoneConcordia_2",
-          "ZoneConcordia_1",
-          "ZoneCarShowroom"
+          "ZoneGoshan",
+          "ZoneIDEA",
+          "ZoneOLI"
         ]
       }
     ],
@@ -52,101 +51,121 @@
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneFactory"]
+        "BossZone": ["ZoneRoad"]
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneOLI"]
+      },
+      {
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneIDEA"]
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneConcordia_1"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneConcordia_1"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneCarShowroom"]
+        "BossZone": ["ZoneOLI"]
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneSW01"]
+        "BossZone": ["ZoneIDEA"]
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneCinema"]
+        "BossZone": ["ZonePowerStation"]
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneHotel_1","ZoneHotel_2"]
+        "BossZone": ["ZoneTrucks"]
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneHotel_1","ZoneHotel_2"]
+        "BossZone": ["ZoneIDEAPark"]
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneOLIPark"]
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneCenterBot"]
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneGoshan"]
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneConcordiaParking"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneConstruction"]
+        "BossZone": ["ZoneGoshan"]
       }
     ]
   }

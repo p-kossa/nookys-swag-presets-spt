@@ -1,6 +1,6 @@
 [
   {
-    "MapName": "woods",
+    "MapName": "bigmap",
     "MapGroups": [
       {
         "Name": "PMCs",
@@ -10,173 +10,174 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 500,
-        "Time_max": 2600,
+        "Time_min": 450,
+        "Time_max": 3000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
-          "ZoneScavBase2",
-          "ZoneMiniHouse",
-          "ZoneBigRocks",
-          "ZoneRedHouse",
-          "ZoneWoodCutter",
-          "ZoneRoad",
-          "ZoneHouse",
-          "ZoneClearVill",
-          "ZoneBrokenVill"
+          "ZoneScavBase",
+          "ZoneBlockPost",
+          "ZoneBrige",
+          "ZoneTankSquare",
+          "ZoneCrossRoad",
+          "ZoneDormitory",
+          "ZoneCustoms",
+          "ZoneFactorySide",
+          "ZoneFactoryCenter",
+          "ZoneOldAZS",
+          "ZoneWade",
+          "ZoneGasStation"
         ]
       },
       {
-        "Name": "PMCs",
+        "Name": "PMCs at Dorms",
         "Bots": [
           {
             "BotType": "pmc",
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 400,
-        "Time_max": 1600,
+        "Time_min": 300,
+        "Time_max": 600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneMiniHouse",
-          "ZoneRedHouse",
-          "ZoneWoodCutter",
-          "ZoneRoad",
-          "ZoneHouse"
-        ]
+        "BotZone": ["ZoneDormitory"]
+      },
+      {
+        "Name": "PMCs at Customs",
+        "Bots": [
+          {
+            "BotType": "pmc",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": 300,
+        "Time_max": 600,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": false,
+        "BotZone": ["ZoneCustoms"]
       }
     ],
     "MapBosses": [
       {
         "Name": "sptbear",
         "BossName": "sptbear",
+        "BossZone": ["ZoneBrige","ZoneWade"],
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneRoad"]
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
+        "BossZone": ["ZoneBrige","ZoneWade"],
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneRoad"]
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
+        "BossZone": ["ZoneBlockPost"],
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneBigRocks"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneMiniHouse"]
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
+        "BossZone": ["ZoneGasStation"],
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneWoodCutter"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneWoodCutter"]
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
+        "BossZone": ["ZoneCrossRoad"],
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneHouse"]
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
+        "BossZone": ["ZoneTankSquare"],
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneHouse"]
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneCustoms"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossZone": ["ZoneDormitory"],
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
+        "BossZone": ["ZoneDormitory"],
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneRedHouse"]
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
+        "BossZone": ["ZoneOldAZS"],
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneRedHouse"]
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptusec",
         "BossName": "sptusec",
+        "BossZone": ["ZoneFactorySide","ZoneFactoryCenter"],
         "BossEscortType": "sptusec",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneRedHouse"]
+        "OnlySpawnOnce": true
       },
       {
         "Name": "sptbear",
         "BossName": "sptbear",
+        "BossZone": ["ZoneFactorySide","ZoneFactoryCenter"],
         "BossEscortType": "sptbear",
-        "Time": -1,
+        "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneClearVill"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneBrokenVill"]
+        "OnlySpawnOnce": true
       }
     ]
   }

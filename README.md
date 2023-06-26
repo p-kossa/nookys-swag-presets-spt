@@ -1,11 +1,9 @@
-# Nooky's SWAG Custom Presets
-![Version: 1.2.4](https://img.shields.io/badge/Version-1.2.4-informational?style=flat-square)
+# SWAG 2.0
+![Version: 2.0.0](https://img.shields.io/badge/Version-2.0.0-informational?style=flat-square)
 
-**SWAG 1.4.3+ by props IS REQUIRED!**
+**All credit goes to Props, creator of SWAG**
 
 https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
-
-**THIS IS A WORK IN PROGRESS**
 
 ---
 
@@ -110,32 +108,23 @@ https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 }
 ```
 
+ALL CREDIT GOES TO PROPS, SWAG'S CREATOR.
+
 ## What is this?
 
-This is an extension of SWAG by props which adds spawns to your raids in "waves". What I've done is create my own custom SWAG presets that try to achieve the following:
-
-
-- out-of-the-box "live" SWAG - do you like SWAG but don't feel like messing with config files? just copy and paste these and play, no other action needed!
-- no more dead raids - my presets have bots spawning in ALL zones of the map consistently throughout your raid. Think you're safe heading to your Trailer Park extract with 5 mins left? Think again.
-- a balance of PMC and SCAVs - raids start with more PMCs then balance out throughout the duration
-- Rogues and Raiders - Labs should be a challenge, so I filled it with groups of Raiders. Rogues spawn in Lighthouse consistently.
-- "live-like" bosses - all bosses should spawn in their "live" location on each map at the very beginning of your raids, no more boss randomness!
-- more action in POIs - forget "clearing" Dorms, Resort, etc. Once you think you're safe you may hear PMCs around the corner...
-- ...and more - now with the current version of SWAG, the possibilities are endless. 
+SWAG (Simple AI Wave Generator) is a mod that gives you full control over all bot spawns in your raids.
 
 ## How To Install
 
-Be sure you have SWAG 1.4.3+ installed first!
+1. if you already have SWAG installed, delete your "patterns" folder first: `SWAG/config/patterns`
 
-1. delete your "patterns" folder: `SWAG/config/patterns`
-
-2. download the .zip, extract/copy/paste and overwrite into your SWAG folder: `user/mods/SWAG/`
+2. download the .zip, extract/copy/paste and overwrite into SPT MODS FOLDER ---> `<YOUR SPT FOLDER>/user/mods/`
 
 3. play the game
 
 ## How to Uninstall
 
-Copy, paste and overrwrite my files with the SWAG defaults, that's it!
+Delete the SWAG folder
 
 ---
 
@@ -151,6 +140,14 @@ SVM
 Similar to Realism, if using any "Bots" options be sure SWAG loads AFTER SVM.
 
 ## FAQ
+- I'm getting X, Y, Z errors // I can't load into raids // My spawns aren't working // etc...
+Try a couple of things first:
+- look at your mod list, see if there are any possible conflicts
+- do a full re-install of SWAG
+- delete the contents of your cache: `<YOUR SPT FOLDER>/user/cache/`
+
+If you're still experiencing issues please leave a comment on this mod page (best option) or find me on the SPT discord.
+
 - I want to modify these, how can I do that?
 
 I've added a short guide to help with this: "how-to-modify-spawns.txt"
