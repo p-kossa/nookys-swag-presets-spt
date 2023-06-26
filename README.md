@@ -110,18 +110,11 @@ https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 }
 ```
 
+ALL CREDIT GOES TO PROPS, SWAG'S CREATOR.
+
 ## What is this?
 
-This is an extension of SWAG by props which adds spawns to your raids in "waves". What I've done is create my own custom SWAG presets that try to achieve the following:
-
-
-- out-of-the-box "live" SWAG - do you like SWAG but don't feel like messing with config files? just copy and paste these and play, no other action needed!
-- no more dead raids - my presets have bots spawning in ALL zones of the map consistently throughout your raid. Think you're safe heading to your Trailer Park extract with 5 mins left? Think again.
-- a balance of PMC and SCAVs - raids start with more PMCs then balance out throughout the duration
-- Rogues and Raiders - Labs should be a challenge, so I filled it with groups of Raiders. Rogues spawn in Lighthouse consistently.
-- "live-like" bosses - all bosses should spawn in their "live" location on each map at the very beginning of your raids, no more boss randomness!
-- more action in POIs - forget "clearing" Dorms, Resort, etc. Once you think you're safe you may hear PMCs around the corner...
-- ...and more - now with the current version of SWAG, the possibilities are endless. 
+SWAG (Simple AI Wave Generator) is a mod that gives you full control over all bot spawns in your raids.
 
 ## How To Install
 
