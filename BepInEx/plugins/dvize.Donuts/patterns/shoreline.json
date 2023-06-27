@@ -1,0 +1,85 @@
+{
+  "Locations": [
+    {
+      "MapName": "shoreline",
+      "GroupNum": 27,
+      "Name": "Port Island",
+      "Position": {
+        "x": -397.967255,
+        "y": -63.78417,
+        "z": 544.89386
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 28,
+      "Name": "Resort 3rd",
+      "Position": {
+        "x": -232.319778,
+        "y": 2.05198288,
+        "z": -99.3310547
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 270.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 4,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+
+    {
+      "MapName": "shoreline",
+      "GroupNum": 29,
+      "Name": "West Resort 3rd",
+      "Position": {
+        "x": -357.329071,
+        "y": 2.052,
+        "z": -82.6784058
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 30,
+      "Name": "NW of Resort",
+      "Position": {
+        "x": -10.7247086,
+        "y": -24.4616547,
+        "z": -297.2666
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 4.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    }
+  ]
+}

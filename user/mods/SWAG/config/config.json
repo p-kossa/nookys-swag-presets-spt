@@ -1,0 +1,100 @@
+
+{
+	"aiDifficulty": "normal",
+	"aiAmount": "asonline",
+	"RandomWaveCount": 7,
+	"BossWaveCount": 1,
+	"SkipOtherBossWavesIfBossWaveSelected": false,
+  "GlobalRandomWaveTimer": {
+    "WaveTimerMinSec": 90,
+    "WaveTimerMaxSec": 180
+  },
+	"BossChance": {
+    "glukhar": {
+      "reserve": 10,
+      "streets": 10
+    },
+    "killa": {
+      "interchange": 10,
+      "streets": 10
+    },
+    "tagilla": {
+      "factory": 10
+    },
+    "zryachiy": {
+      "lighthouse": 100
+    },
+    "sanitar": {
+      "shoreline": 15
+    },
+    "reshala": {
+      "customs": 10
+    },
+    "shturman": {
+      "woods": 10
+    },
+    "goons": {
+      "customs": 10,
+      "woods": 10,
+      "shoreline": 10,
+      "lighthouse": 10
+    },
+    "cultists": {
+      "customs": 10,
+      "woods": 10,
+      "shoreline": 10,
+      "factory_night": 100
+    },
+    "rogues": {
+      "lighthouse": 65
+    },
+    "raiders": {
+      "laboratory": 75,
+      "reserve": 65
+    },
+    "bloodhounds": {
+      "customs": 5,
+      "woods": 5,
+      "shoreline": 5
+    }
+  },
+  "PMCs": {
+    "pmcWaves": false,
+    "pmcSpawnWeight": 0,
+    "pmcChance": 0,
+    "pmcGroupChance": "asonline"
+  },
+  "Others": {
+    "scavWaves": true,
+    "scavSpawnWeight": 30,
+    "sniperChance": 35
+  },
+	"MaxBotCap": {
+		"factory": 4,
+		"customs": 14,
+		"woods": 14,
+		"shoreline": 14,
+		"lighthouse": 16,
+		"reserve": 14,
+		"interchange": 14,
+		"laboratory": 8,
+		"streets": 14
+	},
+  "NightMaxBotCap": {
+		"factory_night": 4,
+		"customs": 14,
+		"woods": 14,
+		"shoreline": 14,
+		"lighthouse": 16,
+		"reserve": 14,
+		"interchange": 14,
+		"laboratory": 8,
+		"streets": 14
+  },
+	"UseDefaultSpawns": {
+		"Waves": false,
+		"Bosses": false,
+		"TriggeredWaves": false
+	},
+	"DebugOutput": false
+}

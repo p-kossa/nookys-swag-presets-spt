@@ -1,0 +1,18 @@
+[
+  {
+    "MapName": "bigmap",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "BossName": "bloodhound",
+        "BossEscortType": "bloodhound",
+        "BossEscortAmount": "1,2,2,2,3",
+        "Time": -1,
+        "BossZone": ["ZoneFactoryCenter","ZoneScavBase"],
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]
