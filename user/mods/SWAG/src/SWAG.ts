@@ -639,7 +639,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 
     else if (botType === "assault") {
-      if (config.Others.scavWaves === false && group.OnlySpawnOnce === false) {
+      if (config.Others.scavWaves === false) {
         slots = 0
         botCount = 0
       }

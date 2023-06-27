@@ -10,59 +10,11 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 30.0,
+      "MaxDistance": 35.0,
       "MaxRandomNumBots": 3,
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 180,
       "SpawnChance": 30
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Chalet",
-      "Position": {
-        "x": -119.488068,
-        "y": 39.872406,
-        "z": 96.37372
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 30.0,
-      "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 150,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 50
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Chalet",
-      "Position": {
-        "x": -74.16394,
-        "y": 21.86696,
-        "z": -89.9020157
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 30.0,
-      "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 200,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 50
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Beach",
-      "Position": {
-        "x": 120.091286,
-        "y": 0.315592647,
-        "z": -164.805634
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 500,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 25
     },
     {
       "MapName": "lighthouse",
@@ -74,43 +26,11 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 50.0,
       "MaxRandomNumBots": 1,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 300,
       "SpawnChance": 25
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Dead Area Between WTP and Path",
-      "Position": {
-        "x": -205.451263,
-        "y": 2.62689638,
-        "z": -352.5959
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 120,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Dead Area Between WTP and Path",
-      "Position": {
-        "x": -267.419922,
-        "y": 0.308790833,
-        "z": -364.708618
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 15
     },
     {
       "MapName": "lighthouse",
@@ -122,7 +42,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 50.0,
       "MaxRandomNumBots": 1,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 300,
@@ -143,102 +63,6 @@
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 300,
       "SpawnChance": 50
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Inside WTP",
-      "Position": {
-        "x": -181.802658,
-        "y": 7.688372,
-        "z": -655.9158
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 30
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Inside WTP",
-      "Position": {
-        "x": -177.062088,
-        "y": 4.9069376,
-        "z": -694.82074
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 30
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Inside WTP",
-      "Position": {
-        "x": -98.1121,
-        "y": 4.95484924,
-        "z": -740.4383
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 30
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Inside WTP",
-      "Position": {
-        "x": -40.55226,
-        "y": 10.3894939,
-        "z": -773.1163
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 30
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Behind WTP",
-      "Position": {
-        "x": 25.9569836,
-        "y": 10.521,
-        "z": -806.6876
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 30.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 30
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Behind WTP",
-      "Position": {
-        "x": -48.4879723,
-        "y": 10.5113745,
-        "z": -833.468445
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 30.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 30
     }
   ]
 }

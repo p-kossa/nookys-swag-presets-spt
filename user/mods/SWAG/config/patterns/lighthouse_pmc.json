@@ -46,6 +46,16 @@
         "BossZone": ["Zone_Rocks"]
       },
       {
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
+        "Time": 5,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["Zone_Chalet"]
+      },
+      {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",

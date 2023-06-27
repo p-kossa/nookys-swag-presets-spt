@@ -1,0 +1,22 @@
+[
+  {
+    "MapName": "all",
+    "MapGroups": [
+      {
+        "Name": "SCAVs",
+        "Bots": [
+          {
+            "BotType": "assault",
+            "MaxBotCount": 2
+          }
+        ],
+        "Time_min": null,
+        "Time_max": null,
+        "RandomTimeSpawn": true,
+        "OnlySpawnOnce": false,
+        "BotZone": null
+      }
+    ],
+    "MapBosses": []
+  }
+]

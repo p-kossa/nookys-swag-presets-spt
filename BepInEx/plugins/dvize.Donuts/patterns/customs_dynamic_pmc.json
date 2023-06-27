@@ -10,23 +10,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 20.0,
-      "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 35
-    },
-    {
-      "MapName": "bigmap",
-      "Name": "Outside Crackhouse",
-      "Position": {
-        "x": 99.4183044,
-        "y": 0.8687331,
-        "z": -151.055222
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 20.0,
+      "MaxDistance": 35.0,
       "MaxRandomNumBots": 2,
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
@@ -44,9 +28,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
       "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 180,
-      "SpawnChance": 35
+      "SpawnChance": 15
     },
     {
       "MapName": "bigmap",
@@ -154,11 +138,11 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 25.0,
-      "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 350,
+      "MaxDistance": 30.0,
+      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 180,
-      "SpawnChance": 35
+      "SpawnChance": 15
     },
     {
       "MapName": "bigmap",
@@ -173,8 +157,8 @@
       "MaxDistance": 5.0,
       "MaxRandomNumBots": 2,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 35
+      "BotTimerTrigger": 700,
+      "SpawnChance": 45
     }
   ]
 }
