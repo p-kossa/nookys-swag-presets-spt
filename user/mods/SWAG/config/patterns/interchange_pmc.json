@@ -26,24 +26,6 @@
           "ZoneCenterBot",
           "ZoneTrucks"
         ]
-      },
-      {
-        "Name": "PMCs",
-        "Bots": [
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 300,
-        "Time_max": 900,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneGoshan",
-          "ZoneIDEA",
-          "ZoneOLI"
-        ]
       }
     ],
     "MapBosses": [
@@ -65,16 +47,6 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneOLI"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
         "BossZone": ["ZoneIDEA"]
       },
       {
@@ -86,16 +58,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": ["ZoneOLI"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneIDEA"]
       },
       {
         "Name": "sptbear",
@@ -151,16 +113,6 @@
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneGoshan"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
         "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,

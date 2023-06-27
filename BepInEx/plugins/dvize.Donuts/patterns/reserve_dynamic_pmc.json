@@ -9,8 +9,10 @@
         "z": 11.911108
       },
       "wildSpawnType": "pmc",
-      "minDistance": 1.0,
-      "maxDistance": 5,
+      "minDistance": 0.0,
+      "maxDistance": 1,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 180,
       "maxRandomNumBots": 2,
       "spawnChance": 10
     },
@@ -23,8 +25,10 @@
         "z": 74.01713
       },
       "wildSpawnType": "pmc",
-      "minDistance": 1.0,
-      "maxDistance": 5,
+      "minDistance": 0.0,
+      "maxDistance": 1,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 180,
       "maxRandomNumBots": 2,
       "spawnChance": 10
     },
@@ -37,8 +41,10 @@
         "z": 109.469666
       },
       "wildSpawnType": "pmc",
-      "minDistance": 1.0,
-      "maxDistance": 5,
+      "minDistance": 0.0,
+      "maxDistance": 1,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 180,
       "maxRandomNumBots": 2,
       "spawnChance": 10
     },
@@ -51,8 +57,10 @@
         "z": 145.74556
       },
       "wildSpawnType": "pmc",
-      "minDistance": 1.0,
-      "maxDistance": 5,
+      "minDistance": 0.0,
+      "maxDistance": 1,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 180,
       "maxRandomNumBots": 2,
       "spawnChance": 10
     },
@@ -65,8 +73,10 @@
         "z": 170.808578
       },
       "wildSpawnType": "pmc",
-      "minDistance": 1.0,
-      "maxDistance": 5,
+      "minDistance": 0.0,
+      "maxDistance": 1,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 180,
       "maxRandomNumBots": 2,
       "spawnChance": 10
     },
@@ -80,7 +90,9 @@
       },
       "wildSpawnType": "pmc",
       "minDistance": 1.0,
-      "maxDistance": 50,
+      "maxDistance": 15,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 180,
       "maxRandomNumBots": 2,
       "spawnChance": 10
     },
@@ -94,7 +106,9 @@
       },
       "wildSpawnType": "pmc",
       "minDistance": 1.0,
-      "maxDistance": 5,
+      "maxDistance": 15,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 180,
       "maxRandomNumBots": 2,
       "spawnChance": 10
     }
