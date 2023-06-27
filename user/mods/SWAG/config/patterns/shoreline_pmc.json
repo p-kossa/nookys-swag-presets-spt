@@ -32,23 +32,6 @@
           "ZonePassFar",
           "ZoneTunnel"
         ]
-      },
-      {
-        "Name": "PMCs at POIs",
-        "Bots": [
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 300,
-        "Time_max": 600,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneSanatorium1",
-          "ZoneSanatorium2"
-        ]
       }
     ],
     "MapBosses": [
@@ -151,26 +134,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": ["ZoneForestSpawn"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneSanatorium1"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneSanatorium2"]
       }
     ]
   }
