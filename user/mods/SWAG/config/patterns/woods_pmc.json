@@ -25,26 +25,6 @@
           "ZoneClearVill",
           "ZoneBrokenVill"
         ]
-      },
-      {
-        "Name": "PMCs",
-        "Bots": [
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 400,
-        "Time_max": 1300,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneMiniHouse",
-          "ZoneRedHouse",
-          "ZoneWoodCutter",
-          "ZoneRoad",
-          "ZoneHouse"
-        ]
       }
     ],
     "MapBosses": [
@@ -52,16 +32,6 @@
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneRoad"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
         "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -106,26 +76,6 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneWoodCutter"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneHouse"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
         "BossZone": ["ZoneHouse"]
       },
       {
@@ -147,26 +97,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": ["ZoneRedHouse"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneRedHouse"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneClearVill"]
       },
       {
         "Name": "sptusec",
