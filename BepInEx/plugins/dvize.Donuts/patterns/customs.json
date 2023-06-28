@@ -12,9 +12,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 35.0,
       "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 35
+      "BotTriggerDistance": 450,
+      "BotTimerTrigger": 300,
+      "SpawnChance": 15
     },
     {
       "MapName": "bigmap",
@@ -28,8 +28,8 @@
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
       "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 300,
       "SpawnChance": 15
     },
     {
@@ -78,7 +78,7 @@
       "MaxRandomNumBots": 2,
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
-      "SpawnChance": 35
+      "SpawnChance": 5
     },
     {
       "MapName": "bigmap",
@@ -94,7 +94,7 @@
       "MaxRandomNumBots": 2,
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
-      "SpawnChance": 35
+      "SpawnChance": 55
     },
     {
       "MapName": "bigmap",
@@ -136,10 +136,10 @@
         "y": 2.3092854,
         "z": 89.5051
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 30.0,
-      "MaxRandomNumBots": 3,
+      "MaxRandomNumBots": 2,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 180,
       "SpawnChance": 15
@@ -155,7 +155,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 700,
       "SpawnChance": 45
