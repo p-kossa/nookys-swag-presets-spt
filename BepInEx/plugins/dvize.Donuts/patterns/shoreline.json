@@ -14,7 +14,7 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "SpawnChance": 10
     },
     {
       "MapName": "shoreline",
@@ -24,13 +24,13 @@
         "y": -49.32939,
         "z": 250.247131
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 0.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 240.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "BotTimerTrigger": 150.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45
     },
     {
       "MapName": "shoreline",
@@ -44,9 +44,9 @@
       "MinDistance": 0.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55
+      "SpawnChance": 35
     },
     {
       "MapName": "shoreline",
@@ -107,7 +107,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 300.1,
+      "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 450.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 45
@@ -123,10 +123,10 @@
       "WildSpawnType": "sptusec",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
+      "BotTriggerDistance": 350.1,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25
+      "SpawnChance": 10
     },
     {
       "MapName": "shoreline",
@@ -139,10 +139,10 @@
       "WildSpawnType": "sptbear",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 290.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 190.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25
+      "SpawnChance": 10
     },
     {
       "MapName": "shoreline",
@@ -168,12 +168,12 @@
         "y": -48.660038,
         "z": 62.56647
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 0.0,
       "MaxDistance": 150.0,
       "BotTriggerDistance": 600.1,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
+      "BotTimerTrigger": 250.0,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 55
     }
   ]
