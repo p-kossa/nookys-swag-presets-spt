@@ -8,13 +8,13 @@
         "y": 1.09308529,
         "z": -158.030746
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "sptusec",
       "MinDistance": 1.0,
       "MaxDistance": 35.0,
       "MaxRandomNumBots": 2,
       "BotTriggerDistance": 450,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 15
+      "BotTimerTrigger": 260,
+      "SpawnChance": 65
     },
     {
       "MapName": "bigmap",
@@ -24,13 +24,13 @@
         "y": 4.672584,
         "z": -158.156723
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "sptbear",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 3,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "SpawnChance": 15
+      "BotTimerTrigger": 180,
+      "SpawnChance": 45
     },
     {
       "MapName": "bigmap",
@@ -40,12 +40,12 @@
         "y": -9.727461,
         "z": -138.174545
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "sptusec",
       "MinDistance": 1.0,
       "MaxDistance": 20.0,
       "MaxRandomNumBots": 2,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 550,
       "SpawnChance": 35
     },
     {
@@ -56,12 +56,12 @@
         "y": 14.4028883,
         "z": 111.687111
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "sptbear",
       "MinDistance": 1.0,
       "MaxDistance": 20.0,
       "MaxRandomNumBots": 2,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 280,
       "SpawnChance": 35
     },
     {
@@ -72,45 +72,29 @@
         "y": 1.38750219,
         "z": -71.5210648
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "sptusec",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
       "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 5
+      "BotTriggerDistance": 450,
+      "BotTimerTrigger": 300,
+      "SpawnChance": 25
     },
     {
       "MapName": "bigmap",
       "Name": "From Gas to Dorms",
       "Position": {
-        "x": 432.245148,
-        "y": 1.514376,
-        "z": 161.363449
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 55
-    },
-    {
-      "MapName": "bigmap",
-      "Name": "From Gas to Dorms 2",
-      "Position": {
         "x": 350.905884,
         "y": 6.805247,
         "z": 134.274368
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 25.0,
+      "MaxDistance": 45.0,
       "MaxRandomNumBots": 2,
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
-      "SpawnChance": 35
+      "SpawnChance": 65
     },
     {
       "MapName": "bigmap",
@@ -127,22 +111,6 @@
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
       "SpawnChance": 35
-    },
-    {
-      "MapName": "bigmap",
-      "Name": "Dorms to Boat",
-      "Position": {
-        "x": 98.94509,
-        "y": 2.3092854,
-        "z": 89.5051
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 30.0,
-      "MaxRandomNumBots": 2,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 15
     },
     {
       "MapName": "bigmap",

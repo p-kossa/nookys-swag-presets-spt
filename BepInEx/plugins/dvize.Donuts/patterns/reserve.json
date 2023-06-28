@@ -8,13 +8,13 @@
         "y": -11.1333723,
         "z": 11.911108
       },
-      "wildSpawnType": "pmc",
+      "wildSpawnType": "sptusec",
       "minDistance": 0.0,
       "maxDistance": 1,
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 180,
       "maxRandomNumBots": 2,
-      "spawnChance": 10
+      "spawnChance": 55
     },
     {
       "mapName": "rezervbase",
@@ -24,13 +24,13 @@
         "y": -10.4819145,
         "z": 74.01713
       },
-      "wildSpawnType": "pmc",
+      "wildSpawnType": "assault",
       "minDistance": 0.0,
       "maxDistance": 1,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 240,
       "maxRandomNumBots": 2,
-      "spawnChance": 10
+      "spawnChance": 75
     },
     {
       "mapName": "rezervbase",
@@ -40,13 +40,13 @@
         "y": -19.7678623,
         "z": 109.469666
       },
-      "wildSpawnType": "pmc",
+      "wildSpawnType": "sptbear",
       "minDistance": 0.0,
       "maxDistance": 1,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 300,
       "maxRandomNumBots": 2,
-      "spawnChance": 10
+      "spawnChance": 75
     },
     {
       "mapName": "rezervbase",
@@ -56,13 +56,13 @@
         "y": -14.703867,
         "z": 145.74556
       },
-      "wildSpawnType": "pmc",
+      "wildSpawnType": "sptusec",
       "minDistance": 0.0,
       "maxDistance": 1,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 270,
       "maxRandomNumBots": 2,
-      "spawnChance": 10
+      "spawnChance": 65
     },
     {
       "mapName": "rezervbase",
@@ -72,13 +72,13 @@
         "y": -15.9011688,
         "z": 170.808578
       },
-      "wildSpawnType": "pmc",
+      "wildSpawnType": "sptbear",
       "minDistance": 0.0,
       "maxDistance": 1,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 360,
+      "BotTimerTrigger": 340,
       "maxRandomNumBots": 2,
-      "spawnChance": 15
+      "spawnChance": 75
     },
     {
       "mapName": "rezervbase",
@@ -88,13 +88,13 @@
         "y": 18.57441,
         "z": 170.694244
       },
-      "wildSpawnType": "pmc",
+      "wildSpawnType": "sptusec",
       "minDistance": 1.0,
       "maxDistance": 30,
       "BotTriggerDistance": 500,
-      "BotTimerTrigger": 360,
-      "maxRandomNumBots": 2,
-      "spawnChance": 10
+      "BotTimerTrigger": 200,
+      "maxRandomNumBots": 3,
+      "spawnChance": 65
     },
     {
       "mapName": "rezervbase",
@@ -108,9 +108,9 @@
       "minDistance": 1.0,
       "maxDistance": 15,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 400,
-      "maxRandomNumBots": 2,
-      "spawnChance": 10
+      "BotTimerTrigger": 180,
+      "maxRandomNumBots": 1,
+      "spawnChance": 55
     }
   ]
 }

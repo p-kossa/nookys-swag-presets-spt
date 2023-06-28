@@ -2,19 +2,163 @@
   "Locations": [
     {
       "MapName": "laboratory",
-      "Name": "Labs Parking Garage",
+      "Name": "Labs PMC Start",
       "Position": {
-        "x": -231.846939,
-        "y": 0.0229394287,
-        "z": -404.315277
+        "x": -260.266083,
+        "y": 0.0144543024,
+        "z": -321.836334
+      },
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Bathroom",
+      "Position": {
+        "x": -268.0912,
+        "y": 0.05300017,
+        "z": -280.876526
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "BotTriggerDistance": 450.0,
-      "BotTimerTrigger": 120.0,
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Start",
+      "Position": {
+        "x": -203.8454,
+        "y": 1.40064919,
+        "z": -284.571045
+      },
+      "WildSpawnType": "sptbear",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 5
+      "SpawnChance": 50
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Start",
+      "Position": {
+        "x": -171.388153,
+        "y": 0.04394813,
+        "z": -272.149933
+      },
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Start",
+      "Position": {
+        "x": -117.674309,
+        "y": 4.10469437,
+        "z": -374.327118
+      },
+      "WildSpawnType": "sptbear",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Start Lower Lvl",
+      "Position": {
+        "x": -115.634033,
+        "y": -4.053974,
+        "z": -313.3871
+      },
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Start Lower Elevator",
+      "Position": {
+        "x": -122.758011,
+        "y": -4.04365635,
+        "z": -362.410767
+      },
+      "WildSpawnType": "sptbear",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 160.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Start",
+      "Position": {
+        "x": -117.818375,
+        "y": 0.008917637,
+        "z": -416.652832
+      },
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Start",
+      "Position": {
+        "x": -132.662933,
+        "y": 1.368484,
+        "z": -309.198181
+      },
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "Labs PMC Start",
+      "Position": {
+        "x": -118.154991,
+        "y": -0.0002968228,
+        "z": -275.2248
+      },
+      "WildSpawnType": "sptbear",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 270.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 70
     }
   ]
 }

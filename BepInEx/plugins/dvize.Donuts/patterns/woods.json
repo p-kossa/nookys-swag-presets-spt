@@ -2,659 +2,163 @@
   "Locations": [
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods South of ClearVill",
       "Position": {
-        "x": -502.8957,
-        "y": 14.7110777,
-        "z": -161.349152
+        "x": -456.067078,
+        "y": 14.8211632,
+        "z": -205.480179
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 75.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods West of ClearVill",
       "Position": {
-        "x": -479.7108,
-        "y": 22.0727825,
-        "z": -235.642456
+        "x": -456.067078,
+        "y": 14.8211584,
+        "z": -205.480179
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 75.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods Between House and Wood",
       "Position": {
-        "x": -479.844818,
-        "y": 15.3490582,
-        "z": -422.34436
+        "x": 268.081146,
+        "y": -0.8362288,
+        "z": -8.870748
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 75.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 390.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods Dead Area",
       "Position": {
-        "x": -479.392548,
-        "y": 15.0382462,
-        "z": -359.090057
+        "x": 208.995682,
+        "y": 22.6494522,
+        "z": -290.2486
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "WildSpawnType": "sptbear",
+      "MinDistance": 0.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 500.1,
+      "BotTimerTrigger": 400.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods Dead Area",
       "Position": {
-        "x": -464.671967,
-        "y": 15.1194868,
-        "z": -325.721466
+        "x": 278.139557,
+        "y": 16.9777088,
+        "z": -476.850342
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods Dead Area",
       "Position": {
-        "x": -440.9798,
-        "y": 18.02001,
-        "z": -292.395233
+        "x": 195.767517,
+        "y": 10.8430948,
+        "z": -593.8238
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
+      "WildSpawnType": "sptbear",
+      "MinDistance": 15.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 500.1,
+      "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods Dead Area",
       "Position": {
-        "x": -410.9854,
-        "y": 18.1507034,
-        "z": -253.6076
+        "x": -17.98926,
+        "y": 23.86008,
+        "z": -338.33017
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "WildSpawnType": "sptusec",
+      "MinDistance": 15.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 500.1,
+      "BotTimerTrigger": 350.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods Dead Area",
       "Position": {
-        "x": -378.7061,
-        "y": 24.40397,
-        "z": -225.938187
+        "x": -123.885017,
+        "y": 20.762291,
+        "z": -119.855881
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 500.1,
+      "BotTimerTrigger": 270.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods Plane",
       "Position": {
-        "x": -348.264465,
-        "y": 25.7242489,
-        "z": -228.397522
+        "x": -285.4664,
+        "y": 14.4693584,
+        "z": -95.47508
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "WildSpawnType": "sptbear",
+      "MinDistance": 0.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 500.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75
     },
     {
       "MapName": "woods",
-      "Name": "Woods General Spawn",
+      "Name": "Woods Woodcutter",
       "Position": {
-        "x": -314.9347,
-        "y": 36.5627861,
-        "z": -230.937515
+        "x": -72.8257,
+        "y": 7.1769,
+        "z": -28.69571
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": -254.631119,
-        "y": 59.2946968,
-        "z": -247.694885
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": -211.15242,
-        "y": 76.31211,
-        "z": -273.579224
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": -179.656769,
-        "y": 58.3741035,
-        "z": -291.9302
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": -143.05014,
-        "y": 42.27457,
-        "z": -285.078552
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": -119.192719,
-        "y": 29.4215012,
-        "z": -299.380341
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": -93.8067245,
-        "y": 26.4705315,
-        "z": -267.223236
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": -67.06539,
-        "y": 24.5225849,
-        "z": -253.433426
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": -21.59,
-        "y": 16.0979462,
-        "z": -238.2281
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 11.5118151,
-        "y": 23.8645267,
-        "z": -255.346832
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 26.4712276,
-        "y": 28.9034081,
-        "z": -289.932251
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 84.47054,
-        "y": 27.8241482,
-        "z": -299.3944
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 90.84526,
-        "y": 25.3255653,
-        "z": -315.771118
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 71.49794,
-        "y": 29.01197,
-        "z": -359.979553
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 81.1458359,
-        "y": 23.7473431,
-        "z": -386.358521
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 132.606476,
-        "y": 21.2951241,
-        "z": -384.9349
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 151.0053,
-        "y": 18.4381485,
-        "z": -404.2723
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 170.897842,
-        "y": 11.7766685,
-        "z": -428.672516
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 207.318192,
-        "y": 10.5917759,
-        "z": -449.582733
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 252.8465,
-        "y": 14.1427784,
-        "z": -468.9523
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 291.1589,
-        "y": 22.814579,
-        "z": -456.8881
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 309.484253,
-        "y": 20.4429626,
-        "z": -439.016235
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 294.1661,
-        "y": 20.5194187,
-        "z": -420.2921
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 269.7592,
-        "y": 23.0838757,
-        "z": -413.549133
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 288.9869,
-        "y": 15.33989,
-        "z": -364.078949
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 325.587036,
-        "y": 16.3300438,
-        "z": -351.8603
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 364.228546,
-        "y": 18.1027832,
-        "z": -350.898743
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 379.687378,
-        "y": 17.8120384,
-        "z": -329.5637
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 371.475342,
-        "y": 15.72556,
-        "z": -306.3235
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 386.529938,
-        "y": 14.6002235,
-        "z": -289.6987
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 360.8595,
-        "y": 5.919655,
-        "z": -215.15239
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
-    },
-    {
-      "MapName": "woods",
-      "Name": "Woods General Spawn",
-      "Position": {
-        "x": 334.574341,
-        "y": 5.27379131,
-        "z": -199.54837
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 15
+      "WildSpawnType": "sptusec",
+      "MinDistance": 0.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 500.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75
     }
   ]
 }
