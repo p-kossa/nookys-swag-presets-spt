@@ -821,11 +821,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 
     if (bossName === "sptUsec" || bossName === "sptBear") {
-      spawnChance = boss.BossChance ? boss.BossChance : pmcChance
-      // if PMC waves are false and this is NOT a starting PMC spawn, then we need to skip it
-      if (config.PMCs.pmcWaves === false && boss.Time != -1) {
-        spawnChance = 0
-      }
       group_chance = boss.BossEscortAmount ? boss.BossEscortAmount : SWAG.generatePmcGroupChance(config.PMCs.pmcGroupChance)
     }
     else if (bossName === "marksman" ) {
