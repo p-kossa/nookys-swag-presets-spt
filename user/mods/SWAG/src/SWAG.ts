@@ -33,15 +33,11 @@ import {
 } from "./ClassDef";
 
 import config from "../config/config.json";
-import { roles } from "./ClassDef";
-import { spawn } from "child_process";
 
 const modName = "SWAG";
 let logger: ILogger;
 let LocationCallbacks; LocationCallbacks;
-let jsonUtil: JsonUtil;
 let configServer: ConfigServer;
-let botConfig: IBotConfig;
 let databaseServer: DatabaseServer;
 let locations: ILocations;
 let randomUtil: RandomUtil;

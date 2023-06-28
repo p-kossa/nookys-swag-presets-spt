@@ -11,15 +11,15 @@
   },
 	"BossChance": {
     "glukhar": {
-      "reserve": 15,
-      "streets": 15
+      "reserve": 10,
+      "streets": 10
     },
     "killa": {
-      "interchange": 15,
-      "streets": 15
+      "interchange": 10,
+      "streets": 10
     },
     "tagilla": {
-      "factory": 15
+      "factory": 10
     },
     "zryachiy": {
       "lighthouse": 100
@@ -28,10 +28,10 @@
       "shoreline": 15
     },
     "reshala": {
-      "customs": 15
+      "customs": 10
     },
     "shturman": {
-      "woods": 15
+      "woods": 10
     },
     "goons": {
       "customs": 10,
@@ -66,7 +66,7 @@
   },
   "Others": {
     "scavWaves": true,
-    "scavSpawnWeight": 75,
+    "scavSpawnWeight": 70,
     "sniperChance": 50
   },
 	"MaxBotCap": {
@@ -81,7 +81,7 @@
 		"streets": 18
 	},
   "NightMaxBotCap": {
-		"factory": 13,
+		"factory_night": 13,
 		"customs": 18,
 		"woods": 20,
 		"shoreline": 20,
