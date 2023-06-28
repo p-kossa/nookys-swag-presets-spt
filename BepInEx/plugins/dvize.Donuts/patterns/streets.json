@@ -2,67 +2,115 @@
   "Locations": [
     {
       "MapName": "tarkovstreets",
-      "Name": "Hotel",
+      "Name": "Streets Underpass Camper",
       "Position": {
-        "x": -114.518082,
-        "y": 5.04110146,
-        "z": 53.99124
+        "x": 20.9011841,
+        "y": -3.73675,
+        "z": -8.576503
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
-      "MaxDistance": 5,
-      "BotTriggerDistance": 200,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 35
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Hotel",
+      "Name": "Streets Between Cinema and Sewer",
       "Position": {
-        "x": -76.38972,
-        "y": 5.04111338,
-        "z": 59.5015564
+        "x": -196.886047,
+        "y": 2.11355042,
+        "z": 294.00885
       },
-      "WildSpawnType": "sptbear",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
-      "MaxDistance": 5,
-      "BotTriggerDistance": 200,
-      "BotTimerTrigger": 170,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 35
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Hotel",
+      "Name": "Streets Courtyard Exfil",
       "Position": {
-        "x": 41.2713737,
-        "y": 1.18039393,
-        "z": 116.681252
+        "x": -156.636765,
+        "y": 2.31633973,
+        "z": 480.328522
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
-      "MaxDistance": 5,
-      "BotTriggerDistance": 200,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 45
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Apts",
+      "Name": "Streets Primorsky Exfil",
       "Position": {
-        "x": 47.15657,
-        "y": 1.18034172,
-        "z": 106.40062
+        "x": 20.46171,
+        "y": 2.11336756,
+        "z": 439.089233
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
-      "MaxDistance": 5,
-      "BotTriggerDistance": 200,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "Streets Evac Zone",
+      "Position": {
+        "x": 155.751587,
+        "y": 3.612085,
+        "z": 429.2575
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "Streets Construc Sparja",
+      "Position": {
+        "x": 156.29361,
+        "y": 3.75064373,
+        "z": 293.1533
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 30.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "Streets Apts 3rd",
+      "Position": {
+        "x": 44.3059044,
+        "y": 10.1843786,
+        "z": 73.21943
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55
     },
     {
       "MapName": "tarkovstreets",
@@ -74,27 +122,27 @@
       },
       "WildSpawnType": "sptbear",
       "MinDistance": 0.0,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 200,
-      "BotTimerTrigger": 380,
+      "BotTimerTrigger": 190,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55
+      "SpawnChance": 35
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Apts",
+      "Name": "Hotel",
       "Position": {
-        "x": 44.39966,
-        "y": 7.183285,
-        "z": 127.367546
+        "x": -114.518082,
+        "y": 5.04110146,
+        "z": 53.99124
       },
-      "WildSpawnType": "sptbear",
+      "WildSpawnType": "sptusec",
       "MinDistance": 0.0,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 200,
-      "BotTimerTrigger": 160,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 25
+      "SpawnChance": 35
     }
   ]
 }
