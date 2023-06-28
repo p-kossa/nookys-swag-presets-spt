@@ -10,7 +10,7 @@
       },
       "WildSpawnType": "sptusec",
       "MinDistance": 0.0,
-      "MaxDistance": 1,
+      "MaxDistance": 5,
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 2,
@@ -26,7 +26,7 @@
       },
       "WildSpawnType": "sptbear",
       "MinDistance": 0.0,
-      "MaxDistance": 1,
+      "MaxDistance": 5,
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 170,
       "MaxRandomNumBots": 2,
@@ -42,7 +42,7 @@
       },
       "WildSpawnType": "sptusec",
       "MinDistance": 0.0,
-      "MaxDistance": 1,
+      "MaxDistance": 5,
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 2,
@@ -58,7 +58,7 @@
       },
       "WildSpawnType": "sptusec",
       "MinDistance": 0.0,
-      "MaxDistance": 1,
+      "MaxDistance": 5,
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
@@ -74,11 +74,11 @@
       },
       "WildSpawnType": "sptbear",
       "MinDistance": 0.0,
-      "MaxDistance": 1,
+      "MaxDistance": 5,
       "BotTriggerDistance": 200,
-      "BotTimerTrigger": 190,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 35
+      "SpawnChance": 55
     },
     {
       "MapName": "tarkovstreets",
@@ -90,11 +90,11 @@
       },
       "WildSpawnType": "sptbear",
       "MinDistance": 0.0,
-      "MaxDistance": 1,
+      "MaxDistance": 5,
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 160,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 35
+      "SpawnChance": 25
     }
   ]
 }
