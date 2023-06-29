@@ -14,23 +14,7 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
-    },
-    {
-      "MapName": "shoreline",
-      "Name": "Shoreline Dead Area",
-      "Position": {
-        "x": -786.4357,
-        "y": -49.32939,
-        "z": 250.247131
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 0.0,
-      "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 150.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70
+      "SpawnChance": 25
     },
     {
       "MapName": "shoreline",
@@ -46,23 +30,7 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65
-    },
-    {
-      "MapName": "shoreline",
-      "Name": "Shoreline Dead Area",
-      "Position": {
-        "x": -750.6538,
-        "y": -39.72002,
-        "z": 107.020538
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 0.0,
-      "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 260.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 75
+      "SpawnChance": 35
     },
     {
       "MapName": "shoreline",
@@ -78,7 +46,7 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 25
     },
     {
       "MapName": "shoreline",
@@ -94,7 +62,7 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65
+      "SpawnChance": 45
     },
     {
       "MapName": "shoreline",
@@ -110,7 +78,7 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55
+      "SpawnChance": 35
     },
     {
       "MapName": "shoreline",
@@ -126,7 +94,7 @@
       "BotTriggerDistance": 350.1,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25
+      "SpawnChance": 45
     },
     {
       "MapName": "shoreline",
@@ -142,39 +110,87 @@
       "BotTriggerDistance": 350.1,
       "BotTimerTrigger": 190.0,
       "MaxRandomNumBots": 3,
+      "SpawnChance": 45
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "PowerStation_West",
+      "Position": {
+        "x": -150.650085,
+        "y": -32.4472847,
+        "z": 115.477058
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 0.0,
+      "MaxDistance": 40.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 35
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "PowerStation_East",
+      "Position": {
+        "x": -300.0744,
+        "y": -35.51814,
+        "z": 163.53981
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 0.0,
+      "MaxDistance": 40.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "RadioStation_South",
+      "Position": {
+        "x": -476.069,
+        "y": -25.5572052,
+        "z": 296.963654
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 40.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Village_East",
+      "Position": {
+        "x": 322.062775,
+        "y": -56.35864,
+        "z": 144.680161
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 0.0,
+      "MaxDistance": 70.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 25
     },
     {
       "MapName": "shoreline",
-      "Name": "Shoreline West",
+      "Name": "Cottage_North",
       "Position": {
-        "x": 294.012817,
-        "y": -50.6982536,
-        "z": -26.2928677
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 150.0,
-      "BotTriggerDistance": 600.1,
-      "BotTimerTrigger": 280.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65
-    },
-    {
-      "MapName": "shoreline",
-      "Name": "Shoreline West",
-      "Position": {
-        "x": 277.871918,
-        "y": -48.660038,
-        "z": 62.56647
+        "x": 128.570343,
+        "y": -46.94266,
+        "z": 17.2735748
       },
       "WildSpawnType": "assault",
       "MinDistance": 0.0,
-      "MaxDistance": 150.0,
-      "BotTriggerDistance": 600.1,
-      "BotTimerTrigger": 250.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45
     }
   ]
 }
