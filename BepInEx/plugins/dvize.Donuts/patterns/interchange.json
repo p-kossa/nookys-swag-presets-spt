@@ -11,10 +11,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 120.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 290.0,
+      "BotTriggerDistance": 400.1,
+      "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "SpawnChance": 55
     },
     {
       "MapName": "interchange",
@@ -29,8 +29,8 @@
       "MaxDistance": 100.0,
       "BotTriggerDistance": 350.1,
       "BotTimerTrigger": 160.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 85
     },
     {
       "MapName": "interchange",
@@ -44,7 +44,7 @@
       "MinDistance": 0.0,
       "MaxDistance": 50.0,
       "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55
     },
@@ -60,9 +60,9 @@
       "MinDistance": 0.0,
       "MaxDistance": 90.0,
       "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 230.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55
+      "SpawnChance": 65
     },
     {
       "MapName": "interchange",
@@ -75,10 +75,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 450.1,
       "BotTimerTrigger": 210.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 15
+      "SpawnChance": 45
     },
     {
       "MapName": "interchange",
@@ -88,13 +88,13 @@
         "y": 36.5800056,
         "z": 41.8044548
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 360.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "SpawnChance": 75
     },
     {
       "MapName": "interchange",
@@ -107,10 +107,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 410.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "SpawnChance": 65
     },
     {
       "MapName": "interchange",
@@ -124,9 +124,9 @@
       "MinDistance": 0.0,
       "MaxDistance": 80.0,
       "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 420.0,
+      "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 30
+      "SpawnChance": 65
     },
     {
       "MapName": "interchange",
@@ -141,8 +141,8 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 280.1,
       "BotTimerTrigger": 165.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75
     },
     {
       "MapName": "interchange",
@@ -155,10 +155,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 330.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55
+      "SpawnChance": 20
     },
     {
       "MapName": "interchange",
@@ -171,10 +171,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 300.1,
+      "BotTriggerDistance": 350.1,
       "BotTimerTrigger": 230.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35
+      "SpawnChance": 45
     },
     {
       "MapName": "interchange",
@@ -187,10 +187,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 270.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "SpawnChance": 35
     }
   ]
 }
