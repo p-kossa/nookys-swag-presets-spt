@@ -14,7 +14,7 @@
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
+      "SpawnChance": 55,
       "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
@@ -66,6 +66,40 @@
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
+    },
+    {
+      "MapName": "factory4_day",
+      "Name": "Factory Underground Loot",
+      "Position": {
+        "x": -12.2977381,
+        "y": -3.914935,
+        "z": -24.1182384
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.1,
+      "BotTimerTrigger": 120.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
+    },
+    {
+      "MapName": "factory4_day",
+      "Name": "Factory Underground Loot",
+      "Position": {
+        "x": -18.2344971,
+        "y": 0.191902786,
+        "z": -41.97208
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.1,
+      "BotTimerTrigger": 120.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
       "MaxNumberOfSpawnsBeforeCooldown": 5
     }
   ]
