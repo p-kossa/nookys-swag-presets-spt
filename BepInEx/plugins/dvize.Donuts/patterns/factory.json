@@ -9,12 +9,12 @@
         "z": 35.47881
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 35
     },
     {
       "MapName": "factory4_day",
@@ -25,12 +25,12 @@
         "z": 35.23968
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 100.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "SpawnChance": 10
     },
     {
       "MapName": "factory4_day",
@@ -41,12 +41,12 @@
         "z": 47.2004166
       },
       "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70
+      "SpawnChance": 65
     },
     {
       "MapName": "factory4_day",
@@ -57,12 +57,12 @@
         "z": -40.1522331
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35
+      "SpawnChance": 20
     }
   ]
 }

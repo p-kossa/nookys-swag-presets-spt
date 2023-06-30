@@ -287,6 +287,54 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 45
+    },
+    {
+      "MapName": "woods",
+      "Name": "Woods by Outskirts",
+      "Position": {
+        "x": 443.071747,
+        "y": -15.2929411,
+        "z": 185.22789
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 40.0,
+      "BotTriggerDistance": 400.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25
+    },
+    {
+      "MapName": "woods",
+      "Name": "Woods by Outskirts",
+      "Position": {
+        "x": 204.053055,
+        "y": -0.140318334,
+        "z": -136.403854
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 0.0,
+      "MaxDistance": 75.0,
+      "BotTriggerDistance": 400.1,
+      "BotTimerTrigger": 140.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50
+    },
+    {
+      "MapName": "woods",
+      "Name": "Woods by Outskirts",
+      "Position": {
+        "x": 257.6767,
+        "y": 23.7052,
+        "z": -727.275
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 20.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 250.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 50
     }
   ]
 }

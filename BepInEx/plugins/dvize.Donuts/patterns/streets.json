@@ -143,6 +143,38 @@
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
       "SpawnChance": 35
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "Streets Grocery PMC Start",
+      "Position": {
+        "x": -200.321991,
+        "y": 3.36668468,
+        "z": 179.137985
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 40
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "Streets Staricase PMC Start",
+      "Position": {
+        "x": 126.384987,
+        "y": 13.5191231,
+        "z": 144.492844
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 40
     }
   ]
 }

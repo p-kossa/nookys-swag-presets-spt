@@ -88,29 +88,13 @@
         "y": 36.5800056,
         "z": 41.8044548
       },
-      "WildSpawnType": "assault",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 140.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 75
-    },
-    {
-      "MapName": "interchange",
-      "Name": "Interchange Mall 2nd",
-      "Position": {
-        "x": 94.367424,
-        "y": 36.56974,
-        "z": 12.4636316
-      },
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 250.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65
+      "SpawnChance": 20
     },
     {
       "MapName": "interchange",
