@@ -14,7 +14,8 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 230.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 45,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -30,7 +31,8 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65
+      "SpawnChance": 65,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -46,7 +48,8 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 45,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -62,7 +65,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70
+      "SpawnChance": 70,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -76,9 +80,10 @@
       "MinDistance": 0.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 280.0,
+      "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 15,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -92,9 +97,10 @@
       "MinDistance": 15.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 200.0,
+      "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35
+      "SpawnChance": 15,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -108,9 +114,10 @@
       "MinDistance": 15.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 350.0,
+      "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 75
+      "SpawnChance": 50,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -126,7 +133,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 170.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 20,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -142,7 +150,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 15,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -158,7 +167,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -174,7 +184,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 45,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -190,7 +201,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 45,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -206,7 +218,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75
+      "SpawnChance": 65,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -222,7 +235,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -238,7 +252,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -254,7 +269,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -269,8 +285,9 @@
       "MaxDistance": 10.0,
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 75
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -286,7 +303,8 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -300,9 +318,10 @@
       "MinDistance": 0.0,
       "MaxDistance": 40.0,
       "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "SpawnChance": 15,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -318,7 +337,8 @@
       "BotTriggerDistance": 400.1,
       "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50
+      "SpawnChance": 55,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "woods",
@@ -334,7 +354,8 @@
       "BotTriggerDistance": 450.1,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 50
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     }
   ]
 }

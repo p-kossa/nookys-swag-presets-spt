@@ -14,7 +14,8 @@
       "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 15
+      "SpawnChance": 15,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -30,7 +31,8 @@
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -43,10 +45,11 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 320.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35
+      "SpawnChance": 20,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -60,9 +63,10 @@
       "MinDistance": 0.0,
       "MaxDistance": 5.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 330.0,
+      "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45
+      "SpawnChance": 25,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -78,7 +82,8 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 230.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25
+      "SpawnChance": 25,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -90,11 +95,12 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 0.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 10.0,
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55
+      "SpawnChance": 55,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -110,7 +116,8 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 170.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -126,7 +133,8 @@
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 190,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -142,7 +150,8 @@
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35
+      "SpawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
@@ -155,14 +164,15 @@
       "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 300.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40
+      "SpawnChance": 10,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets Staricase PMC Start",
+      "Name": "Streets Staircase PMC Start",
       "Position": {
         "x": 126.384987,
         "y": 13.5191231,
@@ -172,9 +182,10 @@
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40
+      "SpawnChance": 20,
+      "MaxNumberOfSpawnsBeforeCooldown": 5
     }
   ]
 }
