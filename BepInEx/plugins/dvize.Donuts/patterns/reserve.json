@@ -8,14 +8,14 @@
         "y": -11.1333723,
         "z": 11.911108
       },
-      "wildSpawnType": "sptusec",
+      "wildSpawnType": "pmc",
       "minDistance": 0.0,
       "maxDistance": 1,
       "BotTriggerDistance": 200,
-      "BotTimerTrigger": 180,
-      "maxRandomNumBots": 2,
+      "BotTimerTrigger": 160,
+      "maxRandomNumBots": 1,
       "spawnChance": 25,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxNumberOfSpawnsBeforeCooldown": 1
     },
     {
       "mapName": "rezervbase",
@@ -25,14 +25,14 @@
         "y": -10.4819145,
         "z": 74.01713
       },
-      "wildSpawnType": "sptbear",
+      "wildSpawnType": "pmc",
       "minDistance": 0.0,
       "maxDistance": 1,
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 200,
-      "maxRandomNumBots": 2,
+      "maxRandomNumBots": 1,
       "spawnChance": 45,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxNumberOfSpawnsBeforeCooldown": 2
     },
     {
       "mapName": "rezervbase",
@@ -42,14 +42,14 @@
         "y": -19.7678623,
         "z": 109.469666
       },
-      "wildSpawnType": "sptusec",
+      "wildSpawnType": "pmc",
       "minDistance": 0.0,
       "maxDistance": 1,
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 220,
-      "maxRandomNumBots": 2,
+      "maxRandomNumBots": 1,
       "spawnChance": 45,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxNumberOfSpawnsBeforeCooldown": 2
     },
     {
       "mapName": "rezervbase",
@@ -65,8 +65,8 @@
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 120,
       "maxRandomNumBots": 2,
-      "spawnChance": 15,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "spawnChance": 25,
+      "MaxNumberOfSpawnsBeforeCooldown": 1
     },
     {
       "mapName": "rezervbase",
@@ -82,8 +82,8 @@
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 140,
       "maxRandomNumBots": 2,
-      "spawnChance": 15,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "spawnChance": 35,
+      "MaxNumberOfSpawnsBeforeCooldown": 1
     },
     {
       "mapName": "rezervbase",
@@ -100,7 +100,7 @@
       "BotTimerTrigger": 200,
       "maxRandomNumBots": 1,
       "spawnChance": 45,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxNumberOfSpawnsBeforeCooldown": 1
     },
     {
       "mapName": "rezervbase",
@@ -117,7 +117,7 @@
       "BotTimerTrigger": 180,
       "maxRandomNumBots": 1,
       "spawnChance": 35,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxNumberOfSpawnsBeforeCooldown": 1
     }
   ]
 }
