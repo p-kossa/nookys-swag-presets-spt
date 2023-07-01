@@ -15,7 +15,7 @@
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -32,7 +32,7 @@
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -49,24 +49,7 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
-    },
-    {
-      "MapName": "interchange",
-      "Name": "Interchange Between Railway and Power",
-      "Position": {
-        "x": 165.472656,
-        "y": 21.3597145,
-        "z": 213.8007
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 90.0,
-      "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 230.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -83,7 +66,7 @@
       "BotTimerTrigger": 210.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -100,7 +83,7 @@
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 20,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -117,7 +100,7 @@
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -134,7 +117,7 @@
       "BotTimerTrigger": 165.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -151,7 +134,7 @@
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 15,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -168,7 +151,7 @@
       "BotTimerTrigger": 230.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "interchange",
@@ -185,7 +168,109 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
+    },
+    {
+      "MapName": "interchange",
+      "Name": "Interchange Between Railway and Power",
+      "Position": {
+        "x": 182.188,
+        "y": 21.3254356,
+        "z": 233.845764
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 65.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2
+    },
+    {
+      "MapName": "interchange",
+      "Name": "Interchange Railway Scav",
+      "Position": {
+        "x": 344.0182,
+        "y": 18.33604,
+        "z": -245.166992
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 0.0,
+      "MaxDistance": 65.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2
+    },
+    {
+      "MapName": "interchange",
+      "Name": "Interchange Mall 2nd",
+      "Position": {
+        "x": 18.5168324,
+        "y": 36.5697556,
+        "z": -138.057358
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 150.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "interchange",
+      "Name": "Interchange Mall Backroom Stairs",
+      "Position": {
+        "x": -65.14968,
+        "y": 29.0295048,
+        "z": -173.792145
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 250.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "interchange",
+      "Name": "Interchange Mall 2nd",
+      "Position": {
+        "x": 59.9946556,
+        "y": 36.579998,
+        "z": 35.1372871
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "interchange",
+      "Name": "Interchange Mall 2nd Scav",
+      "Position": {
+        "x": -18.7650757,
+        "y": 36.5696678,
+        "z": -90.655426
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 140.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1
     }
   ]
 }

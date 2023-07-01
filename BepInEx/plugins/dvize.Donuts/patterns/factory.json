@@ -15,7 +15,7 @@
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "factory4_day",
@@ -31,8 +31,8 @@
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 100.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "factory4_day",
@@ -49,7 +49,7 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "factory4_day",
@@ -63,10 +63,10 @@
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 120.0,
+      "BotTimerTrigger": 90.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "factory4_day",
@@ -83,7 +83,7 @@
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "MaxSpawnsBeforeCooldown": 2
     },
     {
       "MapName": "factory4_day",
@@ -99,8 +99,8 @@
       "BotTriggerDistance": 1000.1,
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxNumberOfSpawnsBeforeCooldown": 5
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 2
     }
   ]
 }
