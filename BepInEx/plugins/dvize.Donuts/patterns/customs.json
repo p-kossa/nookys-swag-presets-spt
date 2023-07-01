@@ -8,14 +8,14 @@
         "y": 1.09308529,
         "z": -158.030746
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 35.0,
-      "MaxRandomNumBots": 3,
+      "MaxRandomNumBots": 1,
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 140,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 2
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCooldown": 1
     },
     {
       "MapName": "bigmap",
@@ -28,11 +28,11 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 150,
-      "SpawnChance": 15,
-      "MaxSpawnsBeforeCooldown": 2
+      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCooldown": 1
     },
     {
       "MapName": "bigmap",
@@ -93,7 +93,7 @@
         "y": -0.7113658,
         "z": 163.2341
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 10.0,
       "MaxDistance": 35.0,
       "MaxRandomNumBots": 3,
@@ -165,10 +165,10 @@
       "MinDistance": 0.0,
       "MaxDistance": 25.0,
       "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 3
     },
     {
       "MapName": "bigmap",
@@ -185,24 +185,24 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 2
+      "MaxSpawnsBeforeCoolDown": 3
     },
     {
       "MapName": "bigmap",
-      "Name": "Customs Dorms Center",
+      "Name": "Customs Dorms 3rd Story",
       "Position": {
         "x": 175.428024,
         "y": 5.83158,
         "z": 181.63736
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 150.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 2
     },
     {
       "MapName": "bigmap",
@@ -212,14 +212,14 @@
         "y": 2.87155581,
         "z": 166.406815
       },
-      "WildSpawnType": "sptbear",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 190.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 2
     },
     {
       "MapName": "bigmap",

@@ -12,10 +12,10 @@
       "MinDistance": 0.0,
       "MaxDistance": 120.0,
       "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 240.0,
-      "MaxRandomNumBots": 1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 2
+      "MaxSpawnsBeforeCooldown": 1
     },
     {
       "MapName": "interchange",
@@ -31,8 +31,8 @@
       "BotTriggerDistance": 350.1,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 2
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCooldown": 3
     },
     {
       "MapName": "interchange",

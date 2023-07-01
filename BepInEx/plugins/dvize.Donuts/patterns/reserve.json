@@ -8,7 +8,7 @@
         "y": -11.1333723,
         "z": 11.911108
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
@@ -25,7 +25,7 @@
         "y": -10.4819145,
         "z": 74.01713
       },
-      "WildSpawnType": "sptbear",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
@@ -42,7 +42,7 @@
         "y": -19.7678623,
         "z": 109.469666
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
@@ -59,7 +59,7 @@
         "y": -14.703867,
         "z": 145.74556
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
@@ -76,7 +76,7 @@
         "y": -15.9011688,
         "z": 170.808578
       },
-      "WildSpawnType": "sptbear",
+      "WildSpawnType": "pmc",
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
@@ -96,11 +96,11 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 30.0,
-      "BotTriggerDistance": 500.0,
+      "BotTriggerDistance": 400.0,
       "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 2
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1
     },
     {
       "MapName": "rezervbase",

@@ -113,11 +113,11 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 18.0,
-      "BotTriggerDistance": 150.0,
-      "BotTimerTrigger": 500.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 130.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCooldown": 2
+      "MaxSpawnsBeforeCooldown": 3
     },
     {
       "MapName": "lighthouse",
@@ -130,10 +130,10 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 14.0,
-      "BotTriggerDistance": 150.0,
-      "BotTimerTrigger": 500.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 110.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2
     },
 	{
@@ -164,10 +164,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 4.0,
-      "BotTriggerDistance": 150.0,
-      "BotTimerTrigger": 500.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
+      "BotTriggerDistance": 420.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2
     },
     {
@@ -518,12 +518,12 @@
         "y": 5.957602,
         "z": 220.772552
       },
-      "WildSpawnType": "sptusec",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
       "BotTriggerDistance": 400.0,
       "BotTimerTrigger": 400.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2
     },
