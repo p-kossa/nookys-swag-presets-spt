@@ -87,23 +87,6 @@
     },
     {
       "MapName": "bigmap",
-      "Name": "Dorms",
-      "Position": {
-        "x": 206.476074,
-        "y": -0.7113658,
-        "z": 163.2341
-      },
-      "WildSpawnType": "sptbear",
-      "MinDistance": 10.0,
-      "MaxDistance": 35.0,
-      "MaxRandomNumBots": 3,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 165,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCooldown": 2
-    },
-    {
-      "MapName": "bigmap",
       "Name": "Boat",
       "Position": {
         "x": -26.2426224,
@@ -182,10 +165,10 @@
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 110.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 2
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1
     },
     {
       "MapName": "bigmap",
@@ -199,9 +182,9 @@
       "MinDistance": 0.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 120.0,
+      "BotTimerTrigger": 85.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1
     },
     {
