@@ -30,9 +30,9 @@
     ],
     "MapBosses": [
       {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
         "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
@@ -58,16 +58,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": ["ZoneOLI"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZonePowerStation"]
       },
       {
         "Name": "sptusec",
@@ -100,14 +90,14 @@
         "BossZone": ["ZoneOLIPark"]
       },
       {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
+        "Name": "sptbear",
+        "BossName": "sptbear",
+        "BossEscortType": "sptbear",
         "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneCenterBot"]
+        "BossZone": ["ZoneCenter"]
       },
       {
         "Name": "sptusec",

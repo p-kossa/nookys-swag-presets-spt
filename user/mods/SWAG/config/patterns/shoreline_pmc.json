@@ -46,34 +46,14 @@
         "BossZone": ["ZoneMeteoStation"]
       },
       {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
+        "Name": "sptusec",
+        "BossName": "sptusec",
+        "BossEscortType": "sptusec",
         "Time": 5,
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": ["ZoneGreenHouses"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZonePort"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneStartVillage"]
       },
       {
         "Name": "sptbear",
@@ -93,27 +73,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZonePassFar","ZonePassClose"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZonePassFar","ZonePassClose"]
-      },
-      {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneBunker"]
+        "BossZone": ["ZoneGasStation"]
       },
       {
         "Name": "sptbear",
@@ -133,7 +93,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["ZoneForestSpawn"]
+        "BossZone": ["ZonePowerStation"]
       }
     ]
   }

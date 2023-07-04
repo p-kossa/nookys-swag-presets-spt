@@ -35,7 +35,7 @@
           }
         ],
         "Time_min": 400,
-        "Time_max": 1200,
+        "Time_max": 1500,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -48,26 +48,6 @@
           "ZoneHouse",
           "ZoneClearVill",
           "ZoneBrokenVill"
-        ]
-      },
-      {
-        "Name": "More SCAVs",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          }
-        ],
-        "Time_min": 300,
-        "Time_max": 600,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneMiniHouse",
-          "ZoneRedHouse",
-          "ZoneWoodCutter",
-          "ZoneRoad",
-          "ZoneHouse"
         ]
       }
     ],

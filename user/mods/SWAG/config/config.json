@@ -46,7 +46,7 @@
       "factory_night": 100
     },
     "rogues": {
-      "lighthouse": 75
+      "lighthouse": 65
     },
     "raiders": {
       "laboratory": 75,
@@ -61,7 +61,7 @@
   "PMCs": {
     "pmcWaves": false,
     "pmcSpawnWeight": 20,
-    "pmcChance": 45,
+    "pmcChance": 55,
     "pmcGroupChance": "asonline"
   },
   "Others": {
@@ -71,37 +71,25 @@
   },
 	"MaxBotCap": {
 		"factory": 11,
-		"customs": 15,
-		"woods": 15,
+		"customs": 16,
+		"woods": 16,
 		"shoreline": 15,
-		"lighthouse": 15,
-		"reserve": 15,
+		"lighthouse": 18,
+		"reserve": 16,
 		"interchange": 16,
 		"laboratory": 12,
-		"streets": 13
+		"streets": 16
 	},
   "NightMaxBotCap": {
-		"factory_NIGHT": 11,
-		"customs": 15,
-		"woods": 15,
+		"factory_night": 11,
+		"customs": 16,
+		"woods": 16,
 		"shoreline": 15,
-		"lighthouse": 15,
-		"reserve": 15,
+		"lighthouse": 18,
+		"reserve": 16,
 		"interchange": 16,
 		"laboratory": 12,
-		"streets": 13
-  },
-	"MaxBotPerZone": {
-		"factory": 10,
-    "factory_night": 15,
-		"customs": 6,
-		"woods": 7,
-		"shoreline": 5,
-		"lighthouse": 5,
-		"reserve": 6,
-		"interchange": 5,
-		"laboratory": 5,
-		"streets": 4
+		"streets": 16
   },
 	"UseDefaultSpawns": {
 		"Waves": false,

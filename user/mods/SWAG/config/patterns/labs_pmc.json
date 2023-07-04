@@ -27,26 +27,6 @@
     ],
     "MapBosses": [
       {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor2"]
-      },
-      {
-        "Name": "sptbear",
-        "BossName": "sptbear",
-        "BossEscortType": "sptbear",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor1"]
-      },
-      {
         "Name": "sptusec",
         "BossName": "sptusec",
         "BossEscortType": "sptusec",
@@ -57,16 +37,6 @@
         "BossZone": ["BotZoneFloor1"]
       },
       {
-        "Name": "sptusec",
-        "BossName": "sptusec",
-        "BossEscortType": "sptusec",
-        "Time": 5,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneFloor2"]
-      },
-      {
         "Name": "sptbear",
         "BossName": "sptbear",
         "BossEscortType": "sptbear",
@@ -74,7 +44,7 @@
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
-        "BossZone": ["BotZoneBasement"]
+        "BossZone": ["BotZoneFloor2"]
       },
       {
         "Name": "sptusec",
