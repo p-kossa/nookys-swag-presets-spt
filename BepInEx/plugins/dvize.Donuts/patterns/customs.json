@@ -27,7 +27,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 2.0,
       "MaxRandomNumBots": 3,
       "BotTriggerDistance": 250,
       "BotTimerTrigger": 120,
@@ -111,8 +111,8 @@
         "z": -95.5875
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 150.0,
       "MaxRandomNumBots": 1,
@@ -128,7 +128,7 @@
         "z": 10.6236277
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 25.0,
       "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 220.0,
@@ -145,7 +145,7 @@
         "z": 93.5736
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 35.0,
       "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 180.0,
@@ -162,12 +162,12 @@
         "z": 181.63736
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 110.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 220.1,
+      "BotTimerTrigger": 100.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 85,
       "MaxSpawnsBeforeCoolDown": 1
     },
     {
@@ -179,12 +179,12 @@
         "z": 166.406815
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 85.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 220.1,
+      "BotTimerTrigger": 75.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 85,
       "MaxSpawnsBeforeCoolDown": 1
     },
     {
@@ -196,13 +196,47 @@
         "z": -142.273666
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 2
+    },
+    {
+      "MapName": "bigmap",
+      "Name": "Customs Dead Area",
+      "Position": {
+        "x": 445.535217,
+        "y": 3.67000771,
+        "z": 163.4166
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 170.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "bigmap",
+      "Name": "Customs Dead Area",
+      "Position": {
+        "x": 245.190964,
+        "y": 1.07510841,
+        "z": -35.2317924
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 150.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 30,
+      "MaxSpawnsBeforeCoolDown": 1
     }
   ]
 }

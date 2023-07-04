@@ -261,16 +261,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     locations = databaseServer.getTables().locations;
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
 
-    SWAG.SetConfigCaps();
     SWAG.ReadAllPatterns();
-  }
-
-  static SetConfigCaps(): void {
-    //Set Max Bots Per Zone Per Map
-    for (let map in locations) {
-      locations[map].MaxBotPerZone = config.MaxBotPerZone[reverseMapNames[map]];
-    }
-    logger.info("SWAG: MaxBotPerZone set for each map")
   }
 
   /**

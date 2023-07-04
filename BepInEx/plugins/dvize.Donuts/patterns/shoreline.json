@@ -9,7 +9,7 @@
         "z": 107.020538
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 400.1,
       "BotTimerTrigger": 180.0,
@@ -26,7 +26,7 @@
         "z": 107.453659
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 400.1,
       "BotTimerTrigger": 150.0,
@@ -43,7 +43,7 @@
         "z": 250.247131
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 400.1,
       "BotTimerTrigger": 150.0,
@@ -60,7 +60,7 @@
         "z": 107.453659
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 400.1,
       "BotTimerTrigger": 180.0,
@@ -77,11 +77,11 @@
         "z": -259.790253
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 400.1,
       "BotTimerTrigger": 220.0,
-      "MaxRandomNumBots": 3,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 1
     },
@@ -94,12 +94,12 @@
         "z": -99.3310547
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 160.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 100.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCooldown": 2
     },
     {
@@ -111,7 +111,7 @@
         "z": 115.477058
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 40.0,
       "BotTriggerDistance": 400.0,
       "BotTimerTrigger": 180.0,
@@ -128,7 +128,7 @@
         "z": 163.53981
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 40.0,
       "BotTriggerDistance": 400.0,
       "BotTimerTrigger": 180.0,
@@ -145,7 +145,7 @@
         "z": 296.963654
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 40.0,
       "BotTriggerDistance": 400.0,
       "BotTimerTrigger": 180.0,
@@ -162,7 +162,7 @@
         "z": 144.680161
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 70.0,
       "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 180.0,
@@ -179,13 +179,183 @@
         "z": 17.2735748
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
+      "MinDistance": 1.0,
       "MaxDistance": 50.0,
       "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline Dead Area",
+      "Position": {
+        "x": 329.338,
+        "y": -55.2198219,
+        "z": 280.904266
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 30.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline Dead Area",
+      "Position": {
+        "x": 27.1451187,
+        "y": -43.89898,
+        "z": 233.079575
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 90.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline Close to Port",
+      "Position": {
+        "x": -180.800812,
+        "y": -46.1814461,
+        "z": 312.923157
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 90.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline Port Island",
+      "Position": {
+        "x": -397.967255,
+        "y": -63.78417,
+        "z": 544.89386
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 190.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline Port Inside Bldg",
+      "Position": {
+        "x": -320.843842,
+        "y": -57.6273155,
+        "z": 493.414
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 150.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline East of Resort",
+      "Position": {
+        "x": -498.395752,
+        "y": -31.7002659,
+        "z": -90.5803
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 40.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline North of Resort",
+      "Position": {
+        "x": -97.18743,
+        "y": -14.812254,
+        "z": -296.77774
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 230.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline NW of Resort",
+      "Position": {
+        "x": 95.51124,
+        "y": -28.2234478,
+        "z": -195.990677
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline Swamp",
+      "Position": {
+        "x": 273.755737,
+        "y": -55.27278,
+        "z": -125.339828
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 65.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 245.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "Shoreline Gas Front of Resort",
+      "Position": {
+        "x": -97.5822144,
+        "y": -21.90527,
+        "z": -8.250374
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 45.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 150.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 1
     }
   ]
 }
