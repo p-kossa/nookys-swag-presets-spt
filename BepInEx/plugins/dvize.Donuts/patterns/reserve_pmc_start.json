@@ -1,0 +1,76 @@
+{
+  "Locations": [
+    {
+      "MapName": "rezervbase",
+      "Name": "PMC Start - Cliff Descent",
+      "Position": {
+        "x": -29.6130219,
+        "y": 18.57441,
+        "z": 170.694244
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 30.0,
+      "BotTriggerDistance": 2000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": true
+    },
+    {
+      "MapName": "rezervbase",
+      "Name": "PMC Start - Barracks Bunker",
+      "Position": {
+        "x": -264.267242,
+        "y": -10.8689318,
+        "z": -73.3399658
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2000.1,
+      "BotTimerTrigger": 2200.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true
+    },
+    {
+      "MapName": "rezervbase",
+      "Name": "PMC Start",
+      "Position": {
+        "x": -91.26675,
+        "y": -6.88853836,
+        "z": -142.656219
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 30.0,
+      "BotTriggerDistance": 2000.1,
+      "BotTimerTrigger": 3000.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false
+    },
+    {
+      "MapName": "rezervbase",
+      "Name": "PMC Start",
+      "Position": {
+        "x": 189.573212,
+        "y": -6.845369,
+        "z": -219.36377
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2000.1,
+      "BotTimerTrigger": 2500.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false
+    }
+  ]
+}

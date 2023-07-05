@@ -4,33 +4,15 @@
       "MapName": "factory4_day",
       "Name": "3rd Floor Office",
       "Position": {
-        "x": 35.75434,
-        "y": 8.210877,
-        "z": 35.47881
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": true
-    },
-    {
-      "MapName": "factory4_day",
-      "Name": "3rd Floor Office",
-      "Position": {
         "x": 9.189334,
         "y": 8.210877,
         "z": 35.23968
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 100.0,
+      "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
@@ -45,30 +27,12 @@
         "z": 47.2004166
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "factory4_day",
-      "Name": "Bathroom",
-      "Position": {
-        "x": -17.28157,
-        "y": 0.191902459,
-        "z": -40.1522331
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 90.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false
     },
@@ -81,10 +45,10 @@
         "z": -24.1182384
       },
       "WildSpawnType": "assault",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.1,
-      "BotTimerTrigger": 120.0,
+      "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
@@ -99,14 +63,14 @@
         "z": -41.97208
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 0.0,
-      "MaxDistance": 1.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.1,
-      "BotTimerTrigger": 140.0,
+      "BotTimerTrigger": 2.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": true
+      "IgnoreTimerFirstSpawn": false
     }
   ]
 }

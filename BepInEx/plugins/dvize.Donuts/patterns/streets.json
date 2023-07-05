@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets Underpass Camper",
+      "Name": "Underpass Camper",
       "Position": {
         "x": 20.9011841,
         "y": -3.73675,
@@ -11,34 +11,16 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 240.0,
+      "BotTriggerDistance": 100.1,
+      "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets Between Cinema and Sewer",
-      "Position": {
-        "x": -196.886047,
-        "y": 2.11355042,
-        "z": 294.00885
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "Streets Courtyard Exfil",
+      "Name": "Courtyard Exfil",
       "Position": {
         "x": -156.636765,
         "y": 2.31633973,
@@ -56,7 +38,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets Primorsky Exfil",
+      "Name": "Primorsky Exfil",
       "Position": {
         "x": 20.46171,
         "y": 2.11336756,
@@ -74,7 +56,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets Evac Zone",
+      "Name": "Evac Zone",
       "Position": {
         "x": 155.751587,
         "y": 3.612085,
@@ -92,7 +74,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets Construc Sparja",
+      "Name": "Construc Sparja",
       "Position": {
         "x": 156.29361,
         "y": 3.75064373,
@@ -110,7 +92,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets Apts 3rd",
+      "Name": "Apts 3rd",
       "Position": {
         "x": 44.3059044,
         "y": 10.1843786,
@@ -146,115 +128,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Hotel",
-      "Position": {
-        "x": -114.518082,
-        "y": 5.04110146,
-        "z": 53.99124
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 200,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "Streets Grocery PMC Start",
-      "Position": {
-        "x": -200.321991,
-        "y": 3.36668468,
-        "z": 179.137985
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "Streets Staircase PMC Start",
-      "Position": {
-        "x": 126.384987,
-        "y": 13.5191231,
-        "z": 144.492844
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 180.1,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": true
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "Streets PMC Start Evac Zone",
-      "Position": {
-        "x": 174.063675,
-        "y": 1.13749707,
-        "z": 176.28093
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 260.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "bigmap",
-      "Name": "Streets PMC Start",
-      "Position": {
-        "x": 79.51008,
-        "y": 4.672656,
-        "z": -156.338272
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 65.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "Streets PMC Start",
-      "Position": {
-        "x": -115.2392,
-        "y": 1.30244,
-        "z": 74.41131
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 350.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": true
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "Streets PMC pvp spot",
+      "Name": "PMC pvp spot",
       "Position": {
         "x": 117.511169,
         "y": 2.768168,
@@ -272,7 +146,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets PMC pvp spot",
+      "Name": "PMC pvp spot",
       "Position": {
         "x": 153.697052,
         "y": 3.52246547,
@@ -282,7 +156,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 175.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 3,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -290,7 +164,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets PMC dealer garage",
+      "Name": "PMC dealer garage",
       "Position": {
         "x": 100.661,
         "y": 7.021845,
@@ -308,7 +182,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets PMC dealer sparja connect",
+      "Name": "PMC dealer sparja connect",
       "Position": {
         "x": 115.4694,
         "y": 6.750643,
@@ -326,7 +200,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Streets PMC construction",
+      "Name": "PMC construction",
       "Position": {
         "x": 205.48175,
         "y": 6.8248086,

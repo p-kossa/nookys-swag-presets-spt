@@ -7,24 +7,6 @@
         "Bots": [
           {
             "BotType": "pmc",
-            "MaxBotCount": 3
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 3
-          }
-        ],
-        "Time_min": -1,
-        "Time_max": -1,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BotZone": ["BotZone"]
-      },
-      {
-        "Name": "PMCs",
-        "Bots": [
-          {
-            "BotType": "pmc",
             "MaxBotCount": 2
           },
           {

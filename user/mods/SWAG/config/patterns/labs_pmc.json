@@ -1,30 +1,7 @@
 [
   {
     "MapName": "laboratory",
-    "MapGroups": [
-      {
-        "Name": "PMCs",
-        "Bots": [
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          },
-          {
-            "BotType": "pmc",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": -1,
-        "Time_max": -1,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BotZone": [
-          "BotZoneFloor2",
-          "BotZoneFloor1",
-          "BotZoneBasement"
-        ]
-      }
-    ],
+    "MapGroups": [],
     "MapBosses": [
       {
         "Name": "sptusec",

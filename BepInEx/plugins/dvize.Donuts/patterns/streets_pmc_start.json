@@ -1,0 +1,130 @@
+{
+  "Locations": [
+    {
+      "MapName": "tarkovstreets",
+      "Name": "PMC Start - Between Cinema and Sewer",
+      "Position": {
+        "x": -196.886047,
+        "y": 2.11355042,
+        "z": 294.00885
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 2500.1,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "Construc Sparja",
+      "Position": {
+        "x": 156.29361,
+        "y": 3.75064373,
+        "z": 293.1533
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 2500.1,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "PMC Start - Hotel",
+      "Position": {
+        "x": -114.518082,
+        "y": 5.04110146,
+        "z": 53.99124
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2,
+      "BotTriggerDistance": 2000,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": true
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "PMC Start - Grocery",
+      "Position": {
+        "x": -200.321991,
+        "y": 3.36668468,
+        "z": 179.137985
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2500.1,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "PMC Start - Staircase",
+      "Position": {
+        "x": 126.384987,
+        "y": 13.5191231,
+        "z": 144.492844
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 180.1,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "PMC Start - Evac Zone",
+      "Position": {
+        "x": 174.063675,
+        "y": 1.13749707,
+        "z": 176.28093
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2500.1,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
+    },
+    {
+      "MapName": "tarkovstreets",
+      "Name": "PMC Start",
+      "Position": {
+        "x": -115.2392,
+        "y": 1.30244,
+        "z": 74.41131
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2500.1,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
+    }
+  ]
+}

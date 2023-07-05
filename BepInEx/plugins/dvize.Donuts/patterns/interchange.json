@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "interchange",
-      "Name": "Interchange Railway Spawn",
+      "Name": "PMC Start - Railway",
       "Position": {
         "x": 367.9882,
         "y": 17.9166565,
@@ -11,16 +11,16 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 120.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 70.0,
-      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 2000.1,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "MaxSpawnsBeforeCooldown": 4,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Railway Near IDEA",
+      "Name": "Railway Near IDEA",
       "Position": {
         "x": 212.993637,
         "y": 19.9429855,
@@ -38,7 +38,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Between Railway and Power",
+      "Name": "PMC Start - Between Railway and Power",
       "Position": {
         "x": 11.8664265,
         "y": 24.20816,
@@ -47,16 +47,16 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 50.0,
-      "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "BotTriggerDistance": 2000.1,
+      "BotTimerTrigger": 2000.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCooldown": 3,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 2nd",
+      "Name": "Mall 2nd",
       "Position": {
         "x": 93.25026,
         "y": 36.5697174,
@@ -65,16 +65,16 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 90.0,
+      "BotTriggerDistance": 180.1,
+      "BotTimerTrigger": 275.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 3,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 2nd",
+      "Name": "Mall 2nd",
       "Position": {
         "x": 69.60309,
         "y": 36.5800056,
@@ -82,17 +82,17 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 160.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 220.1,
+      "BotTimerTrigger": 340.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Emercom behind Goshan",
+      "Name": "Emercom behind Goshan",
       "Position": {
         "x": -219.481323,
         "y": 21.696806,
@@ -110,7 +110,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Emercom behind Goshan",
+      "Name": "Emercom behind Goshan",
       "Position": {
         "x": -219.9878,
         "y": 21.3254337,
@@ -118,7 +118,7 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 280.1,
       "BotTimerTrigger": 165.0,
       "MaxRandomNumBots": 2,
@@ -128,7 +128,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Goshan Back Rooms",
+      "Name": "PMC Start - Goshan Back Rooms",
       "Position": {
         "x": -173.119339,
         "y": 27.0861874,
@@ -136,17 +136,17 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 15,
-      "MaxSpawnsBeforeCooldown": 2,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2000.1,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Underground Parking",
+      "Name": "Underground Parking",
       "Position": {
         "x": 9.509165,
         "y": 21.32543,
@@ -164,7 +164,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Underground Parking",
+      "Name": "Underground Parking",
       "Position": {
         "x": -49.7923927,
         "y": 21.3255138,
@@ -182,7 +182,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Between Railway and Power",
+      "Name": "Between Railway and Power",
       "Position": {
         "x": 182.188,
         "y": 21.3254356,
@@ -200,7 +200,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Railway Scav",
+      "Name": "Railway Scav",
       "Position": {
         "x": 344.0182,
         "y": 18.33604,
@@ -218,7 +218,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 2nd",
+      "Name": "Mall 2nd",
       "Position": {
         "x": 18.5168324,
         "y": 36.5697556,
@@ -226,7 +226,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 150.0,
       "MaxRandomNumBots": 1,
@@ -236,7 +236,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall Backroom Stairs",
+      "Name": "Mall Backroom Stairs",
       "Position": {
         "x": -65.14968,
         "y": 29.0295048,
@@ -244,7 +244,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
@@ -254,7 +254,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 2nd",
+      "Name": "Mall 2nd",
       "Position": {
         "x": 59.9946556,
         "y": 36.579998,
@@ -262,7 +262,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
@@ -272,7 +272,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 2nd Scav",
+      "Name": "Mall 2nd Scav",
       "Position": {
         "x": -18.7650757,
         "y": 36.5696678,
@@ -280,7 +280,7 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 2,
@@ -290,7 +290,7 @@
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Outside Front",
+      "Name": "Outside Front",
       "Position": {
         "x": 200.915741,
         "y": 21.3254375,
@@ -299,16 +299,16 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 50.0,
-      "BotTriggerDistance": 200.1,
+      "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 150.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 1st",
+      "Name": "Mall 1st",
       "Position": {
         "x": 17.8162746,
         "y": 27.0934372,
@@ -320,13 +320,13 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 150.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 1st",
+      "Name": "Mall 1st",
       "Position": {
         "x": 73.31492,
         "y": 27.0864773,
@@ -338,13 +338,13 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 150.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 2nd Pizza",
+      "Name": "Mall 2nd Pizza",
       "Position": {
         "x": -45.7550163,
         "y": 36.59381,
@@ -354,15 +354,15 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 260.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Mall 2nd Burger",
+      "Name": "Mall 2nd Burger",
       "Position": {
         "x": -35.6125641,
         "y": 36.57782,
@@ -372,15 +372,15 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 345.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "interchange",
-      "Name": "Interchange Power Station",
+      "Name": "Power Station",
       "Position": {
         "x": -222.6736,
         "y": 21.3254414,
@@ -389,12 +389,12 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 45.0,
-      "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 150.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "BotTriggerDistance": 2000.1,
+      "BotTimerTrigger": 1600.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true
     }
   ]
 }

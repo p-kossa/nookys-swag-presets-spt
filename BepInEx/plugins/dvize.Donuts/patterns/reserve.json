@@ -92,24 +92,6 @@
     },
     {
       "MapName": "rezervbase",
-      "Name": "Cliff Descent",
-      "Position": {
-        "x": -29.6130219,
-        "y": 18.57441,
-        "z": 170.694244
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 30.0,
-      "BotTriggerDistance": 320.0,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": true
-    },
-    {
-      "MapName": "rezervbase",
       "Name": "Med Building",
       "Position": {
         "x": -62.54061,
@@ -128,25 +110,7 @@
     },
     {
       "MapName": "rezervbase",
-      "Name": "Reserve Barracks Bunker Start",
-      "Position": {
-        "x": -264.267242,
-        "y": -10.8689318,
-        "z": -73.3399658
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "rezervbase",
-      "Name": "Reserve Barracks Bunker SCAV",
+      "Name": "Barracks Bunker SCAV",
       "Position": {
         "x": -204.504181,
         "y": -7.58864546,
@@ -164,7 +128,7 @@
     },
     {
       "MapName": "rezervbase",
-      "Name": "Reserve Barracks 3rd",
+      "Name": "Barracks 3rd",
       "Position": {
         "x": -170.587326,
         "y": 2.401508,
@@ -173,70 +137,16 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 240.1,
-      "BotTimerTrigger": 120.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "rezervbase",
-      "Name": "Reserve Barracks Bunker Start",
-      "Position": {
-        "x": -215.95282,
-        "y": -10.8689327,
-        "z": 49.27405
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 160.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "rezervbase",
-      "Name": "Reserve PMC Start",
-      "Position": {
-        "x": -91.26675,
-        "y": -6.88853836,
-        "z": -142.656219
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 30.0,
-      "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "rezervbase",
-      "Name": "Reserve PMC Start",
-      "Position": {
-        "x": 189.573212,
-        "y": -6.845369,
-        "z": -219.36377
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "rezervbase",
-      "Name": "Reserve Inside Dome",
+      "Name": "Inside Dome",
       "Position": {
         "x": -11.8709469,
         "y": 29.6094437,
@@ -245,8 +155,8 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 185.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,

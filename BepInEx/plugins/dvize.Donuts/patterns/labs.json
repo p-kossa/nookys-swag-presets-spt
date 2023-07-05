@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Start",
+      "Name": "PMC Start",
       "Position": {
         "x": -260.266083,
         "y": 0.0144543024,
@@ -10,9 +10,9 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 250.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 210.0,
       "MaxRandomNumBots": 3,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 2,
@@ -20,7 +20,7 @@
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Bathroom",
+      "Name": "PMC Bathroom",
       "Position": {
         "x": -268.0912,
         "y": 0.05300017,
@@ -28,17 +28,17 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 180.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 170.0,
+      "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Start",
+      "Name": "PMC Start",
       "Position": {
         "x": -203.8454,
         "y": 1.40064919,
@@ -46,7 +46,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 3,
@@ -56,7 +56,7 @@
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Start",
+      "Name": "PMC Start",
       "Position": {
         "x": -171.388153,
         "y": 0.04394813,
@@ -64,7 +64,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 25.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 2,
@@ -74,7 +74,7 @@
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Start",
+      "Name": "PMC Start",
       "Position": {
         "x": -117.674309,
         "y": 4.10469437,
@@ -82,7 +82,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 3,
@@ -92,7 +92,7 @@
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Start Lower Elevator",
+      "Name": "PMC Start - Lower Elevator",
       "Position": {
         "x": -122.758011,
         "y": -4.04365635,
@@ -100,17 +100,17 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 1,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2000.0,
+      "BotTimerTrigger": 1600.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCooldown": 4,
       "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Start",
+      "Name": "PMC Start",
       "Position": {
         "x": -117.818375,
         "y": 0.008917637,
@@ -118,7 +118,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 3,
@@ -128,7 +128,7 @@
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Start",
+      "Name": "PMC Start",
       "Position": {
         "x": -132.662933,
         "y": 1.368484,
@@ -136,7 +136,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 3,
@@ -146,7 +146,7 @@
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs PMC Start",
+      "Name": "PMC Start",
       "Position": {
         "x": -118.154991,
         "y": -0.0002968228,
@@ -154,7 +154,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 1000.0,
       "BotTimerTrigger": 270.0,
       "MaxRandomNumBots": 2,
@@ -164,7 +164,7 @@
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs Basement Staircase",
+      "Name": "Basement Staircase",
       "Position": {
         "x": -123.95607,
         "y": -4.02658558,
@@ -172,7 +172,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 1,
@@ -182,7 +182,7 @@
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs Basement Tunnels",
+      "Name": "Basement Tunnels",
       "Position": {
         "x": -136.758942,
         "y": -4.05760527,
@@ -190,17 +190,17 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 15,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs Basement Tunnels",
+      "Name": "PMC Start - Basement Tunnels",
       "Position": {
         "x": -174.120529,
         "y": -4.057596,
@@ -208,17 +208,17 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 240.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 15,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2000.0,
+      "BotTimerTrigger": 1600.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCooldown": 3,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "laboratory",
-      "Name": "Labs Basement Tunnels",
+      "Name": "Basement Tunnels",
       "Position": {
         "x": -186.823669,
         "y": -4.025476,
@@ -226,9 +226,9 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 1.0,
+      "MaxDistance": 2.0,
       "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,

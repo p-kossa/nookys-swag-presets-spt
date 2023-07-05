@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "woods",
-      "Name": "Woods South of ClearVill",
+      "Name": "South of ClearVill",
       "Position": {
         "x": -456.067078,
         "y": 14.8211632,
@@ -20,7 +20,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods West of ClearVill",
+      "Name": "West of ClearVill",
       "Position": {
         "x": -456.067078,
         "y": 14.8211584,
@@ -29,16 +29,16 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 75.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 45,
+      "BotTriggerDistance": 230.0,
+      "BotTimerTrigger": 410.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "woods",
-      "Name": "Woods Between House and Wood",
+      "Name": "Between House and Wood",
       "Position": {
         "x": 268.081146,
         "y": -0.8362288,
@@ -47,7 +47,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 75.0,
-      "BotTriggerDistance": 500.0,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
@@ -56,7 +56,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Dead Area",
+      "Name": "Dead Area",
       "Position": {
         "x": 208.995682,
         "y": 22.6494522,
@@ -65,7 +65,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 70,
@@ -74,7 +74,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Dead Area",
+      "Name": "Dead Area",
       "Position": {
         "x": 278.139557,
         "y": 16.9777088,
@@ -83,8 +83,8 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 120.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 2,
@@ -92,7 +92,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Dead Area",
+      "Name": "Dead Area",
       "Position": {
         "x": 195.767517,
         "y": 10.8430948,
@@ -101,8 +101,8 @@
       "WildSpawnType": "pmc",
       "MinDistance": 15.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 140.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 260.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
@@ -110,7 +110,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Dead Area",
+      "Name": "Dead Area",
       "Position": {
         "x": -17.98926,
         "y": 23.86008,
@@ -119,8 +119,8 @@
       "WildSpawnType": "assault",
       "MinDistance": 15.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 120.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -128,7 +128,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Dead Area",
+      "Name": "Dead Area",
       "Position": {
         "x": -123.885017,
         "y": 20.762291,
@@ -137,16 +137,16 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 170.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "woods",
-      "Name": "Woods Plane",
+      "Name": "Plane",
       "Position": {
         "x": -285.4664,
         "y": 14.4693584,
@@ -155,7 +155,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
@@ -164,7 +164,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Woodcutter",
+      "Name": "Woodcutter",
       "Position": {
         "x": -72.8257,
         "y": 7.1769,
@@ -173,7 +173,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 3,
       "SpawnChance": 35,
@@ -182,7 +182,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods RUAF",
+      "Name": "RUAF",
       "Position": {
         "x": -223.073074,
         "y": -3.49315882,
@@ -191,7 +191,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 50.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
@@ -200,7 +200,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods RUAF",
+      "Name": "RUAF",
       "Position": {
         "x": -352.107117,
         "y": 3.0447104,
@@ -209,7 +209,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 50.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
@@ -218,7 +218,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods RUAF",
+      "Name": "RUAF",
       "Position": {
         "x": -471.124329,
         "y": 2.5500586,
@@ -227,7 +227,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 25.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
@@ -236,7 +236,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods East Side",
+      "Name": "East Side",
       "Position": {
         "x": -409.74884,
         "y": 17.10769,
@@ -245,7 +245,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 25.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 190.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
@@ -254,7 +254,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Big Mountain",
+      "Name": "Big Mountain",
       "Position": {
         "x": -309.583,
         "y": 37.97018,
@@ -263,7 +263,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 35.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
@@ -272,7 +272,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Big Mountain Loot",
+      "Name": "Big Mountain Loot",
       "Position": {
         "x": -223.830292,
         "y": 74.20406,
@@ -281,7 +281,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
@@ -290,7 +290,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Big Mountain North",
+      "Name": "Big Mountain North",
       "Position": {
         "x": -139.427628,
         "y": 21.45859,
@@ -299,7 +299,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 100.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
@@ -308,7 +308,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods North",
+      "Name": "North",
       "Position": {
         "x": -60.11737,
         "y": 8.87791252,
@@ -317,7 +317,7 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 500.1,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 170.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
@@ -326,7 +326,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods by Outskirts",
+      "Name": "by Outskirts",
       "Position": {
         "x": 443.071747,
         "y": -15.2929411,
@@ -344,7 +344,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods by Outskirts",
+      "Name": "by Outskirts",
       "Position": {
         "x": 204.053055,
         "y": -0.140318334,
@@ -362,7 +362,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods by Outskirts",
+      "Name": "by Outskirts",
       "Position": {
         "x": 257.6767,
         "y": 23.7052,
@@ -380,7 +380,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Outskirts",
+      "Name": "Outskirts",
       "Position": {
         "x": 250.462265,
         "y": -9.838739,
@@ -398,7 +398,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods Outskirts",
+      "Name": "Outskirts",
       "Position": {
         "x": 200.465668,
         "y": -4.81825256,
@@ -416,7 +416,7 @@
     },
     {
       "MapName": "woods",
-      "Name": "Woods in Woodcutter",
+      "Name": "in Woodcutter",
       "Position": {
         "x": 85.55863,
         "y": -1.69900846,
