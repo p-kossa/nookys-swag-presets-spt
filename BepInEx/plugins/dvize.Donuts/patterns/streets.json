@@ -15,7 +15,8 @@
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -32,7 +33,8 @@
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -49,7 +51,8 @@
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 20,
-      "MaxSpawnsBeforeCoolDown": 2
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -66,7 +69,8 @@
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 3
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -83,7 +87,8 @@
       "BotTimerTrigger": 230.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
-      "MaxSpawnsBeforeCooldown": 2
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -100,7 +105,8 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 2
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -116,8 +122,9 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 170.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
@@ -133,8 +140,9 @@
       "BotTriggerDistance": 230,
       "BotTimerTrigger": 190,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
@@ -150,8 +158,9 @@
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
@@ -168,7 +177,8 @@
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -182,10 +192,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 180.1,
-      "BotTimerTrigger": 85.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
@@ -199,10 +210,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 140.0,
+      "BotTimerTrigger": 260.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "bigmap",
@@ -219,7 +231,8 @@
       "BotTimerTrigger": 65.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -233,10 +246,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
@@ -250,10 +264,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 175.1,
-      "BotTimerTrigger": 100.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
@@ -267,10 +282,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 175.1,
-      "BotTimerTrigger": 70.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
@@ -284,10 +300,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "tarkovstreets",
@@ -301,10 +318,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "tarkovstreets",
@@ -318,10 +336,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 310.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     }
   ]
 }

@@ -15,7 +15,8 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -29,10 +30,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 200.0,
+      "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 1
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "rezervbase",
@@ -49,7 +51,8 @@
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "rezervbase",
@@ -63,10 +66,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 150.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "rezervbase",
@@ -80,10 +84,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 110.0,
+      "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -97,10 +102,11 @@
       "MinDistance": 1.0,
       "MaxDistance": 30.0,
       "BotTriggerDistance": 320.0,
-      "BotTimerTrigger": 90.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 4,
       "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "rezervbase",
@@ -117,7 +123,8 @@
       "BotTimerTrigger": 150.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -134,7 +141,8 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -151,7 +159,8 @@
       "BotTimerTrigger": 140.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 2
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -168,7 +177,8 @@
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -185,7 +195,8 @@
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -202,7 +213,8 @@
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -219,7 +231,8 @@
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     },
     {
       "MapName": "rezervbase",
@@ -236,7 +249,8 @@
       "BotTimerTrigger": 185.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false
     }
   ]
 }
