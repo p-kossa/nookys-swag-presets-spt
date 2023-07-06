@@ -1,0 +1,118 @@
+{
+  "Locations": [
+    {
+      "MapName": "interchange",
+      "Name": "PMC Start - Railway",
+      "Position": {
+        "x": 367.9882,
+        "y": 17.9166565,
+        "z": -285.835358
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 120.0,
+      "BotTriggerDistance": 2000.1,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCooldown": 4,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_bridge",
+      "Position": {
+        "x": 295.963837,
+        "y": 21.1591358,
+        "z": -410.346375
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_hole_in_fence",
+      "Position": {
+        "x": -217.60379,
+        "y": 21.3254337,
+        "z": -2.114083
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_emercom",
+      "Position": {
+        "x": -340.798737,
+        "y": 23.6344166,
+        "z": 216.433762
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_trucks",
+      "Position": {
+        "x": 32.95307,
+        "y": 21.3254375,
+        "z": 265.454041
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 10.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_trailers",
+      "Position": {
+        "x": 156.811981,
+        "y": 21.84012,
+        "z": 355.956879
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 10.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    }
+  ]
+}

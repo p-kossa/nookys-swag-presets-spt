@@ -2,24 +2,6 @@
   "Locations": [
     {
       "MapName": "lighthouse",
-      "Name": "Seafront Cottages 1",
-      "Position": {
-        "x": 137.503708,
-        "y": 3.223037,
-        "z": -191.944763
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 270,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "lighthouse",
       "Name": "Coast North of Sunken Boat House",
       "Position": {
         "x": 127.061188,
@@ -34,43 +16,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Seafront Cottages Parking",
-      "Position": {
-        "x": 77.19673,
-        "y": 7.314229,
-        "z": -145.808624
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "BotTriggerDistance": 150.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Seafront Cottages 2",
-      "Position": {
-        "x": 145.8542,
-        "y": 3.22303677,
-        "z": -134.3994
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -88,7 +35,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -106,7 +54,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -124,7 +73,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCooldown": 3,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -142,25 +92,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
-    },
-	{
-      "MapName": "lighthouse",
-      "Name": "Near Path To Shoreline",
-      "Position": {
-        "x": -284.246826,
-        "y": 15.1967335,
-        "z": -151.901138
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 4.0,
-      "BotTriggerDistance": 150.0,
-      "BotTimerTrigger": 150.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -178,7 +111,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -196,7 +130,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -214,7 +149,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -232,7 +168,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -250,7 +187,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -268,7 +206,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -286,7 +225,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -304,7 +244,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -322,7 +263,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -340,7 +282,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -358,7 +301,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -376,7 +320,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -394,7 +339,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -412,7 +358,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -430,7 +377,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -448,7 +396,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -466,7 +415,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 15,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -484,7 +434,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -502,7 +453,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -520,25 +472,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "Side tunnel extract (maybe niche)",
-      "Position": {
-        "x": -61.6622238,
-        "y": 6.16452074,
-        "z": 315.4854
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 0.5,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 280.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 15,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -556,7 +491,8 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -574,7 +510,8 @@
       "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -592,7 +529,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "lighthouse",
@@ -610,7 +548,8 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
     }
   ]
 }

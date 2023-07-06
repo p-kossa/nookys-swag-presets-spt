@@ -1,0 +1,42 @@
+{
+  "Locations": [
+    {
+      "MapName": "laboratory",
+      "Name": "PMC Start - Lower Elevator",
+      "Position": {
+        "x": -122.758011,
+        "y": -4.04365635,
+        "z": -362.410767
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2000.0,
+      "BotTimerTrigger": 1600.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCooldown": 4,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "PMC Start - Basement Tunnels",
+      "Position": {
+        "x": -174.120529,
+        "y": -4.057596,
+        "z": -329.10202
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 2000.0,
+      "BotTimerTrigger": 1600.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCooldown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    }
+  ]
+}

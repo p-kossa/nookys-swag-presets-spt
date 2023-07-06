@@ -855,8 +855,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   // thanks ChatGPT
   static generatePmcGroupChance(group_chance: string, weights?: number[]): string {
     const defaultWeights: { [key: string]: number[] } = {
-      asonline: [0.70, 0.15, 0.08, 0.05, 0.02],
-      low: [0.85, 0.10, 0.05, 0, 0],
+      asonline: [0.80, 0.12, 0.05, 0.03, 0],
+      low: [0.90, 0.08, 0.02, 0, 0],
       none: [1, 0, 0, 0, 0],
       high: [0.10, 0.15, 0.30, 0.30, 0.15],
       max: [0, 0, 0.20, 0.50, 0.30]
