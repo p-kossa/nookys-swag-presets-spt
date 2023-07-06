@@ -1,17 +1,74 @@
 {
   "Locations": [
     {
-      "MapName": "lighthouse",
-      "Name": "pmc_mountainpass",
+      "MapName": "shoreline",
+      "Name": "pmc_ccp_temporary",
       "Position": {
-        "x": -168.686218,
-        "y": 30.2290783,
-        "z": -68.67192
+        "x": -741.8096,
+        "y": -59.4458275,
+        "z": 470.90274
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 25.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "pmc_scout_tower",
+      "Position": {
+        "x": -873.0886,
+        "y": -52.9311142,
+        "z": 312.2034
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "pmc_road_to_customs",
+      "Position": {
+        "x": -813.187134,
+        "y": -41.03324,
+        "z": 17.7812042
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "pmc_arch",
+      "Position": {
+        "x": -584.9939,
+        "y": -47.24885,
+        "z": 181.10788
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 3000.0,
+      "BotTriggerDistance": 2500.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
@@ -20,36 +77,17 @@
       "MinSpawnDistanceFromPlayer": 40
     },
     {
-      "MapName": "lighthouse",
-      "Name": "pmc_village",
+      "MapName": "shoreline",
+      "Name": "pmc_hill_house",
       "Position": {
-        "x": -222.78891,
-        "y": 12.4643841,
-        "z": -184.32
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_path_to_shoreline",
-      "Position": {
-        "x": -347.068268,
-        "y": 8.340902,
-        "z": -167.687271
+        "x": -584.153564,
+        "y": -34.8378944,
+        "z": -144.05574
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 3000.0,
+      "BotTriggerDistance": 2500.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
@@ -58,55 +96,17 @@
       "MinSpawnDistanceFromPlayer": 40
     },
     {
-      "MapName": "lighthouse",
-      "Name": "pmc_side_tunnel",
+      "MapName": "shoreline",
+      "Name": "pmc_north_fence_passage",
       "Position": {
-        "x": -59.2930756,
-        "y": 5.95763159,
-        "z": 327.110748
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 3.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_south_road",
-      "Position": {
-        "x": -141.4224,
-        "y": 5.94643164,
-        "z": 464.096466
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_beach_cottages",
-      "Position": {
-        "x": 98.58052,
-        "y": 0.523106039,
-        "z": 438.0078
+        "x": -498.396332,
+        "y": -15.2028961,
+        "z": -323.5631
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 3000.0,
+      "BotTriggerDistance": 2500.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
@@ -115,131 +115,93 @@
       "MinSpawnDistanceFromPlayer": 40
     },
     {
-      "MapName": "lighthouse",
-      "Name": "pmc_beach_house",
+      "MapName": "shoreline",
+      "Name": "pmc_lookout",
       "Position": {
-        "x": 44.5311,
-        "y": 6.770456,
-        "z": 267.58847
+        "x": -253.003418,
+        "y": -9.117955,
+        "z": -236.128387
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "pmc_path_to_lighthouse",
+      "Position": {
+        "x": 311.358337,
+        "y": -41.8296,
+        "z": -260.1941
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 25.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "pmc_ruined_house_fence",
+      "Position": {
+        "x": 454.6276,
+        "y": -51.57679,
+        "z": -58.695
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 25.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "pmc_village_deadend",
+      "Position": {
+        "x": 446.0056,
+        "y": -54.55731,
+        "z": 124.167
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "pmc_tunnel",
+      "Position": {
+        "x": 390.016724,
+        "y": -60.67289,
+        "z": 255.129852
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_beach",
-      "Position": {
-        "x": 116.02697,
-        "y": 5.29896259,
-        "z": 115.1731
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 5.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_hill_road",
-      "Position": {
-        "x": -132.811508,
-        "y": 28.8652363,
-        "z": 262.322144
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 5.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_mainroad",
-      "Position": {
-        "x": -18.035675,
-        "y": 3.10020161,
-        "z": -157.750946
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_pier_cottages",
-      "Position": {
-        "x": 117.286369,
-        "y": 0.345267326,
-        "z": -164.265213
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_island_cliff",
-      "Position": {
-        "x": -439.2439,
-        "y": 27.98144,
-        "z": -363.8115
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "BotTriggerDistance": 3000.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "lighthouse",
-      "Name": "pmc_treatment_cliff",
-      "Position": {
-        "x": -355.9492,
-        "y": 28.6134815,
-        "z": -554.9974
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "BotTriggerDistance": 3000.0,
+      "BotTriggerDistance": 2500.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,

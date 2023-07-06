@@ -65,13 +65,13 @@
         "y": -44.0730858,
         "z": 107.453659
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -84,14 +84,14 @@
         "y": -16.918642,
         "z": -259.790253
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 220.1,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCooldown": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
     },
@@ -217,7 +217,7 @@
         "y": -55.2198219,
         "z": 280.904266
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 30.0,
       "BotTriggerDistance": 300.1,
@@ -287,25 +287,6 @@
     },
     {
       "MapName": "shoreline",
-      "Name": "Port Inside Bldg",
-      "Position": {
-        "x": -320.843842,
-        "y": -57.6273155,
-        "z": 493.414
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 150.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "shoreline",
       "Name": "East of Resort",
       "Position": {
         "x": -498.395752,
@@ -325,32 +306,13 @@
     },
     {
       "MapName": "shoreline",
-      "Name": "North of Resort",
-      "Position": {
-        "x": -97.18743,
-        "y": -14.812254,
-        "z": -296.77774
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 230.1,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "shoreline",
       "Name": "NW of Resort",
       "Position": {
         "x": 95.51124,
         "y": -28.2234478,
         "z": -195.990677
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 50.0,
       "BotTriggerDistance": 250.1,
