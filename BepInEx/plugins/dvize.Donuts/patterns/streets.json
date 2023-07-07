@@ -8,7 +8,7 @@
         "y": -3.73675,
         "z": -8.576503
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 100.1,
@@ -27,7 +27,7 @@
         "y": 2.31633973,
         "z": 480.328522
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
       "BotTriggerDistance": 300.1,
@@ -35,44 +35,6 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "Primorsky Exfil",
-      "Position": {
-        "x": 20.46171,
-        "y": 2.11336756,
-        "z": 439.089233
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 5.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "Evac Zone",
-      "Position": {
-        "x": 155.751587,
-        "y": 3.612085,
-        "z": 429.2575
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 230.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
-      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
     },
@@ -103,7 +65,7 @@
         "y": 10.1843786,
         "z": 73.21943
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
@@ -122,7 +84,7 @@
         "y": 4.18362331,
         "z": 93.2166061
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1,
       "BotTriggerDistance": 230,
@@ -135,13 +97,13 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "assault pvp spot",
+      "Name": "PMC pvp spot",
       "Position": {
         "x": 117.511169,
         "y": 2.768168,
         "z": 232.422958
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 175.1,
@@ -154,13 +116,13 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "assault pvp spot",
+      "Name": "PMC pvp spot",
       "Position": {
         "x": 153.697052,
         "y": 3.52246547,
         "z": 211.155167
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 175.1,
@@ -173,13 +135,13 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "assault dealer garage",
+      "Name": "PMC dealer garage",
       "Position": {
         "x": 100.661,
         "y": 7.021845,
         "z": 305.829956
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
@@ -192,36 +154,17 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "assault dealer sparja connect",
+      "Name": "PMC dealer sparja connect",
       "Position": {
         "x": 115.4694,
         "y": 6.750643,
         "z": 291.59613
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 250.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "tarkovstreets",
-      "Name": "assault construction",
-      "Position": {
-        "x": 205.48175,
-        "y": 6.8248086,
-        "z": 303.7299
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 310.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 1,

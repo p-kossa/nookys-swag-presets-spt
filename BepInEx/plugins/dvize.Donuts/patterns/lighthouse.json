@@ -8,7 +8,7 @@
         "y": 1.87968016,
         "z": -37.46808
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
       "BotTriggerDistance": 350.0,
@@ -21,13 +21,32 @@
     },
     {
       "MapName": "lighthouse",
+      "Name": "South Of Grotto",
+      "Position": {
+        "x": 114.523834,
+        "y": 1.0402683,
+        "z": -423.468018
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 10.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "lighthouse",
       "Name": "Far North Of Grotto",
       "Position": {
         "x": 164.622879,
         "y": 2.28043818,
         "z": -707.419
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 18.0,
       "BotTriggerDistance": 200.0,
@@ -84,7 +103,7 @@
         "y": 0.414499,
         "z": -330.573364
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 4.0,
       "BotTriggerDistance": 320.0,
@@ -135,13 +154,32 @@
     },
     {
       "MapName": "lighthouse",
+      "Name": "Mountains east of WTP 2",
+      "Position": {
+        "x": -353.50528,
+        "y": 27.9233131,
+        "z": -549.876038
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 260.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "lighthouse",
       "Name": "Road To Military Car Extract",
       "Position": {
         "x": -254.715988,
         "y": 12.9745607,
         "z": -780.3262
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
       "BotTriggerDistance": 200.0,
@@ -198,7 +236,7 @@
         "y": 20.9000759,
         "z": -19.2072277
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 250.0,
@@ -217,13 +255,32 @@
         "y": 21.8669586,
         "z": -89.67097
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 175.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "lighthouse",
+      "Name": "Resort Upstairs Safe Room 2",
+      "Position": {
+        "x": -78.7931061,
+        "y": 21.8669586,
+        "z": -57.84196
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 2.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -255,7 +312,7 @@
         "y": 32.0344429,
         "z": -6.01865673
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 3.0,
       "BotTriggerDistance": 380.0,
@@ -274,7 +331,7 @@
         "y": 42.89334,
         "z": 85.45981
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 220.0,
@@ -293,7 +350,7 @@
         "y": 32.53938,
         "z": 228.4209
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 7.0,
       "BotTriggerDistance": 250.0,
@@ -331,7 +388,7 @@
         "y": 32.9985924,
         "z": 355.851959
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 3.0,
       "BotTriggerDistance": 250.0,
@@ -350,7 +407,7 @@
         "y": 39.6359024,
         "z": 410.259033
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 150.0,
@@ -388,7 +445,7 @@
         "y": 5.94643259,
         "z": 526.5384
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 8.0,
       "BotTriggerDistance": 300.0,
@@ -407,7 +464,7 @@
         "y": 5.847548,
         "z": 417.2042
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 11.0,
       "BotTriggerDistance": 250.0,
@@ -426,7 +483,7 @@
         "y": 5.957602,
         "z": 220.772552
       },
-      "WildSpawnType": "assault",
+      "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
       "BotTriggerDistance": 400.0,

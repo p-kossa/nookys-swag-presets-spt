@@ -27,7 +27,6 @@ import {
   GroupPattern,
   aiAmountProper,
   diffProper,
-  pmcType,
   roleCase,
   reverseMapNames
 } from "./ClassDef";
@@ -597,7 +596,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       SWAG.actual_timers.time_max = group.Time_max
     }
 
-    let pmc_random_weight = SWAG.getRandIntInclusive(1, 100)
     let scav_random_weight = SWAG.getRandIntInclusive(1, 100)
     let rogue_random_weight = SWAG.getRandIntInclusive(1, 100)
     let raider_random_weight = SWAG.getRandIntInclusive(1, 100)
