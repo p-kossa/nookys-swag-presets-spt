@@ -335,12 +335,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 65.0,
       "BotTriggerDistance": 240.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 380.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",

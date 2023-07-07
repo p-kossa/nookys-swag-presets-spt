@@ -18,7 +18,7 @@
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -37,7 +37,7 @@
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -56,26 +56,7 @@
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "interchange",
-      "Name": "Emercom behind Goshan",
-      "Position": {
-        "x": -219.481323,
-        "y": 21.696806,
-        "z": 179.906738
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 80.0,
-      "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 250.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -94,7 +75,7 @@
       "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -109,11 +90,11 @@
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 2,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -132,7 +113,7 @@
       "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -146,31 +127,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 210.0,
+      "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "interchange",
-      "Name": "Between Railway and Power",
-      "Position": {
-        "x": 182.188,
-        "y": 21.3254356,
-        "z": 233.845764
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 65.0,
-      "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -189,7 +151,7 @@
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -208,7 +170,7 @@
       "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -222,12 +184,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 250.0,
+      "BotTimerTrigger": 380.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 60,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -237,7 +199,7 @@
         "y": 36.579998,
         "z": 35.1372871
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 300.1,
@@ -246,7 +208,7 @@
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -265,26 +227,7 @@
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "interchange",
-      "Name": "Outside Front",
-      "Position": {
-        "x": 200.915741,
-        "y": 21.3254375,
-        "z": -37.0870934
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 50.0,
-      "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 150.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -303,7 +246,7 @@
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -317,12 +260,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -332,16 +275,16 @@
         "y": 36.59381,
         "z": -6.92546368
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 260.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
@@ -360,26 +303,7 @@
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "interchange",
-      "Name": "Power Station",
-      "Position": {
-        "x": -222.6736,
-        "y": 21.3254414,
-        "z": -361.981537
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 45.0,
-      "BotTriggerDistance": 2000.1,
-      "BotTimerTrigger": 1600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 80
     }
   ]
 }

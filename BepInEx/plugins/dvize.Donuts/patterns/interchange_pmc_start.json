@@ -2,22 +2,21 @@
   "Locations": [
     {
       "MapName": "interchange",
-      "Name": "PMC Start - Railway",
+      "Name": "pmc_railway_exfil",
       "Position": {
-        "x": 367.9882,
-        "y": 17.9166565,
-        "z": -285.835358
+        "x": 338.671173,
+        "y": 20.4173946,
+        "z": -179.711777
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 120.0,
-      "BotTriggerDistance": 2000.1,
-      "BotTimerTrigger": 1800.0,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCooldown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true
     },
     {
       "MapName": "interchange",
@@ -30,11 +29,49 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 10000.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_powerstation",
+      "Position": {
+        "x": -33.1391373,
+        "y": 20.4242954,
+        "z": -385.45105
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 10.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_in_powerstation",
+      "Position": {
+        "x": -175.45697,
+        "y": 21.3254375,
+        "z": -390.071716
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 40
     },
@@ -49,8 +86,8 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 10000.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -68,11 +105,30 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 10000.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_next_emercom",
+      "Position": {
+        "x": -185.093521,
+        "y": 23.7038841,
+        "z": 269.034973
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 10.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 40
     },
@@ -87,8 +143,8 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 10000.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -106,11 +162,49 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 10000.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_scavcamp",
+      "Position": {
+        "x": 278.161865,
+        "y": 21.3254375,
+        "z": 77.66336
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 10.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "interchange",
+      "Name": "pmc_scavcamp2",
+      "Position": {
+        "x": 277.183,
+        "y": 21.3254375,
+        "z": -11.4937687
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 40
     }

@@ -59,25 +59,6 @@
     },
     {
       "MapName": "bigmap",
-      "Name": "PMC Start - Big Red",
-      "Position": {
-        "x": -203.3676,
-        "y": 6.93720961,
-        "z": -95.5875
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.1,
-      "BotTimerTrigger": 1600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "bigmap",
       "Name": "Bridge",
       "Position": {
         "x": -135.916733,
@@ -129,7 +110,7 @@
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 3,
       "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 40
     },
@@ -148,7 +129,7 @@
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 3,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 40
     },
@@ -188,7 +169,7 @@
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 75
     },
     {
       "MapName": "bigmap",
@@ -207,7 +188,7 @@
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 75
     }
   ]
 }
