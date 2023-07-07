@@ -606,30 +606,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     if (botType === "pmc" || botType === "sptUsec" || botType === "sptBear" ) {
       player = true
 
-      // check if requested botType is a PMC
-      if (botType === "pmc") {
-        // let's roll a random PMC type
-        botType = pmcType[Math.floor(Math.random() * pmcType.length)]
-      }
-
-      // pmcWaves is false then we need to skip this PMC wave
-      if (config.PMCs.pmcWaves === false) {
-        if (globalmap === "factory4_day" || globalmap === "factory4_night" && group.OnlySpawnOnce === true) {
-          slots = 1
-        }
-        else {
-          slots = 0
-          botCount = 0
-        }
-      }
-      // PMC weight check - let's not skip any Factory starting waves, so check for OnlySpawnOnce here
-      else if (pmc_random_weight >= config.PMCs.pmcSpawnWeight && group.OnlySpawnOnce === false) {
-        slots = 0
-        botCount = 0
-      }
-    }
-
-    else if (botType === "assault") {
+    if (botType === "assault") {
       if (config.Others.scavWaves === false) {
         slots = 0
         botCount = 0
