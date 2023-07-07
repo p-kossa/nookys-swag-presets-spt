@@ -737,7 +737,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     // first check if BossChance is defined for this spawn
     let spawnChance = boss.BossChance ? boss.BossChance : 100
     let group_chance = boss.BossEscortAmount
-    let pmcChance = config.PMCs.pmcChance
 
     let boss_spawn_zone = null
     let bossName = roleCase[boss.BossName.toLowerCase()] ? roleCase[boss.BossName.toLowerCase()] : boss.BossName
@@ -781,12 +780,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       case 'bloodhound':
         spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.bloodhounds[reverseMapNames[globalmap]]
         break;
-      case 'sptbear':
-        spawnChance = boss.BossChance ? boss.BossChance : pmcChance
-        break;
-      case 'sptusec':
-        spawnChance = boss.BossChance ? boss.BossChance : pmcChance
-        break;
       case 'marksman':
         spawnChance = boss.BossChance ? boss.BossChance : config.Others.sniperChance[reverseMapNames[globalmap]]
         break;
@@ -809,10 +802,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       else {
         boss_spawn_zone = boss.BossZone[0]
       }
-    }
-
-    if (bossName === "sptUsec" || bossName === "sptBear") {
-      group_chance = boss.BossEscortAmount ? boss.BossEscortAmount : SWAG.generatePmcGroupChance(config.PMCs.pmcGroupChance)
     }
     else if (bossName === "marksman" ) {
       spawnChance = config.Others.sniperChance

@@ -58,38 +58,32 @@
       "shoreline": 10
     }
   },
-  "PMCs": {
-    "pmcWaves": false,
-    "pmcSpawnWeight": 20,
-    "pmcChance": 50,
-    "pmcGroupChance": "asonline"
-  },
   "Others": {
     "scavWaves": true,
-    "scavSpawnWeight": 55,
+    "scavSpawnWeight": 15,
     "sniperChance": 30
   },
 	"MaxBotCap": {
-		"factory": 11,
-		"customs": 16,
-		"woods": 16,
-		"shoreline": 16,
-		"lighthouse": 18,
-		"reserve": 16,
-		"interchange": 16,
-		"laboratory": 12,
-		"streets": 15
+		"factory": 6,
+		"customs": 10,
+		"woods": 10,
+		"shoreline": 10,
+		"lighthouse": 10,
+		"reserve": 10,
+		"interchange": 10,
+		"laboratory": 8,
+		"streets": 10
 	},
   "NightMaxBotCap": {
-		"factory_night": 11,
-		"customs": 16,
-		"woods": 16,
-		"shoreline": 16,
-		"lighthouse": 18,
-		"reserve": 16,
-		"interchange": 16,
-		"laboratory": 12,
-		"streets": 15
+		"factory_night": 6,
+		"customs": 10,
+		"woods": 10,
+		"shoreline": 10,
+		"lighthouse": 10,
+		"reserve": 10,
+		"interchange": 10,
+		"laboratory": 8,
+		"streets": 10
   },
 	"UseDefaultSpawns": {
 		"Waves": false,
