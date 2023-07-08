@@ -27,7 +27,7 @@
         "y": 14.4028883,
         "z": 111.687111
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
       "MaxRandomNumBots": 1,
@@ -54,25 +54,6 @@
       "BotTimerTrigger": 180,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "bigmap",
-      "Name": "Bridge",
-      "Position": {
-        "x": -135.916733,
-        "y": 0.6984447,
-        "z": 10.6236277
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 25.0,
-      "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
     },
@@ -146,9 +127,9 @@
       "MaxDistance": 2.0,
       "BotTriggerDistance": 240.1,
       "BotTimerTrigger": 290.0,
-      "MaxRandomNumBots": 3,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
     },

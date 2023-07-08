@@ -16,7 +16,7 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 25
     },
     {
@@ -36,7 +36,7 @@
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 30
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "factory4_day",
@@ -55,7 +55,7 @@
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 30
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "factory4_day",
@@ -74,7 +74,7 @@
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 30
+      "MinSpawnDistanceFromPlayer": 40
     }
   ]
 }

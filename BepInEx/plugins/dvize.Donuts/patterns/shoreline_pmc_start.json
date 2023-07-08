@@ -11,13 +11,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 25.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -30,13 +30,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -49,13 +49,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -68,13 +68,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -87,13 +87,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -106,13 +106,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -125,13 +125,32 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "shoreline",
+      "Name": "pmc_north_bunker",
+      "Position": {
+        "x": -70.68853,
+        "y": -21.3592854,
+        "z": -368.007965
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 320.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -144,13 +163,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 25.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -163,13 +182,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 25.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -182,13 +201,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 15.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "shoreline",
@@ -201,13 +220,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 2500.0,
+      "BotTriggerDistance": 320.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 80
     }
   ]
 }

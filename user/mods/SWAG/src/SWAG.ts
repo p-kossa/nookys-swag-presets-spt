@@ -27,6 +27,7 @@ import {
   GroupPattern,
   aiAmountProper,
   diffProper,
+  pmcType,
   roleCase,
   reverseMapNames
 } from "./ClassDef";
@@ -596,6 +597,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       SWAG.actual_timers.time_max = group.Time_max
     }
 
+    let pmc_random_weight = SWAG.getRandIntInclusive(1, 100)
     let scav_random_weight = SWAG.getRandIntInclusive(1, 100)
     let rogue_random_weight = SWAG.getRandIntInclusive(1, 100)
     let raider_random_weight = SWAG.getRandIntInclusive(1, 100)
@@ -604,7 +606,30 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     if (botType === "pmc" || botType === "sptUsec" || botType === "sptBear" ) {
       player = true
 
-    if (botType === "assault") {
+      // check if requested botType is a PMC
+      if (botType === "pmc") {
+        // let's roll a random PMC type
+        botType = pmcType[Math.floor(Math.random() * pmcType.length)]
+      }
+
+      // pmcWaves is false then we need to skip this PMC wave
+      if (config.PMCs.pmcWaves === false) {
+        if (globalmap === "factory4_day" || globalmap === "factory4_night" && group.OnlySpawnOnce === true) {
+          slots = 1
+        }
+        else {
+          slots = 0
+          botCount = 0
+        }
+      }
+      // PMC weight check - let's not skip any Factory starting waves, so check for OnlySpawnOnce here
+      else if (pmc_random_weight >= config.PMCs.pmcSpawnWeight && group.OnlySpawnOnce === false) {
+        slots = 0
+        botCount = 0
+      }
+    }
+
+    else if (botType === "assault") {
       if (config.Others.scavWaves === false) {
         slots = 0
         botCount = 0
@@ -712,6 +737,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     // first check if BossChance is defined for this spawn
     let spawnChance = boss.BossChance ? boss.BossChance : 100
     let group_chance = boss.BossEscortAmount
+    let pmcChance = config.PMCs.pmcChance
 
     let boss_spawn_zone = null
     let bossName = roleCase[boss.BossName.toLowerCase()] ? roleCase[boss.BossName.toLowerCase()] : boss.BossName
@@ -755,6 +781,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       case 'bloodhound':
         spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.bloodhounds[reverseMapNames[globalmap]]
         break;
+      case 'sptbear':
+        spawnChance = boss.BossChance ? boss.BossChance : pmcChance
+        break;
+      case 'sptusec':
+        spawnChance = boss.BossChance ? boss.BossChance : pmcChance
+        break;
       case 'marksman':
         spawnChance = boss.BossChance ? boss.BossChance : config.Others.sniperChance[reverseMapNames[globalmap]]
         break;
@@ -777,6 +809,10 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       else {
         boss_spawn_zone = boss.BossZone[0]
       }
+    }
+
+    if (bossName === "sptUsec" || bossName === "sptBear") {
+      group_chance = boss.BossEscortAmount ? boss.BossEscortAmount : SWAG.generatePmcGroupChance(config.PMCs.pmcGroupChance)
     }
     else if (bossName === "marksman" ) {
       spawnChance = config.Others.sniperChance

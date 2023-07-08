@@ -11,13 +11,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -30,13 +30,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -49,13 +49,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -68,13 +68,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -87,13 +87,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -106,13 +106,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -124,14 +124,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -143,14 +143,33 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
+    },
+    {
+      "MapName": "laboratory",
+      "Name": "pmc_cafeteria",
+      "Position": {
+        "x": -204.983215,
+        "y": 4.136945,
+        "z": -291.63324
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -162,14 +181,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -181,14 +200,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     },
     {
       "MapName": "laboratory",
@@ -200,14 +219,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 2000.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 35
+      "MinSpawnDistanceFromPlayer": 50
     }
   ]
 }
