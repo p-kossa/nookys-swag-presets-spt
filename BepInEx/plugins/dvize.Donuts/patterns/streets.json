@@ -40,25 +40,6 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Construc Sparja",
-      "Position": {
-        "x": 156.29361,
-        "y": 3.75064373,
-        "z": 293.1533
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 5.0,
-      "BotTriggerDistance": 200.1,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "tarkovstreets",
       "Name": "Apts 3rd",
       "Position": {
         "x": 44.3059044,
@@ -90,7 +71,7 @@
       "BotTriggerDistance": 200,
       "BotTimerTrigger": 420,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
@@ -109,7 +90,7 @@
       "BotTriggerDistance": 175.1,
       "BotTimerTrigger": 510.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
@@ -147,7 +128,7 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
@@ -166,8 +147,8 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 550.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     }
