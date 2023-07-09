@@ -1,0 +1,23 @@
+{
+  "Locations": [
+    {
+      "MapName": "rezervbase",
+      "Name": "Barracks Bunker SCAV",
+      "Position": {
+        "x": -204.504181,
+        "y": -7.58864546,
+        "z": -44.0617027
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 30.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    }
+  ]
+}

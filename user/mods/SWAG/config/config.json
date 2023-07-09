@@ -60,14 +60,14 @@
   },
   "PMCs": {
     "pmcWaves": false,
-    "pmcSpawnWeight": 20,
-    "pmcChance": 50,
+    "pmcSpawnWeight": 0,
+    "pmcChance": 0,
     "pmcGroupChance": "asonline"
   },
   "Others": {
-    "scavWaves": true,
-    "scavSpawnWeight": 15,
-    "sniperChance": 30
+    "scavWaves": false,
+    "scavSpawnWeight": 0,
+    "sniperChance": 0
   },
 	"MaxBotCap": {
 		"factory": 6,
