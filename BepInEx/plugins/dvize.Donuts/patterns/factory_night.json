@@ -2,6 +2,7 @@
   "Locations": [
     {
       "MapName": "factory4_night",
+      "GroupNum": 14,
       "Name": "3rd Floor Office",
       "Position": {
         "x": 9.189334,
@@ -15,51 +16,14 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": true,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 25
     },
     {
       "MapName": "factory4_night",
-      "Name": "Bathroom",
-      "Position": {
-        "x": 15.2277527,
-        "y": 4.532835,
-        "z": 47.2004166
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "factory4_night",
-      "Name": "Factory Underground Loot",
-      "Position": {
-        "x": -12.2977381,
-        "y": -3.914935,
-        "z": -24.1182384
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 2.0,
-      "BotTriggerDistance": 1000.1,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "factory4_night",
-      "Name": "Factory Underground Loot",
+      "GroupNum": 15,
+      "Name": "Factory Underground Loot 2",
       "Position": {
         "x": -18.2344971,
         "y": 0.191902786,
@@ -72,9 +36,9 @@
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 2,
+      "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 30
     }
   ]
 }

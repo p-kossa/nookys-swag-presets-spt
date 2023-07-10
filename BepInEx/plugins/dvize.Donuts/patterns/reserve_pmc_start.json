@@ -2,6 +2,7 @@
   "Locations": [
     {
       "MapName": "rezervbase",
+      "GroupNum": 1,
       "Name": "pmc_scav_lands",
       "Position": {
         "x": -117.41674,
@@ -11,16 +12,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 20.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 2,
       "Name": "pmc_bunker_1",
       "Position": {
         "x": -290.853,
@@ -30,16 +32,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 2,
       "Name": "pmc_bunker_2",
       "Position": {
         "x": -242.872467,
@@ -49,16 +52,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 3,
       "Name": "pmc_meteo_cliff",
       "Position": {
         "x": -74.92107,
@@ -68,16 +72,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 4,
       "Name": "pmc_d2_stairs",
       "Position": {
         "x": -54.6103363,
@@ -87,16 +92,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 5,
       "Name": "pmc_white_pawn",
       "Position": {
         "x": -124.550522,
@@ -106,16 +112,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 6,
       "Name": "pmc_checkpoint",
       "Position": {
         "x": 40.4504852,
@@ -125,16 +132,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 12.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 7,
       "Name": "pmc_bunker_3",
       "Position": {
         "x": 140.304535,
@@ -144,16 +152,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 2.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 7,
       "Name": "pmc_bunker_4",
       "Position": {
         "x": 229.591537,
@@ -163,16 +172,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 8,
       "Name": "pmc_armored_train_tanks",
       "Position": {
         "x": 176.147156,
@@ -182,16 +192,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 25.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 9,
       "Name": "pmc_small_barracks",
       "Position": {
         "x": 183.8646,
@@ -201,10 +212,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 3600.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80

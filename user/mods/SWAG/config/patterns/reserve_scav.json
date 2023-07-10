@@ -25,28 +25,6 @@
         ]
       },
       {
-        "Name": "Starting SCAVs",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 60,
-        "Time_max": 180,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BotZone": [
-          "ZoneBarrack",
-          "ZoneRailStrorage",
-          "ZoneBunkerStorage",
-          "ZoneSubStorage",
-          "ZonePTOR2",
-          "ZonePTOR1",
-          "ZoneSubCommand"
-        ]
-      },
-      {
         "Name": "assaults",
         "Bots": [
           {
