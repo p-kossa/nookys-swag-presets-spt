@@ -7,38 +7,7 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 60,
-        "Time_max": 300,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BotZone": [
-          "ZonePowerStation",
-          "ZoneGreenHouses",
-          "ZoneSanatorium1",
-          "ZoneSanatorium2",
-          "ZoneBusStation",
-          "ZoneMeteoStation",
-          "ZoneForestGasStation",
-          "ZoneForestTruck",
-          "ZoneRailWays",
-          "ZoneStartVillage",
-          "ZoneIsland",
-          "ZonePort",
-          "ZoneBunker",
-          "ZonePassClose",
-          "ZonePassFar",
-          "ZoneTunnel"
-        ]
-      },
-      {
-        "Name": "Starting SCAVs",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
+            "MaxBotCount": 3
           }
         ],
         "Time_min": 60,

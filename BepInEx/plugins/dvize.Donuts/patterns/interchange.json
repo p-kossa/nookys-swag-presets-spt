@@ -2,6 +2,7 @@
   "Locations": [
     {
       "MapName": "interchange",
+      "GroupNum": 19,
       "Name": "Mall 2nd",
       "Position": {
         "x": 69.60309,
@@ -16,11 +17,12 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
+      "GroupNum": 20,
       "Name": "Goshan Back Rooms",
       "Position": {
         "x": -173.119339,
@@ -40,6 +42,7 @@
     },
     {
       "MapName": "interchange",
+      "GroupNum": 21,
       "Name": "Underground Parking",
       "Position": {
         "x": -49.7923927,
@@ -59,6 +62,7 @@
     },
     {
       "MapName": "interchange",
+      "GroupNum": 22,
       "Name": "Mall Backroom Stairs",
       "Position": {
         "x": -65.14968,
@@ -73,11 +77,12 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
+      "GroupNum": 23,
       "Name": "Mall 1st",
       "Position": {
         "x": 73.31492,
@@ -92,11 +97,12 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
+      "GroupNum": 24,
       "Name": "Mall 2nd Burger",
       "Position": {
         "x": -35.6125641,
@@ -111,7 +117,7 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     }
   ]

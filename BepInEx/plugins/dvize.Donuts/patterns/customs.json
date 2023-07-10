@@ -2,6 +2,7 @@
   "Locations": [
     {
       "MapName": "bigmap",
+      "GroupNum": 16,
       "Name": "Inside Crackhouse",
       "Position": {
         "x": 89.5103455,
@@ -21,6 +22,7 @@
     },
     {
       "MapName": "bigmap",
+      "GroupNum": 17,
       "Name": "Dorms 3rd Story",
       "Position": {
         "x": 175.428024,
@@ -40,6 +42,7 @@
     },
     {
       "MapName": "bigmap",
+      "GroupNum": 18,
       "Name": "Dorms 2nd Story",
       "Position": {
         "x": 238.3906,
@@ -52,13 +55,14 @@
       "BotTriggerDistance": 260.1,
       "BotTimerTrigger": 520.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "bigmap",
+      "GroupNum": 19,
       "Name": "Under Stronghold",
       "Position": {
         "x": 202.246124,

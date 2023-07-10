@@ -2,6 +2,7 @@
   "Locations": [
     {
       "MapName": "tarkovstreets",
+      "GroupNum": 10,
       "Name": "Underpass Camper",
       "Position": {
         "x": 20.9011841,
@@ -21,25 +22,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "Name": "Courtyard Exfil",
-      "Position": {
-        "x": -156.636765,
-        "y": 2.31633973,
-        "z": 480.328522
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 5.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 20,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "tarkovstreets",
+      "GroupNum": 11,
       "Name": "Apts 3rd",
       "Position": {
         "x": 44.3059044,
@@ -52,13 +35,14 @@
       "BotTriggerDistance": 180.1,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
+      "GroupNum": 12,
       "Name": "Apts",
       "Position": {
         "x": 44.52857,
@@ -78,6 +62,7 @@
     },
     {
       "MapName": "tarkovstreets",
+      "GroupNum": 13,
       "Name": "PMC pvp spot",
       "Position": {
         "x": 117.511169,
@@ -97,6 +82,7 @@
     },
     {
       "MapName": "tarkovstreets",
+      "GroupNum": 14,
       "Name": "PMC pvp spot",
       "Position": {
         "x": 153.697052,
@@ -109,13 +95,14 @@
       "BotTriggerDistance": 175.1,
       "BotTimerTrigger": 450.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
+      "GroupNum": 15,
       "Name": "PMC dealer garage",
       "Position": {
         "x": 100.661,
@@ -128,13 +115,14 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
+      "GroupNum": 16,
       "Name": "PMC dealer sparja connect",
       "Position": {
         "x": 115.4694,
