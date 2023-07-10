@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "interchange",
-      "GroupNum": 19,
+      "GroupNum": 18,
       "Name": "Mall 2nd",
       "Position": {
         "x": 69.60309,
@@ -11,7 +11,7 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 220.1,
       "BotTimerTrigger": 340.0,
       "MaxRandomNumBots": 1,
@@ -22,7 +22,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 20,
+      "GroupNum": 19,
       "Name": "Goshan Back Rooms",
       "Position": {
         "x": -173.119339,
@@ -31,11 +31,11 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
@@ -43,26 +43,6 @@
     {
       "MapName": "interchange",
       "GroupNum": 21,
-      "Name": "Underground Parking",
-      "Position": {
-        "x": -49.7923927,
-        "y": 21.3255138,
-        "z": -164.177139
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 100.0,
-      "BotTriggerDistance": 350.1,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 3,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 22,
       "Name": "Mall Backroom Stairs",
       "Position": {
         "x": -65.14968,
@@ -71,18 +51,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 380.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
-      "GroupNum": 23,
+      "GroupNum": 22,
       "Name": "Mall 1st",
       "Position": {
         "x": 73.31492,
@@ -91,18 +71,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 220.1,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 30,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
-      "GroupNum": 24,
+      "GroupNum": 23,
       "Name": "Mall 2nd Burger",
       "Position": {
         "x": -35.6125641,
@@ -111,11 +91,11 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 2.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 220.1,
       "BotTimerTrigger": 345.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
