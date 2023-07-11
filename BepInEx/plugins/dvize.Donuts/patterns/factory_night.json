@@ -19,26 +19,6 @@
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 25
-    },
-    {
-      "MapName": "factory4_night",
-      "GroupNum": 15,
-      "Name": "Factory Underground Loot 2",
-      "Position": {
-        "x": -18.2344971,
-        "y": 0.191902786,
-        "z": -41.97208
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 1000.1,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 30
     }
   ]
 }
