@@ -153,17 +153,21 @@ https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 ```
 ---
 
-ALL CREDIT GOES TO PROPS, THE CREATOR OF SWAG AND DONUTS
+**ALL CREDIT GOES TO PROPS, THE CREATOR OF SWAG AND DONUTS**
 
 ## What is this?
 
-SWAG (Simple AI Wave Generator) is a mod that gives you full control over all bot spawns in your raids. SWAG 3 now includes DONUTS, which is a powerful spawn editor and dynamic spawning tool created by props.
+SWAG (Simple AI Wave Generator) is a mod that gives you full control over all bot spawns in your raids.
 
-Included with SWAG 3 is a new mod, Donuts by props
+SWAG 3 now includes DONUTS, which is a powerful spawn editor and dynamic spawning tool created by props.
+
+## What is Donuts?
 
 DONUTS is a client mod that is a full in-game spawn point editor and dynamic spawn system.
 
-Together, SWAG + DONUTS provide complete spawn control and freedom. Bots in D2. Crackhouse. Streets Apartments. Interchange Railway. Anywhere where there is valid navmesh with extended waypoints mod.
+Together, SWAG + DONUTS provide complete spawn control and freedom. Bots in D2. Crackhouse. Streets Apartments. Interchange Railway. Anywhere where there is valid navmesh with extended waypoints mod (see the media tab for a sneak peek).
+
+Bots are dynamically spawned around the player with many configurable options - **all PMCs now spawn in their actual live spawn points on all maps**, as well as "hot spots" such as Dorms, Resort, etc.
 
 ## How To Install
 
@@ -189,15 +193,21 @@ LOOTING BOTS by Skwizzy - https://hub.sp-tarkov.com/files/file/1096-looting-bots
 ---
 
 ## Mod Compatibility
-The rule of thumb is: if it's compatible with SWAG, then it's compatible with this mod.
+Any mod that changes spawns may conflict with SWAG!
 
-There are some exceptions:
+There are some exceptions...
 
 Realism
 If using options in the "Bots" tab, be sure you only have "Bot Changes" checked and nothing else, otherwise you have experience mod conflicts. You also must be sure SWAG loads AFTER Realism (it should by default unless you rename your mod folders)
 
 SVM
 Similar to Realism, if using any "Bots" options be sure SWAG loads AFTER SVM.
+
+---
+
+## Donuts Spawn Point Editor
+
+post screenshots of the editor here
 
 ---
 
@@ -222,7 +232,15 @@ When you load your server and launcher, look at your server console logs. SWAG s
 
 - What happens if I want to enable default waves?
 
-SWAG spawns + vanilla SPT spawns = lots of bots and weirdness.
+SWAG spawns + vanilla SPT spawns = lots of bots and weirdness. Leave all of them turned off unless you know what you're doing.
+
+- I like Donuts, but I don't like the PMC respawns, how can I turn that off?
+
+Easy - remove all map.json files from your Donuts patterns, located here: `<YOUR_SPT_FOLDER>/BepInEx/plugins/dvize.Donuts/patterns/`
+
+so all of these: `customs.json`, `woods.json`, etc.
+
+Keep in mind, however, that all PMCs spawn at their actual live locations - **there is no guarantee that your PMC bots will make their way toward hot spots without dynamic spawns!**
 
 - What is "pmcWaves" and what does it do?
 
