@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "lighthouse",
-      "GroupNum": 34,
+      "GroupNum": 21,
       "Name": "Road To Military Car Extract",
       "Position": {
         "x": -254.715988,
@@ -12,17 +12,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
-      "BotTriggerDistance": 200.0,
+      "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCooldown": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 35,
+      "GroupNum": 22,
       "Name": "Big House at Village Entrance",
       "Position": {
         "x": -73.62629,
@@ -32,17 +32,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 340.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 2,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 270.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 36,
+      "GroupNum": 23,
       "Name": "Resort Upstairs Safe Room",
       "Position": {
         "x": -79.38809,
@@ -52,11 +52,11 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 350.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCooldown": 2,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     }

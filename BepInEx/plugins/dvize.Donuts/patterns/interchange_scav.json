@@ -13,7 +13,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 160.0,
+      "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
@@ -31,7 +31,47 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 275.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 10,
+      "Name": "Mall 2nd",
+      "Position": {
+        "x": 18.5168324,
+        "y": 36.5697556,
+        "z": -138.057358
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 275.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 10,
+      "Name": "Mall 2nd",
+      "Position": {
+        "x": 59.9946556,
+        "y": 36.579998,
+        "z": 35.1372871
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 450.1,
       "BotTimerTrigger": 275.0,
       "MaxRandomNumBots": 3,
@@ -43,6 +83,46 @@
     {
       "MapName": "interchange",
       "GroupNum": 11,
+      "Name": "Mall 2nd Scav",
+      "Position": {
+        "x": -18.7650757,
+        "y": 36.5696678,
+        "z": -90.655426
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 11,
+      "Name": "Mall 2nd Pizza",
+      "Position": {
+        "x": -45.7550163,
+        "y": 36.59381,
+        "z": -6.92546368
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 12,
       "Name": "Emercom behind Goshan",
       "Position": {
         "x": -219.9878,
@@ -83,66 +163,6 @@
     {
       "MapName": "interchange",
       "GroupNum": 14,
-      "Name": "Mall 2nd",
-      "Position": {
-        "x": 18.5168324,
-        "y": 36.5697556,
-        "z": -138.057358
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 330.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 14,
-      "Name": "Mall 2nd",
-      "Position": {
-        "x": 59.9946556,
-        "y": 36.579998,
-        "z": 35.1372871
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 220.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 15,
-      "Name": "Mall 2nd Scav",
-      "Position": {
-        "x": -18.7650757,
-        "y": 36.5696678,
-        "z": -90.655426
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 16,
       "Name": "Mall 1st",
       "Position": {
         "x": 17.8162746,
@@ -162,27 +182,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 17,
-      "Name": "Mall 2nd Pizza",
-      "Position": {
-        "x": -45.7550163,
-        "y": 36.59381,
-        "z": -6.92546368
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 260.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 18,
+      "GroupNum": 15,
       "Name": "underground pkg",
       "Position": {
         "x": 23.028368,
@@ -193,16 +193,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 450.0,
-      "BotTimerTrigger": 330.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 19,
+      "GroupNum": 15,
       "Name": "underground pkg",
       "Position": {
         "x": -90.29459,
@@ -215,8 +215,48 @@
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 16,
+      "Name": "Inside OLI",
+      "Position": {
+        "x": -56.1080322,
+        "y": 27.0864677,
+        "z": 187.568039
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 250.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 17,
+      "Name": "IDEA Back Rooms",
+      "Position": {
+        "x": -35.60449,
+        "y": 27.06768,
+        "z": -290.974548
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     }
