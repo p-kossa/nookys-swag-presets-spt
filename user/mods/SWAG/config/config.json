@@ -53,9 +53,9 @@
       "reserve": 65
     },
     "bloodhounds": {
-      "customs": 10,
-      "woods": 10,
-      "shoreline": 10
+      "customs": 5,
+      "woods": 5,
+      "shoreline": 5
     }
   },
   "PMCs": {
@@ -66,11 +66,11 @@
   },
   "Others": {
     "scavWaves": true,
-    "scavSpawnWeight": 25,
+    "scavSpawnWeight": 15,
     "sniperChance": 35
   },
 	"MaxBotCap": {
-		"factory": 6,
+		"factory": 4,
 		"customs": 12,
 		"woods": 12,
 		"shoreline": 12,
@@ -81,7 +81,7 @@
 		"streets": 12
 	},
   "NightMaxBotCap": {
-		"factory_night": 6,
+		"factory_night": 4,
 		"customs": 12,
 		"woods": 12,
 		"shoreline": 12,
