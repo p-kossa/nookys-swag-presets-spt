@@ -642,10 +642,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
       // SCAV weight check - this now applies to all waves, including starting waves
       else if (scav_random_weight >= config.Others.scavSpawnWeight) {
-        // don't skip SCAV factory waves
-        if (globalmap === "factory4_day" || globalmap === "factory4_night") {
-          slots = 1
-        }
         slots = 0
         botCount = 0
       }

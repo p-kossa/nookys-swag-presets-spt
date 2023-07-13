@@ -7,11 +7,11 @@
         "Bots": [
           {
             "BotType": "assault",
-            "MaxBotCount": 3
+            "MaxBotCount": 2
           }
         ],
         "Time_min": 60,
-        "Time_max": 300,
+        "Time_max": 120,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": [
@@ -24,12 +24,7 @@
           "ZoneForestGasStation",
           "ZoneForestTruck",
           "ZoneRailWays",
-          "ZoneStartVillage",
-          "ZoneIsland",
-          "ZonePort",
           "ZoneBunker",
-          "ZonePassClose",
-          "ZonePassFar",
           "ZoneTunnel"
         ]
       },
@@ -55,12 +50,7 @@
           "ZoneForestGasStation",
           "ZoneForestTruck",
           "ZoneRailWays",
-          "ZoneStartVillage",
-          "ZoneIsland",
-          "ZonePort",
           "ZoneBunker",
-          "ZonePassClose",
-          "ZonePassFar",
           "ZoneTunnel"
         ]
       },
