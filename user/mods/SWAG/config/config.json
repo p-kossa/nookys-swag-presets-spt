@@ -1,4 +1,3 @@
-
 {
 	"aiDifficulty": "normal",
 	"aiAmount": "asonline",
@@ -6,38 +5,38 @@
 	"BossWaveCount": 1,
 	"SkipOtherBossWavesIfBossWaveSelected": false,
   "GlobalRandomWaveTimer": {
-    "WaveTimerMinSec": 60,
+    "WaveTimerMinSec": 90,
     "WaveTimerMaxSec": 180
   },
 	"BossChance": {
     "glukhar": {
-      "reserve": 25,
-      "streets": 15
+      "reserve": 10,
+      "streets": 10
     },
     "killa": {
-      "interchange": 25,
-      "streets": 15
+      "interchange": 10,
+      "streets": 10
     },
     "tagilla": {
-      "factory": 25
+      "factory": 10
     },
     "zryachiy": {
       "lighthouse": 100
     },
     "sanitar": {
-      "shoreline": 25
+      "shoreline": 15
     },
     "reshala": {
-      "customs": 25
+      "customs": 10
     },
     "shturman": {
-      "woods": 25
+      "woods": 10
     },
     "goons": {
-      "customs": 25,
-      "woods": 22,
-      "shoreline": 22,
-      "lighthouse": 25
+      "customs": 10,
+      "woods": 10,
+      "shoreline": 10,
+      "lighthouse": 10
     },
     "cultists": {
       "customs": 10,
@@ -46,63 +45,50 @@
       "factory_night": 100
     },
     "rogues": {
-      "lighthouse": 75
+      "lighthouse": 65
     },
     "raiders": {
-      "laboratory": 85,
+      "laboratory": 75,
       "reserve": 65
     },
     "bloodhounds": {
-      "customs": 25,
-      "woods": 25,
-      "shoreline": 25
+      "customs": 5,
+      "woods": 5,
+      "shoreline": 5
     }
   },
   "PMCs": {
-    "pmcWaves": true,
-    "pmcSpawnWeight": 20,
-    "pmcChance": 60,
+    "pmcWaves": false,
+    "pmcSpawnWeight": 0,
+    "pmcChance": 0,
     "pmcGroupChance": "asonline"
   },
   "Others": {
     "scavWaves": true,
-    "scavSpawnWeight": 75,
-    "sniperChance": 50,
-    "scavInLabs": false
+    "scavSpawnWeight": 30,
+    "sniperChance": 35
   },
 	"MaxBotCap": {
-		"factory": 13,
-		"customs": 22,
-		"woods": 27,
-		"shoreline": 26,
-		"lighthouse": 28,
-		"reserve": 21,
-		"interchange": 21,
-		"laboratory": 14,
-		"streets": 20
+		"factory": 4,
+		"customs": 14,
+		"woods": 14,
+		"shoreline": 14,
+		"lighthouse": 16,
+		"reserve": 14,
+		"interchange": 14,
+		"laboratory": 8,
+		"streets": 14
 	},
   "NightMaxBotCap": {
-		"factory_night": 13,
-		"customs": 22,
-		"woods": 27,
-		"shoreline": 26,
-		"lighthouse": 28,
-		"reserve": 21,
-		"interchange": 21,
-		"laboratory": 14,
-		"streets": 20
-  },
-	"MaxBotPerZone": {
-		"factory": 15,
-    "factory_night": 15,
-		"customs": 6,
-		"woods": 7,
-		"shoreline": 5,
-		"lighthouse": 5,
-		"reserve": 6,
-		"interchange": 5,
-		"laboratory": 5,
-		"streets": 4
+		"factory_night": 4,
+		"customs": 14,
+		"woods": 14,
+		"shoreline": 14,
+		"lighthouse": 16,
+		"reserve": 14,
+		"interchange": 14,
+		"laboratory": 8,
+		"streets": 14
   },
 	"UseDefaultSpawns": {
 		"Waves": false,

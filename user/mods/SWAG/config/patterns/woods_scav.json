@@ -11,31 +11,7 @@
           }
         ],
         "Time_min": 60,
-        "Time_max": 180,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BotZone": [
-          "ZoneScavBase2",
-          "ZoneMiniHouse",
-          "ZoneBigRocks",
-          "ZoneRedHouse",
-          "ZoneWoodCutter",
-          "ZoneRoad",
-          "ZoneHouse",
-          "ZoneClearVill",
-          "ZoneBrokenVill"
-        ]
-      },
-      {
-        "Name": "Starting SCAVs",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 60,
-        "Time_max": 180,
+        "Time_max": 120,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": [
@@ -59,7 +35,7 @@
           }
         ],
         "Time_min": 400,
-        "Time_max": 1200,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -72,26 +48,6 @@
           "ZoneHouse",
           "ZoneClearVill",
           "ZoneBrokenVill"
-        ]
-      },
-      {
-        "Name": "More SCAVs",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 3
-          }
-        ],
-        "Time_min": 300,
-        "Time_max": 600,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneMiniHouse",
-          "ZoneRedHouse",
-          "ZoneWoodCutter",
-          "ZoneRoad",
-          "ZoneHouse"
         ]
       }
     ],

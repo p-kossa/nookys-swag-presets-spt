@@ -261,16 +261,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     locations = databaseServer.getTables().locations;
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
 
-    SWAG.SetConfigCaps();
     SWAG.ReadAllPatterns();
-  }
-
-  static SetConfigCaps(): void {
-    //Set Max Bots Per Zone Per Map
-    for (let map in locations) {
-      locations[map].MaxBotPerZone = config.MaxBotPerZone[reverseMapNames[map]];
-    }
-    logger.info("SWAG: MaxBotPerZone set for each map")
   }
 
   /**
@@ -651,10 +642,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
       // SCAV weight check - this now applies to all waves, including starting waves
       else if (scav_random_weight >= config.Others.scavSpawnWeight) {
-        // don't skip SCAV factory waves
-        if (globalmap === "factory4_day" || globalmap === "factory4_night") {
-          slots = 1
-        }
         slots = 0
         botCount = 0
       }
@@ -864,8 +851,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   // thanks ChatGPT
   static generatePmcGroupChance(group_chance: string, weights?: number[]): string {
     const defaultWeights: { [key: string]: number[] } = {
-      asonline: [0.60, 0.20, 0.10, 0.07, 0.03],
-      low: [0.80, 0.15, 0.05, 0, 0],
+      asonline: [0.80, 0.12, 0.05, 0.03, 0],
+      low: [0.90, 0.08, 0.02, 0, 0],
       none: [1, 0, 0, 0, 0],
       high: [0.10, 0.15, 0.30, 0.30, 0.15],
       max: [0, 0, 0.20, 0.50, 0.30]

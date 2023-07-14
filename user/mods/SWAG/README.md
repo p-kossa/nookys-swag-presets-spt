@@ -1,13 +1,13 @@
-# SWAG 2.0
-![Version: 2.0.1](https://img.shields.io/badge/Version-2.0.1-informational?style=flat-square)
+# SWAG + Donuts (SWAG 3)
+![Version: 3.0.1](https://img.shields.io/badge/Version-3.0.1-informational?style=flat-square)
 
-**All credit goes to Props, creator of SWAG**
+**All credit goes to Props, creator of SWAG and DONUTS**
 
 https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 
 ---
 
-## Config Reference
+## SWAG Config Reference
 
 ```
 {
@@ -108,36 +108,131 @@ https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 }
 ```
 
-ALL CREDIT GOES TO PROPS, SWAG'S CREATOR.
+## Donuts config reference
+
+```
+{
+  "MapName": "bigmap",
+  "GroupNum": 1,
+  "Name": "pmc_trailer_park",
+  "Position": {
+    "x": -321.211029,
+    "y": 0.8538656,
+    "z": -231.526016
+  },
+  "WildSpawnType": "pmc",
+  "MinDistance": 1.0,
+  "MaxDistance": 5.0,
+  "BotTriggerDistance": 400.0,
+  "BotTimerTrigger": 3600.0,
+  "MaxRandomNumBots": 2,
+  "SpawnChance": 80,
+  "MaxSpawnsBeforeCoolDown": 2,
+  "IgnoreTimerFirstSpawn": true,
+  "MinSpawnDistanceFromPlayer": 80
+}
+
+"MapName" - name of the map. be sure you use proper names, i.e. "bigmap" for Customs
+"GroupNum" - spawn group. all spawns with the same GroupNum will share one trigger. in other words, if you have 3 spawn points in one group, and one of those trigger, then the other 2 won't.
+"Name" - name of spawn. you can name them whatever you want
+"Position": { - x,y,z coordinates of spawn position. this is provided by the in-raid spawn point editor
+  "x": 89.5103455,
+  "y": 4.672584,
+  "z": -158.156723
+}
+"WildSpawnType" - bot type, i.e. pmc, sptusec, assault, etc.
+"MinDistance" - min spawn point radius (can be 0)
+"MaxDistance" - max spawn point radius - this is the size of the spawn point. when using the spawn editor, enable "real size" markers to see the actual radius of your spawn point
+"MaxRandomNumBots" - max number of bots to spawn. this is 1-max inclusive and it's random
+"BotTriggerDistance" - distance to player for spawn trigger. once the player is within this distance then the spawn timer will start
+"BotTimerTrigger" - spawn timer. if the player is within trigger distance this timer will continue to run
+"SpawnChance" - spawn chance %
+"MaxSpawnsBeforeCooldown" - once this many bots have spawned the spawn point will enter a cooldown (wait for 180s, default, configurable in F12 menu)
+"IgnoreTimerFirstSpawn" - if true, once player is within BotTriggerDistance the spawn will trigger regardless of timer. If false, the timer must run at least once for the first spawn trigger.
+"MinSpawnDistanceFromPlayer" - the min distance from player that bots should spawn. this is to hopefully prevent bots spawning too close to you.
+```
+---
+## The Rules of Donuts
+```
+Rules
+1. Bots will only spawn in same level/height as the spawn marker
+2. Bots will only spawn in maximum distance (radius) around the spawn marker
+3. One random spawn marker will be picked in a group
+ - if the timer is passed its eligible to spawn (Unless IgnoreTimerFirstSpawn is true for the point. It will be set to false after a successful spawn)
+ - if they are within the BotTimerTrigger distance the point is eligible to spawn.
+ - If the SpawnChance is reached, it is eligible to spawn.
+ - Validate that the spawn is not in a wall, in the air, in the player's line of site, minimum distance from the player.  It will attempt to find a valid point up to the Bepinex Configured Max Tries specified.
+ - One to MaxRandomNumBots from the Spawn Marker info will be generated of type WildSpawnType
+4. Timers will be reset if there is a successful spawn or a failure from within a group.
+5. If a spawn sucessfully spawns up to their MaxSpawnsBeforeCooldown number, then it is in 'cooldown' until the timer specified in the bepinex config is reached.
+
+Assumptions
+- Spawns within a group will be on/around the same bot trigger distance otherwise only the closest spawn will be enabled.
+- Each unique or standalone spawn should be given its own group number.
+```
+
+---
+
+**ALL CREDIT GOES TO PROPS, THE CREATOR OF SWAG AND DONUTS**
 
 ## What is this?
 
 SWAG (Simple AI Wave Generator) is a mod that gives you full control over all bot spawns in your raids.
 
+SWAG 3 now includes DONUTS, which is a powerful spawn editor and dynamic spawning tool created by props.
+
+## What is Donuts?
+
+DONUTS is a client mod that is a full in-game spawn point editor and dynamic spawn system.
+
+Together, SWAG + DONUTS provide complete spawn control and freedom. Bots in D2. Crackhouse. Streets Apartments. Interchange Railway. Anywhere where there is valid navmesh with extended waypoints mod (see the media tab for a sneak peek).
+
+Bots are dynamically spawned around the player with many configurable options - **all PMCs now spawn in their actual live spawn points on all maps**, as well as "hot spots" such as Dorms, Resort, etc.
+
 ## How To Install
 
-1. if you already have SWAG installed, delete your "patterns" folder first: `SWAG/config/patterns`
+**IMPORTANT**
+The following mods are REQUIRED:
 
-2. download the .zip, extract/copy/paste and overwrite into SPT MODS FOLDER ---> `<YOUR SPT FOLDER>/user/mods/`
+BIGBRAIN by DrakiaXYZ - https://hub.sp-tarkov.com/files/file/1219-bigbrain/#overview
+WAYPOINTS by DrakiaXYZ -https://hub.sp-tarkov.com/files/file/1119-waypoints-expanded-bot-patrols-and-navmesh/#overview
+SAIN by Solarint - https://hub.sp-tarkov.com/files/file/1062-sain-2-0-solarint-s-ai-modifications-full-ai-combat-system-replacement/#overview
+LOOTING BOTS by Skwizzy - https://hub.sp-tarkov.com/files/file/1096-looting-bots/
+
+1. **if you already have SWAG installed** - delete SWAG completely first
+
+2. download the .zip, extract to your SPT folder
 
 3. play the game
 
 ## How to Uninstall
 
-Delete the SWAG folder
+1. Delete the SWAG folder from `<YOUR SPT FOLDER>/user/mods/`
+2. Delete the Donuts (dvize.Donuts) folder from `<YOUR SPT FOLDER>/BepInEx/plugins/`
 
 ---
 
 ## Mod Compatibility
-The rule of thumb is: if it's compatible with SWAG, then it's compatible with this mod.
+Any mod that changes spawns may conflict with SWAG!
 
-There are some exceptions:
+IF YOU USE REALISM MOD:
+On the Realism 'Bots' tab (from the GUI), be sure you leave the following options DISABLED:
 
-Realism
-If using options in the "Bots" tab, be sure you only have "Bot Changes" checked and nothing else, otherwise you have experience mod conflicts. You also must be sure SWAG loads AFTER Realism (it should by default unless you rename your mod folders)
+- Spawn Wave Tweaks
+- Boss Spawn Tweaks​​​​​​
+- OpenZones Fix
+- Increased Bot Cap
+​- PMC Type Changes (for SAIN compatibility)​
 
-SVM
-Similar to Realism, if using any "Bots" options be sure SWAG loads AFTER SVM.
+Everything else should be fully compatible.​​
+
+---
+
+## Donuts Spawn Point Editor
+
+post screenshots of the editor here
+
+---
 
 ## FAQ
 - I'm getting X, Y, Z errors // I can't load into raids // My spawns aren't working // etc...
@@ -150,7 +245,7 @@ If you're still experiencing issues please leave a comment on this mod page (bes
 
 - I want to modify these, how can I do that?
 
-I've added a short guide to help with this: "how-to-modify-spawns.txt"
+I've added a short guide to help with this: "how-to-modify-spawns.txt" or use the in-game Donuts spawn point editor.
 
 Please free to reach out to me on the hub or (better) the SPT discord if you have any questions.
 
@@ -160,8 +255,20 @@ When you load your server and launcher, look at your server console logs. SWAG s
 
 - What happens if I want to enable default waves?
 
-Regardless of "pmcWaves" setting you should see normal vanilla SPT waves of a mix of PMC/SCAVs in addition to my preset spawns.
+SWAG spawns + vanilla SPT spawns = lots of bots and weirdness. Leave all of them turned off unless you know what you're doing.
 
+- I like Donuts, but I don't like the PMC respawns, how can I turn that off?
+
+Easy - remove all map.json files from your Donuts patterns, located here: `<YOUR_SPT_FOLDER>/BepInEx/plugins/dvize.Donuts/patterns/`
+
+so all of these: `customs.json`, `woods.json`, etc.
+
+or if you don't want to delete any files then adjust SpawnChance values in the Donuts patterns down to 0 (NOT the pmc start patterns).
+
+Keep in mind, however, that all PMCs spawn at their actual live locations - **there is no guarantee that your PMC bots will make their way toward hot spots without dynamic spawns!**
+
+
+**IF YOU ARE USING DONUTS (SWAG 3.0+) THEN LEAVE THIS DISABLED**
 - What is "pmcWaves" and what does it do?
 
 If set to "false" what you should expect to see in you raids:
@@ -219,16 +326,11 @@ These are values that determine a chance to reduce a number of spawns in each wa
 If you want more SCAVs and/or PMCs, then you want a higher number.
 If you want fewer, go low.
 
-Defaults:
-
-`pmcSpawnWeight: 20`
-
-`scavSpawnWeight: 80`
-
 - How does SnipeChance and BossChance work?
 
 These are both flat percentages for sniper SCAVs or bosses to spawn in your raids. Default is 50% and 20%, respectively.
 
+**IF YOU ARE USING DONUTS (SWAG 3.0+) LEAVE THIS SET TO 0**
 - pmcChance?
 
 Same as above, except this setting affects only START-OF-RAID PMCs. Default is 60.
@@ -239,71 +341,50 @@ By default my spawns prevent SCAVs from spawning in Labs - however, if you'd sti
 
 - Can I change the max map bot cap?
 
-Yes - feel free to tune any of these to your liking - my default caps are just my personal preference:
+Yes - feel free to tune any of these to your liking - the default caps are just my personal preference:
 ```json
 	"MaxBotCap": {
-		"factory": 14,
-		"customs": 25,
-		"woods": 27,
-		"shoreline": 28,
-		"lighthouse": 30,
-		"reserve": 24,
-		"interchange": 24,
-		"laboratory": 14,
-		"tarkovstreets": 25
+		"factory": 6,
+		"customs": 12,
+		"woods": 12,
+		"shoreline": 12,
+		"lighthouse": 15,
+		"reserve": 12,
+		"interchange": 12,
+		"laboratory": 8,
+		"streets": 12
 	},
 ```
 
 You can also set separate caps for night raids:
 ```json
   "NightMaxBotCap": {
-		"factory_night": 14,
-		"customs": 25,
-		"woods": 27,
-		"shoreline": 28,
-		"lighthouse": 30,
-		"reserve": 24,
-		"interchange": 24,
-		"laboratory": 14,
-		"tarkovstreets": 25
+		"factory_night": 6,
+		"customs": 12,
+		"woods": 12,
+		"shoreline": 12,
+		"lighthouse": 15,
+		"reserve": 12,
+		"interchange": 12,
+		"laboratory": 8,
+		"streets": 12
   },
 ```
 
-- This is a bit chaotic, I'm getting killed everywhere! How can I turn down the amount of spawns?
+You can also adjust the Donuts max bot caps from the BepInEx F12 menu in-game.
 
-These presets are tuned so that your raids are (hopefully) never dead. So yes, spawns are frequent, you will find yourself in fights OFTEN. If that's not your thing, there are a couple of things you can adjust to your liking in your config.json:
+- This is too much action/too many bots & My raids are hella dead!
 
-Lower the AI amount...
+**IF YOU ARE USING SWAG 3.0+ WITH DONUTS**
 
-```
-"aiAmount": "low"
-```
+Use the spawn point editor and/or modify the included Donuts patterns to tweak options such as spawn chance, timers, trigger distance and more.
 
-or increase the time between waves -
-for example, my default config is 45 seconds between waves, however, this can be changed so that there is a longer period between waves and can be stretched out over longer periods of time. See below.
+Fewer bots? Decrease spawn chances in Donuts spawn patterns (you can make it 0 if you want), increase timers, etc.
 
-- Well, I love chaos, how do I turn these up to 11?
-
-Easy, change this...
-
-```
-"aiAmount": "asonline"
-```
-to "high" or "horde", gl hf.
-
+More bots? with SWAG: re-enable SWAG PMCs for more PMCs (`pmcChance`), increase weight values, enable `pmcWaves`, etc., or increase your Donuts spawn chances, shorter timers, etc.
 
 - I like long raids (60 min+), will these presets work for me?
 
-Yes! Thanks to SWAG number of waves and intervals between them are entirely configurable.
-```
-"WaveTimerMinSec": 45,
-"WaveTimerMaxSec": 90
-```
-for more spread out waves and/or longer raids. Or you could just simply add more waves:
-```
-"RandomWaveCount": 20
-```
-
-I **STRONGLY RECOMMEND** setting "pmcWaves" to true if your raids are longer than 60 minutes.
+Yes - all spawns are on timers that continue to run throughout the length of your raids regardless of raid time.
 
 ### REMINDER - THIS IS A WORK IN PROGRESS - I'm always open for improvements, please give me feedback in the comments or find me in the SPT Discord!

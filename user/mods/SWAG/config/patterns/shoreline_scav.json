@@ -11,7 +11,7 @@
           }
         ],
         "Time_min": 60,
-        "Time_max": 300,
+        "Time_max": 120,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": [
@@ -24,43 +24,7 @@
           "ZoneForestGasStation",
           "ZoneForestTruck",
           "ZoneRailWays",
-          "ZoneStartVillage",
-          "ZoneIsland",
-          "ZonePort",
           "ZoneBunker",
-          "ZonePassClose",
-          "ZonePassFar",
-          "ZoneTunnel"
-        ]
-      },
-      {
-        "Name": "Starting SCAVs",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 60,
-        "Time_max": 300,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BotZone": [
-          "ZonePowerStation",
-          "ZoneGreenHouses",
-          "ZoneSanatorium1",
-          "ZoneSanatorium2",
-          "ZoneBusStation",
-          "ZoneMeteoStation",
-          "ZoneForestGasStation",
-          "ZoneForestTruck",
-          "ZoneRailWays",
-          "ZoneStartVillage",
-          "ZoneIsland",
-          "ZonePort",
-          "ZoneBunker",
-          "ZonePassClose",
-          "ZonePassFar",
           "ZoneTunnel"
         ]
       },
@@ -72,8 +36,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 550,
-        "Time_max": 2600,
+        "Time_min": 350,
+        "Time_max": 3000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -86,31 +50,8 @@
           "ZoneForestGasStation",
           "ZoneForestTruck",
           "ZoneRailWays",
-          "ZoneStartVillage",
-          "ZoneIsland",
-          "ZonePort",
           "ZoneBunker",
-          "ZonePassClose",
-          "ZonePassFar",
           "ZoneTunnel"
-        ]
-      },
-      {
-        "Name": "assaults",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 220,
-        "Time_max": 900,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneGreenHouses",
-          "ZoneSanatorium1",
-          "ZoneSanatorium2"
         ]
       }
     ],
