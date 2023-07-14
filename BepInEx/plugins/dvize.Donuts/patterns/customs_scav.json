@@ -14,8 +14,8 @@
       "MaxDistance": 15.0,
       "MaxRandomNumBots": 1,
       "BotTriggerDistance": 450,
-      "BotTimerTrigger": 200,
-      "SpawnChance": 70,
+      "BotTimerTrigger": 220,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -35,7 +35,7 @@
       "MaxRandomNumBots": 1,
       "BotTriggerDistance": 450,
       "BotTimerTrigger": 200,
-      "SpawnChance": 70,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -55,7 +55,7 @@
       "BotTriggerDistance": 450.1,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -75,7 +75,7 @@
       "BotTriggerDistance": 450.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 75,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -95,10 +95,30 @@
       "BotTriggerDistance": 450.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 75,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 17,
+      "Name": "Trailer Park",
+      "Position": {
+        "x": -240.989868,
+        "y": 0.6850602,
+        "z": -195.066666
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
     }
   ]
 }

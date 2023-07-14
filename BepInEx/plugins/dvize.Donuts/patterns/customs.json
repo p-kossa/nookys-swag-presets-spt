@@ -32,10 +32,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 300.0,
+      "BotTriggerDistance": 320.1,
+      "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 8,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
@@ -52,10 +52,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 300.0,
+      "BotTriggerDistance": 320.1,
+      "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 8,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
@@ -99,26 +99,6 @@
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 17,
-      "Name": "Trailer Park",
-      "Position": {
-        "x": -240.989868,
-        "y": 0.6850602,
-        "z": -195.066666
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 440.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60.0
     },
     {
       "MapName": "bigmap",
