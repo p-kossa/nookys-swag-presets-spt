@@ -73,56 +73,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.1,
-      "BotTimerTrigger": 290.0,
+      "BotTimerTrigger": 450.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 1,
-      "Name": "Trailer Park",
-      "Position": {
-        "x": -240.989868,
-        "y": 0.6850602,
-        "z": -195.066666
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 10,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 50.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 1,
-      "Name": "Big Red",
-      "Position": {
-        "x": -216.849625,
-        "y": 1.08683717,
-        "z": -112.495377
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 10,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 50.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 1,
+      "GroupNum": 16,
       "Name": "Inside Stronghold",
       "Position": {
         "x": 205.202026,
@@ -132,13 +92,53 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 10,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 50.0
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 17,
+      "Name": "Trailer Park",
+      "Position": {
+        "x": -240.989868,
+        "y": 0.6850602,
+        "z": -195.066666
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 440.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 17,
+      "Name": "Big Red",
+      "Position": {
+        "x": -216.849625,
+        "y": 1.08683717,
+        "z": -112.495377
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 220.0,
+      "BotTimerTrigger": 500.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60.0
     }
   ]
 }

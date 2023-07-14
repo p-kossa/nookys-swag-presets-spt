@@ -132,13 +132,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 10,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 500.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 50.0
+      "MinSpawnDistanceFromPlayer": 100.0
     }
   ]
 }
