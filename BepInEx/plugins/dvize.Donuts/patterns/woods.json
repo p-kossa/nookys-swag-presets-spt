@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "woods",
-      "GroupNum": 21,
+      "GroupNum": 20,
       "Name": "West of ClearVill",
       "Position": {
         "x": -456.067078,
@@ -22,7 +22,7 @@
     },
     {
       "MapName": "woods",
-      "GroupNum": 22,
+      "GroupNum": 21,
       "Name": "Dead Area",
       "Position": {
         "x": 278.139557,
@@ -42,7 +42,7 @@
     },
     {
       "MapName": "woods",
-      "GroupNum": 23,
+      "GroupNum": 22,
       "Name": "Dead Area",
       "Position": {
         "x": 195.767517,
@@ -53,16 +53,16 @@
       "MinDistance": 15.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 400.0,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 230.0,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 3,
+      "MaxSpawnsBeforeCooldown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 24,
+      "GroupNum": 22,
       "Name": "Dead Area",
       "Position": {
         "x": -123.885017,
@@ -73,16 +73,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "BotTimerTrigger": 230.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 25,
+      "GroupNum": 22,
       "Name": "Big Mountain Loot",
       "Position": {
         "x": -223.830292,
@@ -93,16 +93,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 450.0,
+      "BotTimerTrigger": 230.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 26,
+      "GroupNum": 23,
       "Name": "in Woodcutter",
       "Position": {
         "x": 85.55863,
@@ -113,10 +113,10 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 500.1,
-      "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 310.0,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     }

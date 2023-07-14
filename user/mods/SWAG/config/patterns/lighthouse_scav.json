@@ -32,7 +32,7 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 1300,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -45,23 +45,6 @@
         ]
       },
       {
-        "Name": "more SCAVs",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 250,
-        "Time_max": 600,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "Zone_Chalet",
-          "Zone_LongRoad"
-        ]
-      },
-      {
         "Name": "WTP SCAVs",
         "Bots": [
           {
@@ -70,7 +53,7 @@
           }
         ],
         "Time_min": 400,
-        "Time_max": 3000,
+        "Time_max": 3600,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [

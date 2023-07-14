@@ -36,8 +36,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 550,
-        "Time_max": 2600,
+        "Time_min": 350,
+        "Time_max": 3000,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -52,24 +52,6 @@
           "ZoneRailWays",
           "ZoneBunker",
           "ZoneTunnel"
-        ]
-      },
-      {
-        "Name": "assaults",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 220,
-        "Time_max": 900,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneGreenHouses",
-          "ZoneSanatorium1",
-          "ZoneSanatorium2"
         ]
       }
     ],

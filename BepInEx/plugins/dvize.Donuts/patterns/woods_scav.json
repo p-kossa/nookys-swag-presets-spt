@@ -151,18 +151,18 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 75.0,
-      "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 200.0,
+      "MaxDistance": 40.0,
+      "BotTriggerDistance": 500.1,
+      "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 45,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 20,
+      "GroupNum": 19,
       "Name": "Outskirts",
       "Position": {
         "x": 200.465668,
@@ -175,7 +175,7 @@
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100

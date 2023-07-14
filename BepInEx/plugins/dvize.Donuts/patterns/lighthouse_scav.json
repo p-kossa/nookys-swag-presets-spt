@@ -82,87 +82,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 12,
-      "Name": "Railyard/Armoured Train",
-      "Position": {
-        "x": 28.69025,
-        "y": 10.511529,
-        "z": -946.2334
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
       "GroupNum": 13,
-      "Name": "Between Abandoned Cabins + WTP",
-      "Position": {
-        "x": -170.044891,
-        "y": 0.728143454,
-        "z": -364.459534
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 240.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 13,
-      "Name": "Mountains east of WTP",
-      "Position": {
-        "x": -340.9135,
-        "y": 19.3637657,
-        "z": -419.0404
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 240.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 14,
-      "Name": "Curvy Road To Resort/Zone_Chalet",
-      "Position": {
-        "x": -61.8065872,
-        "y": 12.2677784,
-        "z": 63.6171227
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 220.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 14,
       "Name": "Resort Southern Building Upstairs",
       "Position": {
         "x": -117.476448,
@@ -182,7 +102,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 15,
+      "GroupNum": 14,
       "Name": "Hill Passage from Road to Resort",
       "Position": {
         "x": -97.00632,
@@ -202,7 +122,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 15,
+      "GroupNum": 14,
       "Name": "Mountain Pass Extract",
       "Position": {
         "x": -160.036835,
@@ -313,9 +233,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 410.0,
+      "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85

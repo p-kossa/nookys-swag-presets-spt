@@ -14,9 +14,9 @@
       "MaxDistance": 100.0,
       "BotTriggerDistance": 600.1,
       "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 3,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCooldown": 1,
+      "MaxSpawnsBeforeCooldown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
@@ -36,7 +36,7 @@
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 3,
+      "MaxSpawnsBeforeCooldown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
@@ -315,14 +315,14 @@
       "BotTriggerDistance": 550.1,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 60,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 27,
+      "GroupNum": 26,
       "Name": "SE Resort",
       "Position": {
         "x": -417.3625,
@@ -332,17 +332,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
-      "BotTriggerDistance": 550.0,
+      "BotTriggerDistance": 550.1,
       "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100.0
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 28,
+      "GroupNum": 26,
       "Name": "NW Resort",
       "Position": {
         "x": -8.533645,
@@ -352,13 +352,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550.0,
+      "BotTriggerDistance": 550.1,
       "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100.0
+      "MinSpawnDistanceFromPlayer": 100
     }
   ]
 }

@@ -111,46 +111,66 @@ https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
 ## Donuts config reference
 
 ```
-    {
-      "MapName": "bigmap",
-      "GroupNum": 1,
-      "Name": "pmc_trailer_park",
-      "Position": {
-        "x": -321.211029,
-        "y": 0.8538656,
-        "z": -231.526016
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 5.0,
-      "BotTriggerDistance": 400.0,
-      "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80
-    },
+{
+  "MapName": "bigmap",
+  "GroupNum": 1,
+  "Name": "pmc_trailer_park",
+  "Position": {
+    "x": -321.211029,
+    "y": 0.8538656,
+    "z": -231.526016
+  },
+  "WildSpawnType": "pmc",
+  "MinDistance": 1.0,
+  "MaxDistance": 5.0,
+  "BotTriggerDistance": 400.0,
+  "BotTimerTrigger": 3600.0,
+  "MaxRandomNumBots": 2,
+  "SpawnChance": 80,
+  "MaxSpawnsBeforeCoolDown": 2,
+  "IgnoreTimerFirstSpawn": true,
+  "MinSpawnDistanceFromPlayer": 80
+}
 
-"MapName" - name of the map
-"GroupNum" - spawn group
-"Name" - name of spawn
-"Position": { - x,y,z coordinates of spawn position
+"MapName" - name of the map. be sure you use proper names, i.e. "bigmap" for Customs
+"GroupNum" - spawn group. all spawns with the same GroupNum will share one trigger. in other words, if you have 3 spawn points in one group, and one of those trigger, then the other 2 won't.
+"Name" - name of spawn. you can name them whatever you want
+"Position": { - x,y,z coordinates of spawn position. this is provided by the in-raid spawn point editor
   "x": 89.5103455,
   "y": 4.672584,
   "z": -158.156723
 }
 "WildSpawnType" - bot type, i.e. pmc, sptusec, assault, etc.
 "MinDistance" - min spawn point radius (can be 0)
-"MaxDistance" - max spawn point radius
-"MaxRandomNumBots" - max number of bots to spawn
-"BotTriggerDistance" - distance to player for spawn trigger
-"BotTimerTrigger" - spawn timer
+"MaxDistance" - max spawn point radius - this is the size of the spawn point. when using the spawn editor, enable "real size" markers to see the actual radius of your spawn point
+"MaxRandomNumBots" - max number of bots to spawn. this is 1-max inclusive and it's random
+"BotTriggerDistance" - distance to player for spawn trigger. once the player is within this distance then the spawn timer will start
+"BotTimerTrigger" - spawn timer. if the player is within trigger distance this timer will continue to run
 "SpawnChance" - spawn chance %
 "MaxSpawnsBeforeCooldown" - once this many bots have spawned the spawn point will enter a cooldown (wait for 180s, default, configurable in F12 menu)
 "IgnoreTimerFirstSpawn" - if true, once player is within BotTriggerDistance the spawn will trigger regardless of timer. If false, the timer must run at least once for the first spawn trigger.
 "MinSpawnDistanceFromPlayer" - the min distance from player that bots should spawn. this is to hopefully prevent bots spawning too close to you.
 ```
+---
+## The Rules of Donuts
+```
+Rules
+1. Bots will only spawn in same level/height as the spawn marker
+2. Bots will only spawn in maximum distance (radius) around the spawn marker
+3. One random spawn marker will be picked in a group
+ - if the timer is passed its eligible to spawn (Unless IgnoreTimerFirstSpawn is true for the point. It will be set to false after a successful spawn)
+ - if they are within the BotTimerTrigger distance the point is eligible to spawn.
+ - If the SpawnChance is reached, it is eligible to spawn.
+ - Validate that the spawn is not in a wall, in the air, in the player's line of site, minimum distance from the player.  It will attempt to find a valid point up to the Bepinex Configured Max Tries specified.
+ - One to MaxRandomNumBots from the Spawn Marker info will be generated of type WildSpawnType
+4. Timers will be reset if there is a successful spawn or a failure from within a group.
+5. If a spawn sucessfully spawns up to their MaxSpawnsBeforeCooldown number, then it is in 'cooldown' until the timer specified in the bepinex config is reached.
+
+Assumptions
+- Spawns within a group will be on/around the same bot trigger distance otherwise only the closest spawn will be enabled.
+- Each unique or standalone spawn should be given its own group number.
+```
+
 ---
 
 **ALL CREDIT GOES TO PROPS, THE CREATOR OF SWAG AND DONUTS**
@@ -195,13 +215,16 @@ LOOTING BOTS by Skwizzy - https://hub.sp-tarkov.com/files/file/1096-looting-bots
 ## Mod Compatibility
 Any mod that changes spawns may conflict with SWAG!
 
-There are some exceptions...
+IF YOU USE REALISM MOD:
+On the Realism 'Bots' tab (from the GUI), be sure you leave the following options DISABLED:
 
-Realism
-If using options in the "Bots" tab, be sure you only have "Bot Changes" checked and nothing else, otherwise you have experience mod conflicts. You also must be sure SWAG loads AFTER Realism (it should by default unless you rename your mod folders)
+- Spawn Wave Tweaks
+- Boss Spawn Tweaks​​​​​​
+- OpenZones Fix
+- Increased Bot Cap
+​- PMC Type Changes (for SAIN compatibility)​
 
-SVM
-Similar to Realism, if using any "Bots" options be sure SWAG loads AFTER SVM.
+Everything else should be fully compatible.​​
 
 ---
 
@@ -240,11 +263,13 @@ Easy - remove all map.json files from your Donuts patterns, located here: `<YOUR
 
 so all of these: `customs.json`, `woods.json`, etc.
 
+or if you don't want to delete any files then adjust SpawnChance values in the Donuts patterns down to 0 (NOT the pmc start patterns).
+
 Keep in mind, however, that all PMCs spawn at their actual live locations - **there is no guarantee that your PMC bots will make their way toward hot spots without dynamic spawns!**
 
-- What is "pmcWaves" and what does it do?
 
 **IF YOU ARE USING DONUTS (SWAG 3.0+) THEN LEAVE THIS DISABLED**
+- What is "pmcWaves" and what does it do?
 
 If set to "false" what you should expect to see in you raids:
 
@@ -305,9 +330,8 @@ If you want fewer, go low.
 
 These are both flat percentages for sniper SCAVs or bosses to spawn in your raids. Default is 50% and 20%, respectively.
 
-- pmcChance?
-
 **IF YOU ARE USING DONUTS (SWAG 3.0+) LEAVE THIS SET TO 0**
+- pmcChance?
 
 Same as above, except this setting affects only START-OF-RAID PMCs. Default is 60.
 
@@ -317,7 +341,7 @@ By default my spawns prevent SCAVs from spawning in Labs - however, if you'd sti
 
 - Can I change the max map bot cap?
 
-Yes - feel free to tune any of these to your liking - my default caps are just my personal preference:
+Yes - feel free to tune any of these to your liking - the default caps are just my personal preference:
 ```json
 	"MaxBotCap": {
 		"factory": 6,
@@ -347,6 +371,8 @@ You can also set separate caps for night raids:
   },
 ```
 
+You can also adjust the Donuts max bot caps from the BepInEx F12 menu in-game.
+
 - This is too much action/too many bots & My raids are hella dead!
 
 **IF YOU ARE USING SWAG 3.0+ WITH DONUTS**
@@ -354,6 +380,7 @@ You can also set separate caps for night raids:
 Use the spawn point editor and/or modify the included Donuts patterns to tweak options such as spawn chance, timers, trigger distance and more.
 
 Fewer bots? Decrease spawn chances in Donuts spawn patterns (you can make it 0 if you want), increase timers, etc.
+
 More bots? with SWAG: re-enable SWAG PMCs for more PMCs (`pmcChance`), increase weight values, enable `pmcWaves`, etc., or increase your Donuts spawn chances, shorter timers, etc.
 
 - I like long raids (60 min+), will these presets work for me?

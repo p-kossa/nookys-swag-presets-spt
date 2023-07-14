@@ -33,7 +33,7 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 1500,
+        "Time_max": 1800,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -44,25 +44,6 @@
           "ZonePTOR2",
           "ZonePTOR1",
           "ZoneSubCommand"
-        ]
-      },
-      {
-        "Name": "assaults",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 220,
-        "Time_max": 800,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "ZoneBarrack",
-          "ZoneRailStrorage",
-          "ZonePTOR2",
-          "ZonePTOR1"
         ]
       }
     ],
