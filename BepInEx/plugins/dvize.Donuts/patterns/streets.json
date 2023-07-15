@@ -122,7 +122,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 23,
+      "GroupNum": 22,
       "Name": "PMC dealer sparja connect",
       "Position": {
         "x": 115.4694,
@@ -142,7 +142,7 @@
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 24,
+      "GroupNum": 23,
       "Name": "skybridge",
       "Position": {
         "x": 51.1922569,
@@ -157,6 +157,46 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 24,
+      "Name": "Concordia",
+      "Position": {
+        "x": 271.300018,
+        "y": 3.35000086,
+        "z": 371.49472
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 25,
+      "Name": "Construction",
+      "Position": {
+        "x": 201.151489,
+        "y": 6.82481,
+        "z": 294.7675
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     }

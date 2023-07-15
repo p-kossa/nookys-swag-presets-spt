@@ -15,14 +15,14 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 18,
+      "GroupNum": 17,
       "Name": "Underground",
       "Position": {
         "x": -108.051163,
@@ -33,16 +33,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 260.0,
+      "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 19,
+      "GroupNum": 17,
       "Name": "Underground",
       "Position": {
         "x": -79.0628738,
@@ -53,9 +53,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 400.0,
+      "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
@@ -75,14 +75,14 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 25,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 21,
+      "GroupNum": 20,
       "Name": "D2",
       "Position": {
         "x": -63.5087547,
@@ -95,7 +95,7 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 500.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
@@ -111,13 +111,33 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 240.0,
-      "BotTimerTrigger": 150.0,
+      "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 22,
+      "Name": "2nd Story Gym",
+      "Position": {
+        "x": -53.0454979,
+        "y": -4.10706472,
+        "z": 9.555851
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 240.0,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
@@ -155,10 +175,30 @@
       "BotTriggerDistance": 200.1,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 50
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 25,
+      "Name": "behind armored train",
+      "Position": {
+        "x": 215.109665,
+        "y": -6.95198536,
+        "z": -109.180534
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 350.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
     }
   ]
 }
