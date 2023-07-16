@@ -1,0 +1,324 @@
+{
+  "Locations": [
+    {
+      "MapName": "bigmap",
+      "GroupNum": 1,
+      "Name": "Gluhar Big Red",
+      "Position": {
+        "x": -219.214142,
+        "y": 1.08684647,
+        "z": -141.363052
+      },
+      "WildSpawnType": "bossgluhar",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 2,
+      "Name": "Killa",
+      "Position": {
+        "x": 7.60032225,
+        "y": 1.09402,
+        "z": -94.82543
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 3,
+      "Name": "Sanitar",
+      "Position": {
+        "x": 71.2025146,
+        "y": -3.55075836,
+        "z": 105.451782
+      },
+      "WildSpawnType": "bosssanitar",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 4,
+      "Name": "Zryachiy",
+      "Position": {
+        "x": 432.6649,
+        "y": 1.44999,
+        "z": 166.372238
+      },
+      "WildSpawnType": "bosszryachiy",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 4,
+      "Name": "Zryachiy",
+      "Position": {
+        "x": 541.227844,
+        "y": 9.213605,
+        "z": 100.288849
+      },
+      "WildSpawnType": "bosszryachiy",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 5,
+      "Name": "Reshala Inside Factory Bldg",
+      "Position": {
+        "x": 573.5677,
+        "y": 6.720525,
+        "z": -83.00042
+      },
+      "WildSpawnType": "bossbully",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 6,
+      "Name": "Tagilla Dorms",
+      "Position": {
+        "x": 175.224274,
+        "y": 5.831357,
+        "z": 183.996536
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 6,
+      "Name": "Tagilla Crackhouse",
+      "Position": {
+        "x": 78.99413,
+        "y": 4.672583,
+        "z": -151.676773
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 7,
+      "Name": "Shturman Stronghold",
+      "Position": {
+        "x": 194.2516,
+        "y": 7.733695,
+        "z": -112.842178
+      },
+      "WildSpawnType": "bosskojaniy",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 7,
+      "Name": "Shturman Factory Bldg",
+      "Position": {
+        "x": 546.270569,
+        "y": 1.38086271,
+        "z": -110.041267
+      },
+      "WildSpawnType": "bosskojaniy",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 8,
+      "Name": "Goons",
+      "Position": {
+        "x": 223.91626,
+        "y": 1.313265,
+        "z": -4.03660059
+      },
+      "WildSpawnType": "bossknight",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 8,
+      "Name": "Goons",
+      "Position": {
+        "x": 216.091476,
+        "y": 1.31326544,
+        "z": -4.09128
+      },
+      "WildSpawnType": "followerbigpipe",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 8,
+      "Name": "Goons by Stronghold",
+      "Position": {
+        "x": 225.426117,
+        "y": 1.31333244,
+        "z": -15.34206
+      },
+      "WildSpawnType": "followerbirdeye",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 9,
+      "Name": "Goons at Trailer Park",
+      "Position": {
+        "x": -286.064331,
+        "y": 0.915859,
+        "z": -161.421021
+      },
+      "WildSpawnType": "bossknight",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 9,
+      "Name": "Goons at Trailer Park",
+      "Position": {
+        "x": -285.9235,
+        "y": 0.910274148,
+        "z": -143.919067
+      },
+      "WildSpawnType": "followerbirdeye",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 9,
+      "Name": "Goons at Trailer Park",
+      "Position": {
+        "x": -286.158661,
+        "y": 0.9200084,
+        "z": -171.801758
+      },
+      "WildSpawnType": "followerbirdeye",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 2500.0,
+      "BotTimerTrigger": 900.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 40.0
+    }
+  ]
+}
