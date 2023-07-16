@@ -1,18 +1,12 @@
 [
     {
         "Name": "defaultswag3",
-        "Weight": 5
+        "Weight": 0,
+        "CountsInRandom": true
     },
 	{
-		"Name": "moreSCAV",
-        "Weight": 1
-	},
-    {
-        "Name": "morePMC",
-        "Weight": 1
-    },
-    {
-        "Name": "hotspotPVP",
-        "Weight": 2
+		"Name": "allbossesallmaps",
+        "Weight": 10,
+        "CountsInRandom": false
     }
 ]

@@ -1,0 +1,144 @@
+{
+  "Locations": [
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 10,
+      "Name": "Barracks Bunker SCAV",
+      "Position": {
+        "x": -204.504181,
+        "y": -7.58864546,
+        "z": -44.0617027
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 30.0,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 11,
+      "Name": "reserve scav",
+      "Position": {
+        "x": 74.95237,
+        "y": -4.344999,
+        "z": -188.2135
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 260.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 11,
+      "Name": "reserve scav",
+      "Position": {
+        "x": 202.94043,
+        "y": -6.67181873,
+        "z": -154.290253
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 260.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 12,
+      "Name": "reserve scav",
+      "Position": {
+        "x": 183.42305,
+        "y": -3.89279842,
+        "z": 32.79311
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 12,
+      "Name": "reserve scav",
+      "Position": {
+        "x": 40.7873764,
+        "y": -6.951962,
+        "z": -20.5914059
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 13,
+      "Name": "reserve scav",
+      "Position": {
+        "x": -106.836754,
+        "y": 2.40151143,
+        "z": 93.13339
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 13,
+      "Name": "reserve scav",
+      "Position": {
+        "x": -155.070969,
+        "y": -0.183816731,
+        "z": -3.89871454
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    }
+  ]
+}
