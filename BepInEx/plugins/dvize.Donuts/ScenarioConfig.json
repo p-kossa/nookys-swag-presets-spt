@@ -1,12 +1,27 @@
 [
     {
         "Name": "defaultswag3",
-        "Weight": 0,
+        "Weight": 20,
         "CountsInRandom": true
     },
 	{
-		"Name": "allbossesallmaps",
-        "Weight": 10,
+		"Name": "crazyraids",
+        "Weight": 3,
+        "CountsInRandom": true
+    },
+    {
+        "Name": "quietraids",
+        "Weight": 3,
+        "CountsInRandom": true
+    },
+	{
+		"Name": "scavparty",
+        "Weight": 5,
+        "CountsInRandom": true
+    },
+    {
+        "Name": "allbossesallmaps",
+        "Weight": 0,
         "CountsInRandom": false
     }
 ]
