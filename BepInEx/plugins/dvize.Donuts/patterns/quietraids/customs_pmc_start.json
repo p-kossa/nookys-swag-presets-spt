@@ -14,7 +14,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 400.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -34,7 +34,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 340.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -54,7 +54,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -62,7 +62,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 2,
+      "GroupNum": 3,
       "Name": "pmc_railroad_middle",
       "Position": {
         "x": -150.882309,
@@ -82,7 +82,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 2,
+      "GroupNum": 3,
       "Name": "pmc_railroad_to_tarkov",
       "Position": {
         "x": -134.567886,
@@ -102,7 +102,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 3,
+      "GroupNum": 4,
       "Name": "pmc_crack_house",
       "Position": {
         "x": 65.6241,
@@ -114,7 +114,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -122,7 +122,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 4,
+      "GroupNum": 5,
       "Name": "pmc_smugglers_boat",
       "Position": {
         "x": -14.1535606,
@@ -134,7 +134,7 @@
       "MaxDistance": 3.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -142,7 +142,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 5,
+      "GroupNum": 6,
       "Name": "pmc_railroad_to_militarybase",
       "Position": {
         "x": 387.66217,
@@ -154,7 +154,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -162,7 +162,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 5,
+      "GroupNum": 6,
       "Name": "pmc_passage_between_rocks",
       "Position": {
         "x": 525.1774,
@@ -174,7 +174,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -182,7 +182,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 5,
+      "GroupNum": 7,
       "Name": "pmc_militarybase_cp",
       "Position": {
         "x": 597.858337,
@@ -194,7 +194,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -202,7 +202,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 5,
+      "GroupNum": 7,
       "Name": "pmc_sniper_ridge",
       "Position": {
         "x": 541.838562,
@@ -214,7 +214,7 @@
       "MaxDistance": 3.0,
       "BotTriggerDistance": 330.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -222,7 +222,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 5,
+      "GroupNum": 7,
       "Name": "pmc_scav_checkpoint",
       "Position": {
         "x": 652.553833,
@@ -234,7 +234,7 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -242,7 +242,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 6,
+      "GroupNum": 8,
       "Name": "pmc_factory_railroad_zb1012",
       "Position": {
         "x": 499.5074,
@@ -254,7 +254,7 @@
       "MaxDistance": 6.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -262,7 +262,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 6,
+      "GroupNum": 8,
       "Name": "pmc_factory_corner",
       "Position": {
         "x": 616.9744,
@@ -274,7 +274,7 @@
       "MaxDistance": 6.0,
       "BotTriggerDistance": 340.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -282,7 +282,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 6,
+      "GroupNum": 9,
       "Name": "pmc_warehouse3",
       "Position": {
         "x": 370.611053,
@@ -294,7 +294,7 @@
       "MaxDistance": 10.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -302,7 +302,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 6,
+      "GroupNum": 9,
       "Name": "pmc_warehouse4",
       "Position": {
         "x": 316.246,
@@ -314,7 +314,7 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 650.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -322,7 +322,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 7,
+      "GroupNum": 10,
       "Name": "pmc_old_gas",
       "Position": {
         "x": 293.767029,
@@ -334,7 +334,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 330.0,
       "BotTimerTrigger": 3600.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
