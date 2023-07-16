@@ -1,22 +1,27 @@
 [
   {
     "Name": "default",
-    "Weight": 10,
+    "Weight": 20,
     "RandomSelection": true
   },
   {
     "Name": "crazyraids",
-    "Weight": 1,
+    "Weight": 2,
     "RandomSelection": true
   },
   {
     "Name": "quietraids",
-    "Weight": 2,
+    "Weight": 3,
     "RandomSelection": true
   },
   {
-    "Name": "scavparty",
-    "Weight": 2,
+    "Name": "morescavs",
+    "Weight": 3,
+    "RandomSelection": true
+  },
+  {
+    "Name": "morepmcs",
+    "Weight": 1,
     "RandomSelection": true
   }
 ]
