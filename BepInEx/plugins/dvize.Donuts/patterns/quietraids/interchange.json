@@ -54,9 +54,9 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 380.0,
-      "MaxRandomNumBots": 1,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -74,9 +74,9 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 1,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -94,9 +94,9 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 1,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -114,9 +114,9 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 290.0,
-      "MaxRandomNumBots": 1,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -134,9 +134,9 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 290.0,
-      "MaxRandomNumBots": 1,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -154,15 +154,15 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 290.0,
-      "MaxRandomNumBots": 1,
+      "MaxRandomNumBots": 2,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 18,
+      "GroupNum": 19,
       "Name": "Inside Goshan",
       "Position": {
         "x": -138.376038,
@@ -174,15 +174,15 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 1,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 18,
+      "GroupNum": 19,
       "Name": "Goshan Hall Bathroom",
       "Position": {
         "x": -60.5759125,
@@ -193,16 +193,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 1,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 18,
+      "GroupNum": 19,
       "Name": "Goshan Back Rooms",
       "Position": {
         "x": -173.119339,
@@ -213,16 +213,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 1,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 19,
+      "GroupNum": 20,
       "Name": "IDEA Kitchen",
       "Position": {
         "x": 87.97154,
@@ -234,15 +234,15 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 330.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 19,
+      "GroupNum": 20,
       "Name": "IDEA Above Kitchen",
       "Position": {
         "x": 78.61444,
@@ -254,16 +254,15 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 330.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
-
     {
       "MapName": "interchange",
-      "GroupNum": 19,
+      "GroupNum": 20,
       "Name": "IDEA Back Rooms",
       "Position": {
         "x": -36.61945,
@@ -275,11 +274,91 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 330.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 21,
+      "Name": "Underground Pkg A",
+      "Position": {
+        "x": -0.623630762,
+        "y": 21.3255215,
+        "z": -231.71637
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 21,
+      "Name": "Underground Pkg B",
+      "Position": {
+        "x": -38.9759979,
+        "y": 21.3255119,
+        "z": -146.79628
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 21,
+      "Name": "Underground Pkg C",
+      "Position": {
+        "x": -98.8216553,
+        "y": 21.3255272,
+        "z": 62.54267
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 22,
+      "Name": "Emercom Roaming",
+      "Position": {
+        "x": 142.622543,
+        "y": 21.3254375,
+        "z": 244.2729
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 10,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
     }
   ]
 }

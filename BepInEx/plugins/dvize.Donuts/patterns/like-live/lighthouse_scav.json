@@ -379,6 +379,26 @@
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 21,
+      "Name": "Long Road",
+      "Position": {
+        "x": 11.26129,
+        "y": 5.9575367,
+        "z": 27.983366
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 10,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 50.0
     }
   ]
 }

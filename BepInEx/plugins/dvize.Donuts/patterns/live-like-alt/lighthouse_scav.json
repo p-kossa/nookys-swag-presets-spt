@@ -15,7 +15,7 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -35,7 +35,7 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -55,7 +55,7 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -95,7 +95,7 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -175,7 +175,7 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -195,7 +195,7 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -215,7 +215,7 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -235,7 +235,7 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -255,7 +255,7 @@
       "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -275,7 +275,7 @@
       "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -375,10 +375,30 @@
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 21,
+      "Name": "Long Road",
+      "Position": {
+        "x": 11.26129,
+        "y": 5.9575367,
+        "z": 27.983366
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 10,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 50.0
     }
   ]
 }

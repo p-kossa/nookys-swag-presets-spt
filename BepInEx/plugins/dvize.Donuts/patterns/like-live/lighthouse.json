@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "lighthouse",
-      "GroupNum": 21,
+      "GroupNum": 22,
       "Name": "Road To Military Car Extract",
       "Position": {
         "x": -254.715988,
@@ -13,10 +13,10 @@
       "MinDistance": 1.0,
       "MaxDistance": 10.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 400.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 1,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
     },
@@ -33,9 +33,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 270.0,
+      "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
@@ -55,7 +55,7 @@
       "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
@@ -135,7 +135,7 @@
       "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
@@ -174,6 +174,86 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 27,
+      "Name": "Inside WTP Bldg",
+      "Position": {
+        "x": -191.236526,
+        "y": 4.93362761,
+        "z": -671.3898
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 27,
+      "Name": "Armored Train",
+      "Position": {
+        "x": -92.00992,
+        "y": 10.51153,
+        "z": -865.468567
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 28,
+      "Name": "Chalet Gym",
+      "Position": {
+        "x": -111.34256,
+        "y": 33.1058578,
+        "z": 98.3565445
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 350.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 28,
+      "Name": "Chalet Court",
+      "Position": {
+        "x": -69.0239639,
+        "y": 26.77016,
+        "z": 126.692276
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 1,

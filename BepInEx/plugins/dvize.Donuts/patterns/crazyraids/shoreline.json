@@ -15,7 +15,7 @@
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 100
@@ -35,12 +35,11 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 100,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCooldown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 50
     },
-
     {
       "MapName": "shoreline",
       "GroupNum": 24,
@@ -56,10 +55,30 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 500.0,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 100,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100.0
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 24,
+      "Name": "Resort 2nd",
+      "Position": {
+        "x": -278.822021,
+        "y": -0.841054,
+        "z": -94.63609
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300,
+      "BotTimerTrigger": 500.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 50.0
     },
     {
       "MapName": "shoreline",
@@ -76,7 +95,7 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 100.0
@@ -96,7 +115,7 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 100.0
@@ -116,7 +135,7 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 100.0
@@ -136,7 +155,7 @@
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 75,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
@@ -176,10 +195,30 @@
       "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 29,
+      "Name": "NW of Resort",
+      "Position": {
+        "x": -92.24622,
+        "y": -12.8557034,
+        "z": -235.6968
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
     }
   ]
 }

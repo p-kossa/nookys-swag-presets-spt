@@ -175,7 +175,7 @@
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
@@ -193,9 +193,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
@@ -213,9 +213,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
@@ -235,7 +235,7 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
@@ -255,12 +255,11 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
-
     {
       "MapName": "interchange",
       "GroupNum": 20,
@@ -276,10 +275,90 @@
       "BotTriggerDistance": 200.0,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 21,
+      "Name": "Underground Pkg A",
+      "Position": {
+        "x": -0.623630762,
+        "y": 21.3255215,
+        "z": -231.71637
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 21,
+      "Name": "Underground Pkg B",
+      "Position": {
+        "x": -38.9759979,
+        "y": 21.3255119,
+        "z": -146.79628
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 21,
+      "Name": "Underground Pkg C",
+      "Position": {
+        "x": -98.8216553,
+        "y": 21.3255272,
+        "z": 62.54267
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 22,
+      "Name": "Emercom Roaming",
+      "Position": {
+        "x": 142.622543,
+        "y": 21.3254375,
+        "z": 244.2729
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 10,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
     }
   ]
 }
