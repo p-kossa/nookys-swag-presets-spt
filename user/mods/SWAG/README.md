@@ -230,7 +230,7 @@ Everything else should be fully compatible.​​
 
 ## Donuts Spawn Point Editor
 
-post screenshots of the editor here
+See the mod page for details
 
 ---
 
