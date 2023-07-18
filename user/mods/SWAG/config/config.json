@@ -65,30 +65,31 @@
   },
   "Others": {
     "scavWaves": true,
-    "scavSpawnWeight": 45,
-    "sniperChance": 40
+    "scavSpawnWeight": 20,
+    "sniperChance": 40,
+    "scavInLabs": false
   },
 	"MaxBotCap": {
-		"factory": 8,
-		"customs": 14,
-		"woods": 14,
-		"shoreline": 14,
-		"lighthouse": 16,
-		"reserve": 14,
-		"interchange": 14,
+		"factory": 10,
+		"customs": 16,
+		"woods": 16,
+		"shoreline": 16,
+		"lighthouse": 18,
+		"reserve": 16,
+		"interchange": 16,
 		"laboratory": 12,
-		"streets": 14
+		"streets": 16
 	},
   "NightMaxBotCap": {
-		"factory_night": 8,
-		"customs": 14,
-		"woods": 14,
-		"shoreline": 14,
-		"lighthouse": 16,
-		"reserve": 14,
-		"interchange": 14,
+		"factory_night": 10,
+		"customs": 16,
+		"woods": 16,
+		"shoreline": 16,
+		"lighthouse": 18,
+		"reserve": 16,
+		"interchange": 16,
 		"laboratory": 12,
-		"streets": 14
+		"streets": 16
   },
 	"UseDefaultSpawns": {
 		"Waves": false,

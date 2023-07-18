@@ -614,13 +614,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
       // pmcWaves is false then we need to skip this PMC wave
       if (config.PMCs.pmcWaves === false) {
-        if (globalmap === "factory4_day" || globalmap === "factory4_night" && group.OnlySpawnOnce === true) {
-          slots = 1
-        }
-        else {
-          slots = 0
-          botCount = 0
-        }
+        slots = 0
+        botCount = 0
       }
       // PMC weight check - let's not skip any Factory starting waves, so check for OnlySpawnOnce here
       else if (pmc_random_weight >= config.PMCs.pmcSpawnWeight && group.OnlySpawnOnce === false) {
@@ -640,8 +635,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         botCount = 0
       }
 
-      // SCAV weight check - this now applies to all waves, including starting waves
-      else if (scav_random_weight >= config.Others.scavSpawnWeight) {
+      // SCAV weight check - skip first wave
+      else if (scav_random_weight >= config.Others.scavSpawnWeight && group.OnlySpawnOnce === false) {
         slots = 0
         botCount = 0
       }

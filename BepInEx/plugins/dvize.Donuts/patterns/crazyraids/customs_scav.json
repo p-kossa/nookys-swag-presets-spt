@@ -1,0 +1,124 @@
+{
+  "Locations": [
+    {
+      "MapName": "bigmap",
+      "GroupNum": 11,
+      "Name": "Loot Spot",
+      "Position": {
+        "x": 501.775757,
+        "y": 14.4028883,
+        "z": 111.687111
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 450,
+      "BotTimerTrigger": 220,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 11,
+      "Name": "From Gas to Dorms",
+      "Position": {
+        "x": 350.905884,
+        "y": 6.805247,
+        "z": 134.274368
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 45.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 450,
+      "BotTimerTrigger": 200,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 12,
+      "Name": "Bridge",
+      "Position": {
+        "x": 126.156036,
+        "y": 1.24295068,
+        "z": 93.5736
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 35.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 13,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 445.535217,
+        "y": 3.67000771,
+        "z": 163.4166
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 13,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 245.190964,
+        "y": 1.07510841,
+        "z": -35.2317924
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 17,
+      "Name": "Trailer Park",
+      "Position": {
+        "x": -240.989868,
+        "y": 0.6850602,
+        "z": -195.066666
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    }
+  ]
+}
