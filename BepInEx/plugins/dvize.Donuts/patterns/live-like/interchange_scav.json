@@ -249,16 +249,36 @@
         "y": 27.06768,
         "z": -290.974548
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 450.0,
-      "BotTimerTrigger": 200.0,
+      "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 23,
+      "Name": "scav camp just outside mall",
+      "Position": {
+        "x": 177.349289,
+        "y": 21.4888935,
+        "z": -15.5589447
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 3.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 250.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
     }
   ]
 }
