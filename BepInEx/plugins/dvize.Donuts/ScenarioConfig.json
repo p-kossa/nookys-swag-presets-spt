@@ -1,22 +1,27 @@
 [
   {
     "Name": "live-like",
-    "Weight": 40,
+    "Weight": 30,
     "RandomSelection": true
   },
   {
     "Name": "live-like-alt",
-    "Weight": 40,
+    "Weight": 30,
+    "RandomSelection": true
+  },
+  {
+    "Name": "live-like-alt2",
+    "Weight": 30,
     "RandomSelection": true
   },
   {
     "Name": "crazyraids",
-    "Weight": 5,
+    "Weight": 2,
     "RandomSelection": true
   },
   {
     "Name": "quietraids",
-    "Weight": 15,
+    "Weight": 8,
     "RandomSelection": true
   }
 ]
