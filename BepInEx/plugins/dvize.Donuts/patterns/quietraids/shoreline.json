@@ -14,7 +14,7 @@
       "MaxDistance": 5.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
@@ -36,7 +36,7 @@
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 4,
       "SpawnChance": 45,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
     },
@@ -219,6 +219,86 @@
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 29,
+      "Name": "hut east of resort",
+      "Position": {
+        "x": -489.24292,
+        "y": -15.9687452,
+        "z": -169.46315
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 400.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 30,
+      "Name": "w of resort",
+      "Position": {
+        "x": 24.87373,
+        "y": -25.6711025,
+        "z": -144.459824
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 31,
+      "Name": "cottages 2",
+      "Position": {
+        "x": 322.366516,
+        "y": -50.47606,
+        "z": -11.0095854
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 500.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 31,
+      "Name": "open area by tunnel",
+      "Position": {
+        "x": 181.281464,
+        "y": -50.8171158,
+        "z": 166.62381
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
     }
   ]
 }
