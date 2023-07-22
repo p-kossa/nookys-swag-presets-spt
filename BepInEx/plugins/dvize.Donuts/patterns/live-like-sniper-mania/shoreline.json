@@ -1,0 +1,1444 @@
+{
+  "Locations": [
+    {
+      "MapName": "shoreline",
+      "GroupNum": 22,
+      "Name": "Port Island",
+      "Position": {
+        "x": -397.967255,
+        "y": -63.78417,
+        "z": 544.89386
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 23,
+      "Name": "Resort 3rd",
+      "Position": {
+        "x": -232.319778,
+        "y": 2.05198288,
+        "z": -99.3310547
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 24,
+      "Name": "West Resort 3rd",
+      "Position": {
+        "x": -357.329071,
+        "y": 2.052,
+        "z": -82.6784058
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 500.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 24,
+      "Name": "Resort 2nd",
+      "Position": {
+        "x": -278.822021,
+        "y": -0.841054,
+        "z": -94.63609
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 500.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 25,
+      "Name": "NW of Resort",
+      "Position": {
+        "x": -10.7247086,
+        "y": -24.4616547,
+        "z": -297.2666
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 4.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 25,
+      "Name": "North of Resort",
+      "Position": {
+        "x": -358.628845,
+        "y": -16.918642,
+        "z": -259.790253
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 25,
+      "Name": "Dead Area",
+      "Position": {
+        "x": -593.2397,
+        "y": -44.0730858,
+        "z": 107.453659
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 26,
+      "Name": "Swamp",
+      "Position": {
+        "x": 273.755737,
+        "y": -55.27278,
+        "z": -125.339828
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 65.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 27,
+      "Name": "SE Resort",
+      "Position": {
+        "x": -417.3625,
+        "y": -35.45017,
+        "z": 105.346413
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 10.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 28,
+      "Name": "Village_East",
+      "Position": {
+        "x": 322.062775,
+        "y": -56.35864,
+        "z": 144.680161
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 70.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 29,
+      "Name": "NW of Resort",
+      "Position": {
+        "x": -92.24622,
+        "y": -12.8557034,
+        "z": -235.6968
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 1,
+      "Name": "pmc_ccp_temporary",
+      "Position": {
+        "x": -741.8096,
+        "y": -59.4458275,
+        "z": 470.90274
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 25.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 2,
+      "Name": "pmc_scout_tower",
+      "Position": {
+        "x": -873.0886,
+        "y": -52.9311142,
+        "z": 312.2034
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 3,
+      "Name": "pmc_road_to_customs",
+      "Position": {
+        "x": -813.187134,
+        "y": -41.03324,
+        "z": 17.7812042
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 4,
+      "Name": "pmc_arch",
+      "Position": {
+        "x": -584.9939,
+        "y": -47.24885,
+        "z": 181.10788
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 5,
+      "Name": "pmc_hill_house",
+      "Position": {
+        "x": -584.153564,
+        "y": -34.8378944,
+        "z": -144.05574
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "pmc_north_fence_passage",
+      "Position": {
+        "x": -498.396332,
+        "y": -15.2028961,
+        "z": -323.5631
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 7,
+      "Name": "pmc_lookout",
+      "Position": {
+        "x": -253.003418,
+        "y": -9.117955,
+        "z": -236.128387
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 7,
+      "Name": "pmc_north_bunker",
+      "Position": {
+        "x": -70.68853,
+        "y": -21.3592854,
+        "z": -368.007965
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 8,
+      "Name": "pmc_path_to_lighthouse",
+      "Position": {
+        "x": 311.358337,
+        "y": -41.8296,
+        "z": -260.1941
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 25.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 9,
+      "Name": "pmc_ruined_house_fence",
+      "Position": {
+        "x": 454.6276,
+        "y": -51.57679,
+        "z": -58.695
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 25.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 10,
+      "Name": "pmc_village_deadend",
+      "Position": {
+        "x": 446.0056,
+        "y": -54.55731,
+        "z": 124.167
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 11,
+      "Name": "pmc_tunnel",
+      "Position": {
+        "x": 390.016724,
+        "y": -60.67289,
+        "z": 255.129852
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 12,
+      "Name": "Dead Area",
+      "Position": {
+        "x": -750.6538,
+        "y": -39.72002,
+        "z": 107.020538
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 600.1,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 13,
+      "Name": "Dead Area",
+      "Position": {
+        "x": -786.4357,
+        "y": -49.32939,
+        "z": 250.247131
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 600.1,
+      "BotTimerTrigger": 250.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 13,
+      "Name": "Dead Area",
+      "Position": {
+        "x": -593.2397,
+        "y": -44.0730858,
+        "z": 107.453659
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 600.1,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 13,
+      "Name": "PowerStation_East",
+      "Position": {
+        "x": -300.0744,
+        "y": -35.51814,
+        "z": 163.53981
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 40.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 16,
+      "Name": "RadioStation_South",
+      "Position": {
+        "x": -476.069,
+        "y": -25.5572052,
+        "z": 296.963654
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 40.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 17,
+      "Name": "Cottage_North",
+      "Position": {
+        "x": 128.570343,
+        "y": -46.94266,
+        "z": 17.2735748
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 17,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 329.338,
+        "y": -55.2198219,
+        "z": 280.904266
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 30.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 18,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 27.1451187,
+        "y": -43.89898,
+        "z": 233.079575
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 90.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 19,
+      "Name": "Close to Port",
+      "Position": {
+        "x": -180.800812,
+        "y": -46.1814461,
+        "z": 312.923157
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 90.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 20,
+      "Name": "East of Resort",
+      "Position": {
+        "x": -498.395752,
+        "y": -31.7002659,
+        "z": -90.5803
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 550.1,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 20,
+      "Name": "NW of Resort",
+      "Position": {
+        "x": 95.51124,
+        "y": -28.2234478,
+        "z": -195.990677
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 550.1,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 20,
+      "Name": "Gas Front of Resort",
+      "Position": {
+        "x": -97.5822144,
+        "y": -21.90527,
+        "z": -8.250374
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 550.1,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 21,
+      "Name": "NW Resort",
+      "Position": {
+        "x": -8.533645,
+        "y": -24.4331055,
+        "z": -292.521362
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 550.1,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 21,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -695.40625,
+        "y": -15.7275028,
+        "z": -85.43311
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 22,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -522.726563,
+        "y": -18.7661743,
+        "z": 29.0814629
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 23,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -522.726563,
+        "y": -18.7661743,
+        "z": 29.0814629
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 24,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -416.994629,
+        "y": -10.1432037,
+        "z": 163.9039
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 25,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -514.3612,
+        "y": -7.450612,
+        "z": 265.9942
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 26,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -953.084961,
+        "y": -48.10079,
+        "z": 388.704376
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 27,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -869.468567,
+        "y": -50.7448273,
+        "z": 476.10965
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 28,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -628.9542,
+        "y": -30.872715,
+        "z": 487.109344
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 29,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -459.3076,
+        "y": -48.7597,
+        "z": 565.8453
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 30,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -310.621246,
+        "y": -65.555,
+        "z": 609.9358
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 31,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -317.8681,
+        "y": -54.4461555,
+        "z": 482.681458
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 32,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -189.07634,
+        "y": -49.2389145,
+        "z": 398.614136
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 33,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 201.227,
+        "y": -57.77474,
+        "z": 350.953339
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 34,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 279.6731,
+        "y": -55.47822,
+        "z": 296.805969
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 35,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 363.492065,
+        "y": -44.1947937,
+        "z": 327.9177
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 36,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 384.382019,
+        "y": -44.78762,
+        "z": 296.03006
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 37,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 415.0272,
+        "y": -32.57699,
+        "z": 286.1841
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 38,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 414.381866,
+        "y": -49.23475,
+        "z": 137.750168
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 39,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 404.06366,
+        "y": -50.1300926,
+        "z": 97.82408
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 40,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 217.391312,
+        "y": -29.1405849,
+        "z": 90.73196
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 41,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 68.93875,
+        "y": -27.968483,
+        "z": 180.338623
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 42,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 155.14975,
+        "y": -19.6716652,
+        "z": -91.88751
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 43,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -30.4498,
+        "y": -2.49138379,
+        "z": -275.846222
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 44,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -155.026321,
+        "y": 13.3861065,
+        "z": -369.4371
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 45,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -269.0581,
+        "y": 22.06469,
+        "z": -322.589935
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 46,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -518.3234,
+        "y": 7.582572,
+        "z": -362.1456
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 47,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -251.398071,
+        "y": 2.35937452,
+        "z": -94.5449
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 48,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -231.23436,
+        "y": -0.8612918,
+        "z": -116.012283
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 49,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -271.741119,
+        "y": -0.861298561,
+        "z": -115.45266
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 50,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -261.194977,
+        "y": -2.30792975,
+        "z": -33.3659325
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 51,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -123.410225,
+        "y": -17.2495,
+        "z": -17.3033314
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 52,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -347.4802,
+        "y": 2.06879067,
+        "z": -72.68385
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 53,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -362.258057,
+        "y": -2.03498268,
+        "z": -105.564735
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 54,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -272.355316,
+        "y": -0.786298752,
+        "z": -143.188
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 55,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -142.041077,
+        "y": -0.514633954,
+        "z": -101.59816
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 56,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -230.886581,
+        "y": -64.8942642,
+        "z": 520.2653
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    }
+  ]
+}

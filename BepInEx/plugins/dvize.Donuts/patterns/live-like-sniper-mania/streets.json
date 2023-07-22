@@ -1,0 +1,1204 @@
+{
+  "Locations": [
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 19,
+      "Name": "Underpass Camper",
+      "Position": {
+        "x": 20.9011841,
+        "y": -3.73675,
+        "z": -8.576503
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 150.1,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 20,
+      "Name": "Apts 3rd",
+      "Position": {
+        "x": 44.3059044,
+        "y": 10.1843786,
+        "z": 73.21943
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 230.1,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 20,
+      "Name": "Apts",
+      "Position": {
+        "x": 44.52857,
+        "y": 4.18362331,
+        "z": 93.2166061
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 230.1,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 21,
+      "Name": "PMC pvp spot",
+      "Position": {
+        "x": 117.511169,
+        "y": 2.768168,
+        "z": 232.422958
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 380.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 21,
+      "Name": "PMC pvp spot",
+      "Position": {
+        "x": 153.697052,
+        "y": 3.52246547,
+        "z": 211.155167
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 380.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 22,
+      "Name": "PMC dealer garage",
+      "Position": {
+        "x": 100.661,
+        "y": 7.021845,
+        "z": 305.829956
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 220.1,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 22,
+      "Name": "Dealer 2nd",
+      "Position": {
+        "x": 62.48271,
+        "y": 6.85695648,
+        "z": 298.037933
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 220.1,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 22,
+      "Name": "PMC dealer sparja connect",
+      "Position": {
+        "x": 115.4694,
+        "y": 6.750643,
+        "z": 291.59613
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 350.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 23,
+      "Name": "skybridge top of stairs",
+      "Position": {
+        "x": 49.8566132,
+        "y": 11.7120466,
+        "z": 133.5238
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 24,
+      "Name": "Concordia",
+      "Position": {
+        "x": 271.300018,
+        "y": 3.35000086,
+        "z": 371.49472
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 25,
+      "Name": "Construction",
+      "Position": {
+        "x": 201.151489,
+        "y": 6.82481,
+        "z": 294.7675
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 26,
+      "Name": "Hotel Kitchen",
+      "Position": {
+        "x": -74.22302,
+        "y": 1.30245221,
+        "z": 63.66957
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 26,
+      "Name": "Hotel Lobby",
+      "Position": {
+        "x": -102.760429,
+        "y": 1.40553415,
+        "z": 103.770088
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 27,
+      "Name": "Playground Kitchen",
+      "Position": {
+        "x": 108.780785,
+        "y": 0.4900242,
+        "z": 113.773163
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 27,
+      "Name": "Playground Top of Stairs",
+      "Position": {
+        "x": 126.297523,
+        "y": 13.5179577,
+        "z": 144.74646
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 1,
+      "Name": "pmc_pinewood_hotel",
+      "Position": {
+        "x": -103.313057,
+        "y": 1.40553725,
+        "z": 113.611778
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 3.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 2,
+      "Name": "pmc_sewer_river",
+      "Position": {
+        "x": -250.161011,
+        "y": 2.210371,
+        "z": 225.82222
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 0.0,
+      "MaxDistance": 0.5,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 2,
+      "Name": "pmc_ruined_house",
+      "Position": {
+        "x": -239.2391,
+        "y": 2.12091279,
+        "z": 361.094147
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 3,
+      "Name": "pmc_courtyard",
+      "Position": {
+        "x": -182.234146,
+        "y": 2.31634426,
+        "z": 447.124023
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 12,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 3,
+      "Name": "pmc_primorsky_ave",
+      "Position": {
+        "x": 38.73736,
+        "y": 2.676212,
+        "z": 411.245056
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 4,
+      "Name": "pmc_evac_zone",
+      "Position": {
+        "x": 160.476181,
+        "y": 3.42234564,
+        "z": 414.097565
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 4,
+      "Name": "pmc_concordia",
+      "Position": {
+        "x": 259.928131,
+        "y": -1.25006771,
+        "z": 382.922119
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 5,
+      "Name": "pmc_collapsed_crane",
+      "Position": {
+        "x": 201.846222,
+        "y": 2.730404,
+        "z": 266.4402
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 3.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 6,
+      "Name": "pmc_zmeevsky_alley",
+      "Position": {
+        "x": 169.522873,
+        "y": 1.01374114,
+        "z": 173.625931
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 3.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 7,
+      "Name": "pmc_scav_checkpoint",
+      "Position": {
+        "x": 125.938614,
+        "y": -2.497073,
+        "z": 47.609848
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 3.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 8,
+      "Name": "pmc_underpass",
+      "Position": {
+        "x": -22.7947044,
+        "y": 0.0242015533,
+        "z": 42.16738
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 3.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 70.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 9,
+      "Name": "Construc Sparja",
+      "Position": {
+        "x": 156.29361,
+        "y": 3.75064373,
+        "z": 293.1533
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 400.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 10,
+      "Name": "streets scav",
+      "Position": {
+        "x": 124.271912,
+        "y": -2.219596,
+        "z": 62.33575
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 10,
+      "Name": "streets scav",
+      "Position": {
+        "x": 123.135918,
+        "y": 4.49726725,
+        "z": 145.6643
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 11,
+      "Name": "streets scav",
+      "Position": {
+        "x": -55.73635,
+        "y": 1.4155153,
+        "z": 157.3048
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 11,
+      "Name": "streets scav",
+      "Position": {
+        "x": -79.5369339,
+        "y": 2.35870838,
+        "z": 239.4896
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 12,
+      "Name": "streets scav",
+      "Position": {
+        "x": -172.414413,
+        "y": 6.066414,
+        "z": 226.924545
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 230.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 12,
+      "Name": "streets scav",
+      "Position": {
+        "x": -72.6450653,
+        "y": 5.041121,
+        "z": 48.542038
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 230.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 13,
+      "Name": "streets scav",
+      "Position": {
+        "x": 47.2549667,
+        "y": 2.67804933,
+        "z": 156.239243
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 13,
+      "Name": "streets scav",
+      "Position": {
+        "x": 65.07648,
+        "y": 2.57886,
+        "z": 309.980621
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 13,
+      "Name": "streets scav",
+      "Position": {
+        "x": 92.3770447,
+        "y": 2.63761854,
+        "z": 276.906128
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 21,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -240.56395,
+        "y": 17.7394638,
+        "z": 233.931976
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 22,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -235.902145,
+        "y": 17.73748,
+        "z": 276.819855
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 23,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -188.658722,
+        "y": 29.5213032,
+        "z": 344.7038
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 24,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -176.559662,
+        "y": 27.377058,
+        "z": 453.985382
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 25,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 36.0298958,
+        "y": 22.9643745,
+        "z": 427.6293
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 26,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -39.3016167,
+        "y": 35.52681,
+        "z": 341.5381
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 27,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 51.29998,
+        "y": 30.85423,
+        "z": 277.7999
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 28,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 197.173981,
+        "y": 38.2998238,
+        "z": 395.514435
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 29,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 262.950684,
+        "y": 41.82014,
+        "z": 351.4132
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 30,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 203.252411,
+        "y": 46.1193542,
+        "z": 277.909851
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 31,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 155.589859,
+        "y": 20.28895,
+        "z": 207.450745
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 32,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 106.59774,
+        "y": 12.520318,
+        "z": 109.8564
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 33,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 115.554123,
+        "y": 19.2477951,
+        "z": 51.4633446
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 34,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -14.2209988,
+        "y": 13.7400036,
+        "z": 121.450745
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 35,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 33.5980225,
+        "y": 11.6921253,
+        "z": 170.754059
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 36,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -91.9003,
+        "y": 16.6515923,
+        "z": 159.762848
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 37,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -111.090668,
+        "y": 19.5365639,
+        "z": 86.1276855
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 38,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -117.409332,
+        "y": 25.34,
+        "z": 132.3174
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 39,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -17.76218,
+        "y": 13.7515965,
+        "z": 53.4809723
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 40,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -30.3105774,
+        "y": 10.8398914,
+        "z": 40.4430351
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 41,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -38.6813736,
+        "y": 16.6400852,
+        "z": 71.58055
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 42,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -38.3576622,
+        "y": 7.78330326,
+        "z": 296.628357
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 43,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 92.49776,
+        "y": 12.0902424,
+        "z": 268.5436
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 44,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 195.837158,
+        "y": 24.2289124,
+        "z": 304.783081
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    }
+  ]
+}

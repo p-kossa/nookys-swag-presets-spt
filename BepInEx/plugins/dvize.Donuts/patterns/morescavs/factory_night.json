@@ -1,8 +1,8 @@
 {
   "Locations": [
     {
-      "MapName": "factory4_day",
-      "GroupNum": 11,
+      "MapName": "factory4_night",
+      "GroupNum": 13,
       "Name": "3rd Floor Office",
       "Position": {
         "x": 9.189334,
@@ -13,10 +13,10 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 240.0,
+      "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 25
     }

@@ -1,0 +1,464 @@
+{
+  "Locations": [
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 11,
+      "Name": "3rd Floor Office",
+      "Position": {
+        "x": 9.189334,
+        "y": 8.210877,
+        "z": 35.23968
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 240.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 1,
+      "Name": "3rd Floor Office",
+      "Position": {
+        "x": 35.75434,
+        "y": 8.210877,
+        "z": 35.47881
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1500.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 1,
+      "Name": "pmc_office_stairs",
+      "Position": {
+        "x": 35.4721527,
+        "y": 0.9928355,
+        "z": 36.7258873
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 2,
+      "Name": "pmc_forklifts",
+      "Position": {
+        "x": 58.5915146,
+        "y": 0.04595239,
+        "z": 22.9955616
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 2,
+      "Name": "pmc_forklifts2",
+      "Position": {
+        "x": 70.10788,
+        "y": 0.127108768,
+        "z": -60.2306938
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 3,
+      "Name": "pmc_redlight",
+      "Position": {
+        "x": 69.52061,
+        "y": 0.0977726951,
+        "z": -6.805648
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 4,
+      "Name": "pmc_breachdoor",
+      "Position": {
+        "x": 39.6255035,
+        "y": 0.287898242,
+        "z": -32.19689
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 5,
+      "Name": "pmc_exitgate",
+      "Position": {
+        "x": -51.7000351,
+        "y": 1.25546634,
+        "z": 54.5383873
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 6,
+      "Name": "pmc_aisle",
+      "Position": {
+        "x": -21.1701565,
+        "y": 1.05264115,
+        "z": 66.05237
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 7,
+      "Name": "pmc_bunker_redlight",
+      "Position": {
+        "x": -17.719492,
+        "y": -2.63406754,
+        "z": 38.2651443
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 8,
+      "Name": "pmc_ug",
+      "Position": {
+        "x": -18.2344971,
+        "y": 0.191902786,
+        "z": -41.97208
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 1800.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 30.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 9,
+      "Name": "Bathroom",
+      "Position": {
+        "x": 15.2277527,
+        "y": 4.532835,
+        "z": 47.2004166
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 9,
+      "Name": "Factory Underground Loot",
+      "Position": {
+        "x": -12.2977381,
+        "y": -3.914935,
+        "z": -24.1182384
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.1,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 9,
+      "Name": "Tunnels",
+      "Position": {
+        "x": 45.28941,
+        "y": -2.63422179,
+        "z": -34.1375275
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.1,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 10,
+      "Name": "forklifts2",
+      "Position": {
+        "x": 70.10788,
+        "y": 0.127108768,
+        "z": -60.2306938
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 10,
+      "Name": "redlight",
+      "Position": {
+        "x": 69.52061,
+        "y": 0.0977726951,
+        "z": -6.805648
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 21,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 19.4361649,
+        "y": 4.73704863,
+        "z": 6.50102663
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 22,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 41.2285461,
+        "y": 7.47296238,
+        "z": 41.0863533
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 23,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -39.3925323,
+        "y": 5.00168371,
+        "z": 36.9398575
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 24,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -39.3925323,
+        "y": 5.00168371,
+        "z": 36.9398575
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 25,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 8.051695,
+        "y": 5.30976439,
+        "z": -33.0566254
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 26,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 25.8519363,
+        "y": 14.8967333,
+        "z": -1.35210478
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 27,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -20.9718075,
+        "y": 14.7499046,
+        "z": -1.70436525
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 0.0
+    }
+  ]
+}

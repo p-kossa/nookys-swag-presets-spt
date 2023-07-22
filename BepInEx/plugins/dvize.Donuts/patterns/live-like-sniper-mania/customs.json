@@ -1,0 +1,1164 @@
+{
+  "Locations": [
+    {
+      "MapName": "bigmap",
+      "GroupNum": 14,
+      "Name": "Inside Crackhouse",
+      "Position": {
+        "x": 89.5103455,
+        "y": 4.672584,
+        "z": -158.156723
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 15,
+      "Name": "Dorms 3rd Story",
+      "Position": {
+        "x": 175.428024,
+        "y": 5.83158,
+        "z": 181.63736
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 320.1,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 8,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 15,
+      "Name": "Dorms 2nd Story",
+      "Position": {
+        "x": 238.3906,
+        "y": 2.87155581,
+        "z": 166.406815
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 320.1,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 8,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 16,
+      "Name": "Under Stronghold",
+      "Position": {
+        "x": 202.246124,
+        "y": -2.81965113,
+        "z": -142.273666
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 16,
+      "Name": "Inside Stronghold",
+      "Position": {
+        "x": 205.202026,
+        "y": 1.73051667,
+        "z": -123.387878
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 17,
+      "Name": "Big Red",
+      "Position": {
+        "x": -216.849625,
+        "y": 1.08683717,
+        "z": -112.495377
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 220.0,
+      "BotTimerTrigger": 500.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 18,
+      "Name": "Tent by Dorms",
+      "Position": {
+        "x": 297.893127,
+        "y": 4.346375,
+        "z": 149.415543
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 390.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 18,
+      "Name": "Outside of Dorms",
+      "Position": {
+        "x": 140.461685,
+        "y": -2.04074836,
+        "z": 179.226654
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 19,
+      "Name": "Outside Factory",
+      "Position": {
+        "x": 610.4915,
+        "y": 1.0946753,
+        "z": -143.557541
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 450.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 19,
+      "Name": "Inside Small Bldg by Crackhouse",
+      "Position": {
+        "x": 102.4554,
+        "y": 1.31745839,
+        "z": -95.70275
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 400.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 1,
+      "Name": "pmc_trailer_park",
+      "Position": {
+        "x": -321.211029,
+        "y": 0.8538656,
+        "z": -231.526016
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 1,
+      "Name": "pmc_crossroads",
+      "Position": {
+        "x": -232.5814,
+        "y": -1.41542685,
+        "z": -14.8593245
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 2,
+      "Name": "pmc_railroad_to_port",
+      "Position": {
+        "x": -131.341431,
+        "y": -1.91517925,
+        "z": 36.77712
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 3,
+      "Name": "pmc_railroad_middle",
+      "Position": {
+        "x": -150.882309,
+        "y": 1.2791996,
+        "z": -130.050232
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 3,
+      "Name": "pmc_railroad_to_tarkov",
+      "Position": {
+        "x": -134.567886,
+        "y": -1.5629406,
+        "z": -214.821381
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 4,
+      "Name": "pmc_crack_house",
+      "Position": {
+        "x": 65.6241,
+        "y": 1.09211242,
+        "z": -120.138046
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 5,
+      "Name": "pmc_smugglers_boat",
+      "Position": {
+        "x": -14.1535606,
+        "y": -8.216932,
+        "z": 123.702835
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 3.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 6,
+      "Name": "pmc_railroad_to_militarybase",
+      "Position": {
+        "x": 387.66217,
+        "y": 12.78389,
+        "z": 182.674423
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 6,
+      "Name": "pmc_passage_between_rocks",
+      "Position": {
+        "x": 525.1774,
+        "y": 11.1672745,
+        "z": 169.938141
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 7,
+      "Name": "pmc_militarybase_cp",
+      "Position": {
+        "x": 597.858337,
+        "y": 7.07981443,
+        "z": 121.845566
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 7,
+      "Name": "pmc_sniper_ridge",
+      "Position": {
+        "x": 541.838562,
+        "y": 4.091064,
+        "z": 55.86515
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 3.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 7,
+      "Name": "pmc_scav_checkpoint",
+      "Position": {
+        "x": 652.553833,
+        "y": 5.149473,
+        "z": 42.2802925
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 8,
+      "Name": "pmc_factory_railroad_zb1012",
+      "Position": {
+        "x": 499.5074,
+        "y": 1.08337474,
+        "z": -73.7416
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 6.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 8,
+      "Name": "pmc_factory_corner",
+      "Position": {
+        "x": 616.9744,
+        "y": -0.6024002,
+        "z": -86.2317352
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 6.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 9,
+      "Name": "pmc_warehouse3",
+      "Position": {
+        "x": 370.611053,
+        "y": 1.21444023,
+        "z": -109.979362
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 10.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 9,
+      "Name": "pmc_warehouse4",
+      "Position": {
+        "x": 316.246,
+        "y": 1.102204,
+        "z": -97.97707
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 10,
+      "Name": "pmc_old_gas",
+      "Position": {
+        "x": 293.767029,
+        "y": 1.09457517,
+        "z": -196.157822
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 3600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 11,
+      "Name": "Loot Spot",
+      "Position": {
+        "x": 501.775757,
+        "y": 14.4028883,
+        "z": 111.687111
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 11,
+      "Name": "From Gas to Dorms",
+      "Position": {
+        "x": 350.905884,
+        "y": 6.805247,
+        "z": 134.274368
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 45.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 12,
+      "Name": "Bridge",
+      "Position": {
+        "x": 126.156036,
+        "y": 1.24295068,
+        "z": 93.5736
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 35.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 13,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 445.535217,
+        "y": 3.67000771,
+        "z": 163.4166
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 13,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 245.190964,
+        "y": 1.07510841,
+        "z": -35.2317924
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 17,
+      "Name": "Trailer Park",
+      "Position": {
+        "x": -240.989868,
+        "y": 0.6850602,
+        "z": -195.066666
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 21,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 602.3268,
+        "y": 15.3374977,
+        "z": -96.913765
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 22,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 604.7547,
+        "y": 15.0990229,
+        "z": -72.6407242
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 23,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 636.984558,
+        "y": 14.9813356,
+        "z": -69.5966644
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 24,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 638.632141,
+        "y": 14.8795547,
+        "z": -97.87834
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 25,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 537.3037,
+        "y": 14.2934628,
+        "z": -112.501335
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 26,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 570.7432,
+        "y": 10.985239,
+        "z": -49.6788368
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 27,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 533.9861,
+        "y": 21.06724,
+        "z": 7.031727
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 28,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 494.7249,
+        "y": 37.3848343,
+        "z": 106.51683
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 29,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 399.174347,
+        "y": 34.3161125,
+        "z": 211.055023
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 30,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 231.691208,
+        "y": 7.113467,
+        "z": 143.125275
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 31,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 13.9394121,
+        "y": 0.5073234,
+        "z": 127.408615
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 32,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -160.551682,
+        "y": 16.962347,
+        "z": 27.5003662
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 33,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -234.849533,
+        "y": 16.6121464,
+        "z": -50.4943352
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 34,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -249.703629,
+        "y": 16.9956074,
+        "z": -214.793442
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 35,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": -197.703568,
+        "y": 11.8189573,
+        "z": -146.402008
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 36,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 8.860563,
+        "y": 6.62128639,
+        "z": -150.587585
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 37,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 37.12727,
+        "y": 6.764132,
+        "z": -89.0111542
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 38,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 48.5339661,
+        "y": 11.3119793,
+        "z": -43.9930878
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 39,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 169.976486,
+        "y": 29.838419,
+        "z": -106.944817
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 40,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 150.0574,
+        "y": 6.83835459,
+        "z": -64.73355
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 41,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 269.339478,
+        "y": 16.7589951,
+        "z": -77.24606
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 42,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 284.3132,
+        "y": 10.2142334,
+        "z": -10.0134678
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 43,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 353.846558,
+        "y": 9.630805,
+        "z": -33.3604355
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 44,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 332.633972,
+        "y": 16.2281265,
+        "z": -95.00307
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 0.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 45,
+      "Name": "Extra Snipers",
+      "Position": {
+        "x": 411.371216,
+        "y": 3.910633,
+        "z": 3.54079461
+      },
+      "WildSpawnType": "marksman",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 0.0
+    }
+  ]
+}
