@@ -1,0 +1,24 @@
+{
+  "Locations": [
+    {
+      "MapName": "factory4_day",
+      "GroupNum": 11,
+      "Name": "3rd Floor Office",
+      "Position": {
+        "x": 9.189334,
+        "y": 8.210877,
+        "z": 35.23968
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 240.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25
+    }
+  ]
+}
