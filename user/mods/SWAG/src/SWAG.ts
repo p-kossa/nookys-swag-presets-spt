@@ -171,8 +171,18 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
             try {
               // PMCs should never convert - we need full control here
-              const aki_bots = configServer.getConfig("aki-bot")
-              aki_bots.pmc.convertIntoPmcChance = 0
+              const aki_bots: IBotConfig = configServer.getConfig(
+                ConfigTypes.BOT
+              );
+
+              aki_bots.pmc.convertIntoPmcChance["assault"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["assault"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["cursedassault"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["cursedassault"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["pmcbot"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["pmcbot"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["exusec"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["exusec"].max = 0;
               logger.info("SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)")
 
               const appContext = container.resolve<ApplicationContext>("ApplicationContext");
@@ -602,6 +612,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let rogue_random_weight = SWAG.getRandIntInclusive(1, 100)
     let raider_random_weight = SWAG.getRandIntInclusive(1, 100)
     let bloodhound_random_weight = SWAG.getRandIntInclusive(1, 100)
+    let crazyscav_random_weight = SWAG.getRandIntInclusive(1, 100)
 
     if (botType === "pmc" || botType === "sptUsec" || botType === "sptBear" ) {
       player = true
@@ -658,6 +669,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     else if (botType === "arenaFighterEvent") {
       if (bloodhound_random_weight >= config.BossChance.bloodhounds[reverseMapNames[globalmap]]) {
+        slots = 0
+        botCount = 0
+      }
+    }
+    else if (botType === "crazyAssaultEvent") {
+      if (crazyscav_random_weight >= config.BossChance.crazyscavs[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
@@ -771,6 +788,9 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         break;
       case 'bloodhound':
         spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.bloodhounds[reverseMapNames[globalmap]]
+        break;
+      case 'crazyscavs':
+        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.crazyscavs[reverseMapNames[globalmap]]
         break;
       case 'sptbear':
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance

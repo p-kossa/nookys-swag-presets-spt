@@ -62,7 +62,7 @@
     },
     {
       "MapName": "woods",
-      "GroupNum": 22,
+      "GroupNum": 23,
       "Name": "Dead Area",
       "Position": {
         "x": -123.885017,
@@ -82,7 +82,7 @@
     },
     {
       "MapName": "woods",
-      "GroupNum": 22,
+      "GroupNum": 24,
       "Name": "Big Mountain Loot",
       "Position": {
         "x": -223.830292,
@@ -102,7 +102,7 @@
     },
     {
       "MapName": "woods",
-      "GroupNum": 23,
+      "GroupNum": 25,
       "Name": "in Woodcutter",
       "Position": {
         "x": 85.55863,
@@ -112,17 +112,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 480.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 24,
+      "GroupNum": 26,
       "Name": "North Pond",
       "Position": {
         "x": -64.11518,
@@ -142,7 +142,7 @@
     },
     {
       "MapName": "woods",
-      "GroupNum": 24,
+      "GroupNum": 27,
       "Name": "Bridge V-Ex",
       "Position": {
         "x": -517.5947,
@@ -162,7 +162,7 @@
     },
     {
       "MapName": "woods",
-      "GroupNum": 25,
+      "GroupNum": 28,
       "Name": "Big Mtn North",
       "Position": {
         "x": -237.8706,
@@ -182,7 +182,7 @@
     },
     {
       "MapName": "woods",
-      "GroupNum": 25,
+      "GroupNum": 29,
       "Name": "Top of Woodcutter",
       "Position": {
         "x": 22.62645,
@@ -192,12 +192,12 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 500.0,
+      "BotTriggerDistance": 650.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100.0
     }
   ]

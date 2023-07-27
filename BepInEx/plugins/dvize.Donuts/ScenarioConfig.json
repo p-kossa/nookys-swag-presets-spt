@@ -1,32 +1,47 @@
 [
   {
     "Name": "live-like",
-    "Weight": 35,
+    "Weight": 40,
     "RandomSelection": true
   },
   {
     "Name": "live-like-alt",
-    "Weight": 35,
-    "RandomSelection": true
-  },
-  {
-    "Name": "morescavs",
-    "Weight": 10,
-    "RandomSelection": true
-  },
-  {
-    "Name": "morepmcs",
-    "Weight": 5,
-    "RandomSelection": true
-  },
-  {
-    "Name": "crazyraids",
-    "Weight": 5,
+    "Weight": 40,
     "RandomSelection": true
   },
   {
     "Name": "quietraids",
     "Weight": 10,
     "RandomSelection": true
+  },
+  {
+    "Name": "boss-mania",
+    "Weight": 0,
+    "RandomSelection": false
+  },
+  {
+    "Name": "crazyraids",
+    "Weight": 0,
+    "RandomSelection": false
+  },
+  {
+    "Name": "morescavs",
+    "Weight": 0,
+    "RandomSelection": false
+  },
+  {
+    "Name": "morepmcs",
+    "Weight": 0,
+    "RandomSelection": false
+  },
+  {
+    "Name": "no-pmcs",
+    "Weight": 0,
+    "RandomSelection": false
+  },
+  {
+    "Name": "no-starting-pmcs",
+    "Weight": 0,
+    "RandomSelection": false
   }
 ]

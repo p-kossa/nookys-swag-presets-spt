@@ -1,0 +1,124 @@
+{
+  "Locations": [
+    {
+      "MapName": "shoreline",
+      "GroupNum": 35,
+      "Name": "NW of Resort",
+      "Position": {
+        "x": -10.7247086,
+        "y": -24.4616547,
+        "z": -297.2666
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 4.0,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 35,
+      "Name": "NW of Resort",
+      "Position": {
+        "x": -92.24622,
+        "y": -12.8557034,
+        "z": -235.6968
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 36,
+      "Name": "Village_East",
+      "Position": {
+        "x": 322.062775,
+        "y": -56.35864,
+        "z": 144.680161
+      },
+      "WildSpawnType": "bossbully",
+      "MinDistance": 1.0,
+      "MaxDistance": 70.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 36,
+      "Name": "hut east of resort",
+      "Position": {
+        "x": -489.24292,
+        "y": -15.9687452,
+        "z": -169.46315
+      },
+      "WildSpawnType": "bossbully",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 36,
+      "Name": "cottages 2",
+      "Position": {
+        "x": 322.366516,
+        "y": -50.47606,
+        "z": -11.0095854
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 36,
+      "Name": "open area by tunnel",
+      "Position": {
+        "x": 181.281464,
+        "y": -50.8171158,
+        "z": 166.62381
+      },
+      "WildSpawnType": "bossgluhar",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    }
+  ]
+}

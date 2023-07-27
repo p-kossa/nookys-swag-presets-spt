@@ -15,7 +15,7 @@
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
@@ -32,12 +32,12 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 420.0,
+      "BotTriggerDistance": 650,
+      "BotTimerTrigger": 290.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": true,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
@@ -52,17 +52,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 500.0,
+      "BotTriggerDistance": 650,
+      "BotTimerTrigger": 290.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": true,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 23,
+      "GroupNum": 24,
       "Name": "Resort 2nd",
       "Position": {
         "x": -278.822021,
@@ -72,17 +72,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 500.0,
+      "BotTriggerDistance": 650,
+      "BotTimerTrigger": 290.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": true,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 24,
+      "GroupNum": 25,
       "Name": "NW of Resort",
       "Position": {
         "x": -10.7247086,
@@ -95,14 +95,14 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 24,
+      "GroupNum": 26,
       "Name": "North of Resort",
       "Position": {
         "x": -358.628845,
@@ -115,14 +115,14 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 24,
+      "GroupNum": 27,
       "Name": "Dead Area",
       "Position": {
         "x": -593.2397,
@@ -135,14 +135,14 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 25,
+      "GroupNum": 28,
       "Name": "Swamp",
       "Position": {
         "x": 273.755737,
@@ -155,14 +155,14 @@
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 26,
+      "GroupNum": 29,
       "Name": "SE Resort",
       "Position": {
         "x": -417.3625,
@@ -175,14 +175,14 @@
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 27,
+      "GroupNum": 30,
       "Name": "Village_East",
       "Position": {
         "x": 322.062775,
@@ -202,7 +202,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 28,
+      "GroupNum": 31,
       "Name": "NW of Resort",
       "Position": {
         "x": -92.24622,
@@ -222,7 +222,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 29,
+      "GroupNum": 32,
       "Name": "hut east of resort",
       "Position": {
         "x": -489.24292,
@@ -242,7 +242,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 30,
+      "GroupNum": 33,
       "Name": "w of resort",
       "Position": {
         "x": 24.87373,
@@ -262,7 +262,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 31,
+      "GroupNum": 34,
       "Name": "cottages 2",
       "Position": {
         "x": 322.366516,
@@ -282,7 +282,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 31,
+      "GroupNum": 35,
       "Name": "open area by tunnel",
       "Position": {
         "x": 181.281464,

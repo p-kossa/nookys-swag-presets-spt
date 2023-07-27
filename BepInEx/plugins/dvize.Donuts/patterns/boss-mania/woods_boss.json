@@ -1,0 +1,104 @@
+{
+  "Locations": [
+    {
+      "MapName": "woods",
+      "GroupNum": 30,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 278.139557,
+        "y": 16.9777088,
+        "z": -476.850342
+      },
+      "WildSpawnType": "bosssanitar",
+      "MinDistance": 1.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 31,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 195.767517,
+        "y": 10.8430948,
+        "z": -593.8238
+      },
+      "WildSpawnType": "bossgluhar",
+      "MinDistance": 15.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 32,
+      "Name": "Dead Area",
+      "Position": {
+        "x": -123.885017,
+        "y": 20.762291,
+        "z": -119.855881
+      },
+      "WildSpawnType": "bossreshala",
+      "MinDistance": 1.0,
+      "MaxDistance": 100.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 33,
+      "Name": "North Pond",
+      "Position": {
+        "x": -64.11518,
+        "y": 9.693185,
+        "z": -581.265747
+      },
+      "WildSpawnType": "bosszryachiy",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 34,
+      "Name": "Bridge V-Ex",
+      "Position": {
+        "x": -517.5947,
+        "y": 14.7266407,
+        "z": -316.385437
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 100.0
+    }
+  ]
+}
