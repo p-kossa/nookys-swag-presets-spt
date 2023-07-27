@@ -389,16 +389,16 @@
         "y": 5.9575367,
         "z": 27.983366
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 500.0,
-      "BotTimerTrigger": 300.0,
+      "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 10,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 50.0
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100.0
     }
   ]
 }
