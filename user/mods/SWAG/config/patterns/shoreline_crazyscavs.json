@@ -1,0 +1,18 @@
+[
+  {
+    "MapName": "shoreline",
+    "MapGroups": [],
+    "MapBosses": [
+      {
+        "BossName": "crazyscavs",
+        "BossEscortType": "crazyscavs",
+        "BossEscortAmount": "2,3,4",
+        "Time": -1,
+        "BossZone": ["ZoneForestTruck"],
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      }
+    ]
+  }
+]
