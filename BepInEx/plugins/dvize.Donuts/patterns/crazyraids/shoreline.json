@@ -32,12 +32,12 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 320.0,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 4,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCooldown": 4,
-      "IgnoreTimerFirstSpawn": true,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
@@ -52,12 +52,12 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 500.0,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 260.0,
       "MaxRandomNumBots": 3,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": true,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
@@ -72,12 +72,12 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 280.0,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 260.0,
       "MaxRandomNumBots": 3,
       "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": true,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
