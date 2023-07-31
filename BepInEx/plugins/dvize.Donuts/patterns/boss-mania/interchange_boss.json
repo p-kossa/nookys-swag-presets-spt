@@ -1,0 +1,124 @@
+{
+  "Locations": [
+    {
+      "MapName": "interchange",
+      "GroupNum": 23,
+      "Name": "Underground Pkg A",
+      "Position": {
+        "x": -0.623630762,
+        "y": 21.3255215,
+        "z": -231.71637
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 1000,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 23,
+      "Name": "Underground Pkg B",
+      "Position": {
+        "x": -38.9759979,
+        "y": 21.3255119,
+        "z": -146.79628
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 1000,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 23,
+      "Name": "Underground Pkg C",
+      "Position": {
+        "x": -98.8216553,
+        "y": 21.3255272,
+        "z": 62.54267
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 1000,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 24,
+      "Name": "Mall 2nd Scav",
+      "Position": {
+        "x": -18.7650757,
+        "y": 36.5696678,
+        "z": -90.655426
+      },
+      "WildSpawnType": "bossknight",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 25,
+      "Name": "Mall 2nd Burger",
+      "Position": {
+        "x": -35.6125641,
+        "y": 36.57782,
+        "z": -107.284958
+      },
+      "WildSpawnType": "followerbigpipe",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 26,
+      "Name": "Mall 2nd Pizza",
+      "Position": {
+        "x": -45.7550163,
+        "y": 36.59381,
+        "z": -6.92546368
+      },
+      "WildSpawnType": "followerbirdeye",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.1,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    }
+  ]
+}

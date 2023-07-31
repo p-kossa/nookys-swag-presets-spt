@@ -1,0 +1,24 @@
+{
+  "Locations": [
+    {
+      "MapName": "laboratory",
+      "GroupNum": 13,
+      "Name": "Labs Bathroom 1st",
+      "Position": {
+        "x": -269.499847,
+        "y": 0.05300026,
+        "z": -281.15802
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 80.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 35.0
+    }
+  ]
+}

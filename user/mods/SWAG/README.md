@@ -173,6 +173,56 @@ Assumptions
 
 ---
 
+## Donuts Presets Explained
+
+```
+All presets spawn PMCs in their actual live locations*
+
+
+By default, there is a lot of intentional variance is all presets - this is so that each raid is unpredictable. One raid may be pretty quiet, while the next could be a 15-kill PMC raid and everything in-between. If you prefer a more consistent experience then please try the different presets and see if they are a better fit for you (described below)**
+
+
+* only applicable to presets that include starting PMC spawns
+
+** any preset not included in the random pool must be manually selected before a raid!
+
+
+live-like (selected randomly by default)
+A preset that is "live-like" with a little extra action.
+
+
+live-like-alt (selected randomly by default)
+Similar to live-like but with some twists - some spawn points have different spawn chances. For example, live-like-alt may be more likely to spawn PMCs inside IDEA on Interchange, or outside of Dorms in the woods instead of inside, etc.
+
+
+quietraids (selected randomly by default)
+Less spawn variance, most spawns will likely NOT trigger - perhaps your a newer player or you just like to loot n chill in tarky, then this preset is for you.
+
+boss-mania
+"live-like" but with more bosses. Goons on Labs, Tagilla in Interchange and more. However - they don't spawn right away like normal, they're dynamically spawned by Donuts. All PMC and SCAV spawns are included but spawn chances have been reduced for balance. Not for the faint of heart. Highly recommend cranking up SWAG boss chances for extra fun.
+
+Included in boss-mania is a community-made preset, "WTP-Fortress" for LIGHTHOUSE only (thank you Patty), which adds additional rogues and Goons at WTP.
+
+boss-mania Factory is a surprise :) make sure you take enough ammo and meds...
+
+no-starting-pmcs
+This preset removes all starting PMCs and only leaves the dynamic, hot spot PMCs throughout each map. This preset is useful for things like SCAV runs or if you would like to use SWAG PMCs (pmcChance, pmcGroupChance) with Donuts but would also like to keep the extra PMC spawns.
+
+no-pmcs
+The preset is for the purists - combine this with SWAG PMC spawns (pmcChance, pmcGroupChance) to fine-tune your PMC spawns. Want a finite number of PMCs in your raids? Only want SCAVs in your raids? This preset is for you.
+
+morepmcs
+"live-like" but with more PMCs, fewer SCAVs. Good for PMC kill quests.
+
+morescavs
+"live-like" but with more SCAVs, fewer PMCs. Good for SCAV kill quests.
+
+crazyraids
+Less spawn variance, most spawns will likely trigger - if you prefer consistent jam-packed action every raid then this preset is for you.
+```
+
+---
+
 **ALL CREDIT GOES TO PROPS, THE CREATOR OF SWAG AND DONUTS**
 
 ## What is this?

@@ -1,0 +1,24 @@
+{
+  "Locations": [
+    {
+      "MapName": "laboratory",
+      "GroupNum": 15,
+      "Name": "Labs Hospital Beds",
+      "Position": {
+        "x": -137.68808,
+        "y": 4.099992,
+        "z": -401.070679
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
+      "BotTimerTrigger": 600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    }
+  ]
+}

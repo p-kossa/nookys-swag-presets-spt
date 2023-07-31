@@ -1,0 +1,104 @@
+{
+  "Locations": [
+    {
+      "MapName": "bigmap",
+      "GroupNum": 20,
+      "Name": "Inside Crackhouse",
+      "Position": {
+        "x": 79.08468,
+        "y": 4.67267847,
+        "z": -156.714111
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 60,
+      "BotTimerTrigger": 10000,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 30
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 20,
+      "Name": "Inside Small Bldg by Crackhouse",
+      "Position": {
+        "x": 102.4554,
+        "y": 1.31745839,
+        "z": -95.70275
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 60,
+      "BotTimerTrigger": 10000,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 30
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 21,
+      "Name": "Big Red",
+      "Position": {
+        "x": -216.849625,
+        "y": 1.08683717,
+        "z": -112.495377
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 10000,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 21,
+      "Name": "Tent by Dorms",
+      "Position": {
+        "x": 297.893127,
+        "y": 4.346375,
+        "z": 149.415543
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 10000,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 21,
+      "Name": "Outside of Dorms",
+      "Position": {
+        "x": 140.461685,
+        "y": -2.04074836,
+        "z": 179.226654
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 10000,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    }
+  ]
+}
