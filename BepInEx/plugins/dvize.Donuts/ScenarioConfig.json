@@ -10,24 +10,24 @@
     "RandomSelection": true
   },
   {
-    "Name": "morescavs",
+    "Name": "quietraids",
     "Weight": 10,
-    "RandomSelection": true
-  },
-  {
-    "Name": "morepmcs",
-    "Weight": 5,
     "RandomSelection": true
   },
   {
     "Name": "crazyraids",
-    "Weight": 5,
-    "RandomSelection": true
+    "Weight": 0,
+    "RandomSelection": false
   },
   {
-    "Name": "quietraids",
-    "Weight": 10,
-    "RandomSelection": true
+    "Name": "morescavs",
+    "Weight": 0,
+    "RandomSelection": false
+  },
+  {
+    "Name": "morepmcs",
+    "Weight": 0,
+    "RandomSelection": false
   },
   {
     "Name": "WTP-Fortress",
