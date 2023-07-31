@@ -1,5 +1,5 @@
 # SWAG + Donuts (SWAG 3)
-![Version: 3.0.6 BETA](https://img.shields.io/badge/Version-3.0.6-informational?style=flat-square)
+![Version: 3.1.0](https://img.shields.io/badge/Version-3.1.0-informational?style=flat-square)
 
 **All credit goes to Props, creator of SWAG and DONUTS**
 
