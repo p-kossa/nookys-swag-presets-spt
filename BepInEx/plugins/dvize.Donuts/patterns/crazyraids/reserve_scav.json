@@ -139,6 +139,106 @@
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 27,
+      "Name": "Underground",
+      "Position": {
+        "x": -108.051163,
+        "y": -10.4819145,
+        "z": 74.01713
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 350.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 27,
+      "Name": "D2",
+      "Position": {
+        "x": -66.8366,
+        "y": -14.703867,
+        "z": 145.74556
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 350.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 27,
+      "Name": "Underground Alt",
+      "Position": {
+        "x": -155.9918,
+        "y": -9.402002,
+        "z": -7.82430029
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 28,
+      "Name": "Barracks 3rd",
+      "Position": {
+        "x": -170.587326,
+        "y": 2.401508,
+        "z": 43.3412361
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 28,
+      "Name": "Black Pawn 3rd",
+      "Position": {
+        "x": -163.029236,
+        "y": 2.40151238,
+        "z": 56.86645
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 75.0
     }
   ]
 }

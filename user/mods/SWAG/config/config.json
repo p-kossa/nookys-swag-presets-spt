@@ -10,33 +10,33 @@
   },
 	"BossChance": {
     "glukhar": {
-      "reserve": 10,
-      "streets": 10
+      "reserve": 20,
+      "streets": 20
     },
     "killa": {
-      "interchange": 10,
-      "streets": 10
+      "interchange": 20,
+      "streets": 20
     },
     "tagilla": {
-      "factory": 10
+      "factory": 20
     },
     "zryachiy": {
       "lighthouse": 100
     },
     "sanitar": {
-      "shoreline": 15
+      "shoreline": 20
     },
     "reshala": {
-      "customs": 10
+      "customs": 20
     },
     "shturman": {
-      "woods": 10
+      "woods": 20
     },
     "goons": {
-      "customs": 10,
-      "woods": 10,
-      "shoreline": 10,
-      "lighthouse": 10
+      "customs": 20,
+      "woods": 20,
+      "shoreline": 20,
+      "lighthouse": 20
     },
     "cultists": {
       "customs": 10,
@@ -55,6 +55,9 @@
       "customs": 5,
       "woods": 5,
       "shoreline": 5
+    },
+    "crazyscavs": {
+      "shoreline": 25
     }
   },
   "PMCs": {
@@ -66,7 +69,7 @@
   "Others": {
     "scavWaves": true,
     "scavSpawnWeight": 20,
-    "sniperChance": 40,
+    "sniperChance": 60,
     "scavInLabs": false
   },
 	"MaxBotCap": {

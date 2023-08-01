@@ -1,0 +1,224 @@
+{
+  "Locations": [
+    {
+      "MapName": "bigmap",
+      "GroupNum": 1,
+      "Name": "Inside Crackhouse",
+      "Position": {
+        "x": 79.08468,
+        "y": 4.67267847,
+        "z": -156.714111
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 330,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 1,
+      "Name": "Big Red",
+      "Position": {
+        "x": -216.849625,
+        "y": 1.08683717,
+        "z": -112.495377
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 220.0,
+      "BotTimerTrigger": 270.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 2,
+      "Name": "Tent by Dorms",
+      "Position": {
+        "x": 297.893127,
+        "y": 4.346375,
+        "z": 149.415543
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 2,
+      "Name": "Outside of Dorms",
+      "Position": {
+        "x": 140.461685,
+        "y": -2.04074836,
+        "z": 179.226654
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 240.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 2,
+      "Name": "Loot Spot",
+      "Position": {
+        "x": 501.775757,
+        "y": 14.4028883,
+        "z": 111.687111
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 450,
+      "BotTimerTrigger": 220,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 3,
+      "Name": "Bridge",
+      "Position": {
+        "x": 126.156036,
+        "y": 1.24295068,
+        "z": 93.5736
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 35.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 4,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 445.535217,
+        "y": 3.67000771,
+        "z": 163.4166
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 50.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 5,
+      "Name": "Dead Area",
+      "Position": {
+        "x": 245.190964,
+        "y": 1.07510841,
+        "z": -35.2317924
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 15.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 6,
+      "Name": "Trailer Park",
+      "Position": {
+        "x": -240.989868,
+        "y": 0.6850602,
+        "z": -195.066666
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 20,
+      "Name": "Inside Crackhouse",
+      "Position": {
+        "x": 79.08468,
+        "y": 4.67267847,
+        "z": -156.714111
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 290,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 21,
+      "Name": "Dorms 3rd Story",
+      "Position": {
+        "x": 175.428024,
+        "y": 5.83158,
+        "z": 181.63736
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 270.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    }
+  ]
+}

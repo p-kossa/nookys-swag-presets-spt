@@ -1,0 +1,124 @@
+{
+  "Locations": [
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 24,
+      "Name": "Underground",
+      "Position": {
+        "x": -79.0628738,
+        "y": -19.7678623,
+        "z": 109.469666
+      },
+      "WildSpawnType": "bossknight",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 150.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 25,
+      "Name": "D2",
+      "Position": {
+        "x": -66.8366,
+        "y": -14.703867,
+        "z": 145.74556
+      },
+      "WildSpawnType": "followerbirdeye",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 150.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 26,
+      "Name": "D2",
+      "Position": {
+        "x": -63.5087547,
+        "y": -15.9011688,
+        "z": 170.808578
+      },
+      "WildSpawnType": "followerbigpipe",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 150.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 27,
+      "Name": "Barracks 3rd",
+      "Position": {
+        "x": -170.587326,
+        "y": 2.401508,
+        "z": 43.3412361
+      },
+      "WildSpawnType": "bossbully",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.1,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 28,
+      "Name": "By Barracks",
+      "Position": {
+        "x": -120.028557,
+        "y": -7.089295,
+        "z": 114.284843
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 29,
+      "Name": "Black Pawn 3rd",
+      "Position": {
+        "x": -163.029236,
+        "y": 2.40151238,
+        "z": 56.86645
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 10000.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 75.0
+    }
+  ]
+}
