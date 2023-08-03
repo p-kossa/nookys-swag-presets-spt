@@ -760,12 +760,14 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let trigger_name = ""
 
     switch (boss.BossName) {
+      // Punisher Compatibility
       case 'bosspunisher':
         if (config.CustomBosses.punisher) {
-          // get actual spawn chance from punisher progress file, thank you GrooveypenguinX!
-          const punisherBossProgressFilePath = path.resolve(__dirname, '../PunisherBossMod/src/progress.json');
+          logger.info("SWAG: Custom Boss Punisher Compatibility Patch is ENABLED")
+          // get actual spawn chance from punisher progress file. thank you GrooveypenguinX!
+          const punisherBossProgressFilePath = path.resolve(__dirname, '../PunisherBoss/src/progress.json');
 
-          let spawnChance = 1
+          spawnChance = 1
           difficulty = "impossible"
           escort_difficulty = "impossible"
 
@@ -775,10 +777,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           }
           catch (error) {
             logger.warning("SWAG: Unable to load Punisher Boss progress file, either you don't have the mod installed or you don't have a Punisher progress file yet.");
+            logger.warning("SWAG: Setting Punisher spawn chance to 1")
           }
         }
         else {
-          logger.info("SWAG: Detected bosspunisher, but Custom Boss flag is false - using SWAG spawn chance instead")
+          logger.warning("SWAG: Detected bosspunisher, but Custom Boss flag is false - using SWAG spawn chance instead")
         }
         break;
       case 'bosszryachiy':
