@@ -1,12 +1,22 @@
 [
   {
     "Name": "live-like",
-    "Weight": 40,
+    "Weight": 50,
     "RandomSelection": true
   },
   {
     "Name": "live-like-alt",
-    "Weight": 40,
+    "Weight": 50,
+    "RandomSelection": true
+  },
+  {
+    "Name": "old-live-like",
+    "Weight": 20,
+    "RandomSelection": true
+  },
+  {
+    "Name": "old-live-like-alt",
+    "Weight": 20,
     "RandomSelection": true
   },
   {
@@ -16,11 +26,6 @@
   },
   {
     "Name": "boss-mania",
-    "Weight": 0,
-    "RandomSelection": false
-  },
-  {
-    "Name": "chaos",
     "Weight": 0,
     "RandomSelection": false
   },

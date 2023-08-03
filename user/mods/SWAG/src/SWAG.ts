@@ -187,6 +187,13 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
               aki_bots.pmc.convertIntoPmcChance["pmcbot"].max = 0;
               aki_bots.pmc.convertIntoPmcChance["exusec"].min = 0;
               aki_bots.pmc.convertIntoPmcChance["exusec"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["arenafighter"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["arenafighter"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["arenafighterevent"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["arenafighterevent"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["crazyassaultevent"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["crazyassaultevent"].max = 0;
+
               logger.info("SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)")
 
               const appContext = container.resolve<ApplicationContext>("ApplicationContext");
@@ -763,11 +770,10 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       // Punisher Compatibility
       case 'bosspunisher':
         if (config.CustomBosses.punisher) {
-          logger.info("SWAG: Custom Boss Punisher Compatibility Patch is ENABLED")
+          logger.info("SWAG: Custom Boss Punisher Compatibility Patch is ENABLED - Punisher spawn chance will be used from YOUR Punisher progress.json")
           // get actual spawn chance from punisher progress file. thank you GrooveypenguinX!
-          const punisherBossProgressFilePath = path.resolve(__dirname, '../PunisherBoss/src/progress.json');
+          const punisherBossProgressFilePath = path.resolve(__dirname, '../../PunisherBoss/src/progress.json');
 
-          spawnChance = 1
           difficulty = "impossible"
           escort_difficulty = "impossible"
 
@@ -778,6 +784,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           catch (error) {
             logger.warning("SWAG: Unable to load Punisher Boss progress file, either you don't have the mod installed or you don't have a Punisher progress file yet.");
             logger.warning("SWAG: Setting Punisher spawn chance to 1")
+            spawnChance = 1
           }
         }
         else {
