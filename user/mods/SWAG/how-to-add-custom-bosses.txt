@@ -1,5 +1,19 @@
 Examples patterns:
+---
+IF YOU USE THE PUNISHER MOD:
 
+change this to true:
+```
+  "CustomBosses": {
+    "punisher": false
+  },
+```
+this will force SWAG to use the Punisher progress spawn chance from the mod.
+
+OR... you can ovverride the spawn chance if you want (see below)
+
+
+---
 useccommander.json
 [
   {
