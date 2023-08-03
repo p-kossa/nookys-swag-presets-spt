@@ -21,6 +21,8 @@ import { JsonUtil } from "@spt-aki/utils/JsonUtil";
 import { RandomUtil } from "@spt-aki/utils/RandomUtil";
 import { DependencyContainer } from "tsyringe";
 import { LocationCallbacks } from "@spt-aki/callbacks/LocationCallbacks";
+import * as fs from "fs";
+import * as path from "path";
 import * as ClassDef from "./ClassDef";
 import {
   BossPattern,
@@ -109,6 +111,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   public static raid_time = {
     time_of_day: "day"
   }
+
+  public static punisherModFolder = "../PunisherBoss/";
 
   preAkiLoad(container: DependencyContainer): void {
     const HttpResponse = container.resolve<HttpResponseUtil>("HttpResponseUtil");
@@ -747,12 +751,36 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let group_chance = boss.BossEscortAmount
     let pmcChance = config.PMCs.pmcChance
 
+    let difficulty = diffProper[config.aiDifficulty.toLowerCase()]
+    let escort_difficulty = diffProper[config.aiDifficulty.toLowerCase()]
+
     let boss_spawn_zone = null
     let bossName = roleCase[boss.BossName.toLowerCase()] ? roleCase[boss.BossName.toLowerCase()] : boss.BossName
     let trigger_id = ""
     let trigger_name = ""
 
     switch (boss.BossName) {
+      case 'bosspunisher':
+        if (config.CustomBosses.punisher) {
+          // get actual spawn chance from punisher progress file, thank you GrooveypenguinX!
+          const punisherBossProgressFilePath = path.resolve(__dirname, '../PunisherBossMod/src/progress.json');
+
+          let spawnChance = 1
+          difficulty = "impossible"
+          escort_difficulty = "impossible"
+
+          try {
+            const progressData = JSON.parse(fs.readFileSync(punisherBossProgressFilePath, "utf8"));
+            spawnChance = progressData?.actualPunisherChance ?? 1;
+          }
+          catch (error) {
+            logger.warning("SWAG: Unable to load Punisher Boss progress file, either you don't have the mod installed or you don't have a Punisher progress file yet.");
+          }
+        }
+        else {
+          logger.info("SWAG: Detected bosspunisher, but Custom Boss flag is false - using SWAG spawn chance instead")
+        }
+        break;
       case 'bosszryachiy':
         spawnChance = config.BossChance.zryachiy[reverseMapNames[globalmap]]
         break;
@@ -847,9 +875,9 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             ? randomUtil.getStringArrayValue(SWAG.savedLocationData[globalmap].openZones)
             : ""),
       BossPlayer: false,
-      BossDifficult: diffProper[config.aiDifficulty.toLowerCase()],
+      BossDifficult: difficulty,
       BossEscortType: roleCase[boss.BossEscortType.toLowerCase()],
-      BossEscortDifficult: diffProper[config.aiDifficulty.toLowerCase()],
+      BossEscortDifficult: escort_difficulty,
       BossEscortAmount: group_chance,
       Time: boss.Time,
       Supports: boss.Supports,
@@ -885,6 +913,20 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     bossEscortAmount.sort((a, b) => a - b); // Sort the occurrences in ascending order
 
     return bossEscortAmount.join(',');
+  }
+
+  static readCustomBossChance(): void {
+    const punisherBossProgressFilePath = path.resolve(__dirname, '../PunisherBossMod/src/progress.json');
+
+    let actualPunisherChance = 1; // Default value if progress.json is not found
+
+    try {
+      const progressData = JSON.parse(fs.readFileSync(punisherBossProgressFilePath, "utf8"));
+      actualPunisherChance = progressData?.actualPunisherChance ?? 1;
+    }
+    catch (error) {
+      logger.warning("SWAG: Unable to load Punisher Boss progress file, either you don't have the mod installed or you don't have a Punisher progress file yet.");
+    }
   }
 
   static incrementTime(): void {
