@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 1,
+      "GroupNum": 9,
       "Name": "Construc Sparja",
       "Position": {
         "x": 156.29361,
@@ -13,16 +13,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 5.0,
       "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 2,
+      "GroupNum": 10,
       "Name": "streets scav",
       "Position": {
         "x": 124.271912,
@@ -33,16 +33,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 200.0,
+      "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 3,
+      "GroupNum": 10,
       "Name": "streets scav",
       "Position": {
         "x": 123.135918,
@@ -53,16 +53,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 200.0,
+      "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 4,
+      "GroupNum": 11,
       "Name": "streets scav",
       "Position": {
         "x": -55.73635,
@@ -73,16 +73,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 200.0,
+      "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 5,
+      "GroupNum": 11,
       "Name": "streets scav",
       "Position": {
         "x": -79.5369339,
@@ -93,16 +93,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 200.0,
+      "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 6,
+      "GroupNum": 12,
       "Name": "streets scav",
       "Position": {
         "x": -172.414413,
@@ -113,16 +113,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 230.0,
+      "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 7,
+      "GroupNum": 12,
       "Name": "streets scav",
       "Position": {
         "x": -72.6450653,
@@ -133,16 +133,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 230.0,
+      "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 8,
+      "GroupNum": 13,
       "Name": "streets scav",
       "Position": {
         "x": 47.2549667,
@@ -153,16 +153,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 9,
+      "GroupNum": 13,
       "Name": "streets scav",
       "Position": {
         "x": 65.07648,
@@ -173,16 +173,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 10,
+      "GroupNum": 13,
       "Name": "streets scav",
       "Position": {
         "x": 92.3770447,
@@ -193,9 +193,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 500.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
