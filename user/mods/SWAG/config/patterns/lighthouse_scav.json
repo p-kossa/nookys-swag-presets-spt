@@ -10,8 +10,8 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 60,
-        "Time_max": 90,
+        "Time_min": 45,
+        "Time_max": 180,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": [
@@ -32,7 +32,7 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 2800,
+        "Time_max": 1200,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -42,30 +42,6 @@
           "Zone_LongRoad",
           "Zone_DestroyedHouse",
           "Zone_Village"
-        ]
-      },
-      {
-        "Name": "WTP SCAVs",
-        "Bots": [
-          {
-            "BotType": "assault",
-            "MaxBotCount": 2
-          }
-        ],
-        "Time_min": 400,
-        "Time_max": 3000,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
-        "BotZone": [
-          "Zone_TreatmentContainers",
-          "Zone_TreatmentRocks",
-          "Zone_Containers",
-          "Zone_Blockpost",
-          "Zone_Hellicopter",
-          "Zone_RoofRocks",
-          "Zone_RoofContainers",
-          "Zone_TreatmentBeach",
-          "Zone_RoofBeach"
         ]
       }
     ],

@@ -13,29 +13,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 11,
-      "Name": "South Of Grotto",
-      "Position": {
-        "x": 114.523834,
-        "y": 1.0402683,
-        "z": -423.468018
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -53,9 +33,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 200.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
@@ -73,16 +53,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 13,
+      "GroupNum": 12,
       "Name": "Resort Southern Building Upstairs",
       "Position": {
         "x": -117.476448,
@@ -93,36 +73,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 14,
-      "Name": "Hill Passage from Road to Resort",
-      "Position": {
-        "x": -97.00632,
-        "y": 13.8333139,
-        "z": -166.189789
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 14,
+      "GroupNum": 13,
       "Name": "Mountain Pass Extract",
       "Position": {
         "x": -160.036835,
@@ -133,16 +93,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 15,
+      "GroupNum": 13,
       "Name": "GrandChalet/Rocks Upstairs",
       "Position": {
         "x": -118.51886,
@@ -153,96 +113,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 16,
-      "Name": "Road Cache South of GrandChalet",
-      "Position": {
-        "x": -149.372833,
-        "y": 32.53938,
-        "z": 228.4209
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 16,
-      "Name": "Crashed Heli",
-      "Position": {
-        "x": -138.964874,
-        "y": 21.6934166,
-        "z": 297.720032
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 16,
-      "Name": "Hillpath Heli to Southroad Extract",
-      "Position": {
-        "x": -164.84079,
-        "y": 32.9985924,
-        "z": 355.851959
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 17,
-      "Name": "Extract Camp Southern Road",
-      "Position": {
-        "x": -124.402031,
-        "y": 39.6359024,
-        "z": 410.259033
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 18,
+      "GroupNum": 14,
       "Name": "Southern Road Extract",
       "Position": {
         "x": -160.7535,
@@ -253,36 +133,16 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 18,
-      "Name": "Southwest Coastal Road",
-      "Position": {
-        "x": -32.793457,
-        "y": 5.94643259,
-        "z": 526.5384
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 19,
+      "GroupNum": 14,
       "Name": "Road NE of and near lighthouse path",
       "Position": {
         "x": -6.05678463,
@@ -295,14 +155,14 @@
       "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 19,
+      "GroupNum": 15,
       "Name": "Roadworks NW of Side Tunnel",
       "Position": {
         "x": 7.023592,
@@ -315,34 +175,14 @@
       "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 19,
-      "Name": "Beachcrates North of Sunken Building",
-      "Position": {
-        "x": 147.182632,
-        "y": 1.28679752,
-        "z": 174.794815
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 360.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 85
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 19,
+      "GroupNum": 15,
       "Name": "Sunken Boathouse Upstairs",
       "Position": {
         "x": 132.173691,
@@ -355,14 +195,14 @@
       "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 20,
+      "GroupNum": 16,
       "Name": "Scav house by lighthouse path",
       "Position": {
         "x": 87.29698,
@@ -375,14 +215,14 @@
       "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 360.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 21,
+      "GroupNum": 17,
       "Name": "Long Road",
       "Position": {
         "x": 11.26129,
@@ -393,9 +233,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100.0

@@ -36,7 +36,7 @@
       "BotTimerTrigger": 500.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 10,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85.0
     },
@@ -56,7 +56,7 @@
       "BotTimerTrigger": 450.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 10,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 85.0
     },
@@ -76,7 +76,7 @@
       "BotTimerTrigger": 660.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 10,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85.0
     },
@@ -96,7 +96,7 @@
       "BotTimerTrigger": 660.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 10,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 85.0
     },
@@ -182,7 +182,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 21,
+      "GroupNum": 20,
       "Name": "Inside Small Bldg by Crackhouse",
       "Position": {
         "x": 102.4554,

@@ -22,7 +22,7 @@
     },
     {
       "MapName": "factory4_day",
-      "GroupNum": 9,
+      "GroupNum": 10,
       "Name": "Factory Underground Loot",
       "Position": {
         "x": -12.2977381,
@@ -37,66 +37,6 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 25
-    },
-    {
-      "MapName": "factory4_day",
-      "GroupNum": 9,
-      "Name": "Tunnels",
-      "Position": {
-        "x": 45.28941,
-        "y": -2.63422179,
-        "z": -34.1375275
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 1000.1,
-      "BotTimerTrigger": 220.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
-      "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 25
-    },
-    {
-      "MapName": "factory4_day",
-      "GroupNum": 10,
-      "Name": "forklifts2",
-      "Position": {
-        "x": 70.10788,
-        "y": 0.127108768,
-        "z": -60.2306938
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 25
-    },
-    {
-      "MapName": "factory4_day",
-      "GroupNum": 10,
-      "Name": "redlight",
-      "Position": {
-        "x": 69.52061,
-        "y": 0.0977726951,
-        "z": -6.805648
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 1000.0,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
-      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 25
     }

@@ -259,6 +259,66 @@
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 29,
+      "Name": "Far North Of Grotto",
+      "Position": {
+        "x": 164.622879,
+        "y": 2.28043818,
+        "z": -707.419
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 600.0,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 29,
+      "Name": "South Of Grotto",
+      "Position": {
+        "x": 114.523834,
+        "y": 1.0402683,
+        "z": -423.468018
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 600.0,
+      "BotTimerTrigger": 440.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 30,
+      "Name": "Mountain Pass Extract",
+      "Position": {
+        "x": -160.036835,
+        "y": 32.0344429,
+        "z": -6.01865673
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
     }
   ]
 }
