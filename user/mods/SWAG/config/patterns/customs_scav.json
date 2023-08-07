@@ -10,7 +10,7 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 60,
+        "Time_min": 45,
         "Time_max": 90,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
@@ -37,10 +37,10 @@
             "MaxBotCount": 2
           }
         ],
-        "Time_min": 450,
-        "Time_max": 2400,
+        "Time_min": 180,
+        "Time_max": 600,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": false,
+        "OnlySpawnOnce": true,
         "BotZone": [
           "ZoneScavBase",
           "ZoneBlockPost",

@@ -1,12 +1,24 @@
 {
 	"aiDifficulty": "normal",
 	"aiAmount": "asonline",
-	"RandomWaveCount": 7,
+	"RandomWaveCount": 10,
 	"BossWaveCount": 1,
-	"SkipOtherBossWavesIfBossWaveSelected": false,
+	"SkipOtherBossWavesIfBossWaveSelected": true,
   "GlobalRandomWaveTimer": {
-    "WaveTimerMinSec": 90,
+    "WaveTimerMinSec": 120,
     "WaveTimerMaxSec": 180
+  },
+  "TotalBossesPerMap": {
+		"factory": 1,
+    "factory_night": 1,
+		"customs": 1,
+		"woods": 1,
+		"shoreline": 1,
+		"lighthouse": 1,
+		"reserve": 1,
+		"interchange": 1,
+		"laboratory": 1,
+		"streets": 1
   },
   "CustomBosses": {
     "punisher": false
@@ -21,7 +33,8 @@
       "streets": 20
     },
     "tagilla": {
-      "factory": 20
+      "factory": 20,
+      "factory_night": 20
     },
     "zryachiy": {
       "lighthouse": 100
@@ -48,7 +61,7 @@
       "factory_night": 100
     },
     "rogues": {
-      "lighthouse": 65
+      "lighthouse": 45
     },
     "raiders": {
       "laboratory": 75,
@@ -71,8 +84,8 @@
   },
   "Others": {
     "scavWaves": true,
-    "scavSpawnWeight": 20,
-    "sniperChance": 60,
+    "scavSpawnWeight": 60,
+    "sniperChance": 50,
     "scavInLabs": false
   },
 	"MaxBotCap": {

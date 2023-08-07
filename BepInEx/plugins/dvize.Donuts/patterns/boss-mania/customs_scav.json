@@ -15,7 +15,7 @@
       "MaxRandomNumBots": 1,
       "BotTriggerDistance": 450,
       "BotTimerTrigger": 600,
-      "SpawnChance": 55,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -35,7 +35,7 @@
       "MaxRandomNumBots": 1,
       "BotTriggerDistance": 450,
       "BotTimerTrigger": 500,
-      "SpawnChance": 55,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -55,7 +55,7 @@
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 450.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -71,11 +71,11 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 50.0,
+      "MaxDistance": 10.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 55,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -91,18 +91,18 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 17,
+      "GroupNum": 20,
       "Name": "Trailer Park",
       "Position": {
         "x": -240.989868,
@@ -115,14 +115,14 @@
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60.0
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 20,
+      "GroupNum": 21,
       "Name": "Inside Crackhouse",
       "Position": {
         "x": 79.08468,
@@ -135,14 +135,14 @@
       "MaxRandomNumBots": 1,
       "BotTriggerDistance": 250,
       "BotTimerTrigger": 360,
-      "SpawnChance": 45,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCooldown": 1,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 21,
+      "GroupNum": 22,
       "Name": "Dorms 3rd Story",
       "Position": {
         "x": 175.428024,
@@ -155,7 +155,7 @@
       "BotTriggerDistance": 450.1,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80

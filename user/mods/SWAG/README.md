@@ -20,6 +20,18 @@ https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
     "WaveTimerMinSec": 60,   <------- global wave timers - these only apply to RANDOM waves, i.e. all_scav.json
     "WaveTimerMaxSec": 120
   },
+  "TotalBossesPerMap": {  <------- set total number of NAMED bosses to spawn per map. SWAG will randomly select n number of bosses, then apply the defined spawn chance below.
+		"factory": -1,
+    "factory_night": -1,
+		"customs": -1,
+		"woods": -1,
+		"shoreline": -1,
+		"lighthouse": -1,
+		"reserve": -1,
+		"interchange": -1,
+		"laboratory": -1,
+		"streets": -1
+  },
 	"BossChance": {   <------- set your own boss chance, per boss, per map. it's just a flat percentage. (OPTIONAL) if you add a boss to a NEW MAP then you have to add it below
     "glukhar": {
       "reserve": 25,

@@ -22,26 +22,6 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 11,
-      "Name": "From Gas to Dorms",
-      "Position": {
-        "x": 350.905884,
-        "y": 6.805247,
-        "z": 134.274368
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 45.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 450,
-      "BotTimerTrigger": 500,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "bigmap",
       "GroupNum": 12,
       "Name": "Bridge",
       "Position": {
@@ -71,7 +51,7 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 50.0,
+      "MaxDistance": 15.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 420.0,
       "MaxRandomNumBots": 1,
@@ -82,7 +62,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 13,
+      "GroupNum": 20,
       "Name": "Dead Area",
       "Position": {
         "x": 245.190964,
@@ -91,7 +71,7 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 1,
@@ -102,27 +82,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 17,
-      "Name": "Trailer Park",
-      "Position": {
-        "x": -240.989868,
-        "y": 0.6850602,
-        "z": -195.066666
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.0,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 20,
+      "GroupNum": 21,
       "Name": "Inside Crackhouse",
       "Position": {
         "x": 79.08468,
@@ -137,26 +97,6 @@
       "BotTimerTrigger": 360,
       "SpawnChance": 45,
       "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 21,
-      "Name": "Dorms 3rd Story",
-      "Position": {
-        "x": 175.428024,
-        "y": 5.83158,
-        "z": 181.63736
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 330.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     }

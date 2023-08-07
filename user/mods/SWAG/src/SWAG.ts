@@ -112,7 +112,9 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     time_of_day: "day"
   }
 
-  public static punisherModFolder = "../PunisherBoss/";
+  public static bossCount = {
+    count: 0
+  }
 
   preAkiLoad(container: DependencyContainer): void {
     const HttpResponse = container.resolve<HttpResponseUtil>("HttpResponseUtil");
@@ -510,14 +512,20 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     globalmap: LocationName,
     AlreadySpawnedBossGroups: ClassDef.BossPattern[]
   ): void {
-    //read StaticBossGroups and set local values
-    for (let boss of StaticBossGroups) {
+
+    // lets shuffle bosses around in case skip boss is true
+    // so that a random boss is spawned every time
+    const randomizedBossGroups = this.shuffleArray(StaticBossGroups)
+
+    for (let boss of randomizedBossGroups) {
       SWAG.SpawnBosses(
         boss,
         globalmap,
         AlreadySpawnedBossGroups
       );
+      SWAG.bossCount.count += 1
     }
+    SWAG.bossCount.count = 0
   }
 
   static SpawnBosses(
@@ -533,10 +541,20 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     AlreadySpawnedBossGroups.push(boss);
 
-    //check make sure BossWaveSpawnedOnceAlready = true and config.SkipOtherBossWavesIfBossWaveSelected = true
-    if (BossWaveSpawnedOnceAlready && config.SkipOtherBossWavesIfBossWaveSelected) {
-      config.DebugOutput && logger.info("SWAG: Skipping boss spawn as one spawned already")
+    let boss_name = boss.BossName
+
+    if (config.TotalBossesPerMap[reverseMapNames[globalmap]] === 0) {
+      config.DebugOutput && logger.info("SWAG: TotalBosses set to 0 for this map, skipping boss spawn")
       return;
+    }
+    else if (BossWaveSpawnedOnceAlready && config.SkipOtherBossWavesIfBossWaveSelected && boss_name.startsWith("boss")) {
+      if (config.TotalBossesPerMap[reverseMapNames[globalmap]] === -1) {
+        // do nothing
+      }
+      else if (SWAG.bossCount.count >= config.TotalBossesPerMap[reverseMapNames[globalmap]]) {
+        config.DebugOutput && logger.info("SWAG: Skipping boss spawn as total boss count has been met already")
+        return;
+      }
     }
 
     //read group and create wave from individual boss but same timing and location if RandomBossGroupBotZone is not null
@@ -657,8 +675,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         botCount = 0
       }
 
-      // SCAV weight check - skip first wave
-      else if (scav_random_weight >= config.Others.scavSpawnWeight && group.OnlySpawnOnce === false) {
+      // SCAV weight check
+      else if (scav_random_weight >= config.Others.scavSpawnWeight) {
         slots = 0
         botCount = 0
       }
@@ -925,18 +943,14 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     return bossEscortAmount.join(',');
   }
 
-  static readCustomBossChance(): void {
-    const punisherBossProgressFilePath = path.resolve(__dirname, '../PunisherBossMod/src/progress.json');
-
-    let actualPunisherChance = 1; // Default value if progress.json is not found
-
-    try {
-      const progressData = JSON.parse(fs.readFileSync(punisherBossProgressFilePath, "utf8"));
-      actualPunisherChance = progressData?.actualPunisherChance ?? 1;
+  // thanks ChatGPT
+  static shuffleArray<T>(array: T[]): T[] {
+    const shuffledArray = [...array];
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
     }
-    catch (error) {
-      logger.warning("SWAG: Unable to load Punisher Boss progress file, either you don't have the mod installed or you don't have a Punisher progress file yet.");
-    }
+    return shuffledArray;
   }
 
   static incrementTime(): void {
