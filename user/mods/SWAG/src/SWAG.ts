@@ -134,7 +134,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ): any => {
-            SWAG.disableSpawnSystems();
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
             return output;
@@ -155,7 +154,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ): any => {
-            SWAG.disableSpawnSystems();
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
             return LocationCallbacks.getLocationData(url, info, sessionID);
@@ -287,6 +285,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
 
     SWAG.ReadAllPatterns();
+
+    // as of SPT 3.6.0 we need to disable the new spawn system so that SWAG can clear spawns properly
+    if (!config?.UseDefaultSpawns?.Waves || !config?.UseDefaultSpawns?.Bosses || !config?.UseDefaultSpawns?.TriggeredWaves) {
+      SWAG.disableSpawnSystems();
+    }
   }
 
   /**
@@ -371,14 +374,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         //config.DebugOutput && logger.warning(`Waves for ${globalmap} : ${JSON.stringify(locations[globalmap].base?.waves)}`);
       }
     });
-  }
-
-  static disableSpawnSystems(): void {
-    for (let map in locations) {
-      locations[map].OfflineNewSpawn = false
-      locations[map].OfflineOldSpawn = false
-      locations[map].NewSpawn = false
-    }
   }
 
   /**
@@ -974,6 +969,20 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  static disableSpawnSystems(): void {
+    let map: keyof ILocations;
+    for (map in locations) {
+      if (map === "base" || map === "hideout") {
+        continue;
+      }
+      locations[map].base.OfflineNewSpawn = false
+      locations[map].base.OfflineOldSpawn = true
+      locations[map].base.NewSpawn = false
+      locations[map].base.OldSpawn = true
+      config.DebugOutput && logger.info("SWAG: disabled NewSpawnSystem to clear default spawns (SPT 3.6.x)");
+    }
   }
 
   static ClearDefaultSpawns(): void {
