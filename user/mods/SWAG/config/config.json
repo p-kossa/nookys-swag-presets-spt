@@ -5,7 +5,7 @@
 	"BossWaveCount": 1,
 	"SkipOtherBossWavesIfBossWaveSelected": true,
   "GlobalRandomWaveTimer": {
-    "WaveTimerMinSec": 120,
+    "WaveTimerMinSec": 60,
     "WaveTimerMaxSec": 180
   },
   "TotalBossesPerMap": {
@@ -84,7 +84,7 @@
   },
   "Others": {
     "scavWaves": true,
-    "scavSpawnWeight": 50,
+    "scavSpawnWeight": 65,
     "sniperChance": 50,
     "scavInLabs": false
   },

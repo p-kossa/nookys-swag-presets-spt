@@ -134,6 +134,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ): any => {
+            SWAG.disableSpawnSystems();
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
             return output;
@@ -154,6 +155,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ): any => {
+            SWAG.disableSpawnSystems();
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
             return LocationCallbacks.getLocationData(url, info, sessionID);
@@ -369,6 +371,14 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         //config.DebugOutput && logger.warning(`Waves for ${globalmap} : ${JSON.stringify(locations[globalmap].base?.waves)}`);
       }
     });
+  }
+
+  static disableSpawnSystems(): void {
+    for (let map in locations) {
+      locations[map].OfflineNewSpawn = false
+      locations[map].OfflineOldSpawn = false
+      locations[map].NewSpawn = false
+    }
   }
 
   /**
