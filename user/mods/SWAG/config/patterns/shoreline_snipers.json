@@ -24,28 +24,6 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": ["ZonePowerStationSniper"]
-      },
-      {
-        "Name": "ZoneBunkeSniper SCAV Sniper",
-        "BossName": "marksman",
-        "BossEscortType": "marksman",
-        "BossEscortAmount": "0",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneBunkeSniper"]
-      },
-      {
-        "Name": "ZonePowerStationSniper SCAV Sniper",
-        "BossName": "marksman",
-        "BossEscortType": "marksman",
-        "BossEscortAmount": "0",
-        "Time": -1,
-        "Supports": null,
-        "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZonePowerStationSniper"]
       }
     ]
   }

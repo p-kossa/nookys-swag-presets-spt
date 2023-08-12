@@ -1,0 +1,44 @@
+{
+  "Locations": [
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 9,
+      "Name": "Bathroom",
+      "Position": {
+        "x": 15.2277527,
+        "y": 4.532835,
+        "z": 47.2004166
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 10,
+      "Name": "Factory Underground Loot",
+      "Position": {
+        "x": -12.2977381,
+        "y": -3.914935,
+        "z": -24.1182384
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1000.1,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCooldown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25
+    }
+  ]
+}

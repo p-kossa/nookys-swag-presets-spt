@@ -13,107 +13,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
       "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 450.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 10,
-      "Name": "Mall 2nd",
-      "Position": {
-        "x": 93.25026,
-        "y": 36.5697174,
-        "z": -55.5142059
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 400.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 10,
-      "Name": "Mall 2nd",
-      "Position": {
-        "x": 18.5168324,
-        "y": 36.5697556,
-        "z": -138.057358
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 330.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 10,
-      "Name": "Mall 2nd",
-      "Position": {
-        "x": 59.9946556,
-        "y": 36.579998,
-        "z": 35.1372871
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 310.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 10,
-      "Name": "Mall 2nd Scav",
-      "Position": {
-        "x": -18.7650757,
-        "y": 36.5696678,
-        "z": -90.655426
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 500.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 10,
-      "Name": "Mall 2nd Pizza",
-      "Position": {
-        "x": -45.7550163,
-        "y": 36.59381,
-        "z": -6.92546368
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 330.0,
+      "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCooldown": 1,
@@ -133,7 +33,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 420.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCooldown": 1,
@@ -156,27 +56,7 @@
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 13,
-      "Name": "Mall 1st",
-      "Position": {
-        "x": 17.8162746,
-        "y": 27.0934372,
-        "z": 23.3595657
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
-      "BotTimerTrigger": 450.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
@@ -193,10 +73,10 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 450.0,
-      "BotTimerTrigger": 420.0,
+      "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -216,7 +96,7 @@
       "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -236,7 +116,7 @@
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -256,7 +136,7 @@
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
@@ -276,7 +156,7 @@
       "BotTimerTrigger": 290.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100.0
     }

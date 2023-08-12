@@ -1,5 +1,11 @@
+# IMPORTANT
+# PLEASE READ THE MOD PAGE FOR THE MOST UP TO DATE INFORMATION!
+# tbh I hardly update this so please check the mod page for info/faq/questions!
+#
+#
+
 # SWAG + Donuts (SWAG 3)
-![Version: 3.1.1](https://img.shields.io/badge/Version-3.1.1-informational?style=flat-square)
+![Version: 3.1.2](https://img.shields.io/badge/Version-3.1.2-informational?style=flat-square)
 
 **All credit goes to Props, creator of SWAG and DONUTS**
 
@@ -19,6 +25,18 @@ https://hub.sp-tarkov.com/files/file/878-simple-wave-ai-generator-swag/#overview
   "GlobalRandomWaveTimer": {
     "WaveTimerMinSec": 60,   <------- global wave timers - these only apply to RANDOM waves, i.e. all_scav.json
     "WaveTimerMaxSec": 120
+  },
+  "TotalBossesPerMap": {  <------- set total number of NAMED bosses to spawn per map. SWAG will randomly select n number of bosses, then apply the defined spawn chance below.
+		"factory": -1,
+    "factory_night": -1,
+		"customs": -1,
+		"woods": -1,
+		"shoreline": -1,
+		"lighthouse": -1,
+		"reserve": -1,
+		"interchange": -1,
+		"laboratory": -1,
+		"streets": -1
   },
 	"BossChance": {   <------- set your own boss chance, per boss, per map. it's just a flat percentage. (OPTIONAL) if you add a boss to a NEW MAP then you have to add it below
     "glukhar": {
@@ -219,6 +237,9 @@ morescavs
 
 crazyraids
 Less spawn variance, most spawns will likely trigger - if you prefer consistent jam-packed action every raid then this preset is for you.
+
+impossibleraids
+crazier than crazy
 ```
 
 ---
