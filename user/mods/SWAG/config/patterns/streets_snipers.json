@@ -46,6 +46,28 @@
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": ["ZoneSnipeCarShowroom"]
+      },
+      {
+        "Name": "ZoneSnipeCard SCAV Sniper",
+        "BossName": "marksman",
+        "BossEscortType": "marksman",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneSnipeCard"]
+      },
+      {
+        "Name": "ZoneSnipeStilo SCAV Sniper",
+        "BossName": "marksman",
+        "BossEscortType": "marksman",
+        "BossEscortAmount": "0",
+        "Time": -1,
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true,
+        "BossZone": ["ZoneSnipeStilo"]
       }
     ]
   }

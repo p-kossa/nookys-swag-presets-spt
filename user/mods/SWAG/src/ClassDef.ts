@@ -9,6 +9,7 @@ export interface SWAGConfig {
   RandomWaveCount: number;
   BossWaveCount: number;
   BossChance: {
+    kaban: number;
     gluhar: number;
     killa: number;
     tagilla: number;

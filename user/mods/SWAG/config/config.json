@@ -24,6 +24,9 @@
     "punisher": false
   },
 	"BossChance": {
+    "kaban": {
+      "streets": 20
+    },
     "glukhar": {
       "reserve": 20,
       "streets": 20
@@ -73,7 +76,7 @@
       "shoreline": 5
     },
     "crazyscavs": {
-      "shoreline": 25
+      "shoreline": 5
     }
   },
   "PMCs": {
@@ -83,32 +86,32 @@
     "pmcGroupChance": "asonline"
   },
   "Others": {
-    "scavWaves": true,
-    "scavSpawnWeight": 50,
+    "scavWaves": false,
+    "scavSpawnWeight": 0,
     "sniperChance": 50,
     "scavInLabs": false
   },
 	"MaxBotCap": {
-		"factory": 10,
-		"customs": 16,
-		"woods": 16,
-		"shoreline": 16,
-		"lighthouse": 18,
-		"reserve": 16,
-		"interchange": 16,
-		"laboratory": 12,
-		"streets": 16
+		"factory": 16,
+		"customs": 24,
+		"woods": 26,
+		"shoreline": 26,
+		"lighthouse": 30,
+		"reserve": 24,
+		"interchange": 24,
+		"laboratory": 18,
+		"streets": 26
 	},
   "NightMaxBotCap": {
-		"factory_night": 10,
-		"customs": 16,
-		"woods": 16,
-		"shoreline": 16,
-		"lighthouse": 18,
-		"reserve": 16,
-		"interchange": 16,
-		"laboratory": 12,
-		"streets": 16
+		"factory_night": 16,
+		"customs": 24,
+		"woods": 26,
+		"shoreline": 26,
+		"lighthouse": 30,
+		"reserve": 24,
+		"interchange": 24,
+		"laboratory": 18,
+		"streets": 26
   },
 	"UseDefaultSpawns": {
 		"Waves": false,

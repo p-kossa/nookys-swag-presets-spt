@@ -814,6 +814,9 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           logger.warning("SWAG: Detected bosspunisher, but Custom Boss flag is false - using SWAG spawn chance instead")
         }
         break;
+      case 'bossboar':
+        spawnChance = config.BossChance.kaban[reverseMapNames[globalmap]]
+        break;
       case 'bosszryachiy':
         spawnChance = config.BossChance.zryachiy[reverseMapNames[globalmap]]
         break;

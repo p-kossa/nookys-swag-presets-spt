@@ -4,28 +4,29 @@
     "MapGroups": [],
     "MapBosses": [
       {
-        "Name": "Gluhar",
-        "BossName": "bossgluhar",
-        "BossEscortType": "followergluharassault",
-        "BossEscortAmount": "0",
+        "Name": "Kaban",
+        "BossName": "bossboar",
+        "BossEscortType": "followerboar",
+        "BossEscortAmount": "6",
         "Time": -1,
-        "Supports": [
-          {
-            "BossEscortType": "followergluharassault",
-            "BossEscortAmount": "2"
-          },
-          {
-            "BossEscortType": "followergluharsecurity",
-            "BossEscortAmount": "2"
-          },
-          {
-            "BossEscortType": "followergluharscout",
-            "BossEscortAmount": "2"
-          }
-        ],
+        "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BossZone": ["ZoneCarShowroom"]
+      },
+      {
+        "Name": "Kaban Snipers",
+        "BossEscortAmount": "1,2",
+        "BossEscortType": "bossboarsniper",
+        "BossName": "bossboarsniper",
+        "BossChance": 100,
+        "BossPlayer": false,
+        "BossZone": ["ZoneCarShowroom_main_roof"],
+        "RandomTimeSpawn": false,
+        "Supports": null,
+        "Time": 99999,
+        "TriggerId": "BossBoarBorn",
+        "TriggerName": "botEvent"
       },
       {
         "Name": "Killa",

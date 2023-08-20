@@ -11,7 +11,7 @@
           }
         ],
         "Time_min": 45,
-        "Time_max": 180,
+        "Time_max": 300,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true,
         "BotZone": [
@@ -25,7 +25,10 @@
           "ZoneCarShowroom",
           "ZoneCinema",
           "ZoneSW01",
-          "ZoneFactory"
+          "ZoneFactory",
+          "ZoneCard1",
+          "ZoneSW00",
+          "ZoneStilo"
         ]
       },
       {
@@ -37,7 +40,7 @@
           }
         ],
         "Time_min": 300,
-        "Time_max": 1800,
+        "Time_max": 2400,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": false,
         "BotZone": [
@@ -51,7 +54,10 @@
           "ZoneCarShowroom",
           "ZoneCinema",
           "ZoneSW01",
-          "ZoneFactory"
+          "ZoneFactory",
+          "ZoneCard1",
+          "ZoneSW00",
+          "ZoneStilo"
         ]
       }
     ],
