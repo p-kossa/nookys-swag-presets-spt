@@ -63,26 +63,6 @@
     {
       "MapName": "interchange",
       "GroupNum": 17,
-      "Name": "Mall 1st",
-      "Position": {
-        "x": 73.31492,
-        "y": 27.0864773,
-        "z": -131.844269
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 600.1,
-      "BotTimerTrigger": 450.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 30,
-      "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80.0
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 17,
       "Name": "Mall 1st Inside",
       "Position": {
         "x": -16.0196476,
@@ -117,26 +97,6 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80.0
-    },
-    {
-      "MapName": "interchange",
-      "GroupNum": 18,
-      "Name": "Mall 2nd Urban Clothes",
-      "Position": {
-        "x": 25.96739,
-        "y": 36.5696945,
-        "z": 43.1600761
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 600.0,
-      "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
-      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
