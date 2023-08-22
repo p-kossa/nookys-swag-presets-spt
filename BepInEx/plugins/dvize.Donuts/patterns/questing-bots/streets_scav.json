@@ -1,38 +1,18 @@
 {
   "Locations": [
     {
-      "MapName": "bigmap",
-      "GroupNum": 20,
-      "Name": "Loot Spot",
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Construc Sparja",
       "Position": {
-        "x": 501.775757,
-        "y": 14.4028883,
-        "z": 111.687111
+        "x": 156.29361,
+        "y": 3.75064373,
+        "z": 293.1533
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 15.0,
-      "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 450,
-      "BotTimerTrigger": 180,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 21,
-      "Name": "Bridge",
-      "Position": {
-        "x": 126.156036,
-        "y": 1.24295068,
-        "z": 93.5736
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 35.0,
-      "BotTriggerDistance": 300.1,
+      "MaxDistance": 5.0,
+      "BotTriggerDistance": 400.1,
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
@@ -41,79 +21,119 @@
       "MinSpawnDistanceFromPlayer": 80
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 22,
-      "Name": "Dead Area",
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "streets scav",
       "Position": {
-        "x": 445.535217,
-        "y": 3.67000771,
-        "z": 163.4166
+        "x": 124.271912,
+        "y": -2.219596,
+        "z": 62.33575
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 10.0,
-      "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 215.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 22,
-      "Name": "Dead Area",
+      "MapName": "tarkovstreets",
+      "GroupNum": 51,
+      "Name": "streets scav",
       "Position": {
-        "x": 245.190964,
-        "y": 1.07510841,
-        "z": -35.2317924
+        "x": 123.135918,
+        "y": 4.49726725,
+        "z": 145.6643
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400.1,
-      "BotTimerTrigger": 250.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 23,
-      "Name": "Tent by Dorms",
+      "MapName": "tarkovstreets",
+      "GroupNum": 51,
+      "Name": "streets scav",
       "Position": {
-        "x": 297.893127,
-        "y": 4.346375,
-        "z": 149.415543
+        "x": -55.73635,
+        "y": 1.4155153,
+        "z": 157.3048
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 1,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 23,
+      "MapName": "tarkovstreets",
+      "GroupNum": 51,
+      "Name": "streets scav",
+      "Position": {
+        "x": -172.414413,
+        "y": 6.066414,
+        "z": 226.924545
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 230.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 52,
+      "Name": "streets scav",
+      "Position": {
+        "x": 92.3770447,
+        "y": 2.63761854,
+        "z": 276.906128
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.0,
+      "BotTimerTrigger": 260.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 52,
       "Name": "scav",
       "Position": {
-        "x": 553.303,
-        "y": 12.4862671,
-        "z": 122.495331
+        "x": -153.026184,
+        "y": 8.612602,
+        "z": 399.513977
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 360.0,
+      "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -121,19 +141,19 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 24,
+      "MapName": "tarkovstreets",
+      "GroupNum": 52,
       "Name": "scav",
       "Position": {
-        "x": 570.13446,
-        "y": -0.3508629,
-        "z": -10.0204287
+        "x": -17.8972359,
+        "y": 0.9133898,
+        "z": 401.566071
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 330.0,
+      "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -141,19 +161,19 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 24,
+      "MapName": "tarkovstreets",
+      "GroupNum": 53,
       "Name": "scav",
       "Position": {
-        "x": 552.642639,
-        "y": 1.06303024,
-        "z": -76.3612061
+        "x": 5.261718,
+        "y": 2.11363435,
+        "z": 360.66925
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -161,93 +181,13 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 24,
+      "MapName": "tarkovstreets",
+      "GroupNum": 53,
       "Name": "scav",
       "Position": {
-        "x": 512.1787,
-        "y": 4.087084,
-        "z": -145.1717
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 25,
-      "Name": "scav",
-      "Position": {
-        "x": 443.183624,
-        "y": 1.10134912,
-        "z": 45.0843544
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 25,
-      "Name": "scav",
-      "Position": {
-        "x": 413.4626,
-        "y": 1.167995,
-        "z": 29.3207989
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 25,
-      "Name": "scav",
-      "Position": {
-        "x": 271.70462,
-        "y": 1.57034767,
-        "z": 113.809341
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 26,
-      "Name": "scav",
-      "Position": {
-        "x": 224.247665,
-        "y": 7.32639837,
-        "z": -16.519907
+        "x": 104.709114,
+        "y": 3.24114561,
+        "z": 386.05545
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
@@ -261,53 +201,13 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 26,
+      "MapName": "tarkovstreets",
+      "GroupNum": 53,
       "Name": "scav",
       "Position": {
-        "x": 203.644989,
-        "y": 1.31317246,
-        "z": -19.96206
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 26,
-      "Name": "scav",
-      "Position": {
-        "x": 205.890244,
-        "y": 7.731737,
-        "z": -114.224388
-      },
-      "WildSpawnType": "assault",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 330.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80.0
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 27,
-      "Name": "scav",
-      "Position": {
-        "x": 79.85322,
-        "y": 1.069809,
-        "z": -76.95555
+        "x": 160.149323,
+        "y": 3.3326745,
+        "z": 338.474884
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
@@ -321,19 +221,19 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 27,
+      "MapName": "tarkovstreets",
+      "GroupNum": 54,
       "Name": "scav",
       "Position": {
-        "x": 16.7682743,
-        "y": -1.183743,
-        "z": 111.828346
+        "x": 250.056976,
+        "y": 3.33356953,
+        "z": 380.708679
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -341,19 +241,19 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 27,
+      "MapName": "tarkovstreets",
+      "GroupNum": 54,
       "Name": "scav",
       "Position": {
-        "x": 15.29601,
-        "y": -0.4520636,
-        "z": -35.465332
+        "x": 232.332489,
+        "y": -1.25006688,
+        "z": 373.507538
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 250.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -361,19 +261,19 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 28,
+      "MapName": "tarkovstreets",
+      "GroupNum": 54,
       "Name": "scav",
       "Position": {
-        "x": 8.467427,
-        "y": 1.10065293,
-        "z": -114.973175
+        "x": 189.851273,
+        "y": 3.41835785,
+        "z": 320.476685
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -381,13 +281,13 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 28,
+      "MapName": "tarkovstreets",
+      "GroupNum": 55,
       "Name": "scav",
       "Position": {
-        "x": -159.982742,
-        "y": 0.5822952,
-        "z": 6.14178944
+        "x": 206.2159,
+        "y": 3.92399788,
+        "z": 303.932281
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
@@ -401,13 +301,93 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 28,
+      "MapName": "tarkovstreets",
+      "GroupNum": 55,
       "Name": "scav",
       "Position": {
-        "x": -185.748047,
-        "y": 0.8560567,
-        "z": -123.501091
+        "x": 18.0056515,
+        "y": 2.16833639,
+        "z": 215.390182
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 290.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 55,
+      "Name": "scav",
+      "Position": {
+        "x": 61.9528465,
+        "y": 2.57886457,
+        "z": 287.1624
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 310.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 56,
+      "Name": "scav",
+      "Position": {
+        "x": 77.07757,
+        "y": 2.55629849,
+        "z": 301.570679
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 56,
+      "Name": "scav",
+      "Position": {
+        "x": -97.63822,
+        "y": 5.04110861,
+        "z": 62.654274
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 57,
+      "Name": "scav",
+      "Position": {
+        "x": -67.4353256,
+        "y": 0.933495164,
+        "z": 117.00882
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
@@ -421,13 +401,13 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 29,
+      "MapName": "tarkovstreets",
+      "GroupNum": 57,
       "Name": "scav",
       "Position": {
-        "x": -287.29483,
-        "y": 0.9125377,
-        "z": -137.90889
+        "x": -87.32377,
+        "y": 2.197751,
+        "z": 297.287
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
@@ -441,19 +421,19 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 29,
+      "MapName": "tarkovstreets",
+      "GroupNum": 58,
       "Name": "scav",
       "Position": {
-        "x": -212.311523,
-        "y": 1.19487786,
-        "z": -215.859741
+        "x": 66.0016861,
+        "y": 0.3661974,
+        "z": 124.907639
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -461,19 +441,39 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "bigmap",
-      "GroupNum": 29,
+      "MapName": "tarkovstreets",
+      "GroupNum": 58,
       "Name": "scav",
       "Position": {
-        "x": -275.894379,
-        "y": 0.09617079,
-        "z": -213.95578
+        "x": 110.489738,
+        "y": 0.936501265,
+        "z": 155.374527
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 270.0,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 59,
+      "Name": "scav",
+      "Position": {
+        "x": 133.318344,
+        "y": -0.117149048,
+        "z": 126.059288
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 275.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
