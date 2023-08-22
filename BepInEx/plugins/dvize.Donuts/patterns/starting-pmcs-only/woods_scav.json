@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "woods",
-      "GroupNum": 12,
+      "GroupNum": 20,
       "Name": "Between House and Wood",
       "Position": {
         "x": 268.081146,
@@ -11,18 +11,18 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 75.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 500.0,
       "BotTimerTrigger": 240.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 13,
+      "GroupNum": 20,
       "Name": "Dead Area",
       "Position": {
         "x": 208.995682,
@@ -31,18 +31,18 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 100.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 14,
+      "GroupNum": 21,
       "Name": "Dead Area",
       "Position": {
         "x": -17.98926,
@@ -50,19 +50,19 @@
         "z": -338.33017
       },
       "WildSpawnType": "assault",
-      "MinDistance": 15.0,
-      "MaxDistance": 100.0,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 270.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 15,
+      "GroupNum": 22,
       "Name": "Plane",
       "Position": {
         "x": -285.4664,
@@ -71,18 +71,18 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 100.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 16,
+      "GroupNum": 23,
       "Name": "RUAF",
       "Position": {
         "x": -471.124329,
@@ -91,18 +91,18 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 25.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 17,
+      "GroupNum": 24,
       "Name": "Big Mountain",
       "Position": {
         "x": -309.583,
@@ -115,14 +115,14 @@
       "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 18,
+      "GroupNum": 24,
       "Name": "Big Mountain North",
       "Position": {
         "x": -139.427628,
@@ -135,14 +135,14 @@
       "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 19,
+      "GroupNum": 25,
       "Name": "by Outskirts",
       "Position": {
         "x": 204.053055,
@@ -151,18 +151,18 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 40.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "woods",
-      "GroupNum": 19,
+      "GroupNum": 25,
       "Name": "Outskirts",
       "Position": {
         "x": 200.465668,
@@ -171,14 +171,234 @@
       },
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
-      "MaxDistance": 40.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 500.1,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 26,
+      "Name": "scav",
+      "Position": {
+        "x": 277.468658,
+        "y": 15.0294485,
+        "z": -369.9277
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 160.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 26,
+      "Name": "scav",
+      "Position": {
+        "x": 141.70755,
+        "y": 12.47287,
+        "z": -503.001984
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 27,
+      "Name": "scav",
+      "Position": {
+        "x": 46.010704,
+        "y": 25.0883522,
+        "z": -372.403564
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 27,
+      "Name": "scav",
+      "Position": {
+        "x": -25.8119888,
+        "y": 8.886549,
+        "z": -133.364731
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 220.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 27,
+      "Name": "scav",
+      "Position": {
+        "x": 28.81176,
+        "y": -3.31507778,
+        "z": 0.7495092
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 245.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 28,
+      "Name": "scav",
+      "Position": {
+        "x": -153.502884,
+        "y": 13.0212927,
+        "z": -5.120293
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 28,
+      "Name": "scav",
+      "Position": {
+        "x": -187.134979,
+        "y": -1.87047791,
+        "z": 232.084885
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 28,
+      "Name": "scav",
+      "Position": {
+        "x": -238.72229,
+        "y": 6.225195,
+        "z": 82.0767746
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 29,
+      "Name": "scav",
+      "Position": {
+        "x": -463.5858,
+        "y": 8.642706,
+        "z": 7.25546026
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 29,
+      "Name": "scav",
+      "Position": {
+        "x": -177.452011,
+        "y": 19.1044617,
+        "z": -42.70893
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 180.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 30,
+      "Name": "scav",
+      "Position": {
+        "x": -126.614754,
+        "y": 20.0802174,
+        "z": -464.7535
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 300.0,
+      "BotTimerTrigger": 200.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
     }
   ]
 }
