@@ -71,12 +71,12 @@
       "reserve": 65
     },
     "bloodhounds": {
-      "customs": 5,
-      "woods": 5,
-      "shoreline": 5
+      "customs": 0,
+      "woods": 0,
+      "shoreline": 0
     },
     "crazyscavs": {
-      "shoreline": 5
+      "shoreline": 0
     }
   },
   "PMCs": {
@@ -92,15 +92,15 @@
     "scavInLabs": false
   },
 	"MaxBotCap": {
-		"factory": 18,
-		"customs": 26,
-		"woods": 28,
+		"factory": 20,
+		"customs": 28,
+		"woods": 30,
 		"shoreline": 28,
 		"lighthouse": 32,
-		"reserve": 26,
-		"interchange": 26,
+		"reserve": 28,
+		"interchange": 28,
 		"laboratory": 20,
-		"streets": 28
+		"streets": 30
 	},
   "NightMaxBotCap": {
 		"factory_night": 18,
