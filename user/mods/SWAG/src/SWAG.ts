@@ -945,6 +945,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     bossEscortAmount.sort((a, b) => a - b); // Sort the occurrences in ascending order
 
+    // thank you DrakiaXYZ, you're a legend
+    if (bossEscortAmount.length == 0) {
+      bossEscortAmount.push(0);
+    }
+
     return bossEscortAmount.join(',');
   }
 
