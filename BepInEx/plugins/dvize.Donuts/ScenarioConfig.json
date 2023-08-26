@@ -322,5 +322,32 @@
       "CustomsBotLimit": 8,
       "TarkovStreetsBotLimit": 8
     }
+  },
+  {
+    "Name": "questing-bots-live-like",
+    "Weight": 0,
+    "RandomSelection": false,
+  	"PMCBotLimitPresets": {
+      "FactoryBotLimit": 8,
+      "InterchangeBotLimit": 14,
+      "LaboratoryBotLimit": 10,
+      "LighthouseBotLimit": 12,
+      "ReserveBotLimit": 12,
+      "ShorelineBotLimit": 14,
+      "WoodsBotLimit": 14,
+      "CustomsBotLimit": 12,
+      "TarkovStreetsBotLimit": 14
+    },
+    "SCAVBotLimitPresets": {
+      "FactoryBotLimit": 4,
+      "InterchangeBotLimit": 8,
+      "LaboratoryBotLimit": 4,
+      "LighthouseBotLimit": 8,
+      "ReserveBotLimit": 8,
+      "ShorelineBotLimit": 8,
+      "WoodsBotLimit": 8,
+      "CustomsBotLimit": 8,
+      "TarkovStreetsBotLimit": 8
+    }
   }
 ]
