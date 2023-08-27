@@ -14,7 +14,7 @@
 		"customs": 1,
 		"woods": 1,
 		"shoreline": 1,
-		"lighthouse": 1,
+		"lighthouse": 2,
 		"reserve": 1,
 		"interchange": 1,
 		"laboratory": 1,
@@ -25,34 +25,34 @@
   },
 	"BossChance": {
     "glukhar": {
-      "reserve": 20,
-      "streets": 20
+      "reserve": 30,
+      "streets": 30
     },
     "killa": {
-      "interchange": 20,
-      "streets": 20
+      "interchange": 30,
+      "streets": 30
     },
     "tagilla": {
-      "factory": 20,
-      "factory_night": 20
+      "factory": 30,
+      "factory_night": 30
     },
     "zryachiy": {
       "lighthouse": 100
     },
     "sanitar": {
-      "shoreline": 20
+      "shoreline": 30
     },
     "reshala": {
-      "customs": 20
+      "customs": 30
     },
     "shturman": {
-      "woods": 20
+      "woods": 30
     },
     "goons": {
-      "customs": 20,
-      "woods": 20,
-      "shoreline": 20,
-      "lighthouse": 20
+      "customs": 30,
+      "woods": 30,
+      "shoreline": 30,
+      "lighthouse": 30
     },
     "cultists": {
       "customs": 10,
@@ -68,12 +68,12 @@
       "reserve": 65
     },
     "bloodhounds": {
-      "customs": 5,
-      "woods": 5,
-      "shoreline": 5
+      "customs": 0,
+      "woods": 0,
+      "shoreline": 0
     },
     "crazyscavs": {
-      "shoreline": 25
+      "shoreline": 0
     }
   },
   "PMCs": {
@@ -89,7 +89,7 @@
     "scavInLabs": false
   },
 	"MaxBotCap": {
-		"factory": 20,
+		"factory": 18,
 		"customs": 28,
 		"woods": 30,
 		"shoreline": 28,
