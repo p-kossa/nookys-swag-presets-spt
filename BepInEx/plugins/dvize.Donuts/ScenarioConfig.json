@@ -349,5 +349,86 @@
       "CustomsBotLimit": 8,
       "TarkovStreetsBotLimit": 8
     }
+  },
+  {
+    "Name": "questing-bots-live-like-alt",
+    "Weight": 0,
+    "RandomSelection": false,
+  	"PMCBotLimitPresets": {
+      "FactoryBotLimit": 8,
+      "InterchangeBotLimit": 14,
+      "LaboratoryBotLimit": 10,
+      "LighthouseBotLimit": 12,
+      "ReserveBotLimit": 12,
+      "ShorelineBotLimit": 14,
+      "WoodsBotLimit": 14,
+      "CustomsBotLimit": 12,
+      "TarkovStreetsBotLimit": 14
+    },
+    "SCAVBotLimitPresets": {
+      "FactoryBotLimit": 4,
+      "InterchangeBotLimit": 8,
+      "LaboratoryBotLimit": 4,
+      "LighthouseBotLimit": 8,
+      "ReserveBotLimit": 8,
+      "ShorelineBotLimit": 8,
+      "WoodsBotLimit": 8,
+      "CustomsBotLimit": 8,
+      "TarkovStreetsBotLimit": 8
+    }
+  },
+  {
+    "Name": "questing-bots-morescavs",
+    "Weight": 0,
+    "RandomSelection": false,
+    "PMCBotLimitPresets": {
+      "FactoryBotLimit": 4,
+      "InterchangeBotLimit": 8,
+      "LaboratoryBotLimit": 10,
+      "LighthouseBotLimit": 8,
+      "ReserveBotLimit": 8,
+      "ShorelineBotLimit": 8,
+      "WoodsBotLimit": 8,
+      "CustomsBotLimit": 8,
+      "TarkovStreetsBotLimit": 8
+    },
+    "SCAVBotLimitPresets": {
+      "FactoryBotLimit": 8,
+      "InterchangeBotLimit": 12,
+      "LaboratoryBotLimit": 4,
+      "LighthouseBotLimit": 12,
+      "ReserveBotLimit": 12,
+      "ShorelineBotLimit": 12,
+      "WoodsBotLimit": 12,
+      "CustomsBotLimit": 12,
+      "TarkovStreetsBotLimit": 12
+    }
+  },
+  {
+    "Name": "questing-bots-morepmcs",
+    "Weight": 0,
+    "RandomSelection": false,
+  	"PMCBotLimitPresets": {
+      "FactoryBotLimit": 10,
+      "InterchangeBotLimit": 18,
+      "LaboratoryBotLimit": 14,
+      "LighthouseBotLimit": 16,
+      "ReserveBotLimit": 16,
+      "ShorelineBotLimit": 18,
+      "WoodsBotLimit": 18,
+      "CustomsBotLimit": 16,
+      "TarkovStreetsBotLimit": 18
+    },
+    "SCAVBotLimitPresets": {
+      "FactoryBotLimit": 2,
+      "InterchangeBotLimit": 4,
+      "LaboratoryBotLimit": 4,
+      "LighthouseBotLimit": 4,
+      "ReserveBotLimit": 4,
+      "ShorelineBotLimit": 4,
+      "WoodsBotLimit": 4,
+      "CustomsBotLimit": 4,
+      "TarkovStreetsBotLimit": 4
+    }
   }
 ]
