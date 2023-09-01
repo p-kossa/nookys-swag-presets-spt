@@ -641,12 +641,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       SWAG.actual_timers.time_max = group.Time_max
     }
 
-    let pmc_random_weight = SWAG.getRandIntInclusive(1, 100)
-    let scav_random_weight = SWAG.getRandIntInclusive(1, 100)
-    let rogue_random_weight = SWAG.getRandIntInclusive(1, 100)
-    let raider_random_weight = SWAG.getRandIntInclusive(1, 100)
-    let bloodhound_random_weight = SWAG.getRandIntInclusive(1, 100)
-    let crazyscav_random_weight = SWAG.getRandIntInclusive(1, 100)
+    let roll = SWAG.getRandIntInclusive(1, 100)
 
     if (botType === "pmc" || botType === "sptUsec" || botType === "sptBear" ) {
       player = true
@@ -663,7 +658,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         botCount = 0
       }
       // PMC weight check - let's not skip any Factory starting waves, so check for OnlySpawnOnce here
-      else if (pmc_random_weight >= config.PMCs.pmcSpawnWeight && group.OnlySpawnOnce === false) {
+      else if (roll >= config.PMCs.pmcSpawnWeight && group.OnlySpawnOnce === false) {
         slots = 0
         botCount = 0
       }
@@ -681,34 +676,34 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       }
 
       // SCAV weight check
-      else if (scav_random_weight >= config.Others.scavSpawnWeight) {
+      else if (roll >= config.Others.scavSpawnWeight) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "exUsec") {
-      if (rogue_random_weight >= config.BossChance.rogues[reverseMapNames[globalmap]]) {
+      if (roll >= config.BossChance.rogues[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "pmcBot") {
-      if (raider_random_weight >= config.BossChance.raiders[reverseMapNames[globalmap]]) {
+      if (roll >= config.BossChance.raiders[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "arenaFighterEvent") {
-      if (bloodhound_random_weight >= config.BossChance.bloodhounds[reverseMapNames[globalmap]]) {
+      if (roll >= config.BossChance.bloodhounds[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
     }
     else if (botType === "crazyAssaultEvent") {
-      if (crazyscav_random_weight >= config.BossChance.crazyscavs[reverseMapNames[globalmap]]) {
+      if (roll >= config.BossChance.crazyscavs[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
