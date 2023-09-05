@@ -12,17 +12,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 30.0,
-      "BotTriggerDistance": 450.1,
+      "BotTriggerDistance": 250.1,
       "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 54,
+      "GroupNum": 51,
       "Name": "Underground",
       "Position": {
         "x": -108.051163,
@@ -35,14 +35,14 @@
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 230.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 54,
+      "GroupNum": 51,
       "Name": "D2",
       "Position": {
         "x": -66.8366,
@@ -55,14 +55,14 @@
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 54,
+      "GroupNum": 51,
       "Name": "Underground Alt",
       "Position": {
         "x": -155.9918,
@@ -74,15 +74,15 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 75.0
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 55,
+      "GroupNum": 52,
       "Name": "Barracks 3rd",
       "Position": {
         "x": -170.587326,
@@ -94,15 +94,15 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 450.1,
       "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 56,
+      "GroupNum": 53,
       "Name": "Black Pawn 3rd",
       "Position": {
         "x": -163.029236,
@@ -112,17 +112,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 75.0
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 57,
+      "GroupNum": 54,
       "Name": "scav_small_barracks",
       "Position": {
         "x": 167.649078,
@@ -135,14 +135,14 @@
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 57,
+      "GroupNum": 54,
       "Name": "scav_small_barracks_1",
       "Position": {
         "x": 159.209549,
@@ -155,14 +155,14 @@
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 210.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 58,
+      "GroupNum": 55,
       "Name": "scav_small_barracks_2",
       "Position": {
         "x": 192.5314,
@@ -175,14 +175,14 @@
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 290.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 59,
+      "GroupNum": 56,
       "Name": "scav_depot",
       "Position": {
         "x": 156.224625,
@@ -192,17 +192,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 3.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "rezervbase",
-      "GroupNum": 59,
+      "GroupNum": 57,
       "Name": "scav_depot_front",
       "Position": {
         "x": 125.359467,
@@ -214,8 +214,8 @@
       "MaxDistance": 3.0,
       "BotTriggerDistance": 450.0,
       "BotTimerTrigger": 190.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 70,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80

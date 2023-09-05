@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "interchange",
-      "GroupNum": 20,
+      "GroupNum": 50,
       "Name": "Railway Near IDEA",
       "Position": {
         "x": 212.993637,
@@ -12,17 +12,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 100.0,
-      "BotTriggerDistance": 450.1,
+      "BotTriggerDistance": 700.1,
       "BotTimerTrigger": 160.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "interchange",
-      "GroupNum": 20,
+      "GroupNum": 50,
       "Name": "Railway Scav",
       "Position": {
         "x": 344.0182,
@@ -32,7 +32,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 65.0,
-      "BotTriggerDistance": 450.1,
+      "BotTriggerDistance": 700.1,
       "BotTimerTrigger": 200.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
@@ -42,7 +42,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 21,
+      "GroupNum": 51,
       "Name": "Emercom behind Goshan",
       "Position": {
         "x": -219.9878,
@@ -52,7 +52,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.1,
+      "BotTriggerDistance": 700.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
@@ -62,7 +62,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 22,
+      "GroupNum": 52,
       "Name": "underground pkg",
       "Position": {
         "x": 23.028368,
@@ -72,7 +72,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
@@ -82,7 +82,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 22,
+      "GroupNum": 52,
       "Name": "underground pkg",
       "Position": {
         "x": -90.29459,
@@ -92,7 +92,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
@@ -102,7 +102,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 23,
+      "GroupNum": 53,
       "Name": "Inside OLI",
       "Position": {
         "x": -56.1080322,
@@ -112,7 +112,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 270.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
@@ -122,7 +122,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 24,
+      "GroupNum": 54,
       "Name": "IDEA Back Rooms",
       "Position": {
         "x": -35.60449,
@@ -132,7 +132,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 65,
@@ -142,7 +142,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 25,
+      "GroupNum": 55,
       "Name": "scav camp just outside mall",
       "Position": {
         "x": 177.349289,
@@ -152,7 +152,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 3.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
@@ -162,7 +162,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 25,
+      "GroupNum": 55,
       "Name": "scav",
       "Position": {
         "x": 274.5358,
@@ -172,17 +172,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 160.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 26,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": 257.869171,
@@ -192,7 +192,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
@@ -202,7 +202,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 26,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": 273.679138,
@@ -212,17 +212,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 26,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": 158.683136,
@@ -232,17 +232,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 27,
+      "GroupNum": 57,
       "Name": "scav",
       "Position": {
         "x": 188.709381,
@@ -257,12 +257,12 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 27,
+      "GroupNum": 57,
       "Name": "scav",
       "Position": {
         "x": 22.7758,
@@ -277,12 +277,12 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 27,
+      "GroupNum": 57,
       "Name": "scav",
       "Position": {
         "x": -279.694031,
@@ -297,12 +297,12 @@
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "interchange",
-      "GroupNum": 28,
+      "GroupNum": 58,
       "Name": "scav",
       "Position": {
         "x": -147.804825,
@@ -312,7 +312,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
@@ -322,7 +322,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 28,
+      "GroupNum": 58,
       "Name": "scav",
       "Position": {
         "x": -114.738548,
@@ -332,7 +332,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
@@ -342,7 +342,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 29,
+      "GroupNum": 59,
       "Name": "scav inter udg pkg",
       "Position": {
         "x": 43.3203125,
@@ -352,7 +352,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
@@ -362,7 +362,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 29,
+      "GroupNum": 59,
       "Name": "scav inter udg pkg",
       "Position": {
         "x": 3.87580514,
@@ -372,8 +372,8 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 300.0,
+      "BotTriggerDistance": 250.0,
+      "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -382,7 +382,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 29,
+      "GroupNum": 60,
       "Name": "scav inter udg pkg",
       "Position": {
         "x": 20.6282368,
@@ -392,8 +392,8 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 180.0,
+      "BotTriggerDistance": 700.0,
+      "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -402,7 +402,7 @@
     },
     {
       "MapName": "interchange",
-      "GroupNum": 29,
+      "GroupNum": 60,
       "Name": "scav inter udg pkg",
       "Position": {
         "x": 69.3988,
@@ -412,7 +412,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 700.0,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 65,

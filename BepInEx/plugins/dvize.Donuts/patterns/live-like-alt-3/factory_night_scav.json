@@ -1,7 +1,7 @@
 {
   "Locations": [
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 50,
       "Name": "Bathroom",
       "Position": {
@@ -21,7 +21,7 @@
       "MinSpawnDistanceFromPlayer": 25
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 51,
       "Name": "Factory Underground Loot",
       "Position": {
@@ -41,7 +41,7 @@
       "MinSpawnDistanceFromPlayer": 25
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 51,
       "Name": "scav",
       "Position": {
@@ -61,7 +61,7 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 51,
       "Name": "scav",
       "Position": {
@@ -77,11 +77,11 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 52,
       "Name": "scav",
       "Position": {
@@ -101,7 +101,7 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 52,
       "Name": "scav",
       "Position": {
@@ -121,7 +121,7 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 52,
       "Name": "scav",
       "Position": {
@@ -141,7 +141,7 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 53,
       "Name": "scav",
       "Position": {
@@ -157,11 +157,11 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 53,
       "Name": "scav",
       "Position": {
@@ -177,11 +177,11 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 53,
       "Name": "scav",
       "Position": {
@@ -197,11 +197,11 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 54,
       "Name": "scav",
       "Position": {
@@ -221,7 +221,7 @@
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
-      "MapName": "factory4_day",
+      "MapName": "factory4_night",
       "GroupNum": 54,
       "Name": "scav",
       "Position": {
@@ -237,7 +237,7 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     }
   ]

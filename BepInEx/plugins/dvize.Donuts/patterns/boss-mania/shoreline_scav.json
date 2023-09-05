@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "shoreline",
-      "GroupNum": 70,
+      "GroupNum": 50,
       "Name": "Dead Area",
       "Position": {
         "x": -750.6538,
@@ -22,7 +22,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 71,
+      "GroupNum": 50,
       "Name": "Dead Area",
       "Position": {
         "x": -786.4357,
@@ -42,7 +42,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 72,
+      "GroupNum": 50,
       "Name": "Dead Area",
       "Position": {
         "x": -593.2397,
@@ -62,7 +62,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 73,
+      "GroupNum": 51,
       "Name": "PowerStation_East",
       "Position": {
         "x": -300.0744,
@@ -72,17 +72,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 300.0,
       "BotTimerTrigger": 330.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCooldown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCooldown": 4,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 74,
+      "GroupNum": 51,
       "Name": "RadioStation_South",
       "Position": {
         "x": -476.069,
@@ -92,7 +92,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 450.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 450.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -102,7 +102,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 75,
+      "GroupNum": 52,
       "Name": "Cottage_North",
       "Position": {
         "x": 128.570343,
@@ -112,7 +112,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -122,7 +122,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 75,
+      "GroupNum": 52,
       "Name": "Dead Area",
       "Position": {
         "x": 329.338,
@@ -132,7 +132,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -142,7 +142,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 75,
+      "GroupNum": 52,
       "Name": "Dead Area",
       "Position": {
         "x": 27.1451187,
@@ -152,17 +152,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.1,
+      "BotTriggerDistance": 700.1,
       "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 76,
+      "GroupNum": 53,
       "Name": "East of Resort",
       "Position": {
         "x": -498.395752,
@@ -172,17 +172,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550.1,
+      "BotTriggerDistance": 700.1,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 76,
+      "GroupNum": 53,
       "Name": "NW of Resort",
       "Position": {
         "x": 95.51124,
@@ -192,17 +192,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550.1,
+      "BotTriggerDistance": 700.1,
       "BotTimerTrigger": 350.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 77,
+      "GroupNum": 54,
       "Name": "Gas Front of Resort",
       "Position": {
         "x": -97.5822144,
@@ -212,17 +212,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550.1,
+      "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 78,
+      "GroupNum": 55,
       "Name": "NW Resort",
       "Position": {
         "x": -8.533645,
@@ -232,17 +232,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550.1,
+      "BotTriggerDistance": 700.1,
       "BotTimerTrigger": 180.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 78,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -436.477783,
@@ -252,7 +252,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -262,7 +262,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 78,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -495.3354,
@@ -272,17 +272,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 79,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -658.2871,
@@ -292,7 +292,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 250.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -302,7 +302,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 79,
+      "GroupNum": 57,
       "Name": "scav",
       "Position": {
         "x": -678.720032,
@@ -312,7 +312,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 350.0,
       "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -322,7 +322,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 79,
+      "GroupNum": 57,
       "Name": "scav",
       "Position": {
         "x": -806.8778,
@@ -332,8 +332,8 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 300.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -342,7 +342,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 80,
+      "GroupNum": 57,
       "Name": "scav",
       "Position": {
         "x": -636.4413,
@@ -352,8 +352,8 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
-      "BotTimerTrigger": 330.0,
+      "BotTriggerDistance": 350.0,
+      "BotTimerTrigger": 280.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
@@ -362,7 +362,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 80,
+      "GroupNum": 58,
       "Name": "scav",
       "Position": {
         "x": -443.50882,
@@ -372,9 +372,9 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 270.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
@@ -382,7 +382,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 80,
+      "GroupNum": 58,
       "Name": "scav",
       "Position": {
         "x": -318.428833,
@@ -392,17 +392,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 160.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 81,
+      "GroupNum": 58,
       "Name": "scav",
       "Position": {
         "x": -369.863464,
@@ -412,7 +412,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 220.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -422,7 +422,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 81,
+      "GroupNum": 59,
       "Name": "scav",
       "Position": {
         "x": -473.045441,
@@ -432,9 +432,9 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
@@ -442,7 +442,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 81,
+      "GroupNum": 59,
       "Name": "scav",
       "Position": {
         "x": -310.561829,
@@ -452,7 +452,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 400.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -462,7 +462,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 82,
+      "GroupNum": 59,
       "Name": "scav",
       "Position": {
         "x": -226.843521,
@@ -472,7 +472,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 375.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -482,7 +482,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 82,
+      "GroupNum": 60,
       "Name": "scav",
       "Position": {
         "x": -235.093216,
@@ -492,7 +492,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 290.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -502,7 +502,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 82,
+      "GroupNum": 60,
       "Name": "scav",
       "Position": {
         "x": -107.538971,
@@ -512,9 +512,9 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
@@ -522,7 +522,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 73,
+      "GroupNum": 60,
       "Name": "scav",
       "Position": {
         "x": 50.7748032,
@@ -532,7 +532,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 160.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -542,7 +542,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 73,
+      "GroupNum": 61,
       "Name": "scav",
       "Position": {
         "x": 165.518311,
@@ -552,7 +552,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 320.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -562,7 +562,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 83,
+      "GroupNum": 61,
       "Name": "scav",
       "Position": {
         "x": 379.874268,
@@ -572,7 +572,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -582,7 +582,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 83,
+      "GroupNum": 62,
       "Name": "scav",
       "Position": {
         "x": -126.465096,
@@ -592,7 +592,7 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 300.0,
       "MaxRandomNumBots": 2,
       "SpawnChance": 55,
@@ -602,7 +602,7 @@
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 84,
+      "GroupNum": 62,
       "Name": "scav",
       "Position": {
         "x": -175.851563,
@@ -612,17 +612,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
       "MapName": "shoreline",
-      "GroupNum": 84,
+      "GroupNum": 62,
       "Name": "scav",
       "Position": {
         "x": -267.8844,
@@ -632,11 +632,11 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300.0,
+      "BotTriggerDistance": 600.0,
       "BotTimerTrigger": 220.0,
-      "MaxRandomNumBots": 2,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80.0
     }
