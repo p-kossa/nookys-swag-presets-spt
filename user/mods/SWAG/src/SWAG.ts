@@ -629,6 +629,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let player = false
     let botType = roleCase[bot.BotType.toLowerCase()] ? roleCase[bot.BotType.toLowerCase()] : bot.BotType
     let botCount = bot.MaxBotCount
+    let swagPMCconfig = config["SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS"].PMCs
+    let swagSCAVconfig = config["SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS"].SCAVs
 
     if (group.OnlySpawnOnce === false && group.RandomTimeSpawn === false) {
       if (SWAG.waveCounter.count == 1) {
@@ -653,30 +655,30 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       }
 
       // pmcWaves is false then we need to skip this PMC wave
-      if (config.PMCs.pmcWaves === false) {
+      if (swagPMCconfig.pmcWaves === false) {
         slots = 0
         botCount = 0
       }
       // PMC weight check - let's not skip any Factory starting waves, so check for OnlySpawnOnce here
-      else if (roll >= config.PMCs.pmcSpawnWeight && group.OnlySpawnOnce === false) {
+      else if (roll >= swagPMCconfig.pmcSpawnWeight && group.OnlySpawnOnce === false) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "assault") {
-      if (config.Others.scavWaves === false) {
+      if (swagSCAVconfig.scavWaves === false) {
         slots = 0
         botCount = 0
       }
       // If this is Labs, then don't allow SCAVs to spawn
-      else if (globalmap === "laboratory" && config.Others.scavInLabs === false) {
+      else if (globalmap === "laboratory" && swagSCAVconfig.scavInLabs === false) {
         slots = 0
         botCount = 0
       }
 
       // SCAV weight check
-      else if (roll >= config.Others.scavSpawnWeight) {
+      else if (roll >= swagSCAVconfig.scavSpawnWeight) {
         slots = 0
         botCount = 0
       }
@@ -774,7 +776,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     // first check if BossChance is defined for this spawn
     let spawnChance = boss.BossChance ? boss.BossChance : 100
     let group_chance = boss.BossEscortAmount
-    let pmcChance = config.PMCs.pmcChance
+
+    let swagPMCconfig = config["SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS"].PMCs
+    let swagSCAVconfig = config["SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS"].SCAVs
+
+    let pmcChance = swagPMCconfig.pmcChance
 
     let difficulty = diffProper[config.aiDifficulty.toLowerCase()]
     let escort_difficulty = diffProper[config.aiDifficulty.toLowerCase()]
@@ -855,7 +861,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance
         break;
       case 'marksman':
-        spawnChance = boss.BossChance ? boss.BossChance : config.Others.sniperChance[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.snipers[reverseMapNames[globalmap]]
         break;
       case 'assault':
         spawnChance = boss.BossChance ? boss.BossChance : 100
@@ -879,10 +885,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 
     if (bossName === "sptUsec" || bossName === "sptBear") {
-      group_chance = boss.BossEscortAmount ? boss.BossEscortAmount : SWAG.generatePmcGroupChance(config.PMCs.pmcGroupChance)
-    }
-    else if (bossName === "marksman" ) {
-      spawnChance = config.Others.sniperChance
+      group_chance = boss.BossEscortAmount ? boss.BossEscortAmount : SWAG.generatePmcGroupChance(swagPMCconfig.pmcGroupChance)
     }
 
     // if there's a trigger defined then we need to define it for this wave

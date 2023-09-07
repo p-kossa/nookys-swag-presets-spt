@@ -74,19 +74,27 @@
     },
     "crazyscavs": {
       "shoreline": 0
+    },
+    "snipers": {
+      "customs": 50,
+      "lighthouse": 50,
+      "shoreline": 50,
+      "streets": 50,
+      "woods": 50
     }
   },
-  "PMCs": {
-    "pmcWaves": false,
-    "pmcSpawnWeight": 0,
-    "pmcChance": 0,
-    "pmcGroupChance": "asonline"
-  },
-  "Others": {
-    "scavWaves": false,
-    "scavSpawnWeight": 0,
-    "sniperChance": 50,
-    "scavInLabs": false
+  "SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS": {
+    "PMCs": {
+      "pmcWaves": false,
+      "pmcSpawnWeight": 0,
+      "pmcChance": 0,
+      "pmcGroupChance": "asonline"
+    },
+    "SCAVs": {
+      "scavWaves": false,
+      "scavSpawnWeight": 0,
+      "scavInLabs": false
+    }
   },
 	"MaxBotCap": {
 		"factory": 18,
