@@ -1,0 +1,84 @@
+{
+  "Locations": [
+    {
+      "MapName": "laboratory",
+      "GroupNum": 12,
+      "Name": "Labs Garage",
+      "Position": {
+        "x": -231.413528,
+        "y": 0.0224826038,
+        "z": -415.191864
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
+      "BotTimerTrigger": 300.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 13,
+      "Name": "Labs Bathroom 1st",
+      "Position": {
+        "x": -269.499847,
+        "y": 0.05300026,
+        "z": -281.15802
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
+      "BotTimerTrigger": 400.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 14,
+      "Name": "Labs Garage",
+      "Position": {
+        "x": -170.620956,
+        "y": 0.04476163,
+        "z": -266.309662
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
+      "BotTimerTrigger": 500.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 15,
+      "Name": "Labs Hospital Beds",
+      "Position": {
+        "x": -137.68808,
+        "y": 4.099992,
+        "z": -401.070679
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 1500.0,
+      "BotTimerTrigger": 600.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 25.0
+    }
+  ]
+}

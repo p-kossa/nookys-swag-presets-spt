@@ -270,6 +270,33 @@
     }
   },
   {
+    "Name": "no-scavs",
+    "Weight": 0,
+    "RandomSelection": false,
+    "PMCBotLimitPresets": {
+      "FactoryBotLimit": 12,
+      "InterchangeBotLimit": 20,
+      "LaboratoryBotLimit": 16,
+      "LighthouseBotLimit": 20,
+      "ReserveBotLimit": 18,
+      "ShorelineBotLimit": 18,
+      "WoodsBotLimit": 18,
+      "CustomsBotLimit": 18,
+      "TarkovStreetsBotLimit": 20
+    },
+    "SCAVBotLimitPresets": {
+      "FactoryBotLimit": 0,
+      "InterchangeBotLimit": 0,
+      "LaboratoryBotLimit": 0,
+      "LighthouseBotLimit": 0,
+      "ReserveBotLimit": 0,
+      "ShorelineBotLimit": 0,
+      "WoodsBotLimit": 0,
+      "CustomsBotLimit": 0,
+      "TarkovStreetsBotLimit": 0
+    }
+  },
+  {
     "Name": "no-pmcs",
     "Weight": 0,
     "RandomSelection": false,

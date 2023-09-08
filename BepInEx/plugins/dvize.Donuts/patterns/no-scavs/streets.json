@@ -1,0 +1,524 @@
+{
+  "Locations": [
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 19,
+      "Name": "Underpass Camper",
+      "Position": {
+        "x": 20.9011841,
+        "y": -3.73675,
+        "z": -8.576503
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 550.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 20,
+      "Name": "Apts 3rd",
+      "Position": {
+        "x": 44.3059044,
+        "y": 10.1843786,
+        "z": 73.21943
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 550.1,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 20,
+      "Name": "Apts",
+      "Position": {
+        "x": 44.52857,
+        "y": 4.18362331,
+        "z": 93.2166061
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 550.1,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 21,
+      "Name": "PMC pvp spot",
+      "Position": {
+        "x": 117.511169,
+        "y": 2.768168,
+        "z": 232.422958
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 21,
+      "Name": "PMC pvp spot",
+      "Position": {
+        "x": 153.697052,
+        "y": 3.52246547,
+        "z": 211.155167
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200.1,
+      "BotTimerTrigger": 280.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 21,
+      "Name": "pvp spot kitchen",
+      "Position": {
+        "x": 146.993912,
+        "y": 3.529985,
+        "z": 233.17807
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 22,
+      "Name": "PMC dealer garage",
+      "Position": {
+        "x": 100.661,
+        "y": 7.021845,
+        "z": 305.829956
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 22,
+      "Name": "Dealer 2nd",
+      "Position": {
+        "x": 62.48271,
+        "y": 6.85695648,
+        "z": 298.037933
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 22,
+      "Name": "PMC dealer sparja connect",
+      "Position": {
+        "x": 115.4694,
+        "y": 6.750643,
+        "z": 291.59613
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.1,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 23,
+      "Name": "skybridge top of stairs",
+      "Position": {
+        "x": 49.8566132,
+        "y": 11.7120466,
+        "z": 133.5238
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 550.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 24,
+      "Name": "Concordia",
+      "Position": {
+        "x": 271.300018,
+        "y": 3.35000086,
+        "z": 371.49472
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 550.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 24,
+      "Name": "inside concordia 2nd",
+      "Position": {
+        "x": 137.834488,
+        "y": 6.45716572,
+        "z": 345.260864
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 550.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 24,
+      "Name": "concordia pkg",
+      "Position": {
+        "x": 211.551224,
+        "y": -1.25006771,
+        "z": 385.547546
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 550.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 25,
+      "Name": "Construction",
+      "Position": {
+        "x": 201.151489,
+        "y": 6.82481,
+        "z": 294.7675
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 600.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 26,
+      "Name": "Hotel Kitchen",
+      "Position": {
+        "x": -74.22302,
+        "y": 1.30245221,
+        "z": 63.66957
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 420.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 26,
+      "Name": "Hotel Lobby",
+      "Position": {
+        "x": -102.760429,
+        "y": 1.40553415,
+        "z": 103.770088
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 360.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 27,
+      "Name": "Playground Kitchen",
+      "Position": {
+        "x": 108.780785,
+        "y": 0.4900242,
+        "z": 113.773163
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 330.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 27,
+      "Name": "Playground Top of Stairs",
+      "Position": {
+        "x": 126.297523,
+        "y": 13.5179577,
+        "z": 144.74646
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 460.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 85.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 27,
+      "Name": "inside kitchen by playground",
+      "Position": {
+        "x": 47.27164,
+        "y": 2.81825829,
+        "z": 205.406082
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 520.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 28,
+      "Name": "inside burger",
+      "Position": {
+        "x": -38.18476,
+        "y": 1.41524637,
+        "z": 137.545883
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 550.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 28,
+      "Name": "inside sparja",
+      "Position": {
+        "x": -74.48328,
+        "y": 1.41551471,
+        "z": 156.356049
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 350.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 29,
+      "Name": "inside abandoned bldg upstairs",
+      "Position": {
+        "x": -130.937881,
+        "y": 12.9909048,
+        "z": 270.878021
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 395.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 29,
+      "Name": "inside abandoned bldg",
+      "Position": {
+        "x": -108.323318,
+        "y": 8.378175,
+        "z": 286.537872
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 550.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 50.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 30,
+      "Name": "under cinema stairs",
+      "Position": {
+        "x": -148.094284,
+        "y": 2.11337948,
+        "z": 404.572327
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 320.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 30,
+      "Name": "inside bar kitchen",
+      "Position": {
+        "x": 108.588951,
+        "y": 0.490024239,
+        "z": 114.157227
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 400.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 30,
+      "Name": "connecting lobby",
+      "Position": {
+        "x": -72.7963,
+        "y": 3.19708014,
+        "z": 332.80603
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 450.0,
+      "BotTimerTrigger": 400.0,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 10,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
+    }
+  ]
+}

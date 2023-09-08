@@ -725,10 +725,10 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       slots_max: Math.floor(
         botCount *
           aiAmountProper[
-            config.aiAmount ? config.aiAmount.toLowerCase() : "asonline"
+            config.SWAG_ONLY_aiAmount ? config.SWAG_ONLY_aiAmount.toLowerCase() : "asonline"
           ]
       ),
-      BotPreset: diffProper[config.aiDifficulty.toLowerCase()],
+      BotPreset: diffProper[config.SWAG_ONLY_aiDifficulty.toLowerCase()],
       SpawnPoints:
         !!zone
           ? zone
@@ -766,7 +766,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
   ): BossLocationSpawn {
     //read support bots if defined, set the difficulty to match config
     boss?.Supports?.forEach((escort) => {
-      escort.BossEscortDifficult = [diffProper[config.aiDifficulty.toLowerCase()]];
+      escort.BossEscortDifficult = [diffProper[config.SWAG_ONLY_aiDifficulty.toLowerCase()]];
       escort.BossEscortType = roleCase[escort.BossEscortType.toLowerCase()];
     })
 
@@ -782,8 +782,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     let pmcChance = swagPMCconfig.pmcChance
 
-    let difficulty = diffProper[config.aiDifficulty.toLowerCase()]
-    let escort_difficulty = diffProper[config.aiDifficulty.toLowerCase()]
+    let difficulty = diffProper[config.SWAG_ONLY_aiDifficulty.toLowerCase()]
+    let escort_difficulty = diffProper[config.SWAG_ONLY_aiDifficulty.toLowerCase()]
 
     let boss_spawn_zone = null
     let bossName = roleCase[boss.BossName.toLowerCase()] ? roleCase[boss.BossName.toLowerCase()] : boss.BossName
