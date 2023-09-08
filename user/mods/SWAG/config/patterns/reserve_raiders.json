@@ -4,6 +4,15 @@
     "MapGroups": [],
     "MapBosses": [
       {
+        "BossEscortAmount": "1,1,1,2,2,2,3",
+        "BossEscortType": "pmcbot",
+        "BossName": "pmcbot",
+        "BossZone": ["ZoneSubCommand"],
+        "RandomTimeSpawn": false,
+        "Supports": null,
+        "Time": -1
+      },
+      {
         "BossEscortAmount": "2,2,2,2,3",
         "BossEscortType": "pmcbot",
         "BossName": "pmcbot",
@@ -35,7 +44,7 @@
         "TriggerName": "interactObject"
       },
       {
-        "BossEscortAmount": "2,2,2,2,3",
+        "BossEscortAmount": "1,1,1,2,2,2,3",
         "BossEscortType": "pmcbot",
         "BossName": "pmcbot",
         "BossZone": ["ZoneSubCommand"],

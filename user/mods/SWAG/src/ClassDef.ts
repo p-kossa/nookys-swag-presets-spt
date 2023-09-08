@@ -1,64 +1,6 @@
 import {
   BossLocationSpawn,
-  WildSpawnType,
 } from "@spt-aki/models/eft/common/ILocationBase";
-
-export interface SWAGConfig {
-  aiDifficulty: "normal" | "easy" | "hard" | "impossible" | "random";
-  aiAmount: "low" | "asonline" | "medium" | "high" | "horde";
-  RandomWaveCount: number;
-  BossWaveCount: number;
-  BossChance: {
-    gluhar: number;
-    killa: number;
-    tagilla: number;
-    zryachiy: number;
-    sanitar: number;
-    reshala: number;
-    shturman: number;
-    goons: number;
-    cultists: number;
-  };
-  SkipOtherBossWavesIfBossWaveSelected: boolean;
-  GlobalRandomWaveTimer: {
-    WaveTimerMinSec: number;
-    WaveTimerMaxSec: number;
-  };
-  MaxBotCap: {
-    factory: number;
-    customs: number;
-    woods: number;
-    shoreline: number;
-    lighthouse: number;
-    reservebase: number;
-    interchange: number;
-    laboratory: number;
-    tarkovstreets: number;
-  };
-  NightMaxBotCap: {
-    factory_night: number;
-    customs: number;
-    woods: number;
-    shoreline: number;
-    lighthouse: number;
-    reservebase: number;
-    interchange: number;
-    laboratory: number;
-    tarkovstreets: number;
-  };
-  MaxBotPerZone: number;
-  UseDefaultSpawns: {
-    Waves: boolean;
-    Bosses: boolean;
-    TriggeredWaves: boolean;
-  };
-  DebugOutput: boolean;
-}
-
-export class GlobalRandomWaveTimer {
-  static WaveTimerMinSec: number;
-  static WaveTimerMaxSec: number;
-}
 
 export interface BossPattern extends BossLocationSpawn {
   OnlySpawnOnce?: boolean;
@@ -118,44 +60,6 @@ export class Props {
   Center: Center;
   Radius: number;
 }
-
-export const roles: string[] = [
-  "assault",
-  "exusec",
-  "marksman",
-  "pmcbot",
-  "sectantpriest",
-  "sectantwarrior",
-  "assaultgroup",
-  "bossbully",
-  "bosstagilla",
-  "bossgluhar",
-  "bosskilla",
-  "bosskojaniy",
-  "bosssanitar",
-  "followerbully",
-  "followergluharassault",
-  "followergluharscout",
-  "followergluharsecurity",
-  "followergluharsnipe",
-  "followerkojaniy",
-  "followersanitar",
-  "followertagilla",
-  "cursedassault",
-  "pmc",
-  "usec",
-  "bear",
-  "sptbear",
-  "sptusec",
-  "bosstest",
-  "followertest",
-  "gifter",
-  "bossknight",
-  "followerbigpipe",
-  "followerbirdeye",
-  "bosszryachiy",
-  "followerzryachiy",
-];
 
 export const roleCase: object = {
   assault: "assault",
