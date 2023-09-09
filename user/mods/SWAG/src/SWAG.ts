@@ -889,15 +889,16 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 
     // if it's null skip this part
-    if (boss.BossZone) {
-      if (boss.BossZone.length > 1) {
+    if (boss.BossZone != null || spawnZones != null) {
+      spawnZones = boss.BossZone ? boss.BossZone : spawnZones
+      if (spawnZones.length > 1) {
         // let's just pick one zone, can't trust BSG to do this correctly
-        let random_zone = SWAG.getRandIntInclusive(0, boss.BossZone.length - 1)
-        spawnZones = boss.BossZone[random_zone]
+        let random_zone = SWAG.getRandIntInclusive(0, spawnZones.length - 1)
+        spawnZones = spawnZones[random_zone]
       }
     // if it's not > 1 and not null, then we'll assume there's a single zone defined instead
       else {
-        spawnZones = boss.BossZone[0]
+        spawnZones = spawnZones[0]
       }
     }
 
