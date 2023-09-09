@@ -35,6 +35,7 @@ import {
 } from "./ClassDef";
 
 import config from "../config/config.json";
+import bossConfig from "../config/bossConfig.json";
 
 const modName = "SWAG";
 let logger: ILogger;
@@ -361,8 +362,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           config.DebugOutput && logger.warning(`Configuring ${globalmap}`);
 
           // Configure random wave timer.. needs to be reset each map
-          SWAG.randomWaveTimer.time_min = config.GlobalRandomWaveTimer.WaveTimerMinSec;
-          SWAG.randomWaveTimer.time_max = config.GlobalRandomWaveTimer.WaveTimerMaxSec;
+          SWAG.randomWaveTimer.time_min = config.GlobalSCAVRandomWaveTimer.WaveTimerMinSec;
+          SWAG.randomWaveTimer.time_max = config.GlobalSCAVRandomWaveTimer.WaveTimerMaxSec;
 
           SWAG.SetUpGroups(mapGroups, mapBosses, globalmap);
         }
@@ -544,15 +545,15 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     let boss_name = boss.BossName
 
-    if (config.TotalBossesPerMap[reverseMapNames[globalmap]] === 0) {
+    if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === 0) {
       config.DebugOutput && logger.info("SWAG: TotalBosses set to 0 for this map, skipping boss spawn")
       return;
     }
-    else if (BossWaveSpawnedOnceAlready && config.SkipOtherBossWavesIfBossWaveSelected && boss_name.startsWith("boss")) {
-      if (config.TotalBossesPerMap[reverseMapNames[globalmap]] === -1) {
+    else if (BossWaveSpawnedOnceAlready && boss_name.startsWith("boss")) {
+      if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === -1) {
         // do nothing
       }
-      else if (SWAG.bossCount.count >= config.TotalBossesPerMap[reverseMapNames[globalmap]]) {
+      else if (SWAG.bossCount.count >= bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]]) {
         config.DebugOutput && logger.info("SWAG: Skipping boss spawn as total boss count has been met already")
         return;
       }
@@ -681,27 +682,27 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 
     else if (botType === "exUsec") {
-      if (roll >= config.BossChance.rogues[reverseMapNames[globalmap]]) {
+      if (roll >= config.spawnChances.rogues[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "pmcBot") {
-      if (roll >= config.BossChance.raiders[reverseMapNames[globalmap]]) {
+      if (roll >= config.spawnChances.raiders[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
     }
 
     else if (botType === "arenaFighterEvent") {
-      if (roll >= config.BossChance.bloodhounds[reverseMapNames[globalmap]]) {
+      if (roll >= config.spawnChances.bloodhounds[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
     }
     else if (botType === "crazyAssaultEvent") {
-      if (roll >= config.BossChance.crazyscavs[reverseMapNames[globalmap]]) {
+      if (roll >= config.spawnChances.crazyscavs[reverseMapNames[globalmap]]) {
         slots = 0
         botCount = 0
       }
@@ -741,8 +742,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     if (isRandom) {
 
       //wave time increment is getting bigger each wave. Fix this by adding maxtimer to min timer
-      SWAG.randomWaveTimer.time_min += config.GlobalRandomWaveTimer.WaveTimerMaxSec;
-      SWAG.randomWaveTimer.time_max += config.GlobalRandomWaveTimer.WaveTimerMaxSec;
+      SWAG.randomWaveTimer.time_min += config.GlobalSCAVRandomWaveTimer.WaveTimerMaxSec;
+      SWAG.randomWaveTimer.time_max += config.GlobalSCAVRandomWaveTimer.WaveTimerMaxSec;
     }
 
     // increment fixed wave timers so that we have use different timed patterns
@@ -771,11 +772,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     // first check if BossChance is defined for this spawn
     let spawnChance = boss.BossChance ? boss.BossChance : 100
+    let spawnTime = -1
+    let spawnZones = null
     let group_chance = boss.BossEscortAmount
 
     let swagPMCconfig = config["SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS"].PMCs
-    let swagSCAVconfig = config["SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS"].SCAVs
-
     let pmcChance = swagPMCconfig.pmcChance
 
     let difficulty = diffProper[config.SWAG_ONLY_aiDifficulty.toLowerCase()]
@@ -786,10 +787,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let trigger_id = ""
     let trigger_name = ""
 
+    let bossSettings = bossConfig.BossSpawns[reverseMapNames[globalmap]]
+
     switch (boss.BossName) {
       // Punisher Compatibility
       case 'bosspunisher':
-        if (config.CustomBosses.punisher) {
+        if (bossConfig.CustomBosses.punisher) {
           logger.info("SWAG: Custom Boss Punisher Compatibility Patch is ENABLED - Punisher spawn chance will be used from YOUR Punisher progress.json")
           // get actual spawn chance from punisher progress file. thank you GrooveypenguinX!
           const punisherBossProgressFilePath = path.resolve(__dirname, '../../PunisherBoss/src/progress.json');
@@ -812,43 +815,59 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         }
         break;
       case 'bosszryachiy':
-        spawnChance = config.BossChance.zryachiy[reverseMapNames[globalmap]]
+        spawnChance = bossSettings.zryachiy.chance
+        spawnTime = bossSettings.zryachiy.time
+        spawnZones = bossSettings.zryachiy.zone
         break;
       case 'bossknight':
-        spawnChance = config.BossChance.goons[reverseMapNames[globalmap]]
+        spawnChance = bossSettings.goons.chance
+        spawnTime = bossSettings.goons.time
+        spawnZones = bossSettings.goons.zone
         break;
       case 'bosstagilla':
-        spawnChance = config.BossChance.tagilla[reverseMapNames[globalmap]]
+        spawnChance = bossSettings.tagilla.chance
+        spawnTime = bossSettings.tagilla.time
+        spawnZones = bossSettings.tagilla.zone
         break;
       case 'bossgluhar':
-        spawnChance = config.BossChance.glukhar[reverseMapNames[globalmap]]
+        spawnChance = bossSettings.glukhar.chance
+        spawnTime = bossSettings.glukhar.time
+        spawnZones = bossSettings.glukhar.zone
         break;
       case 'bosssanitar':
-        spawnChance = config.BossChance.sanitar[reverseMapNames[globalmap]]
+        spawnChance = bossSettings.sanitar.chance
+        spawnTime = bossSettings.sanitar.time
+        spawnZones = bossSettings.sanitar.zone
         break;
       case 'bosskojaniy':
-        spawnChance = config.BossChance.shturman[reverseMapNames[globalmap]]
+        spawnChance = bossSettings.shturman.chance
+        spawnTime = bossSettings.shturman.time
+        spawnZones = bossSettings.shturman.zone
         break;
       case 'bossbully':
-        spawnChance = config.BossChance.reshala[reverseMapNames[globalmap]]
+        spawnChance = bossSettings.reshala.chance
+        spawnTime = bossSettings.reshala.time
+        spawnZones = bossSettings.reshala.zone
         break;
       case 'bosskilla':
-        spawnChance = config.BossChance.killa[reverseMapNames[globalmap]]
+        spawnChance = bossSettings.killa.chance
+        spawnTime = bossSettings.killa.time
+        spawnZones = bossSettings.killa.zone
         break;
       case 'sectantpriest':
-        spawnChance = config.BossChance.cultists[reverseMapNames[globalmap]]
+        spawnChance = config.spawnChances.cultists[reverseMapNames[globalmap]]
         break;
       case 'pmcbot':
-        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.raiders[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.spawnChances.raiders[reverseMapNames[globalmap]]
         break;
       case 'exusec':
-        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.rogues[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.spawnChances.rogues[reverseMapNames[globalmap]]
         break;
       case 'bloodhound':
-        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.bloodhounds[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.spawnChances.bloodhounds[reverseMapNames[globalmap]]
         break;
       case 'crazyscavs':
-        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.crazyscavs[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.spawnChances.crazyscavs[reverseMapNames[globalmap]]
         break;
       case 'sptbear':
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance
@@ -857,13 +876,13 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         spawnChance = boss.BossChance ? boss.BossChance : pmcChance
         break;
       case 'marksman':
-        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance.snipers[reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : config.spawnChances.snipers[reverseMapNames[globalmap]]
         break;
       case 'assault':
         spawnChance = boss.BossChance ? boss.BossChance : 100
         break;
       default:
-        spawnChance = boss.BossChance ? boss.BossChance : config.BossChance[bossName][reverseMapNames[globalmap]]
+        spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName].chance
         break;
     }
 
@@ -872,11 +891,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       if (boss.BossZone.length > 1) {
         // let's just pick one zone, can't trust BSG to do this correctly
         let random_zone = SWAG.getRandIntInclusive(0, boss.BossZone.length - 1)
-        boss_spawn_zone = boss.BossZone[random_zone]
+        spawnZones = boss.BossZone[random_zone]
       }
     // if it's not > 1 and not null, then we'll assume there's a single zone defined instead
       else {
-        boss_spawn_zone = boss.BossZone[0]
+        spawnZones = boss.BossZone[0]
       }
     }
 
@@ -896,8 +915,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       // Set the bossChance to guarntee the added boss wave is spawned
       BossChance: spawnChance,
       BossZone:
-        !!boss_spawn_zone
-          ? boss_spawn_zone
+        !!spawnZones
+          ? spawnZones
           : (SWAG.savedLocationData[globalmap].openZones && SWAG.savedLocationData[globalmap].openZones.length > 0
             ? randomUtil.getStringArrayValue(SWAG.savedLocationData[globalmap].openZones)
             : ""),
@@ -906,7 +925,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       BossEscortType: roleCase[boss.BossEscortType.toLowerCase()],
       BossEscortDifficult: escort_difficulty,
       BossEscortAmount: group_chance,
-      Time: boss.Time,
+      Time: boss.Time ? boss.Time : spawnTime,
       Supports: boss.Supports,
       RandomTimeSpawn: boss.RandomTimeSpawn,
       TriggerId: trigger_id,

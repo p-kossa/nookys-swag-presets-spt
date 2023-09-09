@@ -4,39 +4,102 @@
     "MapGroups": [],
     "MapBosses": [
       {
-        "Name": "Gluhar",
-        "BossName": "bossgluhar",
-        "BossEscortType": "followergluharassault",
-        "BossEscortAmount": "0",
-        "Time": -1,
+        "Name": "Goon Squad Trio",
+        "BossName": "bossknight",
+        "BossEscortType": "exusec",
+        "BossEscortAmount": "2",
         "Supports": [
           {
-            "BossEscortType": "followergluharassault",
-            "BossEscortAmount": "2"
+            "BossEscortType": "followerbigpipe",
+            "BossEscortAmount": "1"
           },
           {
-            "BossEscortType": "followergluharsecurity",
-            "BossEscortAmount": "2"
+            "BossEscortType": "followerbirdeye",
+            "BossEscortAmount": "1"
           },
           {
             "BossEscortType": "followergluharscout",
-            "BossEscortAmount": "2"
+            "BossEscortAmount": "0"
           }
         ],
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneCarShowroom"]
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Reshala",
+        "BossName": "bossbully",
+        "BossEscortType": "followerbully",
+        "BossEscortAmount": "4",
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Tagilla",
+        "BossName": "bosstagilla",
+        "BossEscortType": "followerbully",
+        "BossEscortAmount": "0",
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
       },
       {
         "Name": "Killa",
         "BossName": "bosskilla",
         "BossEscortType": "exusec",
         "BossEscortAmount": "0",
-        "Time": -1,
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true,
-        "BossZone": ["ZoneHotel_1","ZoneHotel_2"]
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Shturman",
+        "BossName": "bosskojaniy",
+        "BossEscortType": "followerKojaniy",
+        "BossEscortAmount": "2",
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Zryachiy",
+        "BossName": "bosszryachiy",
+        "BossEscortType": "followerzryachiy",
+        "BossEscortAmount": "2",
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Gluhar",
+        "BossName": "bossgluhar",
+        "BossEscortType": "followergluharassault",
+        "BossEscortAmount": "0",
+        "Supports": [
+            {
+                "BossEscortType": "followergluharassault",
+                "BossEscortAmount": "2"
+            },
+            {
+                "BossEscortType": "followergluharsecurity",
+                "BossEscortAmount": "2"
+            },
+            {
+                "BossEscortType": "followergluharscout",
+                "BossEscortAmount": "2"
+            }
+        ],
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Sanitar",
+        "BossName": "bosssanitar",
+        "BossEscortType": "followersanitar",
+        "BossEscortAmount": "2",
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
       }
     ]
   }

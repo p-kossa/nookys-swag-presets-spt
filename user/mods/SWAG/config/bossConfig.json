@@ -1,0 +1,460 @@
+{
+  "TotalBossesPerMap": {
+	  "factory": 1,
+    "factory_night": 1,
+    "customs": 2,
+    "woods": 2,
+    "shoreline": 2,
+    "lighthouse": 2,
+    "reserve": 2,
+    "interchange": 2,
+    "laboratory": 2,
+    "streets": 2
+  },
+  "CustomBosses": {
+    "punisher": false
+  },
+  "BossSpawns": {
+    "customs": {
+      "glukhar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "tagilla": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "reshala": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["ZoneDormitory", "ZoneGasStation"]            
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["ZoneScavBase"]
+      }
+    },
+    "factory": {
+      "glukhar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "tagilla": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["BotZone"]            
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      }
+    },
+    "factory_night": {
+      "glukhar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "tagilla": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["BotZone"]
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null         
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      }
+    },
+    "interchange": {
+      "glukhar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "killa": {
+        "chance": 30,
+        "time": -1,
+        "zone": [
+          "ZoneIDEA",
+          "ZoneGoshan",
+          "ZoneOLI",
+          "ZoneCenter",
+          "ZoneCenterBot"            
+        ]
+      },
+      "tagilla": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null         
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      }
+    },
+    "laboratory": {
+      "glukhar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "tagilla": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null           
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      }
+    },
+    "lighthouse": {
+      "glukhar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "tagilla": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "zryachiy": {
+        "chance": 100,
+        "time": -1,
+        "zone": ["ZoneIsland"]   
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null   
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 30,
+        "time": -1,
+        "zone": [
+          "Zone_Chalet",
+          "Zone_Containers",
+          "Zone_TreatmentBeach"
+        ]
+      }        
+    },
+    "reserve": {
+      "glukhar": {
+        "chance": 30,
+        "time": -1,
+        "zone": [
+          "ZoneRailStrorage",
+          "ZonePTOR1",
+          "ZonePTOR2",
+          "ZoneBarrack",
+          "ZoneSubStorage"
+        ]
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "tagilla": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null        
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      }
+    },
+    "shoreline": {
+      "glukhar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "tagilla": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": [
+          "ZonePort",
+          "ZoneSanatorium1",
+          "ZoneGreenHouses",
+          "ZoneSanatorium2"
+        ]
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null     
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["ZoneMeteoStation"]
+      }
+    },
+    "streets": {
+      "glukhar": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["ZoneCarShowroom"]
+      },
+      "killa": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["ZoneHotel_1","ZoneHotel_2"]
+      },
+      "tagilla": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null         
+      },
+      "shturman": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "goons": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      }        
+    },
+    "woods": {
+      "glukhar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
+      "tagilla": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "zryachiy": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "sanitar": {
+        "chance": 0,
+        "time": -1,
+        "zone": null            
+      },
+      "reshala": {
+        "chance": 0,
+        "time": -1,
+        "zone": null    
+      },
+      "shturman": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["ZoneWoodCutter"]
+      },
+      "goons": {
+        "chance": 30,
+        "time": -1,
+        "zone": ["ZoneScavBase2"]
+      }
+    }
+  }
+}

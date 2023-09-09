@@ -3,57 +3,11 @@
 	"SWAG_ONLY_aiAmount": "asonline",
 	"RandomWaveCount": 10,
 	"BossWaveCount": 1,
-	"SkipOtherBossWavesIfBossWaveSelected": true,
-  "GlobalRandomWaveTimer": {
+  "GlobalSCAVRandomWaveTimer": {
     "WaveTimerMinSec": 60,
     "WaveTimerMaxSec": 180
   },
-  "TotalBossesPerMap": {
-		"factory": 1,
-    "factory_night": 1,
-		"customs": 2,
-		"woods": 2,
-		"shoreline": 2,
-		"lighthouse": 2,
-		"reserve": 2,
-		"interchange": 2,
-		"laboratory": 2,
-		"streets": 2
-  },
-  "CustomBosses": {
-    "punisher": false
-  },
-	"BossChance": {
-    "glukhar": {
-      "reserve": 30,
-      "streets": 30
-    },
-    "killa": {
-      "interchange": 30,
-      "streets": 30
-    },
-    "tagilla": {
-      "factory": 30,
-      "factory_night": 30
-    },
-    "zryachiy": {
-      "lighthouse": 100
-    },
-    "sanitar": {
-      "shoreline": 30
-    },
-    "reshala": {
-      "customs": 30
-    },
-    "shturman": {
-      "woods": 30
-    },
-    "goons": {
-      "customs": 30,
-      "woods": 30,
-      "shoreline": 30,
-      "lighthouse": 30
-    },
+  "spawnChances": {
     "cultists": {
       "customs": 10,
       "woods": 10,
