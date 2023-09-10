@@ -1,6 +1,6 @@
 {
   "TotalBossesPerMap": {
-	  "factory": 1,
+    "factory": 1,
     "factory_night": 1,
     "customs": 2,
     "woods": 2,
@@ -29,7 +29,7 @@
       "tagilla": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "zryachiy": {
         "chance": 0,
@@ -39,12 +39,15 @@
       "sanitar": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "reshala": {
         "chance": 30,
         "time": -1,
-        "zone": ["ZoneDormitory", "ZoneGasStation"]            
+        "zone": [
+          "ZoneDormitory",
+          "ZoneGasStation"
+        ]
       },
       "shturman": {
         "chance": 0,
@@ -54,7 +57,9 @@
       "goons": {
         "chance": 30,
         "time": -1,
-        "zone": ["ZoneScavBase"]
+        "zone": [
+          "ZoneScavBase"
+        ]
       }
     },
     "factory": {
@@ -71,17 +76,19 @@
       "tagilla": {
         "chance": 30,
         "time": -1,
-        "zone": ["BotZone"]            
+        "zone": [
+          "BotZone"
+        ]
       },
       "zryachiy": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "sanitar": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "reshala": {
         "chance": 0,
@@ -113,7 +120,9 @@
       "tagilla": {
         "chance": 30,
         "time": -1,
-        "zone": ["BotZone"]
+        "zone": [
+          "BotZone"
+        ]
       },
       "zryachiy": {
         "chance": 0,
@@ -123,12 +132,12 @@
       "sanitar": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "reshala": {
         "chance": 0,
         "time": -1,
-        "zone": null         
+        "zone": null
       },
       "shturman": {
         "chance": 0,
@@ -155,28 +164,28 @@
           "ZoneGoshan",
           "ZoneOLI",
           "ZoneCenter",
-          "ZoneCenterBot"            
+          "ZoneCenterBot"
         ]
       },
       "tagilla": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "zryachiy": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "sanitar": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "reshala": {
         "chance": 0,
         "time": -1,
-        "zone": null         
+        "zone": null
       },
       "shturman": {
         "chance": 0,
@@ -203,22 +212,22 @@
       "tagilla": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "zryachiy": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "sanitar": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "reshala": {
         "chance": 0,
         "time": -1,
-        "zone": null           
+        "zone": null
       },
       "shturman": {
         "chance": 0,
@@ -245,12 +254,14 @@
       "tagilla": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "zryachiy": {
         "chance": 100,
         "time": -1,
-        "zone": ["ZoneIsland"]   
+        "zone": [
+          "ZoneIsland"
+        ]
       },
       "sanitar": {
         "chance": 0,
@@ -260,7 +271,7 @@
       "reshala": {
         "chance": 0,
         "time": -1,
-        "zone": null   
+        "zone": null
       },
       "shturman": {
         "chance": 0,
@@ -275,7 +286,7 @@
           "Zone_Containers",
           "Zone_TreatmentBeach"
         ]
-      }        
+      }
     },
     "reserve": {
       "glukhar": {
@@ -297,22 +308,22 @@
       "tagilla": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "zryachiy": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "sanitar": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "reshala": {
         "chance": 0,
         "time": -1,
-        "zone": null        
+        "zone": null
       },
       "shturman": {
         "chance": 0,
@@ -339,15 +350,15 @@
       "tagilla": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "zryachiy": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "sanitar": {
-        "chance": 0,
+        "chance": 30,
         "time": -1,
         "zone": [
           "ZonePort",
@@ -359,7 +370,7 @@
       "reshala": {
         "chance": 0,
         "time": -1,
-        "zone": null     
+        "zone": null
       },
       "shturman": {
         "chance": 0,
@@ -369,39 +380,46 @@
       "goons": {
         "chance": 30,
         "time": -1,
-        "zone": ["ZoneMeteoStation"]
+        "zone": [
+          "ZoneMeteoStation"
+        ]
       }
     },
     "streets": {
       "glukhar": {
         "chance": 30,
         "time": -1,
-        "zone": ["ZoneCarShowroom"]
+        "zone": [
+          "ZoneCarShowroom"
+        ]
       },
       "killa": {
         "chance": 30,
         "time": -1,
-        "zone": ["ZoneHotel_1","ZoneHotel_2"]
+        "zone": [
+          "ZoneHotel_1",
+          "ZoneHotel_2"
+        ]
       },
       "tagilla": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "zryachiy": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "sanitar": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "reshala": {
         "chance": 0,
         "time": -1,
-        "zone": null         
+        "zone": null
       },
       "shturman": {
         "chance": 0,
@@ -412,7 +430,7 @@
         "chance": 0,
         "time": -1,
         "zone": null
-      }        
+      }
     },
     "woods": {
       "glukhar": {
@@ -428,32 +446,36 @@
       "tagilla": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "zryachiy": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "sanitar": {
         "chance": 0,
         "time": -1,
-        "zone": null            
+        "zone": null
       },
       "reshala": {
         "chance": 0,
         "time": -1,
-        "zone": null    
+        "zone": null
       },
       "shturman": {
         "chance": 30,
         "time": -1,
-        "zone": ["ZoneWoodCutter"]
+        "zone": [
+          "ZoneWoodCutter"
+        ]
       },
       "goons": {
         "chance": 30,
         "time": -1,
-        "zone": ["ZoneScavBase2"]
+        "zone": [
+          "ZoneScavBase2"
+        ]
       }
     }
   }

@@ -784,7 +784,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let difficulty = diffProper[config.SWAG_ONLY_aiDifficulty.toLowerCase()]
     let escort_difficulty = diffProper[config.SWAG_ONLY_aiDifficulty.toLowerCase()]
 
-    let boss_spawn_zone = null
     let bossName = roleCase[boss.BossName.toLowerCase()] ? roleCase[boss.BossName.toLowerCase()] : boss.BossName
     let trigger_id = ""
     let trigger_name = ""
@@ -884,7 +883,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         spawnChance = boss.BossChance ? boss.BossChance : 100
         break;
       default:
+        // debug
+        logger.warning(bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName])
         spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName].chance
+        spawnTime = boss.Time ? boss.Time : bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName].time
+        spawnZones = boss.BossZone ? boss.BossZone : bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName].chance
         break;
     }
 
