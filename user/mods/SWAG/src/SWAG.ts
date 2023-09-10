@@ -522,20 +522,23 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     // so that a random boss is spawned every time
     const randomizedBossGroups = this.shuffleArray(StaticBossGroups)
 
-    let boss_name = ""
     for (let boss of randomizedBossGroups) {
+      let boss_name = boss.BossName
       // this is for custom bosses
       try {
         boss_name = reverseBossNames[boss.BossName];
       }
       catch {
-        boss_name = boss.BossName
+        // do nothing
       }
-      let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance
-      // if spawn chance is 0 we need to remove it from the shuffled array
-      if (spawnChance == 0) {
-        delete randomizedBossGroups[boss]
+      if (boss_name.startsWith("boss")) {
+        let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance
+        // if spawn chance is 0 we need to remove it from the shuffled array
+        if (spawnChance == 0) {
+          delete randomizedBossGroups[boss]
+        }
       }
+
       SWAG.SpawnBosses(
         boss,
         globalmap,
@@ -558,7 +561,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     }
 
     AlreadySpawnedBossGroups.push(boss);
-    let boss_name = ""
+    let boss_name = boss.BossName
 
     if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === 0) {
       config.DebugOutput && logger.info("SWAG: TotalBosses set to 0 for this map, skipping boss spawn")
@@ -570,7 +573,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         boss_name = reverseBossNames[boss.BossName];
       }
       catch {
-        boss_name = boss.BossName
+        // do nothing
       }
 
       let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance
