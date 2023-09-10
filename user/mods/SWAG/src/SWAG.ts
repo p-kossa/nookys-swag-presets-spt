@@ -522,23 +522,22 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     // so that a random boss is spawned every time
     const randomizedBossGroups = this.shuffleArray(StaticBossGroups)
 
-    for (let boss of randomizedBossGroups) {
-      let boss_name = boss.BossName
+    for (let i = 0; i < randomizedBossGroups.length; i++) {
+      const boss = randomizedBossGroups[i];
+    
       // this is for custom bosses
-      try {
-        boss_name = reverseBossNames[boss.BossName];
-      }
-      catch {
-        // do nothing
-      }
+      let boss_name = reverseBossNames[boss.BossName] ? reverseBossNames[boss.BossName] : boss.BossName;
+    
       if (boss_name.startsWith("boss")) {
-        let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance
+        let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
+        
         // if spawn chance is 0 we need to remove it from the shuffled array
-        if (spawnChance == 0) {
-          delete randomizedBossGroups[boss]
+        if (spawnChance === 0) {
+          randomizedBossGroups.splice(i, 1); // Delete the element at index i
+          i--; // Decrement i to account for the removed element
         }
       }
-
+      
       SWAG.SpawnBosses(
         boss,
         globalmap,
@@ -568,14 +567,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       return;
     }
     else if (BossWaveSpawnedOnceAlready && boss_name.startsWith("boss")) {
-      // this is for custom bosses
-      try {
-        boss_name = reverseBossNames[boss.BossName];
-      }
-      catch {
-        // do nothing
-      }
-
+      boss_name = reverseBossNames[boss.BossName] ? reverseBossNames[boss.BossName] : boss.BossName
       let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance
       // if spawn chance is 100 lets ignore the boss limits
       if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === -1 || spawnChance == 100) {
