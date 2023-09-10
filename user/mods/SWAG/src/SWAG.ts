@@ -522,7 +522,20 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     // so that a random boss is spawned every time
     const randomizedBossGroups = this.shuffleArray(StaticBossGroups)
 
+    let boss_name = ""
     for (let boss of randomizedBossGroups) {
+      // this is for custom bosses
+      try {
+        boss_name = reverseBossNames[boss.BossName];
+      }
+      catch {
+        boss_name = boss.BossName
+      }
+      let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance
+      // if spawn chance is 0 we need to remove it from the shuffled array
+      if (spawnChance == 0) {
+        delete randomizedBossGroups[boss]
+      }
       SWAG.SpawnBosses(
         boss,
         globalmap,
@@ -552,14 +565,17 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       return;
     }
     else if (BossWaveSpawnedOnceAlready && boss_name.startsWith("boss")) {
+      // this is for custom bosses
       try {
         boss_name = reverseBossNames[boss.BossName];
       }
       catch {
         boss_name = boss.BossName
       }
+
       let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance
-      if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === -1 || spawnChance == 100 || spawnChance == 0) {
+      // if spawn chance is 100 lets ignore the boss limits
+      if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === -1 || spawnChance == 100) {
         // do nothing
       }
       else if (SWAG.bossCount.count >= bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]]) {
