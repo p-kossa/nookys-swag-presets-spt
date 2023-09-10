@@ -546,13 +546,14 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     AlreadySpawnedBossGroups.push(boss);
 
     let boss_name = boss.BossName
+    let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss.BossName].chance
 
     if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === 0) {
       config.DebugOutput && logger.info("SWAG: TotalBosses set to 0 for this map, skipping boss spawn")
       return;
     }
     else if (BossWaveSpawnedOnceAlready && boss_name.startsWith("boss")) {
-      if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === -1) {
+      if (bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === -1 || spawnChance == 100 || spawnChance == 0) {
         // do nothing
       }
       else if (SWAG.bossCount.count >= bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]]) {
@@ -883,8 +884,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         spawnChance = boss.BossChance ? boss.BossChance : 100
         break;
       default:
-        // debug
-        logger.warning(bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName])
         spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName].chance
         spawnTime = boss.Time ? boss.Time : bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName].time
         spawnZones = boss.BossZone ? boss.BossZone : bossConfig.BossSpawns[reverseMapNames[globalmap]][bossName].chance
