@@ -101,6 +101,17 @@ export const roleCase: object = {
   crazyscavs: "crazyAssaultEvent"
 };
 
+export const reverseBossNames: object = {
+  bossbully: "reshala",
+  bosstagilla: "tagilla",
+  bossgluhar: "glukhar",
+  bosskilla: "killa",
+  bosskojaniy: "shturman",
+  bosssanitar: "sanitar",
+  bossknight: "goons",
+  bosszryachiy: "zryachiy"
+};
+
 export const reverseMapNames: object = {
   factory4_day: "factory",
   factory4_night: "factory_night",
