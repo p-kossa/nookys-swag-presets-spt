@@ -520,30 +520,29 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     // lets shuffle bosses around in case skip boss is true
     // so that a random boss is spawned every time
-    const randomizedBossGroups = this.shuffleArray(StaticBossGroups)
+    let randomizedBossGroups = this.shuffleArray(StaticBossGroups)
 
     for (let i = 0; i < randomizedBossGroups.length; i++) {
-      const boss = randomizedBossGroups[i];
-    
-      // this is for custom bosses
+      let boss = randomizedBossGroups[i];
       let boss_name = reverseBossNames[boss.BossName] ? reverseBossNames[boss.BossName] : boss.BossName;
     
       if (boss_name.startsWith("boss")) {
         let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
         
-        // if spawn chance is 0 we need to remove it from the shuffled array
-        if (spawnChance === 0) {
-          randomizedBossGroups.splice(i, 1); // Delete the element at index i
-          i--; // Decrement i to account for the removed element
+        if (spawnChance != 0) {
+          SWAG.SpawnBosses(
+            boss,
+            globalmap,
+            AlreadySpawnedBossGroups
+          );
+          SWAG.bossCount.count += 1
         }
       }
-      
       SWAG.SpawnBosses(
         boss,
         globalmap,
         AlreadySpawnedBossGroups
       );
-      SWAG.bossCount.count += 1
     }
     SWAG.bossCount.count = 0
   }
