@@ -2,7 +2,7 @@
   "Locations": [
     {
       "MapName": "bigmap",
-      "GroupNum": 50,
+      "GroupNum": 30,
       "Name": "Inside Crackhouse",
       "Position": {
         "x": 79.08468,
@@ -13,7 +13,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 200,
+      "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -22,7 +22,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 51,
+      "GroupNum": 31,
       "Name": "Inside Small Bldg by Crackhouse",
       "Position": {
         "x": 102.4554,
@@ -33,7 +33,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 200,
+      "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -42,7 +42,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 52,
+      "GroupNum": 32,
       "Name": "Dorms 3rd Story",
       "Position": {
         "x": 175.428024,
@@ -53,7 +53,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 200,
+      "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -62,7 +62,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 53,
+      "GroupNum": 33,
       "Name": "Dorms 2nd Story",
       "Position": {
         "x": 238.3906,
@@ -73,7 +73,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 200,
+      "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -82,7 +82,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 54,
+      "GroupNum": 34,
       "Name": "Big Red",
       "Position": {
         "x": -216.849625,
@@ -93,7 +93,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 200,
+      "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -102,7 +102,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 55,
+      "GroupNum": 35,
       "Name": "Tent by Dorms",
       "Position": {
         "x": 297.893127,
@@ -113,7 +113,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 200,
+      "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
@@ -122,7 +122,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 55,
+      "GroupNum": 35,
       "Name": "Outside of Dorms",
       "Position": {
         "x": 140.461685,
@@ -133,7 +133,67 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "MaxRandomNumBots": 1,
-      "BotTriggerDistance": 200,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 36,
+      "Name": "scav",
+      "Position": {
+        "x": -185.748047,
+        "y": 0.8560567,
+        "z": -123.501091
+      },
+      "WildSpawnType": "bossbully",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 37,
+      "Name": "scav",
+      "Position": {
+        "x": -287.29483,
+        "y": 0.9125377,
+        "z": -137.90889
+      },
+      "WildSpawnType": "bosszryachiy",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 38,
+      "Name": "scav",
+      "Position": {
+        "x": -212.311523,
+        "y": 1.19487786,
+        "z": -215.859741
+      },
+      "WildSpawnType": "bosskojaniy",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "MaxRandomNumBots": 1,
+      "BotTriggerDistance": 350,
       "BotTimerTrigger": 180,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
