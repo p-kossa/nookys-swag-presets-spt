@@ -524,11 +524,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
     for (let i = 0; i < randomizedBossGroups.length; i++) {
       let boss = randomizedBossGroups[i];
+      let actual_boss_name = boss.BossName
       let boss_name = reverseBossNames[boss.BossName] ? reverseBossNames[boss.BossName] : boss.BossName;
     
-      if (boss_name.startsWith("boss")) {
+      if (actual_boss_name.startsWith("boss")) {
         let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
-        
         if (spawnChance != 0) {
           SWAG.SpawnBosses(
             boss,
@@ -537,12 +537,17 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           );
           SWAG.bossCount.count += 1
         }
+        else {
+          continue;
+        }
       }
-      SWAG.SpawnBosses(
-        boss,
-        globalmap,
-        AlreadySpawnedBossGroups
-      );
+      else {
+        SWAG.SpawnBosses(
+          boss,
+          globalmap,
+          AlreadySpawnedBossGroups
+        );
+      }
     }
     SWAG.bossCount.count = 0
   }
