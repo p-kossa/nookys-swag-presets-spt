@@ -172,11 +172,11 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 200.1,
+      "BotTriggerDistance": 300.1,
       "BotTimerTrigger": 420.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 25,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 90,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80
     },
@@ -254,9 +254,9 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 15,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 75.0
     },
@@ -274,11 +274,31 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250.0,
       "BotTimerTrigger": 320.0,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 15,
-      "MaxSpawnsBeforeCoolDown": 1,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 20,
+      "Name": "underground bunker pmc",
+      "Position": {
+        "x": 58.3192024,
+        "y": -12.2500067,
+        "z": -144.417221
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 390.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
     }
   ]
 }

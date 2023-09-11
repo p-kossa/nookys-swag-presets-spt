@@ -279,6 +279,26 @@
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 75.0
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 20,
+      "Name": "underground bunker pmc",
+      "Position": {
+        "x": 58.3192024,
+        "y": -12.2500067,
+        "z": -144.417221
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 500.0,
+      "BotTimerTrigger": 390.0,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80.0
     }
   ]
 }
