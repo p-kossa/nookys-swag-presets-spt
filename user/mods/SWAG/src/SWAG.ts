@@ -526,7 +526,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       let boss = randomizedBossGroups[i];
       let actual_boss_name = boss.BossName
       let boss_name = reverseBossNames[boss.BossName] ? reverseBossNames[boss.BossName] : boss.BossName;
-    
+
       if (actual_boss_name.startsWith("boss")) {
         let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
         if (spawnChance != 0) {
@@ -542,6 +542,17 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         }
       }
       else {
+        // if pmcs are 0 lets skip those too, we don't need them
+        if (boss.BossChance == 0 || config["SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS"].PMCs.pmcChance == 0) {
+          continue;
+        }
+        else {
+          SWAG.SpawnBosses(
+            boss,
+            globalmap,
+            AlreadySpawnedBossGroups
+          );
+        }
         SWAG.SpawnBosses(
           boss,
           globalmap,
