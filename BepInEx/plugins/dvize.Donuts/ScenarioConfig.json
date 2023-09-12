@@ -1,7 +1,7 @@
 [
   {
     "Name": "live-like",
-    "Weight": 50,
+    "Weight": 25,
     "RandomSelection": true,
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 7,
@@ -28,7 +28,7 @@
   },
   {
     "Name": "live-like-alt",
-    "Weight": 50,
+    "Weight": 25,
     "RandomSelection": true,
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 7,
@@ -55,7 +55,7 @@
   },
   {
     "Name": "live-like-alt-2",
-    "Weight": 35,
+    "Weight": 25,
     "RandomSelection": true,
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 7,
@@ -82,7 +82,7 @@
   },
   {
     "Name": "live-like-alt-3",
-    "Weight": 35,
+    "Weight": 25,
     "RandomSelection": true,
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 7,
@@ -109,8 +109,8 @@
   },
   {
     "Name": "quietraids",
-    "Weight": 10,
-    "RandomSelection": true,
+    "Weight": 0,
+    "RandomSelection": false,
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
       "InterchangeBotLimit": 6,
