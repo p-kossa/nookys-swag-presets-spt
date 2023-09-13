@@ -16,7 +16,7 @@
       "BotTimerTrigger": 120.0,
       "MaxRandomNumBots": 1,
       "SpawnChance": 80,
-      "MaxSpawnsBeforeCooldown": 2,
+      "MaxSpawnsBeforeCooldown": 4,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 25
     },
@@ -97,7 +97,7 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
@@ -117,7 +117,7 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
@@ -137,7 +137,7 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 80.0
     },
     {
