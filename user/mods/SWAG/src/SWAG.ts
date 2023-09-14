@@ -527,7 +527,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       let actual_boss_name = boss.BossName
       let boss_name = reverseBossNames[boss.BossName] ? reverseBossNames[boss.BossName] : boss.BossName;
 
-      if (actual_boss_name.startsWith("boss")) {
+      if (actual_boss_name.startsWith("boss") || actual_boss_name.startsWith("useccommander")) {
         let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
         if (spawnChance != 0) {
           SWAG.SpawnBosses(
@@ -581,7 +581,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       config.DebugOutput && logger.info("SWAG: TotalBosses set to 0 for this map, skipping boss spawn")
       return;
     }
-    else if (BossWaveSpawnedOnceAlready && boss_name.startsWith("boss")) {
+    else if (BossWaveSpawnedOnceAlready && (boss_name.startsWith("boss") || boss_name.startsWith("useccommander"))) {
       boss_name = reverseBossNames[boss.BossName] ? reverseBossNames[boss.BossName] : boss.BossName
       let spawnChance = boss.BossChance ? boss.BossChance : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance
       // if spawn chance is 100 lets ignore the boss limits
