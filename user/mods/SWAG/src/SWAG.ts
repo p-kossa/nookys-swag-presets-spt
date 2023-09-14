@@ -542,17 +542,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         }
       }
       else {
-        // if pmcs are 0 lets skip those too, we don't need them
-        if (boss.BossChance == 0 || config["SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS"].PMCs.pmcChance == 0) {
-          continue;
-        }
-        else {
-          SWAG.SpawnBosses(
-            boss,
-            globalmap,
-            AlreadySpawnedBossGroups
-          );
-        }
         SWAG.SpawnBosses(
           boss,
           globalmap,

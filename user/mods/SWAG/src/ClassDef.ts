@@ -109,7 +109,12 @@ export const reverseBossNames: object = {
   bosskojaniy: "shturman",
   bosssanitar: "sanitar",
   bossknight: "goons",
-  bosszryachiy: "zryachiy"
+  bosszryachiy: "zryachiy",
+  marksman: "snipers",
+  sectantpriest: "cultists",
+  exusec: "rogues",
+  crazyassaultevent: "crazyscavs",
+  arenafighterevent: "bloodhounds"
 };
 
 export const reverseMapNames: object = {
