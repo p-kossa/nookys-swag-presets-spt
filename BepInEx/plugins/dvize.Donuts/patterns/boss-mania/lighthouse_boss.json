@@ -10,15 +10,15 @@
         "z": -647.04895
       },
       "WildSpawnType": "followerbigpipe",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 60.0,
-      "BotTimerTrigger": 10000.0,
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 60,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
@@ -30,15 +30,15 @@
         "z": -733.9895
       },
       "WildSpawnType": "bossknight",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 40.0,
-      "BotTimerTrigger": 10000.0,
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 40,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
@@ -50,15 +50,15 @@
         "z": -641.771057
       },
       "WildSpawnType": "followerbirdeye",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 60.0,
-      "BotTimerTrigger": 4500.0,
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 60,
+      "BotTimerTrigger": 4500,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20.0
+      "MinSpawnDistanceFromPlayer": 60
     }
   ]
 }

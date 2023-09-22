@@ -10,15 +10,15 @@
         "z": -297.2666
       },
       "WildSpawnType": "bosskilla",
-      "MinDistance": 1.0,
-      "MaxDistance": 4.0,
+      "MinDistance": 1,
+      "MaxDistance": 4,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180.0,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100.0
+      "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "shoreline",
@@ -30,15 +30,15 @@
         "z": -235.6968
       },
       "WildSpawnType": "bosskilla",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 180.0,
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 75.0
+      "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "shoreline",
@@ -50,15 +50,15 @@
         "z": 144.680161
       },
       "WildSpawnType": "bossbully",
-      "MinDistance": 1.0,
-      "MaxDistance": 70.0,
-      "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 180.0,
+      "MinDistance": 1,
+      "MaxDistance": 70,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "shoreline",
@@ -70,15 +70,15 @@
         "z": -169.46315
       },
       "WildSpawnType": "bossbully",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 180.0,
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80.0
+      "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "shoreline",
@@ -90,15 +90,15 @@
         "z": -11.0095854
       },
       "WildSpawnType": "bosstagilla",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 180.0,
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80.0
+      "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "shoreline",
@@ -110,15 +110,15 @@
         "z": 166.62381
       },
       "WildSpawnType": "bossgluhar",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 350.0,
-      "BotTimerTrigger": 180.0,
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
       "SpawnChance": 100,
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80.0
+      "MinSpawnDistanceFromPlayer": 60
     }
   ]
 }
