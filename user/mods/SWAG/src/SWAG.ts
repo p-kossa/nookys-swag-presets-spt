@@ -179,9 +179,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
             try {
               // PMCs should never convert - we need full control here
-              const aki_bots: IBotConfig = configServer.getConfig(
-                ConfigTypes.BOT
-              );
+              const aki_bots = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
 
               aki_bots.convertIntoPmcChance["assault"].min = 0;
               aki_bots.convertIntoPmcChance["assault"].max = 0;
