@@ -1,0 +1,244 @@
+{
+  "Locations": [
+    {
+      "MapName": "shoreline",
+      "GroupNum": 1,
+      "Name": "assault_ccp_temporary",
+      "Position": {
+        "x": -741.8096,
+        "y": -59.4458275,
+        "z": 470.90274
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 1,
+      "Name": "assault_scout_tower",
+      "Position": {
+        "x": -873.0886,
+        "y": -52.9311142,
+        "z": 312.2034
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 15,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 2,
+      "Name": "assault_road_to_customs",
+      "Position": {
+        "x": -813.187134,
+        "y": -41.03324,
+        "z": 17.7812042
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 15,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 2,
+      "Name": "assault_arch",
+      "Position": {
+        "x": -584.9939,
+        "y": -47.24885,
+        "z": 181.10788
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 5,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 3,
+      "Name": "assault_hill_house",
+      "Position": {
+        "x": -584.153564,
+        "y": -34.8378944,
+        "z": -144.05574
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 5,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 3,
+      "Name": "assault_north_fence_passage",
+      "Position": {
+        "x": -498.396332,
+        "y": -15.2028961,
+        "z": -323.5631
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 5,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 4,
+      "Name": "assault_lookout",
+      "Position": {
+        "x": -253.003418,
+        "y": -9.117955,
+        "z": -236.128387
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 15,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 4,
+      "Name": "assault_north_bunker",
+      "Position": {
+        "x": -70.68853,
+        "y": -21.3592854,
+        "z": -368.007965
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 15,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 5,
+      "Name": "assault_path_to_lighthouse",
+      "Position": {
+        "x": 311.358337,
+        "y": -41.8296,
+        "z": -260.1941
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 25,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 5,
+      "Name": "assault_ruined_house_fence",
+      "Position": {
+        "x": 454.6276,
+        "y": -51.57679,
+        "z": -58.695
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 25,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "assault_village_deadend",
+      "Position": {
+        "x": 389.283539,
+        "y": -54.4369545,
+        "z": 119.9026
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 15,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "assault_tunnel",
+      "Position": {
+        "x": 390.016724,
+        "y": -60.67289,
+        "z": 255.129852
+      },
+      "WildSpawnType": "assault",
+      "MinDistance": 1,
+      "MaxDistance": 5,
+      "BotTriggerDistance": 3500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 100,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60
+    }
+  ]
+}
