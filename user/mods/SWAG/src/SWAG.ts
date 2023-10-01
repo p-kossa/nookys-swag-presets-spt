@@ -7,6 +7,7 @@ import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
 import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
 import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
 import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
+import { IPmcConfig } from "@spt-aki/models/spt/config/IPmcConfig";
 import { ILocations } from "@spt-aki/models/spt/server/ILocations";
 import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { ConfigServer } from "@spt-aki/servers/ConfigServer";
@@ -44,6 +45,7 @@ let LocationCallbacks; LocationCallbacks;
 let jsonUtil; JsonUtil;
 let configServer: ConfigServer;
 let botConfig: IBotConfig;
+let pmcConfig: IPmcConfig;
 let databaseServer: DatabaseServer;
 let locations: ILocations;
 let randomUtil: RandomUtil;
@@ -181,20 +183,22 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
                 ConfigTypes.BOT
               );
 
-              aki_bots.pmc.convertIntoPmcChance["assault"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["assault"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["cursedassault"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["cursedassault"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["pmcbot"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["pmcbot"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["exusec"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["exusec"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["arenafighter"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["arenafighter"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["arenafighterevent"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["arenafighterevent"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["crazyassaultevent"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["crazyassaultevent"].max = 0;
+              const pmc_config: IPmcConfig = configServer.getConfig(ConfigTypes.BOT);
+
+              pmc_config.convertIntoPmcChance["assault"].min = 0;
+              pmc_config.convertIntoPmcChance["assault"].max = 0;
+              pmc_config.convertIntoPmcChance["cursedassault"].min = 0;
+              pmc_config.convertIntoPmcChance["cursedassault"].max = 0;
+              pmc_config.convertIntoPmcChance["pmcbot"].min = 0;
+              pmc_config.convertIntoPmcChance["pmcbot"].max = 0;
+              pmc_config.convertIntoPmcChance["exusec"].min = 0;
+              pmc_config.convertIntoPmcChance["exusec"].max = 0;
+              pmc_config.convertIntoPmcChance["arenafighter"].min = 0;
+              pmc_config.convertIntoPmcChance["arenafighter"].max = 0;
+              pmc_config.convertIntoPmcChance["arenafighterevent"].min = 0;
+              pmc_config.convertIntoPmcChance["arenafighterevent"].max = 0;
+              pmc_config.convertIntoPmcChance["crazyassaultevent"].min = 0;
+              pmc_config.convertIntoPmcChance["crazyassaultevent"].max = 0;
 
               logger.info("SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)")
 
@@ -280,6 +284,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     jsonUtil = container.resolve<JsonUtil>("JsonUtil");
     configServer = container.resolve<ConfigServer>("ConfigServer");
     botConfig = configServer.getConfig<IBotConfig>(ConfigTypes.BOT);
+    pmcConfig = configServer.getConfig<IPmcConfig>(ConfigTypes.BOT);
     databaseServer = container.resolve<DatabaseServer>("DatabaseServer");
     locations = databaseServer.getTables().locations;
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
