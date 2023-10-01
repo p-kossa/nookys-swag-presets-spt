@@ -16,6 +16,11 @@
   },
   "BossSpawns": {
     "customs": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
       "glukhar": {
         "chance": 0,
         "time": -1,
@@ -63,6 +68,11 @@
       }
     },
     "factory": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
       "glukhar": {
         "chance": 0,
         "time": -1,
@@ -107,6 +117,11 @@
       }
     },
     "factory_night": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
       "glukhar": {
         "chance": 0,
         "time": -1,
@@ -151,6 +166,11 @@
       }
     },
     "interchange": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
       "glukhar": {
         "chance": 0,
         "time": -1,
@@ -199,6 +219,11 @@
       }
     },
     "laboratory": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
       "glukhar": {
         "chance": 0,
         "time": -1,
@@ -241,6 +266,11 @@
       }
     },
     "lighthouse": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
       "glukhar": {
         "chance": 0,
         "time": -1,
@@ -289,6 +319,11 @@
       }
     },
     "reserve": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
       "glukhar": {
         "chance": 30,
         "time": -1,
@@ -337,6 +372,11 @@
       }
     },
     "shoreline": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
+      },
       "glukhar": {
         "chance": 0,
         "time": -1,
@@ -386,20 +426,22 @@
       }
     },
     "streets": {
-      "glukhar": {
+      "kaban": {
         "chance": 30,
         "time": -1,
         "zone": [
           "ZoneCarShowroom"
         ]
       },
-      "killa": {
-        "chance": 30,
+      "glukhar": {
+        "chance": 0,
         "time": -1,
-        "zone": [
-          "ZoneHotel_1",
-          "ZoneHotel_2"
-        ]
+        "zone": null
+      },
+      "killa": {
+        "chance": 0,
+        "time": -1,
+        "zone": null
       },
       "tagilla": {
         "chance": 0,
@@ -433,6 +475,11 @@
       }
     },
     "woods": {
+      "kaban": {
+        "chance": 0,
+        "time": -1,
+        "zone": null        
+      },
       "glukhar": {
         "chance": 0,
         "time": -1,
