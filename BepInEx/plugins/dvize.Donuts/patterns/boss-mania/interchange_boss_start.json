@@ -3,13 +3,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 1,
-      "Name": "pmc_railway_exfil",
+      "Name": "boss_railway_exfil",
       "Position": {
         "x": 338.671173,
         "y": 20.4173946,
         "z": -179.711777
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1,
       "MaxDistance": 15,
       "BotTriggerDistance": 3000,
@@ -23,13 +23,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 1,
-      "Name": "pmc_railway_exfil2",
+      "Name": "boss_railway_exfil2",
       "Position": {
         "x": 436.7853,
         "y": 16.8427067,
         "z": -389.1228
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
@@ -43,13 +43,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 1,
-      "Name": "pmc_bridge",
+      "Name": "boss_bridge",
       "Position": {
         "x": 295.963837,
         "y": 21.1591358,
         "z": -410.346375
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1,
       "MaxDistance": 15,
       "BotTriggerDistance": 3000,
@@ -63,13 +63,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 2,
-      "Name": "pmc_powerstation",
+      "Name": "boss_powerstation",
       "Position": {
         "x": -33.1391373,
         "y": 20.4242954,
         "z": -385.45105
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1,
       "MaxDistance": 10,
       "BotTriggerDistance": 3000,
@@ -83,13 +83,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 2,
-      "Name": "pmc_in_powerstation",
+      "Name": "boss_in_powerstation",
       "Position": {
         "x": -175.45697,
         "y": 21.3254375,
         "z": -390.071716
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1,
       "MaxDistance": 5,
       "BotTriggerDistance": 3000,
@@ -103,13 +103,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 2,
-      "Name": "pmc_hole_in_fence",
+      "Name": "boss_hole_in_fence",
       "Position": {
         "x": -217.60379,
         "y": 21.3254337,
         "z": -2.114083
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1,
       "MaxDistance": 5,
       "BotTriggerDistance": 3000,
@@ -123,13 +123,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 3,
-      "Name": "pmc_emercom",
+      "Name": "boss_emercom",
       "Position": {
         "x": -340.798737,
         "y": 23.6344166,
         "z": 216.433762
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1,
       "MaxDistance": 15,
       "BotTriggerDistance": 3000,
@@ -143,13 +143,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 3,
-      "Name": "pmc_next_emercom",
+      "Name": "boss_next_emercom",
       "Position": {
         "x": -185.093521,
         "y": 23.7038841,
         "z": 269.034973
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1,
       "MaxDistance": 10,
       "BotTriggerDistance": 3000,
@@ -163,13 +163,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 4,
-      "Name": "pmc_trucks",
+      "Name": "boss_trucks",
       "Position": {
         "x": 32.95307,
         "y": 21.3254375,
         "z": 265.454041
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bosskaban",
       "MinDistance": 1,
       "MaxDistance": 10,
       "BotTriggerDistance": 3000,
@@ -183,13 +183,13 @@
     {
       "MapName": "interchange",
       "GroupNum": 4,
-      "Name": "pmc_trailers",
+      "Name": "boss_trailers",
       "Position": {
         "x": 156.811981,
         "y": 21.84012,
         "z": 355.956879
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bosskaban",
       "MinDistance": 1,
       "MaxDistance": 10,
       "BotTriggerDistance": 3000,
@@ -209,7 +209,7 @@
         "y": 20.38037,
         "z": -51.5066223
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
@@ -229,7 +229,7 @@
         "y": 20.42104,
         "z": 151.460617
       },
-      "WildSpawnType": "pmc",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
