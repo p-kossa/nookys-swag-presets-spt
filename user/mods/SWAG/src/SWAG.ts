@@ -183,22 +183,20 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
                 ConfigTypes.BOT
               );
 
-              const pmc_config: IPmcConfig = configServer.getConfig(ConfigTypes.BOT);
-
-              pmc_config.convertIntoPmcChance["assault"].min = 0;
-              pmc_config.convertIntoPmcChance["assault"].max = 0;
-              pmc_config.convertIntoPmcChance["cursedassault"].min = 0;
-              pmc_config.convertIntoPmcChance["cursedassault"].max = 0;
-              pmc_config.convertIntoPmcChance["pmcbot"].min = 0;
-              pmc_config.convertIntoPmcChance["pmcbot"].max = 0;
-              pmc_config.convertIntoPmcChance["exusec"].min = 0;
-              pmc_config.convertIntoPmcChance["exusec"].max = 0;
-              pmc_config.convertIntoPmcChance["arenafighter"].min = 0;
-              pmc_config.convertIntoPmcChance["arenafighter"].max = 0;
-              pmc_config.convertIntoPmcChance["arenafighterevent"].min = 0;
-              pmc_config.convertIntoPmcChance["arenafighterevent"].max = 0;
-              pmc_config.convertIntoPmcChance["crazyassaultevent"].min = 0;
-              pmc_config.convertIntoPmcChance["crazyassaultevent"].max = 0;
+              aki_bots.convertIntoPmcChance["assault"].min = 0;
+              aki_bots.convertIntoPmcChance["assault"].max = 0;
+              aki_bots.convertIntoPmcChance["cursedassault"].min = 0;
+              aki_bots.convertIntoPmcChance["cursedassault"].max = 0;
+              aki_bots.convertIntoPmcChance["pmcbot"].min = 0;
+              aki_bots.convertIntoPmcChance["pmcbot"].max = 0;
+              aki_bots.convertIntoPmcChance["exusec"].min = 0;
+              aki_bots.convertIntoPmcChance["exusec"].max = 0;
+              aki_bots.convertIntoPmcChance["arenafighter"].min = 0;
+              aki_bots.convertIntoPmcChance["arenafighter"].max = 0;
+              aki_bots.convertIntoPmcChance["arenafighterevent"].min = 0;
+              aki_bots.convertIntoPmcChance["arenafighterevent"].max = 0;
+              aki_bots.convertIntoPmcChance["crazyassaultevent"].min = 0;
+              aki_bots.convertIntoPmcChance["crazyassaultevent"].max = 0;
 
               logger.info("SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)")
 
@@ -295,6 +293,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     if (!config?.UseDefaultSpawns?.Waves || !config?.UseDefaultSpawns?.Bosses || !config?.UseDefaultSpawns?.TriggeredWaves) {
       SWAG.disableSpawnSystems();
     }
+
+
   }
 
   /**
