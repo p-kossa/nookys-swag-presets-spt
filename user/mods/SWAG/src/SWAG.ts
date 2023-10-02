@@ -181,20 +181,20 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
               // PMCs should never convert - we need full control here
               const aki_bots = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
 
-              aki_bots.convertIntoPmcChance["assault"].min = 0;
-              aki_bots.convertIntoPmcChance["assault"].max = 0;
-              aki_bots.convertIntoPmcChance["cursedassault"].min = 0;
-              aki_bots.convertIntoPmcChance["cursedassault"].max = 0;
-              aki_bots.convertIntoPmcChance["pmcbot"].min = 0;
-              aki_bots.convertIntoPmcChance["pmcbot"].max = 0;
-              aki_bots.convertIntoPmcChance["exusec"].min = 0;
-              aki_bots.convertIntoPmcChance["exusec"].max = 0;
-              aki_bots.convertIntoPmcChance["arenafighter"].min = 0;
-              aki_bots.convertIntoPmcChance["arenafighter"].max = 0;
-              aki_bots.convertIntoPmcChance["arenafighterevent"].min = 0;
-              aki_bots.convertIntoPmcChance["arenafighterevent"].max = 0;
-              aki_bots.convertIntoPmcChance["crazyassaultevent"].min = 0;
-              aki_bots.convertIntoPmcChance["crazyassaultevent"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["assault"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["assault"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["cursedassault"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["cursedassault"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["pmcbot"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["pmcbot"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["exusec"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["exusec"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["arenafighter"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["arenafighter"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["arenafighterevent"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["arenafighterevent"].max = 0;
+              aki_bots.pmc.convertIntoPmcChance["crazyassaultevent"].min = 0;
+              aki_bots.pmc.convertIntoPmcChance["crazyassaultevent"].max = 0;
 
               logger.info("SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)")
 
