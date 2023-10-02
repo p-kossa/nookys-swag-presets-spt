@@ -7,7 +7,6 @@ import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
 import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
 import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
 import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
-import { IPmcConfig } from "@spt-aki/models/spt/config/IPmcConfig";
 import { ILocations } from "@spt-aki/models/spt/server/ILocations";
 import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { ConfigServer } from "@spt-aki/servers/ConfigServer";
@@ -45,7 +44,7 @@ let LocationCallbacks; LocationCallbacks;
 let jsonUtil; JsonUtil;
 let configServer: ConfigServer;
 let botConfig: IBotConfig;
-let pmcConfig: IPmcConfig;
+let pmcConfig: IBotConfig;
 let databaseServer: DatabaseServer;
 let locations: ILocations;
 let randomUtil: RandomUtil;
@@ -179,22 +178,23 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
             try {
               // PMCs should never convert - we need full control here
-              const aki_bots = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
+              const bot_config = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
+              const pmc_config = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.PMC);
 
-              aki_bots.pmc.convertIntoPmcChance["assault"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["assault"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["cursedassault"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["cursedassault"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["pmcbot"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["pmcbot"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["exusec"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["exusec"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["arenafighter"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["arenafighter"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["arenafighterevent"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["arenafighterevent"].max = 0;
-              aki_bots.pmc.convertIntoPmcChance["crazyassaultevent"].min = 0;
-              aki_bots.pmc.convertIntoPmcChance["crazyassaultevent"].max = 0;
+              pmc_config.convertIntoPmcChance["assault"].min = 0;
+              pmc_config.convertIntoPmcChance["assault"].max = 0;
+              pmc_config.convertIntoPmcChance["cursedassault"].min = 0;
+              pmc_config.convertIntoPmcChance["cursedassault"].max = 0;
+              pmc_config.convertIntoPmcChance["pmcbot"].min = 0;
+              pmc_config.convertIntoPmcChance["pmcbot"].max = 0;
+              pmc_config.convertIntoPmcChance["exusec"].min = 0;
+              pmc_config.convertIntoPmcChance["exusec"].max = 0;
+              pmc_config.convertIntoPmcChance["arenafighter"].min = 0;
+              pmc_config.convertIntoPmcChance["arenafighter"].max = 0;
+              pmc_config.convertIntoPmcChance["arenafighterevent"].min = 0;
+              pmc_config.convertIntoPmcChance["arenafighterevent"].max = 0;
+              pmc_config.convertIntoPmcChance["crazyassaultevent"].min = 0;
+              pmc_config.convertIntoPmcChance["crazyassaultevent"].max = 0;
 
               logger.info("SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)")
 
@@ -238,27 +238,27 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
               // set map caps
               if (SWAG.raid_time.time_of_day === "day") {
-                aki_bots.maxBotCap.factory4_day = config.MaxBotCap.factory;
-                aki_bots.maxBotCap.bigmap = config.MaxBotCap.customs;
-                aki_bots.maxBotCap.interchange = config.MaxBotCap.interchange;
-                aki_bots.maxBotCap.shoreline = config.MaxBotCap.shoreline;
-                aki_bots.maxBotCap.woods = config.MaxBotCap.woods;
-                aki_bots.maxBotCap.rezervbase = config.MaxBotCap.reserve;
-                aki_bots.maxBotCap.laboratory = config.MaxBotCap.laboratory;
-                aki_bots.maxBotCap.lighthouse = config.MaxBotCap.lighthouse;
-                aki_bots.maxBotCap.tarkovstreets = config.MaxBotCap.streets;
+                bot_config.maxBotCap.factory4_day = config.MaxBotCap.factory;
+                bot_config.maxBotCap.bigmap = config.MaxBotCap.customs;
+                bot_config.maxBotCap.interchange = config.MaxBotCap.interchange;
+                bot_config.maxBotCap.shoreline = config.MaxBotCap.shoreline;
+                bot_config.maxBotCap.woods = config.MaxBotCap.woods;
+                bot_config.maxBotCap.rezervbase = config.MaxBotCap.reserve;
+                bot_config.maxBotCap.laboratory = config.MaxBotCap.laboratory;
+                bot_config.maxBotCap.lighthouse = config.MaxBotCap.lighthouse;
+                bot_config.maxBotCap.tarkovstreets = config.MaxBotCap.streets;
                 logger.info("SWAG: Max Bot Caps set");
               }
               else if (SWAG.raid_time.time_of_day === "night") {
-                aki_bots.maxBotCap.factory4_night = config.NightMaxBotCap.factory_night;
-                aki_bots.maxBotCap.bigmap = config.NightMaxBotCap.customs;
-                aki_bots.maxBotCap.interchange = config.NightMaxBotCap.interchange;
-                aki_bots.maxBotCap.shoreline = config.NightMaxBotCap.shoreline;
-                aki_bots.maxBotCap.woods = config.NightMaxBotCap.woods;
-                aki_bots.maxBotCap.rezervbase = config.NightMaxBotCap.reserve;
-                aki_bots.maxBotCap.laboratory = config.NightMaxBotCap.laboratory;
-                aki_bots.maxBotCap.lighthouse = config.NightMaxBotCap.lighthouse;
-                aki_bots.maxBotCap.tarkovstreets = config.NightMaxBotCap.streets;
+                bot_config.maxBotCap.factory4_night = config.NightMaxBotCap.factory_night;
+                bot_config.maxBotCap.bigmap = config.NightMaxBotCap.customs;
+                bot_config.maxBotCap.interchange = config.NightMaxBotCap.interchange;
+                bot_config.maxBotCap.shoreline = config.NightMaxBotCap.shoreline;
+                bot_config.maxBotCap.woods = config.NightMaxBotCap.woods;
+                bot_config.maxBotCap.rezervbase = config.NightMaxBotCap.reserve;
+                bot_config.maxBotCap.laboratory = config.NightMaxBotCap.laboratory;
+                bot_config.maxBotCap.lighthouse = config.NightMaxBotCap.lighthouse;
+                bot_config.maxBotCap.tarkovstreets = config.NightMaxBotCap.streets;
                 logger.info("SWAG: Night Raid Max Bot Caps set");
               }
               return HttpResponse.nullResponse();
@@ -280,7 +280,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     jsonUtil = container.resolve<JsonUtil>("JsonUtil");
     configServer = container.resolve<ConfigServer>("ConfigServer");
     botConfig = configServer.getConfig<IBotConfig>(ConfigTypes.BOT);
-    pmcConfig = configServer.getConfig<IPmcConfig>(ConfigTypes.BOT);
+    pmcConfig = configServer.getConfig<IBotConfig>(ConfigTypes.PMC);
     databaseServer = container.resolve<DatabaseServer>("DatabaseServer");
     locations = databaseServer.getTables().locations;
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
