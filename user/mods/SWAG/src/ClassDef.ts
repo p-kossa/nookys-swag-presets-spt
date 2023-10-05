@@ -76,6 +76,7 @@ export const roleCase: object = {
   bosskojaniy: "bossKojaniy",
   bosssanitar: "bossSanitar",
   bossboar: "bossBoar",
+  bossboarsniper: "bossBoarSniper",
   followerboar: "followerBoar",
   followerbully: "followerBully",
   followergluharassault: "followerGluharAssault",
