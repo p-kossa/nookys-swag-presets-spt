@@ -14,11 +14,11 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
@@ -34,15 +34,15 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 2,
+      "GroupNum": 3,
       "Name": "pmc_ruined_house",
       "Position": {
         "x": -239.2391,
@@ -54,11 +54,11 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
@@ -74,15 +74,15 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 3,
+      "GroupNum": 4,
       "Name": "pmc_primorsky_ave",
       "Position": {
         "x": 38.73736,
@@ -94,15 +94,15 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 4,
+      "GroupNum": 5,
       "Name": "pmc_evac_zone",
       "Position": {
         "x": 160.476181,
@@ -114,15 +114,15 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 4,
+      "GroupNum": 6,
       "Name": "pmc_concordia",
       "Position": {
         "x": 259.928131,
@@ -134,15 +134,15 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 5,
+      "GroupNum": 7,
       "Name": "pmc_collapsed_crane",
       "Position": {
         "x": 201.846222,
@@ -154,15 +154,15 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 5,
+      "GroupNum": 8,
       "Name": "pmc_zmeevsky_alley",
       "Position": {
         "x": 169.522873,
@@ -174,15 +174,15 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 6,
+      "GroupNum": 9,
       "Name": "pmc_scav_checkpoint",
       "Position": {
         "x": 125.938614,
@@ -194,15 +194,15 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "tarkovstreets",
-      "GroupNum": 6,
+      "GroupNum": 10,
       "Name": "pmc_underpass",
       "Position": {
         "x": -22.7947044,
@@ -214,11 +214,11 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     }
   ]
 }

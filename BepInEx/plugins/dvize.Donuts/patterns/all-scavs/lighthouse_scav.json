@@ -15,8 +15,8 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 170,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
@@ -35,8 +35,8 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
@@ -55,14 +55,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 215,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 51,
+      "GroupNum": 50,
       "Name": "Resort Southern Building Upstairs",
       "Position": {
         "x": -117.476448,
@@ -75,8 +75,8 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
@@ -95,8 +95,8 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
@@ -115,14 +115,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 52,
+      "GroupNum": 51,
       "Name": "Southern Road Extract",
       "Position": {
         "x": -160.7535,
@@ -135,14 +135,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 220,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 52,
+      "GroupNum": 51,
       "Name": "Road NE of and near lighthouse path",
       "Position": {
         "x": -6.05678463,
@@ -155,14 +155,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 52,
+      "GroupNum": 51,
       "Name": "Roadworks NW of Side Tunnel",
       "Position": {
         "x": 7.023592,
@@ -175,14 +175,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 260,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 53,
+      "GroupNum": 52,
       "Name": "Sunken Boathouse Upstairs",
       "Position": {
         "x": 132.173691,
@@ -195,14 +195,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 330,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 53,
+      "GroupNum": 52,
       "Name": "Scav house by lighthouse path",
       "Position": {
         "x": 87.29698,
@@ -215,14 +215,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 350,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 54,
+      "GroupNum": 52,
       "Name": "Long Road",
       "Position": {
         "x": 11.26129,
@@ -235,14 +235,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 150,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 55,
+      "GroupNum": 52,
       "Name": "scav",
       "Position": {
         "x": -2.16322374,
@@ -255,14 +255,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 55,
+      "GroupNum": 53,
       "Name": "scav",
       "Position": {
         "x": 24.7745724,
@@ -275,14 +275,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 260,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 55,
+      "GroupNum": 53,
       "Name": "scav",
       "Position": {
         "x": -71.35413,
@@ -295,14 +295,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 56,
+      "GroupNum": 54,
       "Name": "scav long road",
       "Position": {
         "x": 10.97968,
@@ -315,14 +315,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 56,
+      "GroupNum": 54,
       "Name": "scav long road",
       "Position": {
         "x": 11.0951691,
@@ -335,14 +335,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 56,
+      "GroupNum": 54,
       "Name": "scav long road",
       "Position": {
         "x": -1.98283017,
@@ -355,14 +355,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 57,
+      "GroupNum": 55,
       "Name": "scav chalet",
       "Position": {
         "x": -136.254333,
@@ -375,14 +375,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 57,
+      "GroupNum": 55,
       "Name": "scav chalet",
       "Position": {
         "x": -151.083344,
@@ -395,14 +395,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 58,
+      "GroupNum": 55,
       "Name": "scav chalet",
       "Position": {
         "x": -122.321533,
@@ -415,14 +415,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 290,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 58,
+      "GroupNum": 55,
       "Name": "scav chalet",
       "Position": {
         "x": -78.1768,
@@ -435,14 +435,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 290,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 85,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 59,
+      "GroupNum": 55,
       "Name": "scav",
       "Position": {
         "x": -251.066391,
@@ -455,14 +455,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 59,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -153.526611,
@@ -475,14 +475,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 260,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 59,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -94.4302139,
@@ -495,14 +495,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 60,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -425.829468,
@@ -515,14 +515,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 160,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 60,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -311.953644,
@@ -535,14 +535,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 61,
+      "GroupNum": 57,
       "Name": "scav wtp",
       "Position": {
         "x": -61.071167,
@@ -555,14 +555,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 400,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 61,
+      "GroupNum": 57,
       "Name": "scav wtp",
       "Position": {
         "x": -58.5307961,
@@ -575,14 +575,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 350,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 61,
+      "GroupNum": 57,
       "Name": "scav wtp",
       "Position": {
         "x": -93.56252,
@@ -595,14 +595,14 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 265,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 61,
+      "GroupNum": 57,
       "Name": "scav wtp",
       "Position": {
         "x": -78.2763443,
@@ -615,7 +615,7 @@
       "BotTriggerDistance": 800,
       "BotTimerTrigger": 315,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 85,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60

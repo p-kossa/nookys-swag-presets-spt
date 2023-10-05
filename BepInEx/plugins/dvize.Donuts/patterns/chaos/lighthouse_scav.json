@@ -16,7 +16,7 @@
       "BotTimerTrigger": 170,
       "MaxRandomNumBots": 2,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
@@ -36,7 +36,7 @@
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
@@ -56,13 +56,13 @@
       "BotTimerTrigger": 215,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 51,
+      "GroupNum": 50,
       "Name": "Resort Southern Building Upstairs",
       "Position": {
         "x": -117.476448,
@@ -76,7 +76,7 @@
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
@@ -96,7 +96,7 @@
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
@@ -116,13 +116,13 @@
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 1,
       "SpawnChance": 75,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 52,
+      "GroupNum": 51,
       "Name": "Southern Road Extract",
       "Position": {
         "x": -160.7535,
@@ -136,13 +136,13 @@
       "BotTimerTrigger": 220,
       "MaxRandomNumBots": 2,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 52,
+      "GroupNum": 51,
       "Name": "Road NE of and near lighthouse path",
       "Position": {
         "x": -6.05678463,
@@ -156,13 +156,13 @@
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 52,
+      "GroupNum": 51,
       "Name": "Roadworks NW of Side Tunnel",
       "Position": {
         "x": 7.023592,
@@ -176,13 +176,13 @@
       "BotTimerTrigger": 260,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 53,
+      "GroupNum": 52,
       "Name": "Sunken Boathouse Upstairs",
       "Position": {
         "x": 132.173691,
@@ -196,13 +196,13 @@
       "BotTimerTrigger": 330,
       "MaxRandomNumBots": 2,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 53,
+      "GroupNum": 52,
       "Name": "Scav house by lighthouse path",
       "Position": {
         "x": 87.29698,
@@ -216,13 +216,13 @@
       "BotTimerTrigger": 350,
       "MaxRandomNumBots": 1,
       "SpawnChance": 40,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 54,
+      "GroupNum": 52,
       "Name": "Long Road",
       "Position": {
         "x": 11.26129,
@@ -242,7 +242,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 55,
+      "GroupNum": 52,
       "Name": "scav",
       "Position": {
         "x": -2.16322374,
@@ -262,7 +262,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 55,
+      "GroupNum": 53,
       "Name": "scav",
       "Position": {
         "x": 24.7745724,
@@ -282,7 +282,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 55,
+      "GroupNum": 53,
       "Name": "scav",
       "Position": {
         "x": -71.35413,
@@ -302,7 +302,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 56,
+      "GroupNum": 54,
       "Name": "scav long road",
       "Position": {
         "x": 10.97968,
@@ -322,7 +322,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 56,
+      "GroupNum": 54,
       "Name": "scav long road",
       "Position": {
         "x": 11.0951691,
@@ -342,7 +342,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 56,
+      "GroupNum": 54,
       "Name": "scav long road",
       "Position": {
         "x": -1.98283017,
@@ -362,7 +362,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 57,
+      "GroupNum": 55,
       "Name": "scav chalet",
       "Position": {
         "x": -136.254333,
@@ -382,7 +382,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 57,
+      "GroupNum": 55,
       "Name": "scav chalet",
       "Position": {
         "x": -151.083344,
@@ -402,7 +402,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 58,
+      "GroupNum": 55,
       "Name": "scav chalet",
       "Position": {
         "x": -122.321533,
@@ -422,7 +422,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 58,
+      "GroupNum": 55,
       "Name": "scav chalet",
       "Position": {
         "x": -78.1768,
@@ -442,7 +442,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 59,
+      "GroupNum": 55,
       "Name": "scav",
       "Position": {
         "x": -251.066391,
@@ -462,7 +462,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 59,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -153.526611,
@@ -482,7 +482,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 59,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -94.4302139,
@@ -502,7 +502,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 60,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -425.829468,
@@ -522,7 +522,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 60,
+      "GroupNum": 56,
       "Name": "scav",
       "Position": {
         "x": -311.953644,
@@ -542,7 +542,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 61,
+      "GroupNum": 57,
       "Name": "scav wtp",
       "Position": {
         "x": -61.071167,
@@ -562,7 +562,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 61,
+      "GroupNum": 57,
       "Name": "scav wtp",
       "Position": {
         "x": -58.5307961,
@@ -582,7 +582,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 61,
+      "GroupNum": 57,
       "Name": "scav wtp",
       "Position": {
         "x": -93.56252,
@@ -602,7 +602,7 @@
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 61,
+      "GroupNum": 57,
       "Name": "scav wtp",
       "Position": {
         "x": -78.2763443,
