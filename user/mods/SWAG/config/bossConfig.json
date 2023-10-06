@@ -47,11 +47,10 @@
         "zone": null
       },
       "reshala": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
-          "ZoneDormitory",
-          "ZoneGasStation"
+          "ZoneDormitory"
         ]
       },
       "shturman": {
@@ -60,7 +59,7 @@
         "zone": null
       },
       "goons": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
           "ZoneScavBase"
@@ -177,14 +176,10 @@
         "zone": null
       },
       "killa": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
-          "ZoneIDEA",
-          "ZoneGoshan",
-          "ZoneOLI",
-          "ZoneCenter",
-          "ZoneCenterBot"
+          "ZoneCenter"
         ]
       },
       "tagilla": {
@@ -309,7 +304,7 @@
         "zone": null
       },
       "goons": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
           "Zone_Chalet",
@@ -325,14 +320,10 @@
         "zone": null
       },
       "glukhar": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
-          "ZoneRailStrorage",
-          "ZonePTOR1",
-          "ZonePTOR2",
-          "ZoneBarrack",
-          "ZoneSubStorage"
+          "ZoneRailStrorage"
         ]
       },
       "killa": {
@@ -398,7 +389,7 @@
         "zone": null
       },
       "sanitar": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
           "ZonePort",
@@ -418,7 +409,7 @@
         "zone": null
       },
       "goons": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
           "ZoneMeteoStation"
@@ -427,7 +418,7 @@
     },
     "streets": {
       "kaban": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
           "ZoneCarShowroom"
@@ -478,7 +469,7 @@
       "kaban": {
         "chance": 0,
         "time": -1,
-        "zone": null        
+        "zone": null
       },
       "glukhar": {
         "chance": 0,
@@ -511,14 +502,14 @@
         "zone": null
       },
       "shturman": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
           "ZoneWoodCutter"
         ]
       },
       "goons": {
-        "chance": 30,
+        "chance": 35,
         "time": -1,
         "zone": [
           "ZoneScavBase2"
