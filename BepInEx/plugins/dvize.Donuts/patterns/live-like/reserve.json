@@ -162,6 +162,26 @@
     },
     {
       "MapName": "rezervbase",
+      "GroupNum": 20,
+      "Name": "underground bunker pmc",
+      "Position": {
+        "x": 58.3192024,
+        "y": -12.2500067,
+        "z": -144.417221
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 450,
+      "BotTimerTrigger": 390,
+      "MaxRandomNumBots": 2,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 60
+    }
+    {
+      "MapName": "rezervbase",
       "GroupNum": 21,
       "Name": "Inside Dome",
       "Position": {
@@ -277,26 +297,6 @@
       "MaxRandomNumBots": 1,
       "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 1,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
-    },
-    {
-      "MapName": "rezervbase",
-      "GroupNum": 20,
-      "Name": "underground bunker pmc",
-      "Position": {
-        "x": 58.3192024,
-        "y": -12.2500067,
-        "z": -144.417221
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 450,
-      "BotTimerTrigger": 390,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 60
     }
