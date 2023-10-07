@@ -139,6 +139,126 @@
       "MaxSpawnsBeforeCoolDown": 1,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 35,
+      "Name": "dynamic boss new streets",
+      "Position": {
+        "x": 51.1414032,
+        "y": 0.249599323,
+        "z": -41.75228
+      },
+      "WildSpawnType": "bosskilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 350,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 35,
+      "Name": "dynamic boss new streets TG bldg",
+      "Position": {
+        "x": 54.4581528,
+        "y": 8.895148,
+        "z": -153.505112
+      },
+      "WildSpawnType": "bosskaban",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 35,
+      "Name": "dynamic boss new streets restaurant 3rd",
+      "Position": {
+        "x": -40.3345337,
+        "y": 9.601389,
+        "z": -51.9107
+      },
+      "WildSpawnType": "bossknight",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 250,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 36,
+      "Name": "dynamic boss new streets toy store 2nd",
+      "Position": {
+        "x": -108.573769,
+        "y": 5.111874,
+        "z": -26.4573231
+      },
+      "WildSpawnType": "followerbigpipe",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 250,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 36,
+      "Name": "dynamic boss new streets mall 2nd",
+      "Position": {
+        "x": -126.429192,
+        "y": 5.10299444,
+        "z": -31.2044086
+      },
+      "WildSpawnType": "followerbirdeye",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 250,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60.0
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 36,
+      "Name": "dynamic boss new streets office west",
+      "Position": {
+        "x": 192.093185,
+        "y": -4.67684841,
+        "z": 56.0032845
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 250,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 60.0
     }
   ]
 }
