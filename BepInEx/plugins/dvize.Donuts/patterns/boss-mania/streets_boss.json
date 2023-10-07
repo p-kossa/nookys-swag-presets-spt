@@ -1,0 +1,144 @@
+{
+  "Locations": [
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 30,
+      "Name": "Apts 3rd",
+      "Position": {
+        "x": 44.3059044,
+        "y": 10.1843786,
+        "z": 73.21943
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 30,
+      "Name": "Apts",
+      "Position": {
+        "x": 44.52857,
+        "y": 4.18362331,
+        "z": 93.2166061
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 31,
+      "Name": "Concordia",
+      "Position": {
+        "x": 271.300018,
+        "y": 3.35000086,
+        "z": 371.49472
+      },
+      "WildSpawnType": "bossknight",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 32,
+      "Name": "inside concordia 2nd",
+      "Position": {
+        "x": 137.834488,
+        "y": 6.45716572,
+        "z": 345.260864
+      },
+      "WildSpawnType": "followerbirdeye",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 33,
+      "Name": "concordia pkg",
+      "Position": {
+        "x": 211.551224,
+        "y": -1.25006771,
+        "z": 385.547546
+      },
+      "WildSpawnType": "followerbigpipe",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 34,
+      "Name": "inside abandoned bldg upstairs",
+      "Position": {
+        "x": -130.937881,
+        "y": 12.9909048,
+        "z": 270.878021
+      },
+      "WildSpawnType": "bossbully",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 34,
+      "Name": "inside abandoned bldg",
+      "Position": {
+        "x": -108.323318,
+        "y": 8.378175,
+        "z": 286.537872
+      },
+      "WildSpawnType": "bossbully",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    }
+  ]
+}

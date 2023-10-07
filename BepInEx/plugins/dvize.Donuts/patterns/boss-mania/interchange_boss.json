@@ -1,0 +1,164 @@
+{
+  "Locations": [
+    {
+      "MapName": "interchange",
+      "GroupNum": 30,
+      "Name": "Underground Pkg A",
+      "Position": {
+        "x": -0.623630762,
+        "y": 21.3255215,
+        "z": -231.71637
+      },
+      "WildSpawnType": "bosstagilla",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 31,
+      "Name": "Underground Pkg B",
+      "Position": {
+        "x": -38.9759979,
+        "y": 21.3255119,
+        "z": -146.79628
+      },
+      "WildSpawnType": "bossssanitar",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 32,
+      "Name": "Underground Pkg C",
+      "Position": {
+        "x": -98.8216553,
+        "y": 21.3255272,
+        "z": 62.54267
+      },
+      "WildSpawnType": "bossgluhar",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 33,
+      "Name": "Mall 2nd",
+      "Position": {
+        "x": -18.7650757,
+        "y": 36.5696678,
+        "z": -90.655426
+      },
+      "WildSpawnType": "bossknight",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 34,
+      "Name": "Mall 2nd Burger",
+      "Position": {
+        "x": -35.6125641,
+        "y": 36.57782,
+        "z": -107.284958
+      },
+      "WildSpawnType": "followerbigpipe",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 35,
+      "Name": "Mall 2nd Pizza",
+      "Position": {
+        "x": -45.7550163,
+        "y": 36.59381,
+        "z": -6.92546368
+      },
+      "WildSpawnType": "followerbirdeye",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350.1,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 36,
+      "Name": "IDEA Back Rooms",
+      "Position": {
+        "x": -36.61945,
+        "y": 27.0676689,
+        "z": -188.5609
+      },
+      "WildSpawnType": "bossbully",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    },
+    {
+      "MapName": "interchange",
+      "GroupNum": 37,
+      "Name": "Emercom Roaming",
+      "Position": {
+        "x": 142.622543,
+        "y": 21.3254375,
+        "z": 244.2729
+      },
+      "WildSpawnType": "bosskojaniy",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCooldown": 1,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 5
+    }
+  ]
+}
