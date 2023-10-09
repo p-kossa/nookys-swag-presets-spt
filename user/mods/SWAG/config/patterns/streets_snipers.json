@@ -4,6 +4,19 @@
     "MapGroups": [],
     "MapBosses": [
       {
+        "Name": "Kaban Snipers",
+        "BossEscortAmount": "1,2",
+        "BossEscortType": "bossboarsniper",
+        "BossName": "bossboarsniper",
+        "BossChance": 100,
+        "BossZone": ["ZoneCarShowroom_main_roof"],
+        "RandomTimeSpawn": false,
+        "Supports": null,
+        "Time": 99999,
+        "TriggerId": "BossBoarBorn",
+        "TriggerName": "botEvent"
+      },
+      {
         "Name": "ZoneSnipeSW01 SCAV Sniper",
         "BossName": "marksman",
         "BossEscortType": "marksman",

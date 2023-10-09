@@ -11,18 +11,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 3,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 1,
+      "GroupNum": 2,
       "Name": "pmc_eastern_rocks",
       "Position": {
         "x": -482.160553,
@@ -31,18 +31,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 10,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 1,
+      "GroupNum": 2,
       "Name": "pmc_eastern_rocks_2",
       "Position": {
         "x": -520.124939,
@@ -51,18 +51,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 2,
+      "GroupNum": 3,
       "Name": "pmc_un_roadblock",
       "Position": {
         "x": -528.617554,
@@ -71,18 +71,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 2,
+      "GroupNum": 4,
       "Name": "pmc_bus_stop",
       "Position": {
         "x": -253.216354,
@@ -91,18 +91,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 3,
+      "GroupNum": 5,
       "Name": "pmc_tunnel_rock",
       "Position": {
         "x": -286.549438,
@@ -111,18 +111,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 3,
+      "GroupNum": 6,
       "Name": "pmc_ruaf_roadblock",
       "Position": {
         "x": -93.00039,
@@ -131,18 +131,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 4,
+      "GroupNum": 6,
       "Name": "pmc_dead_mans_place",
       "Position": {
         "x": 236.1581,
@@ -151,18 +151,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 10,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 4,
+      "GroupNum": 7,
       "Name": "pmc_outskirts",
       "Position": {
         "x": 410.290344,
@@ -171,18 +171,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 10,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 5,
+      "GroupNum": 7,
       "Name": "pmc_bunker_overlook",
       "Position": {
         "x": 390.245056,
@@ -191,18 +191,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 15,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 5,
+      "GroupNum": 8,
       "Name": "pmc_usec_camp_hill",
       "Position": {
         "x": 220.6688,
@@ -211,18 +211,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 6,
+      "GroupNum": 8,
       "Name": "pmc_usec_camp",
       "Position": {
         "x": 358.880066,
@@ -231,18 +231,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 10,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 6,
+      "GroupNum": 9,
       "Name": "pmc_scav_bunker",
       "Position": {
         "x": 351.3308,
@@ -251,18 +251,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 7,
+      "GroupNum": 9,
       "Name": "pmc_campsite_north",
       "Position": {
         "x": 66.68721,
@@ -271,18 +271,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 7,
+      "GroupNum": 10,
       "Name": "pmc_abandoned_village",
       "Position": {
         "x": -263.6573,
@@ -291,18 +291,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
-      "GroupNum": 7,
+      "GroupNum": 10,
       "Name": "pmc_bridge_v",
       "Position": {
         "x": -410.7952,
@@ -311,14 +311,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 15,
+      "MaxDistance": 1,
       "BotTriggerDistance": 3000,
       "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 1,
-      "SpawnChance": 100,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     }
   ]
 }

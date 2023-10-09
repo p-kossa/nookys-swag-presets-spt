@@ -11,14 +11,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 15,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 600,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
@@ -32,13 +32,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 600,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
@@ -51,14 +51,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 15,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 900,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
@@ -71,14 +71,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 10,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 1200,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
@@ -91,14 +91,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 1200,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
@@ -111,14 +111,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 5,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 600,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
@@ -131,14 +131,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 15,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 1400,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
@@ -151,14 +151,14 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 10,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 1400,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
@@ -171,18 +171,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 10,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 1600,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
-      "GroupNum": 7,
+      "GroupNum": 6,
       "Name": "pmc_trailers",
       "Position": {
         "x": 156.811981,
@@ -191,18 +191,18 @@
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1,
-      "MaxDistance": 10,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 1800,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
-      "GroupNum": 8,
+      "GroupNum": 7,
       "Name": "new scav camp",
       "Position": {
         "x": 243.463745,
@@ -212,17 +212,17 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 2000,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "interchange",
-      "GroupNum": 8,
+      "GroupNum": 7,
       "Name": "new scav camp2",
       "Position": {
         "x": 242.890335,
@@ -232,13 +232,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 2000,
+      "BotTriggerDistance": 3000,
+      "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 80,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 120
     }
   ]
 }

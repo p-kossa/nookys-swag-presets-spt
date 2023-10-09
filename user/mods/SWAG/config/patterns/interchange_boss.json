@@ -16,14 +16,19 @@
           {
             "BossEscortType": "followerbirdeye",
             "BossEscortAmount": "1"
-          },
-          {
-            "BossEscortType": "followergluharscout",
-            "BossEscortAmount": "0"
           }
         ],
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Kaban",
+        "BossName": "bossboar",
+        "BossEscortType": "followerboar",
+        "BossEscortAmount": "6",
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true        
       },
       {
         "Name": "Reshala",

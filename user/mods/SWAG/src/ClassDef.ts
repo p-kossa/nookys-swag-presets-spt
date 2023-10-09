@@ -75,6 +75,9 @@ export const roleCase: object = {
   bosskilla: "bossKilla",
   bosskojaniy: "bossKojaniy",
   bosssanitar: "bossSanitar",
+  bossboar: "bossBoar",
+  bossboarsniper: "bossBoarSniper",
+  followerboar: "followerBoar",
   followerbully: "followerBully",
   followergluharassault: "followerGluharAssault",
   followergluharscout: "followerGluharScout",
@@ -102,6 +105,7 @@ export const roleCase: object = {
 };
 
 export const reverseBossNames: object = {
+  bossboar: "kaban",
   bossbully: "reshala",
   bosstagilla: "tagilla",
   bossgluhar: "glukhar",
