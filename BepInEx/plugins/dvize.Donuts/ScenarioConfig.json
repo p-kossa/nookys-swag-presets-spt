@@ -1,18 +1,18 @@
 [
   {
     "Name": "live-like",
-    "Weight": 25,
+    "Weight": 100,
     "RandomSelection": true,
   	"PMCBotLimitPresets": {
-      "FactoryBotLimit": 7,
-      "InterchangeBotLimit": 8,
-      "LaboratoryBotLimit": 8,
-      "LighthouseBotLimit": 8,
-      "ReserveBotLimit": 8,
-      "ShorelineBotLimit": 8,
-      "WoodsBotLimit": 8,
-      "CustomsBotLimit": 8,
-      "TarkovStreetsBotLimit": 8
+      "FactoryBotLimit": 12,
+      "InterchangeBotLimit": 18,
+      "LaboratoryBotLimit": 18,
+      "LighthouseBotLimit": 18,
+      "ReserveBotLimit": 18,
+      "ShorelineBotLimit": 18,
+      "WoodsBotLimit": 22,
+      "CustomsBotLimit": 18,
+      "TarkovStreetsBotLimit": 22
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 5,
@@ -29,7 +29,7 @@
   {
     "Name": "live-like-alt",
     "Weight": 25,
-    "RandomSelection": true,
+    "RandomSelection": false,
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 7,
       "InterchangeBotLimit": 8,
@@ -56,7 +56,7 @@
   {
     "Name": "live-like-alt-2",
     "Weight": 25,
-    "RandomSelection": true,
+    "RandomSelection": false,
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 7,
       "InterchangeBotLimit": 8,
@@ -83,7 +83,7 @@
   {
     "Name": "live-like-alt-3",
     "Weight": 25,
-    "RandomSelection": true,
+    "RandomSelection": false,
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 7,
       "InterchangeBotLimit": 8,
