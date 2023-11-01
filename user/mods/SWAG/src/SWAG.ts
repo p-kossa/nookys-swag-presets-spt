@@ -323,14 +323,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     ) {
       SWAG.disableSpawnSystems();
     }
-
-    //need to set global raid timers because cached bots need time to spawn
-    SWAG.setRaidTimers();
-  }
-
-  static setRaidTimers() {
-    databaseServer.getTables().globals.config.TimeBeforeDeployLocal = 20;
-    databaseServer.getTables().globals.config.TimeBeforeDeploy = 20;
   }
 
   /**
@@ -1117,7 +1109,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       locations[map].base.OldSpawn = true;
       config.DebugOutput &&
         logger.info(
-          "SWAG: disabled NewSpawnSystem to clear default spawns (SPT 3.6.x)"
+          "SWAG: disabled NewSpawnSystem to clear default spawns (SPT 3.6.x+)"
         );
     }
   }
