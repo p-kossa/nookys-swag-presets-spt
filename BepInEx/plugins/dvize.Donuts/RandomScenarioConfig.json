@@ -1,0 +1,70 @@
+[
+  {
+    "RandomScenarioConfig": "random-live-like",
+    "Presets": [
+      {
+        "Name": "live-like",
+        "Weight": 25
+      },
+      {
+        "Name": "live-like-alt",
+        "Weight": 25
+      },
+      {
+        "Name": "live-like-alt-2",
+        "Weight": 25
+      },
+      {
+        "Name": "live-like-alt-3",
+        "Weight": 25
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "random-starting-pmcs-only",
+    "Presets": [
+      {
+        "Name": "starting-pmcs-only-live-like",
+        "Weight": 25
+      },
+      {
+        "Name": "starting-pmcs-only-live-like-alt",
+        "Weight": 25
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "whole lotta scavs",
+    "Presets": [
+      {
+        "Name": "morescavs",
+        "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-morescavs",
+        "Weight": 25
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "I like pain",
+    "Presets": [
+      {
+        "Name": "live-like-split-starting-pmcs",
+        "Weight": 50
+      },
+      {
+        "Name": "crazyraids",
+        "Weight": 50
+      },
+      {
+        "Name": "impossibleraids",
+        "Weight": 25
+      },
+      {
+        "Name": "boss-mania",
+        "Weight": 10
+      }
+    ]
+  }
+]
