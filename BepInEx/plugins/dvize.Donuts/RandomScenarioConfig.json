@@ -1,6 +1,6 @@
 [
   {
-    "RandomScenarioConfig": "random-live-like",
+    "RandomScenarioConfig": "random live like",
     "Presets": [
       {
         "Name": "live-like",
@@ -21,15 +21,15 @@
     ]
   },
   {
-    "RandomScenarioConfig": "random-starting-pmcs-only",
+    "RandomScenarioConfig": "random starting pmcs only",
     "Presets": [
       {
         "Name": "starting-pmcs-only-live-like",
-        "Weight": 25
+        "Weight": 50
       },
       {
         "Name": "starting-pmcs-only-live-like-alt",
-        "Weight": 25
+        "Weight": 50
       }
     ]
   },
@@ -42,7 +42,7 @@
       },
       {
         "Name": "starting-pmcs-only-morescavs",
-        "Weight": 25
+        "Weight": 50
       }
     ]
   },
@@ -50,7 +50,7 @@
     "RandomScenarioConfig": "I like pain",
     "Presets": [
       {
-        "Name": "live-like-split-starting-pmcs",
+        "Name": "split-starting-pmcs",
         "Weight": 50
       },
       {
@@ -64,6 +64,19 @@
       {
         "Name": "boss-mania",
         "Weight": 10
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "I like to take it easy",
+    "Presets": [
+      {
+        "Name": "quietraids",
+        "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-quietraids",
+        "Weight": 50
       }
     ]
   }
