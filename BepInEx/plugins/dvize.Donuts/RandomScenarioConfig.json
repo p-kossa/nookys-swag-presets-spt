@@ -1,6 +1,6 @@
 [
   {
-    "RandomScenarioConfig": "random live like",
+    "RandomScenarioConfig": "Random Live Like",
     "Presets": [
       {
         "Name": "live-like",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "RandomScenarioConfig": "random starting pmcs only",
+    "RandomScenarioConfig": "Random Starting PMCs Only",
     "Presets": [
       {
         "Name": "starting-pmcs-only-live-like",
@@ -47,11 +47,11 @@
     ]
   },
   {
-    "RandomScenarioConfig": "I like pain",
+    "RandomScenarioConfig": "I Like Pain",
     "Presets": [
       {
         "Name": "split-starting-pmcs",
-        "Weight": 50
+        "Weight": 30
       },
       {
         "Name": "crazyraids",
@@ -59,7 +59,7 @@
       },
       {
         "Name": "impossibleraids",
-        "Weight": 25
+        "Weight": 20
       },
       {
         "Name": "boss-mania",
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "RandomScenarioConfig": "I like to take it easy",
+    "RandomScenarioConfig": "Quiet Raids",
     "Presets": [
       {
         "Name": "quietraids",
