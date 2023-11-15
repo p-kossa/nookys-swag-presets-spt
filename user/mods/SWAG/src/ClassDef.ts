@@ -118,7 +118,8 @@ export const reverseBossNames: object = {
   sectantpriest: "cultists",
   exusec: "rogues",
   crazyassaultevent: "crazyscavs",
-  arenafighterevent: "bloodhounds"
+  arenafighterevent: "bloodhounds",
+  bosspunisher: "punisher"
 };
 
 export const reverseMapNames: object = {
