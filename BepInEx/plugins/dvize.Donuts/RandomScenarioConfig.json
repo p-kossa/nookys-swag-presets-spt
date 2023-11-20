@@ -1,0 +1,87 @@
+[
+  {
+    "RandomScenarioConfig": "Random Live Like",
+    "Presets": [
+      {
+        "Name": "live-like",
+        "Weight": 25
+      },
+      {
+        "Name": "live-like-alt",
+        "Weight": 25
+      },
+      {
+        "Name": "live-like-alt-2",
+        "Weight": 25
+      },
+      {
+        "Name": "live-like-alt-3",
+        "Weight": 25
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "Random Starting PMCs Only",
+    "Presets": [
+      {
+        "Name": "starting-pmcs-only-live-like",
+        "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-live-like-alt",
+        "Weight": 50
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "Whole Lotta Scavs",
+    "Presets": [
+      {
+        "Name": "morescavs",
+        "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-morescavs",
+        "Weight": 50
+      },
+      {
+        "Name": "all-scavs",
+        "Weight": 10
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "I Like Pain",
+    "Presets": [
+      {
+        "Name": "split-starting-pmcs",
+        "Weight": 30
+      },
+      {
+        "Name": "crazyraids",
+        "Weight": 50
+      },
+      {
+        "Name": "impossibleraids",
+        "Weight": 20
+      },
+      {
+        "Name": "boss-mania",
+        "Weight": 10
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "Quiet Raids",
+    "Presets": [
+      {
+        "Name": "quietraids",
+        "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-quietraids",
+        "Weight": 50
+      }
+    ]
+  }
+]

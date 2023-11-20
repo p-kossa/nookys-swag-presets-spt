@@ -37,7 +37,7 @@
       "MaxRandomNumBots": 5,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 5,
-      "IgnoreTimerFirstSpawn": false,
+      "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 60
     },
     {
@@ -53,7 +53,7 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 555,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 5,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 5,
