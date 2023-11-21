@@ -4,11 +4,11 @@
     "Presets": [
       {
         "Name": "live-like",
-        "Weight": 25
+        "Weight": 45
       },
       {
         "Name": "live-like-alt",
-        "Weight": 25
+        "Weight": 45
       },
       {
         "Name": "live-like-alt-2",
@@ -29,8 +29,12 @@
       },
       {
         "Name": "starting-pmcs-only-live-like-alt",
+        "Weight": 25
+      },
+      {
+        "Name": "starting-pmcs-only-live-like-alt-2",
         "Weight": 50
-      }
+      }      
     ]
   },
   {
