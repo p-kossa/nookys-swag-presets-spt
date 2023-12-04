@@ -400,6 +400,31 @@
     }
   },
   {
+    "Name": "starting-pmcs-only-live-like-late-scavs",
+  	"PMCBotLimitPresets": {
+      "FactoryBotLimit": 8,
+      "InterchangeBotLimit": 10,
+      "LaboratoryBotLimit": 10,
+      "LighthouseBotLimit": 10,
+      "ReserveBotLimit": 10,
+      "ShorelineBotLimit": 10,
+      "WoodsBotLimit": 10,
+      "CustomsBotLimit": 10,
+      "TarkovStreetsBotLimit": 10
+    },
+    "SCAVBotLimitPresets": {
+      "FactoryBotLimit": 4,
+      "InterchangeBotLimit": 7,
+      "LaboratoryBotLimit": 4,
+      "LighthouseBotLimit": 7,
+      "ReserveBotLimit": 7,
+      "ShorelineBotLimit": 7,
+      "WoodsBotLimit": 7,
+      "CustomsBotLimit": 7,
+      "TarkovStreetsBotLimit": 7
+    }
+  },
+  {
     "Name": "starting-pmcs-only-morescavs",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 5,
