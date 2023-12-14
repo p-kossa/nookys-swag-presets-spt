@@ -91,5 +91,18 @@
         "Weight": 50
       }
     ]
+  },
+  {
+    "RandomScenarioConfig": "Random SCAV Raids",
+    "Presets": [
+      {
+        "Name": "scav-raids",
+        "Weight": 50
+      },
+      {
+        "Name": "scav-raids-starting-pmcs-only",
+        "Weight": 50
+      }
+    ]
   }
 ]

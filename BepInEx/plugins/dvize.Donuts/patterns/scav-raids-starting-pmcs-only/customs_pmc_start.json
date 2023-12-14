@@ -1,0 +1,104 @@
+{
+  "Locations": [
+    {
+      "MapName": "bigmap",
+      "GroupNum": 10,
+      "Name": "Inside Crackhouse",
+      "Position": {
+        "x": 79.08468,
+        "y": 4.67267847,
+        "z": -156.714111
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "MaxRandomNumBots": 5,
+      "BotTriggerDistance": 2500,
+      "BotTimerTrigger": 10000,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCooldown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 300
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 11,
+      "Name": "Dorms 3rd Story",
+      "Position": {
+        "x": 175.428024,
+        "y": 5.83158,
+        "z": 181.63736
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 2500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 300
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 11,
+      "Name": "Dorms 2nd Story",
+      "Position": {
+        "x": 238.3906,
+        "y": 2.87155581,
+        "z": 166.406815
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 2500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 300
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 12,
+      "Name": "Under Stronghold",
+      "Position": {
+        "x": 202.246124,
+        "y": -2.81965113,
+        "z": -142.273666
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 2500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 300
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 12,
+      "Name": "Inside Stronghold",
+      "Position": {
+        "x": 205.202026,
+        "y": 1.73051667,
+        "z": -123.387878
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 2500,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 300
+    }
+  ]
+}

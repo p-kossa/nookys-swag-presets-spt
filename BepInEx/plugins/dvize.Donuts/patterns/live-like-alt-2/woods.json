@@ -12,13 +12,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 750,
-      "BotTimerTrigger": 650,
+      "BotTriggerDistance": 450,
+      "BotTimerTrigger": 850,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 25,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 300
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "woods",
@@ -32,13 +32,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 450,
-      "BotTimerTrigger": 265,
+      "BotTriggerDistance": 750,
+      "BotTimerTrigger": 600,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 25,
+      "SpawnChance": 10,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 120
+      "MinSpawnDistanceFromPlayer": 300
     },
     {
       "MapName": "woods",
@@ -53,9 +53,9 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 450,
-      "BotTimerTrigger": 290,
+      "BotTimerTrigger": 650,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 10,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCooldown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 120
@@ -73,9 +73,9 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 450,
-      "BotTimerTrigger": 250,
+      "BotTimerTrigger": 700,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 20,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCooldown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 120
@@ -93,11 +93,11 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 750,
-      "BotTimerTrigger": 650,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 5,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 5,
-      "IgnoreTimerFirstSpawn": true,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 300
     },
     {
@@ -113,9 +113,9 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 450,
-      "BotTimerTrigger": 225,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 10,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 120
@@ -137,7 +137,7 @@
       "MaxRandomNumBots": 5,
       "SpawnChance": 10,
       "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
+      "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 300
     },
     {
@@ -155,7 +155,7 @@
       "BotTriggerDistance": 750,
       "BotTimerTrigger": 500,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 25,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 300
@@ -172,13 +172,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 450,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 750,
+      "BotTimerTrigger": 750,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 10,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 120
+      "MinSpawnDistanceFromPlayer": 300
     },
     {
       "MapName": "woods",
@@ -192,13 +192,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 750,
-      "BotTimerTrigger": 700,
+      "BotTriggerDistance": 450,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 10,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 300
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 120
     }
   ]
 }
