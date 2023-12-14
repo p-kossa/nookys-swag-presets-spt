@@ -525,7 +525,7 @@
     }
   },
   {
-    "Name": "starting-pmcs-only-scav-raids",
+    "Name": "scav-raids-starting-pmcs-only",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 3,
       "InterchangeBotLimit": 5,
@@ -538,9 +538,9 @@
       "TarkovStreetsBotLimit": 5
     },
     "SCAVBotLimitPresets": {
-      "FactoryBotLimit": 6,
+      "FactoryBotLimit": 5,
       "InterchangeBotLimit": 8,
-      "LaboratoryBotLimit": 8,
+      "LaboratoryBotLimit": 7,
       "LighthouseBotLimit": 8,
       "ReserveBotLimit": 8,
       "ShorelineBotLimit": 8,
