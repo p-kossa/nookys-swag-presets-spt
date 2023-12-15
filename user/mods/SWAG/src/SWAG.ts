@@ -23,6 +23,8 @@ import { JsonUtil } from "@spt-aki/utils/JsonUtil";
 import { RandomUtil } from "@spt-aki/utils/RandomUtil";
 import { DependencyContainer } from "tsyringe";
 import { LocationCallbacks } from "@spt-aki/callbacks/LocationCallbacks";
+import { SeasonalEventService } from "@spt-aki/services/SeasonalEventService";
+
 import * as fs from "fs";
 import * as path from "path";
 import * as ClassDef from "./ClassDef";
@@ -53,6 +55,7 @@ let pmcConfig: IBotConfig;
 let iGlobals: IGlobals;
 let databaseServer: DatabaseServer;
 let locations: ILocations;
+let seasonalEvents: SeasonalEventService;
 let randomUtil: RandomUtil;
 let BossWaveSpawnedOnceAlready: boolean;
 
@@ -579,7 +582,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         } else {
           continue;
         }
-      } else if (eventsBossConfig.events.christmas && actual_boss_name == "gifter") {
+      } else if (SeasonalEventService.christmasEventEnabled() && actual_boss_name == "gifter") {
           let spawnChance = boss.BossChance
             ? boss.BossChance
             : eventsBossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
@@ -910,7 +913,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         }
         break;
       case "gifter":
-        if (eventsBossConfig.events.christmas) {
+        if (seasonalEvents.christmasEventEnabled()) {
           spawnChance = eventsBossSettings.santa.chance;
           spawnTime = eventsBossSettings.santa.time;
           spawnZones = eventsBossSettings.santa.zone;
