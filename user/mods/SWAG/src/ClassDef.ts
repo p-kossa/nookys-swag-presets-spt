@@ -119,7 +119,8 @@ export const reverseBossNames: object = {
   exusec: "rogues",
   crazyassaultevent: "crazyscavs",
   arenafighterevent: "bloodhounds",
-  bosspunisher: "punisher"
+  bosspunisher: "punisher",
+  gifter: "santa"
 };
 
 export const reverseMapNames: object = {

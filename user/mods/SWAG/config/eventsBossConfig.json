@@ -1,0 +1,117 @@
+{
+  "events": {
+    "christmas": false
+  },
+  "BossSpawns": {
+    "customs": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "ZoneColumn"
+        ]
+      }
+    },
+    "factory": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "BotZone"
+        ]
+      }
+    },
+    "factory_night": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "BotZone"
+        ]
+      }
+    },
+    "laboratory": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "BotZoneFloor1",
+          "BotZoneFloor2"
+        ]
+      }
+    },
+    "interchange": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "ZoneCenterBot",
+          "ZoneCenter",
+          "ZoneOLI",
+          "ZoneIDEA",
+          "ZoneGoshan",
+          "ZoneIDEAPark",
+          "ZoneOLIPark"
+        ]
+      }
+    },
+    "lighthouse": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "Zone_TreatmentContainers",
+          "Zone_Chalet",
+          "Zone_RoofContainers",
+          "Zone_RoofBeach",
+          "Zone_Hellicopter"
+        ]
+      }
+    },
+    "reserve": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "ZoneRailStrorage",
+          "ZonePTOR1",
+          "ZonePTOR2",
+          "ZoneBarrack",
+          "ZoneSubStorage"
+        ]
+      }
+    },
+    "shoreline": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "ZonePort",
+          "ZoneGreenHouses",
+          "ZoneMeteoStation",
+          "ZoneSanatorium1",
+          "ZoneSanatorium2"
+        ]
+      }
+    },
+    "streets": {
+      "santa": {
+        "chance": 35,
+        "time": -1,
+        "zone": [
+          "ZoneColumn"
+        ]
+      }
+    },
+    "woods": {
+      "santa": {
+        "chance": 25,
+        "time": -1,
+        "zone": [
+          "ZoneScavBase2",
+          "ZoneWoodCutter"
+        ]
+      }
+    }
+  }
+}

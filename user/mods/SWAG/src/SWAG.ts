@@ -8,6 +8,7 @@ import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
 import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
 import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
 import { ILocations } from "@spt-aki/models/spt/server/ILocations";
+import { ILocationConfig } from "@spt-aki/models/spt/config/ILocationConfig";
 import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
 import { ConfigServer } from "@spt-aki/servers/ConfigServer";
 import { IGlobals } from "@spt-aki/models/eft/common/IGlobals";
@@ -38,6 +39,7 @@ import {
 
 import config from "../config/config.json";
 import bossConfig from "../config/bossConfig.json";
+import eventsBossConfig from "../config/eventsBossConfig.json";
 
 const modName = "SWAG";
 let logger: ILogger;
@@ -189,6 +191,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
                 .resolve<ConfigServer>("ConfigServer")
                 .getConfig<IBotConfig>(ConfigTypes.PMC);
 
+              const locationConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<ILocationConfig>(ConfigTypes.LOCATION);
+
               pmc_config.convertIntoPmcChance["assault"].min = 0;
               pmc_config.convertIntoPmcChance["assault"].max = 0;
               pmc_config.convertIntoPmcChance["cursedassault"].min = 0;
@@ -207,6 +211,23 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
               logger.info(
                 "SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)"
               );
+
+              // as of SPT 3.6.0 we need to disable the new spawn system so that SWAG can clear spawns properly
+              if (
+                !config?.UseDefaultSpawns?.Waves ||
+                !config?.UseDefaultSpawns?.Bosses ||
+                !config?.UseDefaultSpawns?.TriggeredWaves
+              ) {
+                SWAG.disableSpawnSystems();
+              }
+
+              // disable more vanilla spawn stuff
+              locationConfig.splitWaveIntoSingleSpawnsSettings.enabled = false;
+              locationConfig.rogueLighthouseSpawnTimeSettings.enabled = false;
+              locationConfig.fixEmptyBotWavesSettings.enabled = false;
+              locationConfig.addOpenZonesToAllMaps = false;
+              locationConfig.addCustomBotWavesToMaps = false;
+              locationConfig.enableBotTypeLimits = false;
 
               const appContext =
                 container.resolve<ApplicationContext>("ApplicationContext");
@@ -314,15 +335,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
 
     SWAG.ReadAllPatterns();
-
-    // as of SPT 3.6.0 we need to disable the new spawn system so that SWAG can clear spawns properly
-    if (
-      !config?.UseDefaultSpawns?.Waves ||
-      !config?.UseDefaultSpawns?.Bosses ||
-      !config?.UseDefaultSpawns?.TriggeredWaves
-    ) {
-      SWAG.disableSpawnSystems();
-    }
   }
 
   /**
@@ -567,7 +579,16 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         } else {
           continue;
         }
-      } else {
+      } else if (eventsBossConfig.events.christmas && actual_boss_name == "gifter") {
+          let spawnChance = boss.BossChance
+            ? boss.BossChance
+            : eventsBossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
+          if (spawnChance != 0) {
+            SWAG.SpawnBosses(boss, globalmap, AlreadySpawnedBossGroups);
+          } else {
+            continue;
+          }
+        } else {
         SWAG.SpawnBosses(boss, globalmap, AlreadySpawnedBossGroups);
       }
     }
@@ -852,6 +873,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let trigger_name = "";
 
     let bossSettings = bossConfig.BossSpawns[reverseMapNames[globalmap]];
+    let eventsBossSettings = eventsBossConfig.BossSpawns[reverseMapNames[globalmap]];
 
     switch (boss.BossName) {
       // Punisher Compatibility
@@ -887,6 +909,13 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           );
         }
         break;
+      case "gifter":
+        if (eventsBossConfig.events.christmas) {
+          spawnChance = eventsBossSettings.santa.chance;
+          spawnTime = eventsBossSettings.santa.time;
+          spawnZones = eventsBossSettings.santa.zone;
+          break;
+        }
       case "bossboar":
         spawnChance = bossSettings.kaban.chance;
         spawnTime = bossSettings.kaban.time;
