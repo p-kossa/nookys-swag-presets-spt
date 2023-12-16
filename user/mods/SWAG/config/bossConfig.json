@@ -50,7 +50,9 @@
         "chance": 35,
         "time": -1,
         "zone": [
-          "ZoneDormitory"
+          "ZoneDormitory",
+          "ZoneGasStation",
+          "ZoneScavBase"
         ]
       },
       "shturman": {
@@ -59,7 +61,7 @@
         "zone": null
       },
       "goons": {
-        "chance": 35,
+        "chance": 30,
         "time": -1,
         "zone": [
           "ZoneScavBase"
@@ -179,7 +181,11 @@
         "chance": 30,
         "time": -1,
         "zone": [
-          "ZoneCenter"
+          "ZoneCenter",
+          "ZoneCenterBot",
+          "ZoneGoshan",
+          "ZoneIDEA",
+          "ZoneOLI"
         ]
       },
       "tagilla": {

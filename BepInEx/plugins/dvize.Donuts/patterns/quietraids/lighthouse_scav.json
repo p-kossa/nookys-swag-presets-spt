@@ -12,13 +12,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 170,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 360,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -32,13 +32,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 560,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -53,12 +53,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 215,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "lighthouse",
@@ -73,12 +73,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "lighthouse",
@@ -92,13 +92,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 580,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -112,13 +112,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 580,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -132,13 +132,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 560,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -152,13 +152,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 540,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -172,13 +172,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -193,12 +193,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 330,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCooldown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "lighthouse",
@@ -212,13 +212,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 350,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 580,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -232,13 +232,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 150,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -252,13 +252,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 560,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -272,13 +272,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 580,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -292,13 +292,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -312,13 +312,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 520,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -332,13 +332,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
+      "BotTriggerDistance": 1000,
       "BotTimerTrigger": 300,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -352,13 +352,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 340,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -372,13 +372,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -392,13 +392,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -412,13 +412,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 290,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 460,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -432,13 +432,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 290,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 420,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -452,13 +452,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 320,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -473,12 +473,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 260,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "lighthouse",
@@ -493,12 +493,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "lighthouse",
@@ -512,13 +512,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -532,13 +532,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 340,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -552,13 +552,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 580,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -572,13 +572,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 350,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -592,13 +592,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 265,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 560,
       "MaxRandomNumBots": 1,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "lighthouse",
@@ -613,12 +613,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 315,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 200
     }
   ]
 }

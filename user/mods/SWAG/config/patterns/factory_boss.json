@@ -28,7 +28,7 @@
         "BossEscortAmount": "6",
         "Supports": null,
         "RandomTimeSpawn": false,
-        "OnlySpawnOnce": true        
+        "OnlySpawnOnce": true
       },
       {
         "Name": "Reshala",
@@ -102,6 +102,15 @@
         "BossName": "bosssanitar",
         "BossEscortType": "followersanitar",
         "BossEscortAmount": "2",
+        "Supports": null,
+        "RandomTimeSpawn": false,
+        "OnlySpawnOnce": true
+      },
+      {
+        "Name": "Santa",
+        "BossName": "gifter",
+        "BossEscortType": "gifter",
+        "BossEscortAmount": "0",
         "Supports": null,
         "RandomTimeSpawn": false,
         "OnlySpawnOnce": true

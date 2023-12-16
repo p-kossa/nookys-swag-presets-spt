@@ -4,11 +4,11 @@
     "Presets": [
       {
         "Name": "live-like",
-        "Weight": 25
+        "Weight": 45
       },
       {
         "Name": "live-like-alt",
-        "Weight": 25
+        "Weight": 45
       },
       {
         "Name": "live-like-alt-2",
@@ -29,12 +29,20 @@
       },
       {
         "Name": "starting-pmcs-only-live-like-alt",
+        "Weight": 25
+      },
+      {
+        "Name": "starting-pmcs-only-live-like-alt-2",
         "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-live-like-late-scavs",
+        "Weight": 10
       }
     ]
   },
   {
-    "RandomScenarioConfig": "Whole Lotta Scavs",
+    "RandomScenarioConfig": "Whole Lotta Scavs (Random)",
     "Presets": [
       {
         "Name": "morescavs",
@@ -51,7 +59,7 @@
     ]
   },
   {
-    "RandomScenarioConfig": "I Like Pain",
+    "RandomScenarioConfig": "I Like Pain (Random)",
     "Presets": [
       {
         "Name": "split-starting-pmcs",
@@ -72,7 +80,7 @@
     ]
   },
   {
-    "RandomScenarioConfig": "Quiet Raids",
+    "RandomScenarioConfig": "Random Quiet Raids",
     "Presets": [
       {
         "Name": "quietraids",
@@ -80,6 +88,19 @@
       },
       {
         "Name": "starting-pmcs-only-quietraids",
+        "Weight": 50
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "Random SCAV Raids",
+    "Presets": [
+      {
+        "Name": "scav-raids",
+        "Weight": 50
+      },
+      {
+        "Name": "scav-raids-starting-pmcs-only",
         "Weight": 50
       }
     ]

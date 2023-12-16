@@ -12,13 +12,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCooldown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -32,13 +32,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -52,13 +52,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 340,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCooldown": 4,
+      "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -72,13 +72,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 320,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -92,13 +92,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -112,13 +112,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 270,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -132,13 +132,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -152,13 +152,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -172,13 +172,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -192,13 +192,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -212,13 +212,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 340,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -232,13 +232,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -252,13 +252,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -272,13 +272,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 310,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 320,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -292,17 +292,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 420,
       "MaxRandomNumBots": 2,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
-      "GroupNum": 53,
+      "GroupNum": 80,
       "Name": "scav",
       "Position": {
         "x": -147.804825,
@@ -312,13 +312,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -332,13 +332,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 330,
-      "MaxRandomNumBots": 2,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -352,13 +352,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 250,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -372,13 +372,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 250,
-      "MaxRandomNumBots": 2,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -392,13 +392,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 250,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -412,13 +412,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 250,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 320,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -432,13 +432,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 250,
-      "MaxRandomNumBots": 2,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -452,17 +452,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
-      "GroupNum": 55,
+      "GroupNum": 81,
       "Name": "scav_main_floor (1-3)",
       "Position": {
         "x": -9.616638,
@@ -472,13 +472,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 2,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 420,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -492,17 +492,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
-      "GroupNum": 56,
+      "GroupNum": 82,
       "Name": "scav_registers_idea (1-3)",
       "Position": {
         "x": 17.43586,
@@ -512,13 +512,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -532,13 +532,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 440,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -552,13 +552,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 340,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 60
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -572,17 +572,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 360,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 60
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
-      "GroupNum": 57,
+      "GroupNum": 83,
       "Name": "top brand",
       "Position": {
         "x": 94.9808,
@@ -592,13 +592,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 220.0,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -612,17 +612,17 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280.0,
-      "MaxRandomNumBots": 2,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 1,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MaxSpawnsBeforeCoolDown": 2,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
-      "GroupNum": 57,
+      "GroupNum": 84,
       "Name": "goshan",
       "Position": {
         "x": -134.95842,
@@ -632,13 +632,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180.0,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 360,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -652,13 +652,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180.0,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -672,13 +672,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -692,13 +692,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -712,13 +712,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -732,13 +732,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 320.0,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -752,13 +752,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 250.0,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -772,13 +772,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 300.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 500,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "interchange",
@@ -792,13 +792,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 330.0,
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     },
     {
       "MapName": "interchange",
@@ -812,13 +812,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 260.0,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 80
+      "BotTriggerDistance": 1000,
+      "BotTimerTrigger": 440,
+      "MaxRandomNumBots": 1,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 400
     }
   ]
 }
