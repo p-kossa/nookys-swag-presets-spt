@@ -165,6 +165,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ): any => {
+
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
             return LocationCallbacks.getLocationData(url, info, sessionID);
@@ -336,6 +337,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     databaseServer = container.resolve<DatabaseServer>("DatabaseServer");
     locations = databaseServer.getTables().locations;
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
+    seasonalEvents = container.resolve<SeasonalEventService>("SeasonalEventService");
 
     SWAG.ReadAllPatterns();
   }
@@ -582,7 +584,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         } else {
           continue;
         }
-      } else if (SeasonalEventService.christmasEventEnabled() && actual_boss_name == "gifter") {
+      } else if (seasonalEvents.christmasEventEnabled() && actual_boss_name == "gifter") {
           let spawnChance = boss.BossChance
             ? boss.BossChance
             : eventsBossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
