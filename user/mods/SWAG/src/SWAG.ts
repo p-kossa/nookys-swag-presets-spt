@@ -147,7 +147,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           ): any => {
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
-            return output;
+            return LocationCallbacks.getLocationData(url, info, sessionID);
           },
         },
       ],
@@ -176,6 +176,47 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     );
 
     staticRouterModService.registerStaticRouter(
+      `${modName}/client/items`,
+      [
+        {
+          url: "/client/items",
+          action: (
+            url: string,
+            info: any,
+            sessionID: string,
+            output: string
+          ) => {
+              const locationConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<ILocationConfig>(ConfigTypes.LOCATION);
+
+              // as of SPT 3.6.0 we need to disable the new spawn system so that SWAG can clear spawns properly
+              if (
+                !config?.UseDefaultSpawns?.Waves ||
+                !config?.UseDefaultSpawns?.Bosses ||
+                !config?.UseDefaultSpawns?.TriggeredWaves
+              ) {
+                SWAG.disableSpawnSystems();
+              }
+
+              // disable more vanilla spawn stuff
+              locationConfig.splitWaveIntoSingleSpawnsSettings.enabled = false;
+              locationConfig.rogueLighthouseSpawnTimeSettings.enabled = false;
+              locationConfig.fixEmptyBotWavesSettings.enabled = false;
+              locationConfig.addOpenZonesToAllMaps = false;
+              locationConfig.addCustomBotWavesToMaps = false;
+              locationConfig.enableBotTypeLimits = false;
+
+              logger.info(
+                "SWAG: Vanilla spawn systems disabled"
+              );
+
+              return output;
+          },
+        },
+      ],
+      "SWAG"
+    );
+
+    staticRouterModService.registerStaticRouter(
       `${modName}/client/raid/configuration`,
       [
         {
@@ -195,8 +236,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
                 .resolve<ConfigServer>("ConfigServer")
                 .getConfig<IBotConfig>(ConfigTypes.PMC);
 
-              const locationConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<ILocationConfig>(ConfigTypes.LOCATION);
-
               pmc_config.convertIntoPmcChance["assault"].min = 0;
               pmc_config.convertIntoPmcChance["assault"].max = 0;
               pmc_config.convertIntoPmcChance["cursedassault"].min = 0;
@@ -215,23 +254,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
               logger.info(
                 "SWAG: PMC conversion is OFF (this is good - be sure this loads AFTER Realism/SVM)"
               );
-
-              // as of SPT 3.6.0 we need to disable the new spawn system so that SWAG can clear spawns properly
-              if (
-                !config?.UseDefaultSpawns?.Waves ||
-                !config?.UseDefaultSpawns?.Bosses ||
-                !config?.UseDefaultSpawns?.TriggeredWaves
-              ) {
-                SWAG.disableSpawnSystems();
-              }
-
-              // disable more vanilla spawn stuff
-              locationConfig.splitWaveIntoSingleSpawnsSettings.enabled = false;
-              locationConfig.rogueLighthouseSpawnTimeSettings.enabled = false;
-              locationConfig.fixEmptyBotWavesSettings.enabled = false;
-              locationConfig.addOpenZonesToAllMaps = false;
-              locationConfig.addCustomBotWavesToMaps = false;
-              locationConfig.enableBotTypeLimits = false;
 
               const appContext =
                 container.resolve<ApplicationContext>("ApplicationContext");
@@ -1141,6 +1163,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       locations[map].base.OfflineOldSpawn = true;
       locations[map].base.NewSpawn = false;
       locations[map].base.OldSpawn = true;
+
       config.DebugOutput &&
         logger.info(
           "SWAG: disabled NewSpawnSystem to clear default spawns (SPT 3.6.x+)"
