@@ -652,6 +652,18 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       let spawnChance = boss.BossChance
         ? boss.BossChance
         : bossConfig.BossSpawns[reverseMapNames[globalmap]][boss_name].chance;
+
+      if (boss_name == "bosspunisher") {
+        if (bossConfig.CustomBosses.punisher) {
+          spawnChance = this.getPunisherChance();
+        }
+        else {
+          logger.debug(
+            "SWAG: Detected bosspunisher, but Custom Boss flag is false - using SWAG spawn chance instead"
+          );
+        }
+      }
+
       // if spawn chance is 100 lets ignore the boss limits
       if (
         bossConfig.TotalBossesPerMap[reverseMapNames[globalmap]] === -1 ||
@@ -905,32 +917,15 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     switch (boss.BossName) {
       // Punisher Compatibility
       case "bosspunisher":
+        difficulty = "impossible";
+        escort_difficulty = "impossible";
+        spawnTime = bossSettings.punisher.time;
+        spawnZones = bossSettings.punisher.zone;
         if (bossConfig.CustomBosses.punisher) {
-          logger.info(
-            "SWAG: Custom Boss Punisher Compatibility Patch is ENABLED - Punisher spawn chance will be used from YOUR Punisher progress.json"
-          );
-          // get actual spawn chance from punisher progress file. thank you GrooveypenguinX!
-          const punisherBossProgressFilePath = path.resolve(
-            __dirname,
-            "../../PunisherBoss/src/progress.json"
-          );
-
-          difficulty = "impossible";
-          escort_difficulty = "impossible";
-
-          try {
-            const progressData = JSON.parse(
-              fs.readFileSync(punisherBossProgressFilePath, "utf8")
-            );
-            spawnChance = progressData?.actualPunisherChance ?? 1;
-          } catch (error) {
-            logger.warning(
-              "SWAG: Unable to load Punisher Boss progress file, either you don't have the mod installed or you don't have a Punisher progress file yet."
-            );
-            logger.warning("SWAG: Setting Punisher spawn chance to 1");
-            spawnChance = 1;
-          }
-        } else {
+          spawnChance = this.getPunisherChance();
+        }
+        else {
+          spawnChance = bossSettings.punisher.chance;
           logger.debug(
             "SWAG: Detected bosspunisher, but Custom Boss flag is false - using SWAG spawn chance instead"
           );
@@ -1093,6 +1088,31 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       logger.warning("SWAG: Configured Boss Wave: " + JSON.stringify(wave));
 
     return wave;
+  }
+
+  static getPunisherChance() {
+
+    let spawnChance = 1; // Default spawn chance if loading fails
+
+    logger.info(
+      "SWAG: Custom Boss Punisher Compatibility Patch is ENABLED - Punisher spawn chance will be used from YOUR Punisher progress.json"
+    );
+    const punisherBossProgressFilePath = path.resolve(
+      __dirname,
+      "../../PunisherBoss/src/progress.json"
+    );
+    try {
+      const progressData = JSON.parse(
+        fs.readFileSync(punisherBossProgressFilePath, "utf8")
+      );
+      spawnChance = progressData?.actualPunisherChance ?? 1;
+    } catch (error) {
+      console.error(
+        "Error while attempting to load Punisher Boss progress file:",
+        error
+      );
+    }
+    return spawnChance;
   }
 
   // thanks ChatGPT
