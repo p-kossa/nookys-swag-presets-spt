@@ -77,7 +77,10 @@ export const roleCase: object = {
   bosssanitar: "bossSanitar",
   bossboar: "bossBoar",
   bossboarsniper: "bossBoarSniper",
+  bosskolontay: "bossKolontay",
   followerboar: "followerBoar",
+  followerboarclose1: "followerBoarClose1",
+  followerboarclose2: "followerBoarClose2",
   followerbully: "followerBully",
   followergluharassault: "followerGluharAssault",
   followergluharscout: "followerGluharScout",
@@ -86,6 +89,8 @@ export const roleCase: object = {
   followerkojaniy: "followerKojaniy",
   followersanitar: "followerSanitar",
   followertagilla: "followerTagilla",
+  followerkolontayassault: "followerKolontayAssault",
+  followerkolontaysecurity: "followerKolontaySecurity",
   cursedassault: "cursedAssault",
   pmc: "pmc",
   usec: "usec",
@@ -100,23 +105,25 @@ export const roleCase: object = {
   followerbirdeye: "followerBirdEye",
   bosszryachiy: "bossZryachiy",
   followerzryachiy: "followerZryachiy",
-  bloodhound: "arenaFighterEvent",
-  crazyscavs: "crazyAssaultEvent"
+  arenafighterevent: "arenaFighterEvent",
+  crazyassaultevent: "crazyAssaultEvent"
 };
 
 export const reverseBossNames: object = {
   bossboar: "kaban",
   bossbully: "reshala",
   bosstagilla: "tagilla",
-  bossgluhar: "glukhar",
+  bossgluhar: "gluhar",
   bosskilla: "killa",
   bosskojaniy: "shturman",
   bosssanitar: "sanitar",
   bossknight: "goons",
   bosszryachiy: "zryachiy",
-  marksman: "snipers",
+  bosskolontay: "kolontay",
+  marksman: "scav_snipers",
   sectantpriest: "cultists",
   exusec: "rogues",
+  pmcbot: "raiders",
   crazyassaultevent: "crazyscavs",
   arenafighterevent: "bloodhounds",
   bosspunisher: "punisher",
@@ -133,16 +140,16 @@ export const reverseMapNames: object = {
   rezervbase: "reserve",
   interchange: "interchange",
   laboratory: "laboratory",
-  tarkovstreets: "streets"
+  tarkovstreets: "streets",
+  sandbox: "groundzero"
 };
 
 export const diffProper = {
   easy: "easy",
-  asonline: "normal",
+  asonline: "random",
   normal: "normal",
   hard: "hard",
-  impossible: "impossible",
-  random: "random",
+  impossible: "impossible"
 };
 
 export const pmcType: string[] = ["sptbear", "sptusec"];
@@ -158,6 +165,7 @@ export const validMaps: string[] = [
   "shoreline",
   "tarkovstreets",
   "woods",
+  "sandbox"
 ];
 
 export const aiAmountProper = {
