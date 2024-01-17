@@ -12,13 +12,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 120,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCooldown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 20
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -32,13 +32,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 100,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 540,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCooldown": 2,
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCooldown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 20
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -52,13 +52,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 320,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 20
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -72,13 +72,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 360,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "SpawnChance": 20,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -92,13 +92,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
+      "BotTriggerDistance": 120,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 30,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "factory4_day",
@@ -112,13 +112,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 150,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 560,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 15,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -132,13 +132,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 330,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 480,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -152,13 +152,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 120,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "factory4_day",
@@ -172,13 +172,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 140,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "SpawnChance": 30,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -192,13 +192,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 150,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 460,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "SpawnChance": 15,
+      "MaxSpawnsBeforeCoolDown": 1,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -212,13 +212,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 420,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 2,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 20
+      "MinSpawnDistanceFromPlayer": 95
     },
     {
       "MapName": "factory4_day",
@@ -232,13 +232,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 650,
-      "BotTimerTrigger": 250,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 1,
-      "SpawnChance": 35,
+      "SpawnChance": 20,
       "MaxSpawnsBeforeCoolDown": 2,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 20
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 95
     }
   ]
 }

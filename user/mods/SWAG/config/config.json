@@ -1,81 +1,110 @@
 {
-	"SWAG_ONLY_aiDifficulty": "normal",
-	"SWAG_ONLY_aiAmount": "asonline",
-	"RandomWaveCount": 10,
-	"BossWaveCount": 1,
-  "GlobalSCAVRandomWaveTimer": {
-    "WaveTimerMinSec": 60,
-    "WaveTimerMaxSec": 180
-  },
-  "spawnChances": {
-    "cultists": {
-      "customs": 15,
-      "woods": 15,
-      "shoreline": 12,
-      "factory_night": 100
-    },
-    "rogues": {
-      "lighthouse": 65
-    },
-    "raiders": {
-      "laboratory": 55,
-      "reserve": 55
-    },
-    "bloodhounds": {
-      "customs": 0,
-      "woods": 0,
-      "shoreline": 0
-    },
-    "crazyscavs": {
-      "shoreline": 0
-    },
-    "snipers": {
-      "customs": 55,
-      "lighthouse": 55,
-      "shoreline": 55,
-      "streets": 55,
-      "woods": 55
-    }
-  },
-  "SWAG_SPAWN_CONFIG-ONLY_USE_IF_NOT_USING_DONUTS_SPAWNS": {
-    "PMCs": {
-      "pmcWaves": false,
-      "pmcSpawnWeight": 0,
-      "pmcChance": 0,
-      "pmcGroupChance": "asonline"
-    },
-    "SCAVs": {
-      "scavWaves": false,
-      "scavSpawnWeight": 0,
-      "scavInLabs": false
-    }
-  },
-	"MaxBotCap": {
-		"factory": 18,
-		"customs": 26,
-		"woods": 26,
-		"shoreline": 26,
-		"lighthouse": 26,
-		"reserve": 24,
-		"interchange": 24,
-		"laboratory": 18,
-		"streets": 28
-	},
-  "NightMaxBotCap": {
-		"factory_night": 18,
-		"customs": 26,
-		"woods": 26,
-		"shoreline": 26,
-		"lighthouse": 26,
-		"reserve": 24,
-		"interchange": 24,
-		"laboratory": 18,
-		"streets": 28
-  },
-	"UseDefaultSpawns": {
-		"Waves": false,
-		"Bosses": false,
-		"TriggeredWaves": false
-	},
-	"DebugOutput": false
+   "BossDifficulty": "normal",
+   "BossEscortDifficulty": "normal",
+   "disableAllSpawns": {
+      "bosses": false,
+      "rogues": false,
+      "raiders": false,
+      "cultists": false,
+      "scav_snipers": false,
+      "bloodhounds": false
+   },
+   "Spawns": {
+      "useGlobalSpawnChance": true,
+      "bloodhounds": {
+         "customs": 5,
+         "factory": 0,
+         "factory_night": 0,
+         "groundzero": 0,
+         "interchange": 0,
+         "laboratory": 0,
+         "lighthouse": 0,
+         "reserve": 0,
+         "shoreline": 5,
+         "streets": 0,
+         "woods": 5
+      },
+      "cultists": {
+         "customs": 15,
+         "factory": 0,
+         "factory_night": 15,
+         "groundzero": 0,
+         "interchange": 0,
+         "laboratory": 0,
+         "lighthouse": 0,
+         "reserve": 0,
+         "shoreline": 15,
+         "streets": 0,
+         "woods": 15
+      },
+      "raiders": {
+         "customs": 0,
+         "factory": 0,
+         "factory_night": 0,
+         "groundzero": 0,
+         "interchange": 0,
+         "laboratory": 0,
+         "lighthouse": 0,
+         "reserve": 65,
+         "shoreline": 0,
+         "streets": 0,
+         "woods": 0
+      },
+      "rogues": {
+         "customs": 0,
+         "factory": 0,
+         "factory_night": 0,
+         "groundzero": 0,
+         "interchange": 0,
+         "laboratory": 0,
+         "lighthouse": 75,
+         "reserve": 0,
+         "shoreline": 0,
+         "streets": 0,
+         "woods": 0
+      },
+      "scav_snipers": {
+         "customs": 65,
+         "factory": 0,
+         "factory_night": 0,
+         "groundzero": 0,
+         "interchange": 0,
+         "laboratory": 0,
+         "lighthouse": 0,
+         "reserve": 65,
+         "shoreline": 65,
+         "streets": 0,
+         "woods": 65
+      }
+   },
+   "MaxBotCap": {
+      "factory": 18,
+      "customs": 26,
+      "woods": 26,
+      "shoreline": 26,
+      "lighthouse": 26,
+      "reserve": 24,
+      "interchange": 24,
+      "laboratory": 18,
+      "streets": 28,
+      "groundzero": 24
+   },
+   "NightMaxBotCap": {
+      "factory_night": 18,
+      "customs": 26,
+      "woods": 26,
+      "shoreline": 26,
+      "lighthouse": 26,
+      "reserve": 24,
+      "interchange": 24,
+      "laboratory": 18,
+      "streets": 28,
+      "groundzero": 24
+   },
+   "UseDefaultSpawns": {
+      "Waves": false,
+      "Bosses": false,
+      "TriggeredWaves": false
+   },
+   "DebugOutput": false
 }
