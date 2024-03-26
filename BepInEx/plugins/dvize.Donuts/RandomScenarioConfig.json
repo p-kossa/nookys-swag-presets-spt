@@ -1,6 +1,6 @@
 [
   {
-    "RandomScenarioConfig": "Random Live Like",
+    "RandomScenarioConfig": "Live Like (Random)",
     "Presets": [
       {
         "Name": "live-like",
@@ -9,23 +9,11 @@
     ]
   },
   {
-    "RandomScenarioConfig": "Random Starting PMCs Only",
+    "RandomScenarioConfig": "Starting PMCs Only (Random)",
     "Presets": [
       {
         "Name": "starting-pmcs-only-live-like",
         "Weight": 50
-      },
-      {
-        "Name": "starting-pmcs-only-live-like-alt",
-        "Weight": 25
-      },
-      {
-        "Name": "starting-pmcs-only-live-like-alt-2",
-        "Weight": 50
-      },
-      {
-        "Name": "starting-pmcs-only-live-like-late-scavs",
-        "Weight": 10
       }
     ]
   },
@@ -46,25 +34,21 @@
     "RandomScenarioConfig": "I Like Pain (Random)",
     "Presets": [
       {
-        "Name": "split-starting-pmcs",
-        "Weight": 30
-      },
-      {
         "Name": "crazyraids",
         "Weight": 50
       },
       {
         "Name": "impossibleraids",
-        "Weight": 20
+        "Weight": 25
       },
       {
         "Name": "boss-mania",
-        "Weight": 10
+        "Weight": 15
       }
     ]
   },
   {
-    "RandomScenarioConfig": "Random Quiet Raids",
+    "RandomScenarioConfig": "Quiet Raids (Random)",
     "Presets": [
       {
         "Name": "quietraids",
@@ -72,19 +56,6 @@
       },
       {
         "Name": "starting-pmcs-only-quietraids",
-        "Weight": 50
-      }
-    ]
-  },
-  {
-    "RandomScenarioConfig": "Random SCAV Raids",
-    "Presets": [
-      {
-        "Name": "scav-raids",
-        "Weight": 50
-      },
-      {
-        "Name": "scav-raids-starting-pmcs-only",
         "Weight": 50
       }
     ]
