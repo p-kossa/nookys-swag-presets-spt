@@ -3,19 +3,19 @@
     {
       "MapName": "bigmap",
       "GroupNum": 1,
-      "Name": "pmc_trailer_park",
+      "Name": "Zone_Yellow_Crossroads_Start",
       "Position": {
-        "x": -321.211029,
-        "y": 0.8538656,
-        "z": -231.526016
+        "x": -299.795135,
+        "y": -0.792075455,
+        "z": -62.2587547
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 85,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -23,19 +23,39 @@
     {
       "MapName": "bigmap",
       "GroupNum": 1,
-      "Name": "pmc_crossroads",
+      "Name": "Zone_Yellow_Crossroads_Start",
       "Position": {
-        "x": -232.5814,
-        "y": -1.41542685,
-        "z": -14.8593245
+        "x": -161.473068,
+        "y": 0.6159158,
+        "z": 10.7441244
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 120
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 1,
+      "Name": "Zone_Yellow_Crossroads_Start",
+      "Position": {
+        "x": -186.046661,
+        "y": 0.7232704,
+        "z": -45.83475
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 90,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -43,19 +63,19 @@
     {
       "MapName": "bigmap",
       "GroupNum": 2,
-      "Name": "pmc_railroad_to_port",
+      "Name": "Zone_Yellow_Trailer_Start",
       "Position": {
-        "x": -131.341431,
-        "y": -1.91517925,
-        "z": 36.77712
+        "x": -312.796021,
+        "y": 0.696360469,
+        "z": -197.178
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -63,19 +83,39 @@
     {
       "MapName": "bigmap",
       "GroupNum": 2,
-      "Name": "pmc_railroad_middle",
+      "Name": "Zone_Yellow_Trailer_Start",
       "Position": {
-        "x": -150.882309,
-        "y": 1.2791996,
-        "z": -130.050232
+        "x": -202.324554,
+        "y": 1.23085988,
+        "z": -216.249374
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 90,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 120
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 2,
+      "Name": "Zone_Yellow_Trailer_Start",
+      "Position": {
+        "x": -283.581879,
+        "y": 0.909082353,
+        "z": -136.939865
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -83,19 +123,39 @@
     {
       "MapName": "bigmap",
       "GroupNum": 3,
-      "Name": "pmc_railroad_to_tarkov",
+      "Name": "Zone_Red_North_Start",
       "Position": {
-        "x": -134.567886,
-        "y": -1.5629406,
-        "z": -214.821381
+        "x": -55.04195,
+        "y": -6.397409,
+        "z": -149.426254
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 120
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 3,
+      "Name": "Zone_Red_North_Start",
+      "Position": {
+        "x": -142.353455,
+        "y": 0.3871012,
+        "z": -183.580032
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -103,19 +163,39 @@
     {
       "MapName": "bigmap",
       "GroupNum": 4,
-      "Name": "pmc_crack_house",
+      "Name": "Zone_Red_South_Start",
       "Position": {
-        "x": 65.6241,
-        "y": 1.09211242,
-        "z": -120.138046
+        "x": -16.5378914,
+        "y": -6.93895435,
+        "z": 96.79763
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 90,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 120
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 4,
+      "Name": "Zone_Red_South_Start",
+      "Position": {
+        "x": -95.4472046,
+        "y": -9.004111,
+        "z": 74.5079
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 90,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -123,19 +203,39 @@
     {
       "MapName": "bigmap",
       "GroupNum": 5,
-      "Name": "pmc_smugglers_boat",
+      "Name": "Zone_Green_Start",
       "Position": {
-        "x": -14.1535606,
-        "y": -8.216932,
-        "z": 123.702835
+        "x": 141.066711,
+        "y": -1.93334079,
+        "z": 166.704865
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 85,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 120
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 5,
+      "Name": "Zone_Green_Start",
+      "Position": {
+        "x": 309.36557,
+        "y": 3.645752,
+        "z": 128.9364
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -143,19 +243,19 @@
     {
       "MapName": "bigmap",
       "GroupNum": 6,
-      "Name": "pmc_railroad_to_militarybase",
+      "Name": "Zone_Blue_South_Start",
       "Position": {
-        "x": 387.66217,
-        "y": 12.78389,
-        "z": 182.674423
+        "x": 505.677429,
+        "y": 14.2391205,
+        "z": 109.919891
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 85,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -163,19 +263,19 @@
     {
       "MapName": "bigmap",
       "GroupNum": 6,
-      "Name": "pmc_passage_between_rocks",
+      "Name": "Zone_Blue_South_Start",
       "Position": {
-        "x": 525.1774,
-        "y": 11.1672745,
-        "z": 169.938141
+        "x": 646.6032,
+        "y": 0.283185244,
+        "z": 112.016281
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 85,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -183,19 +283,19 @@
     {
       "MapName": "bigmap",
       "GroupNum": 7,
-      "Name": "pmc_militarybase_cp",
+      "Name": "Zone_Blue_North_Start",
       "Position": {
-        "x": 597.858337,
-        "y": 7.07981443,
-        "z": 121.845566
+        "x": 656.380432,
+        "y": 1.099913,
+        "z": -102.928383
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -203,19 +303,39 @@
     {
       "MapName": "bigmap",
       "GroupNum": 7,
-      "Name": "pmc_sniper_ridge",
+      "Name": "Zone_Blue_North_Start",
       "Position": {
-        "x": 541.838562,
-        "y": 4.091064,
-        "z": 55.86515
+        "x": 544.4401,
+        "y": 1.21533668,
+        "z": -67.5447845
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 80,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 120
+    },
+    {
+      "MapName": "bigmap",
+      "GroupNum": 7,
+      "Name": "Zone_Blue_North_Start",
+      "Position": {
+        "x": 476.4955,
+        "y": 4.16871738,
+        "z": -138.71698
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -223,19 +343,19 @@
     {
       "MapName": "bigmap",
       "GroupNum": 8,
-      "Name": "pmc_scav_checkpoint",
+      "Name": "Zone_Black_Start",
       "Position": {
-        "x": 652.553833,
-        "y": 5.149473,
-        "z": 42.2802925
+        "x": 335.4628,
+        "y": 1.089019,
+        "z": -170.20282
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 90,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
@@ -243,99 +363,39 @@
     {
       "MapName": "bigmap",
       "GroupNum": 8,
-      "Name": "pmc_factory_railroad_zb1012",
+      "Name": "Zone_Black_Start",
       "Position": {
-        "x": 499.5074,
-        "y": 1.08337474,
-        "z": -73.7416
+        "x": 207.361008,
+        "y": 1.09676576,
+        "z": -201.694626
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 80,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 9,
-      "Name": "pmc_factory_corner",
+      "GroupNum": 8,
+      "Name": "Zone_Black_Start",
       "Position": {
-        "x": 616.9744,
-        "y": -0.6024002,
-        "z": -86.2317352
+        "x": 58.74632,
+        "y": 1.09900212,
+        "z": -155.069855
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 120
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 9,
-      "Name": "pmc_warehouse3",
-      "Position": {
-        "x": 370.611053,
-        "y": 1.21444023,
-        "z": -109.979362
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 120
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 10,
-      "Name": "pmc_warehouse4",
-      "Position": {
-        "x": 316.246,
-        "y": 1.102204,
-        "z": -97.97707
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 120
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 10,
-      "Name": "pmc_old_gas",
-      "Position": {
-        "x": 293.767029,
-        "y": 1.09457517,
-        "z": -196.157822
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 2500,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 85,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 120

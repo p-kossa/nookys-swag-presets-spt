@@ -11,516 +11,168 @@
     "laboratory": -1,
     "streets": -1
   },
-  "CustomBosses": {
-    "punisher": false
-  },
-  "BossSpawns": {
-    "customs": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 35,
-        "time": -1,
-        "zone": [
-          "ZoneDormitory",
-          "ZoneGasStation",
-          "ZoneScavBase"
-        ]
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 30,
-        "time": -1,
-        "zone": [
-          "ZoneScavBase"
-        ]
-      }
+	"Bosses": {
+    "useGlobalBossSpawnChance": true,
+    "gluhar": {
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 35,
+      "shoreline": 0,
+      "streets": 0,
+      "woods": 0
     },
-    "factory": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 30,
-        "time": -1,
-        "zone": [
-          "BotZone"
-        ]
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      }
+    "goons": {
+      "customs": 15,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 15,
+      "streets": 0,
+      "woods": 15
     },
-    "factory_night": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 30,
-        "time": -1,
-        "zone": [
-          "BotZone"
-        ]
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      }
+    "kaban": {
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 15,
+      "woods": 0
     },
-    "interchange": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 30,
-        "time": -1,
-        "zone": [
-          "ZoneCenter",
-          "ZoneCenterBot",
-          "ZoneGoshan",
-          "ZoneIDEA",
-          "ZoneOLI"
-        ]
-      },
-      "tagilla": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      }
+    "killa": {
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 25,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 0,
+      "woods": 0
     },
-    "laboratory": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      }
+    "kolontay": {
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 15,
+      "woods": 0
     },
-    "lighthouse": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "zryachiy": {
-        "chance": 100,
-        "time": -1,
-        "zone": [
-          "Zone_Island"
-        ]
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 35,
-        "time": -1,
-        "zone": [
-          "Zone_Chalet",
-          "Zone_Containers",
-          "Zone_TreatmentBeach"
-        ]
-      }
+    "reshala": {
+      "customs": 35,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 0,
+      "woods": 0
     },
-    "reserve": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 35,
-        "time": -1,
-        "zone": [
-          "ZoneRailStrorage"
-        ]
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      }
+    "sanitar": {
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 25,
+      "streets": 0,
+      "woods": 0
     },
-    "shoreline": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 35,
-        "time": -1,
-        "zone": [
-          "ZonePort",
-          "ZoneSanatorium1",
-          "ZoneGreenHouses",
-          "ZoneSanatorium2"
-        ]
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 35,
-        "time": -1,
-        "zone": [
-          "ZoneMeteoStation"
-        ]
-      }
+    "shturman": {
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 0,
+      "woods": 15
     },
-    "streets": {
-      "kaban": {
-        "chance": 35,
-        "time": -1,
-        "zone": [
-          "ZoneCarShowroom"
-        ]
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "goons": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      }
+    "tagilla": {
+      "customs": 0,
+      "factory": 15,
+      "factory_night": 15,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 0,
+      "woods": 0
     },
-    "woods": {
-      "kaban": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "glukhar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "killa": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "tagilla": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "zryachiy": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "sanitar": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "reshala": {
-        "chance": 0,
-        "time": -1,
-        "zone": null
-      },
-      "shturman": {
-        "chance": 35,
-        "time": -1,
-        "zone": [
-          "ZoneWoodCutter"
-        ]
-      },
-      "goons": {
-        "chance": 35,
-        "time": -1,
-        "zone": [
-          "ZoneScavBase2"
-        ]
-      }
+    "zryachiy": {
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 100,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 0,
+      "woods": 0
     }
+	},
+  "CustomBosses": {
+    "santa": {
+			"enabled": true,
+      "forceSpawnOutsideEvent": false,
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 0,
+      "woods": 0
+		},
+    "punisher": {
+			"enabled": false,
+			"useProgressSpawnChance": true,
+      "customs": 0,
+      "factory": 0,
+      "factory_night": 0,
+      "groundzero": 0,
+      "interchange": 0,
+      "laboratory": 0,
+      "lighthouse": 0,
+      "reserve": 0,
+      "shoreline": 0,
+      "streets": 0,
+      "woods": 0
+		}
   }
 }
