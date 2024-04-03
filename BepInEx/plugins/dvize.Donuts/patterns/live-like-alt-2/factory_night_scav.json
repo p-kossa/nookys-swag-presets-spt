@@ -13,12 +13,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 2,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCooldown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -33,12 +33,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -53,12 +53,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -75,10 +75,10 @@
       "BotTriggerDistance": 120,
       "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -92,13 +92,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 120,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -112,13 +112,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 120,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -133,12 +133,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -153,12 +153,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 260,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -172,13 +172,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 120,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -194,11 +194,11 @@
       "MaxDistance": 1,
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -212,13 +212,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1,
       "MaxDistance": 1,
-      "BotTriggerDistance": 120,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -232,13 +232,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 120,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -253,12 +253,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -273,12 +273,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -294,11 +294,11 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 45,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -313,12 +313,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -332,13 +332,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 120,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -353,12 +353,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -372,13 +372,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 120,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -392,13 +392,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 120,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -413,12 +413,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -433,12 +433,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -453,12 +453,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -472,13 +472,13 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 120,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 4,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 40
+      "BotTriggerDistance": 350,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -494,11 +494,11 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 60,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -515,10 +515,10 @@
       "BotTriggerDistance": 350,
       "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -533,12 +533,12 @@
       "MinDistance": 1,
       "MaxDistance": 1,
       "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCooldown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 95
+      "MinSpawnDistanceFromPlayer": 35
     },
     {
       "MapName": "factory4_night",
@@ -552,11 +552,11 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 360,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 40
     }

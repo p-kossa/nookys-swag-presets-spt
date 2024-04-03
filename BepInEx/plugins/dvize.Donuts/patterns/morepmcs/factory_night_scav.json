@@ -552,11 +552,11 @@
       "WildSpawnType": "assault",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 380,
-      "MaxRandomNumBots": 2,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 40
     }

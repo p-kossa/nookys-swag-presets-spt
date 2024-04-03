@@ -13,9 +13,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 380,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 360,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -32,13 +32,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -53,7 +53,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 420,
+      "BotTimerTrigger": 320,
       "MaxRandomNumBots": 4,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
@@ -72,13 +72,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -93,12 +93,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -112,13 +112,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 350,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 340,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -133,9 +133,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 440,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -152,13 +152,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -173,12 +173,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -192,13 +192,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 420,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -215,7 +215,7 @@
       "BotTriggerDistance": 250,
       "BotTimerTrigger": 340,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -233,12 +233,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "BotTimerTrigger": 550,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -253,12 +253,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 550,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -272,13 +272,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 420,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -292,13 +292,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -313,9 +313,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 420,
+      "BotTimerTrigger": 360,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -335,7 +335,7 @@
       "BotTriggerDistance": 250,
       "BotTimerTrigger": 400,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -353,12 +353,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -372,13 +372,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -392,13 +392,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -413,12 +413,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 45,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -433,12 +433,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -453,8 +453,8 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 340,
-      "MaxRandomNumBots": 4,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
@@ -473,9 +473,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 340,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -492,13 +492,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -513,12 +513,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "BotTimerTrigger": 550,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -532,13 +532,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 340,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -553,12 +553,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -572,13 +572,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -595,10 +595,10 @@
       "BotTriggerDistance": 550,
       "BotTimerTrigger": 500,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -612,13 +612,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 320,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -632,13 +632,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 340,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -652,13 +652,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -672,13 +672,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -692,13 +692,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 360,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -713,9 +713,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "BotTimerTrigger": 380,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -732,70 +732,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 350,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_Red",
-      "Position": {
-        "x": 178.834885,
-        "y": -1.51152873,
-        "z": -127.84446
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 350,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_Red",
-      "Position": {
-        "x": 158.835785,
-        "y": -1.87311709,
-        "z": -95.78611
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_Red",
-      "Position": {
-        "x": 191.907547,
-        "y": -2.01049829,
-        "z": -79.4270554
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -805,49 +745,9 @@
       "GroupNum": 50,
       "Name": "Zone_Red",
       "Position": {
-        "x": 217.113953,
-        "y": -3.88318181,
-        "z": -36.25435
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_Red",
-      "Position": {
-        "x": 233.793243,
-        "y": -2.496752,
-        "z": -71.23111
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_Red",
-      "Position": {
-        "x": 203.995316,
-        "y": -4.769431,
-        "z": -11.5495291
+        "x": 178.834885,
+        "y": -1.51152873,
+        "z": -127.84446
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -865,6 +765,106 @@
       "GroupNum": 50,
       "Name": "Zone_Red",
       "Position": {
+        "x": 158.835785,
+        "y": -1.87311709,
+        "z": -95.78611
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_Red",
+      "Position": {
+        "x": 191.907547,
+        "y": -2.01049829,
+        "z": -79.4270554
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 320,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_Red",
+      "Position": {
+        "x": 217.113953,
+        "y": -3.88318181,
+        "z": -36.25435
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_Red",
+      "Position": {
+        "x": 233.793243,
+        "y": -2.496752,
+        "z": -71.23111
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 450,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 150
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_Red",
+      "Position": {
+        "x": 203.995316,
+        "y": -4.769431,
+        "z": -11.5495291
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_Red",
+      "Position": {
         "x": 137.9504,
         "y": -1.45330012,
         "z": -36.53566
@@ -872,13 +872,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -893,9 +893,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 420,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -913,9 +913,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 380,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -932,13 +932,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 320,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -952,13 +952,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 550,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -972,13 +972,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 500,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -993,9 +993,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 400,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1013,9 +1013,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1034,8 +1034,8 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
       "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1054,11 +1054,11 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
       "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 4,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1073,12 +1073,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTimerTrigger": 550,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1094,11 +1094,11 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
       "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1114,11 +1114,11 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
       "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 4,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1132,13 +1132,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 340,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1152,13 +1152,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 440,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1172,13 +1172,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1192,13 +1192,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 380,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 350,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1208,86 +1208,6 @@
         "x": 191.5054,
         "y": -1.1768204,
         "z": 59.16162
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 440,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_DarkBlue",
-      "Position": {
-        "x": 192.011627,
-        "y": -1.176839,
-        "z": 66.06465
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_DarkBlue",
-      "Position": {
-        "x": 176.5835,
-        "y": -4.6768446,
-        "z": 73.0675
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_DarkBlue",
-      "Position": {
-        "x": 220.149261,
-        "y": -4.059657,
-        "z": 58.3941765
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "tarkovstreets",
-      "GroupNum": 50,
-      "Name": "Zone_DarkBlue",
-      "Position": {
-        "x": 221.519363,
-        "y": 2.99759579,
-        "z": 81.23873
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -1305,6 +1225,86 @@
       "GroupNum": 50,
       "Name": "Zone_DarkBlue",
       "Position": {
+        "x": 192.011627,
+        "y": -1.176839,
+        "z": 66.06465
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_DarkBlue",
+      "Position": {
+        "x": 176.5835,
+        "y": -4.6768446,
+        "z": 73.0675
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 420,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_DarkBlue",
+      "Position": {
+        "x": 220.149261,
+        "y": -4.059657,
+        "z": 58.3941765
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 80
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_DarkBlue",
+      "Position": {
+        "x": 221.519363,
+        "y": 2.99759579,
+        "z": 81.23873
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 450,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 150
+    },
+    {
+      "MapName": "tarkovstreets",
+      "GroupNum": 50,
+      "Name": "Zone_DarkBlue",
+      "Position": {
         "x": 183.102936,
         "y": 1.76610351,
         "z": 116.628685
@@ -1313,9 +1313,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 360,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 320,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1333,12 +1333,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 45,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1353,9 +1353,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 380,
+      "BotTimerTrigger": 320,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1372,13 +1372,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1393,12 +1393,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "BotTimerTrigger": 500,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1413,12 +1413,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 550,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1433,12 +1433,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 400,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1452,13 +1452,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 45,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1472,13 +1472,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 350,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 340,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1492,13 +1492,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1512,13 +1512,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 450,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1533,12 +1533,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 550,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1553,12 +1553,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "BotTimerTrigger": 550,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1573,12 +1573,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 500,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1593,12 +1593,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1612,13 +1612,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 320,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1633,12 +1633,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1653,9 +1653,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 360,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1672,13 +1672,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 550,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 340,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1693,9 +1693,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "BotTimerTrigger": 440,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1712,13 +1712,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 550,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 340,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1733,7 +1733,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 4,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
@@ -1752,13 +1752,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 340,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1773,9 +1773,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1792,13 +1792,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 440,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1812,13 +1812,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 45,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1832,13 +1832,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1853,9 +1853,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1873,9 +1873,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 380,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -1892,13 +1892,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1912,13 +1912,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1933,12 +1933,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 550,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 300,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1952,13 +1952,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 320,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -1972,13 +1972,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 550,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -1993,9 +1993,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 300,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -2012,13 +2012,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 440,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2032,13 +2032,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -2052,13 +2052,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 340,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -2073,7 +2073,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 340,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
@@ -2094,11 +2094,11 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
       "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2112,13 +2112,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2132,13 +2132,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -2153,9 +2153,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 380,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -2172,13 +2172,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -2192,13 +2192,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 360,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 4,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2212,13 +2212,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 320,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2233,9 +2233,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "BotTimerTrigger": 420,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 80
@@ -2253,12 +2253,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 550,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2273,8 +2273,8 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 360,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
@@ -2292,13 +2292,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -2312,13 +2312,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 440,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2333,12 +2333,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 550,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2352,13 +2352,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 550,
+      "BotTimerTrigger": 350,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 80
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "tarkovstreets",
@@ -2372,13 +2372,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 550,
-      "BotTimerTrigger": 500,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 420,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 80
     },
     {
       "MapName": "tarkovstreets",
@@ -2393,9 +2393,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 35,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2415,7 +2415,7 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 360,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 35,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2433,7 +2433,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 460,
+      "BotTimerTrigger": 540,
       "MaxRandomNumBots": 5,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
@@ -2453,9 +2453,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 440,
+      "BotTimerTrigger": 420,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 50,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2473,9 +2473,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 520,
+      "BotTimerTrigger": 480,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 45,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2493,9 +2493,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 560,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 35,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2515,7 +2515,7 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 520,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 45,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2533,9 +2533,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 400,
+      "BotTimerTrigger": 480,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 50,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2553,9 +2553,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 420,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2573,9 +2573,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 520,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 45,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2593,9 +2593,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 440,
+      "BotTimerTrigger": 580,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 45,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2613,7 +2613,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 440,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 5,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 5,
@@ -2633,9 +2633,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 460,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 40,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2653,9 +2653,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 520,
+      "BotTimerTrigger": 360,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 50,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2673,9 +2673,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 420,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2693,9 +2693,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 580,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 50,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2713,9 +2713,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 45,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2753,7 +2753,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 580,
+      "BotTimerTrigger": 360,
       "MaxRandomNumBots": 5,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
@@ -2773,7 +2773,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 360,
+      "BotTimerTrigger": 520,
       "MaxRandomNumBots": 5,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 5,
@@ -2793,9 +2793,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 420,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 55,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2813,9 +2813,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 480,
+      "BotTimerTrigger": 580,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 35,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2833,9 +2833,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 520,
+      "BotTimerTrigger": 480,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 55,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2855,7 +2855,7 @@
       "BotTriggerDistance": 300,
       "BotTimerTrigger": 440,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 40,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
@@ -2873,9 +2873,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 300,
-      "BotTimerTrigger": 580,
+      "BotTimerTrigger": 540,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 45,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
       "MinSpawnDistanceFromPlayer": 125
