@@ -12,13 +12,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -32,13 +32,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 360,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -52,13 +52,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -72,13 +72,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 45,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 380,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -92,13 +92,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 420,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -113,12 +113,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 340,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 4,
       "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -133,7 +133,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 280,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
@@ -153,12 +153,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 4,
+      "BotTimerTrigger": 360,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -172,13 +172,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 420,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -188,146 +188,6 @@
         "x": 38.2293243,
         "y": 7.688934,
         "z": -205.714966
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "woods",
-      "GroupNum": 50,
-      "Name": "Zone_Orange",
-      "Position": {
-        "x": -172.06424,
-        "y": 0.864378154,
-        "z": 405.2076
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "woods",
-      "GroupNum": 50,
-      "Name": "Zone_Orange",
-      "Position": {
-        "x": -250.7216,
-        "y": 0.226280734,
-        "z": 361.3807
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 380,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "woods",
-      "GroupNum": 50,
-      "Name": "Zone_Orange",
-      "Position": {
-        "x": -340.473969,
-        "y": -1.40572536,
-        "z": 326.737061
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "woods",
-      "GroupNum": 50,
-      "Name": "Zone_Orange",
-      "Position": {
-        "x": -459.1107,
-        "y": -1.404109,
-        "z": 270.858978
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "woods",
-      "GroupNum": 50,
-      "Name": "Zone_Orange",
-      "Position": {
-        "x": -450.745544,
-        "y": 1.38820148,
-        "z": 198.104675
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
-    },
-    {
-      "MapName": "woods",
-      "GroupNum": 50,
-      "Name": "Zone_Orange",
-      "Position": {
-        "x": -326.831482,
-        "y": 0.368829757,
-        "z": 204.5033
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
-    },
-    {
-      "MapName": "woods",
-      "GroupNum": 50,
-      "Name": "Zone_Orange",
-      "Position": {
-        "x": -222.223251,
-        "y": 3.35027671,
-        "z": 98.8340149
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -345,6 +205,146 @@
       "GroupNum": 50,
       "Name": "Zone_Orange",
       "Position": {
+        "x": -172.06424,
+        "y": 0.864378154,
+        "z": 405.2076
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 50,
+      "Name": "Zone_Orange",
+      "Position": {
+        "x": -250.7216,
+        "y": 0.226280734,
+        "z": 361.3807
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 440,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 150
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 50,
+      "Name": "Zone_Orange",
+      "Position": {
+        "x": -340.473969,
+        "y": -1.40572536,
+        "z": 326.737061
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 50,
+      "Name": "Zone_Orange",
+      "Position": {
+        "x": -459.1107,
+        "y": -1.404109,
+        "z": 270.858978
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 150
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 50,
+      "Name": "Zone_Orange",
+      "Position": {
+        "x": -450.745544,
+        "y": 1.38820148,
+        "z": 198.104675
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 50,
+      "Name": "Zone_Orange",
+      "Position": {
+        "x": -326.831482,
+        "y": 0.368829757,
+        "z": 204.5033
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 380,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 150
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 50,
+      "Name": "Zone_Orange",
+      "Position": {
+        "x": -222.223251,
+        "y": 3.35027671,
+        "z": 98.8340149
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "woods",
+      "GroupNum": 50,
+      "Name": "Zone_Orange",
+      "Position": {
         "x": -177.905029,
         "y": 16.7610779,
         "z": -21.4411621
@@ -353,12 +353,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 360,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -373,12 +373,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 340,
+      "BotTimerTrigger": 420,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -392,13 +392,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 440,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -413,9 +413,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 280,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -432,13 +432,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 380,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -453,9 +453,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -473,12 +473,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -493,12 +493,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 320,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -512,13 +512,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 400,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -532,13 +532,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -554,11 +554,11 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -572,13 +572,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -593,9 +593,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -613,8 +613,8 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
@@ -633,12 +633,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -652,13 +652,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -673,9 +673,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 50,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -692,13 +692,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 45,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 320,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -712,13 +712,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -733,9 +733,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -753,12 +753,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 320,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTimerTrigger": 380,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -772,13 +772,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -792,13 +792,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 340,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -812,13 +812,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -833,9 +833,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 160,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -852,13 +852,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 40,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -873,9 +873,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -892,13 +892,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 380,
       "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -914,11 +914,11 @@
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 300,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -933,12 +933,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 340,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 360,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -952,13 +952,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -972,13 +972,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 50,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -993,9 +993,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -1013,12 +1013,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 420,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "BotTimerTrigger": 440,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -1033,12 +1033,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -1053,12 +1053,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 420,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 400,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 45,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -1072,13 +1072,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 320,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -1092,13 +1092,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 360,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 40
     },
     {
       "MapName": "woods",
@@ -1113,8 +1113,8 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
@@ -1135,7 +1135,7 @@
       "BotTriggerDistance": 250,
       "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -1152,13 +1152,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 35,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 380,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -1173,9 +1173,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 40
@@ -1192,13 +1192,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 40
+      "MinSpawnDistanceFromPlayer": 150
     },
     {
       "MapName": "woods",
@@ -1212,13 +1212,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 360,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 40,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 125
+      "MinSpawnDistanceFromPlayer": 75
     },
     {
       "MapName": "woods",
@@ -1232,13 +1232,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 420,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 440,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 50,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 125
+      "MinSpawnDistanceFromPlayer": 75
     },
     {
       "MapName": "woods",
@@ -1252,13 +1252,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 540,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 125
+      "MinSpawnDistanceFromPlayer": 75
     },
     {
       "MapName": "woods",
@@ -1272,13 +1272,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 420,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 50,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 125
+      "MinSpawnDistanceFromPlayer": 75
     },
     {
       "MapName": "woods",
@@ -1292,13 +1292,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 60,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 125
+      "MinSpawnDistanceFromPlayer": 75
     },
     {
       "MapName": "woods",
@@ -1312,13 +1312,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 380,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 50,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 125
+      "MinSpawnDistanceFromPlayer": 75
     },
     {
       "MapName": "woods",
@@ -1332,13 +1332,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 300,
-      "BotTimerTrigger": 420,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 5,
-      "SpawnChance": 40,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 125
+      "MinSpawnDistanceFromPlayer": 75
     }
   ]
 }

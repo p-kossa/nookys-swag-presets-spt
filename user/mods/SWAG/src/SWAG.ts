@@ -546,24 +546,20 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     let spawnZones = boss.BossZone || null;
     let bossName = roleCase[boss.BossName.toLowerCase()] || boss.BossName;
 
-    // Function to select a random difficulty from the specified subset
     const getRandomDifficulty = () => {
         const availableDifficulties = ["easy", "normal", "hard", "impossible"];
         const randomIndex = Math.floor(Math.random() * availableDifficulties.length);
         return availableDifficulties[randomIndex];
     };
 
-    // Resolve boss difficulty
-    let difficultyKey = config.BossDifficulty.toLowerCase();
+    let difficultyKey = boss.BossDifficult || config.BossDifficulty.toLowerCase();
     let difficulty = difficultyKey === "asonline" ? getRandomDifficulty() : diffProper[difficultyKey];
 
-    // Assume that escort difficulty follows the same pattern as boss difficulty for consistency
-    let escortDifficultyKey = config.BossEscortDifficulty.toLowerCase();
+    let escortDifficultyKey = boss.BossEscortDifficult || config.BossEscortDifficulty.toLowerCase();
     let escort_difficulty = escortDifficultyKey === "asonline" ? getRandomDifficulty() : diffProper[escortDifficultyKey];
 
-    // Apply the resolved difficulty settings to boss and escorts
     boss?.Supports?.forEach((escort) => {
-        escort.BossEscortDifficult = [escort_difficulty]; // Ensure this matches the expected data structure
+        escort.BossEscortDifficult = [escort_difficulty];
         escort.BossEscortType = roleCase[escort.BossEscortType.toLowerCase()];
     });
 
@@ -626,6 +622,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
 
   static adjustBossSpawnChance(boss: BossLocationSpawn, globalmap: LocationName): number {
 
+    // I need to refactor this garbage
     if (boss.BossName === "bosspunisher") {
       if (bossConfig.CustomBosses.punisher.enabled) {
         if (bossConfig.CustomBosses.punisher.useProgressSpawnChance) {
