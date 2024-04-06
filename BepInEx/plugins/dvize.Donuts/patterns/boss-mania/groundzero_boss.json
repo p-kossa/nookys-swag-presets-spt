@@ -12,13 +12,13 @@
       "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -29,16 +29,16 @@
         "y": 14.0749989,
         "z": 66.4324
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -49,16 +49,16 @@
         "y": 13.9416227,
         "z": 162.603409
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -69,16 +69,16 @@
         "y": 22.5972,
         "z": -73.56611
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -89,16 +89,16 @@
         "y": 22.6317348,
         "z": -66.53064
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -109,16 +109,16 @@
         "y": 23.81583,
         "z": -36.0392952
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -129,16 +129,16 @@
         "y": 24.1793537,
         "z": 33.7973938
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -149,16 +149,16 @@
         "y": 22.772,
         "z": -3.15168047
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -169,16 +169,16 @@
         "y": 22.7725849,
         "z": -13.0295925
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -189,16 +189,16 @@
         "y": 22.5970764,
         "z": -13.8273869
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -209,16 +209,16 @@
         "y": 22.6299419,
         "z": 86.1439056
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -229,16 +229,16 @@
         "y": 16.017622,
         "z": 72.9133759
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -249,16 +249,16 @@
         "y": 16.9269962,
         "z": -12.6727085
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -269,16 +269,16 @@
         "y": 16.928,
         "z": 33.25186
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -289,16 +289,16 @@
         "y": 24.4085732,
         "z": 99.48898
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -309,16 +309,16 @@
         "y": 23.9087486,
         "z": 64.74494
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -329,16 +329,16 @@
         "y": 22.5970783,
         "z": 111.48838
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -349,16 +349,16 @@
         "y": 23.4104671,
         "z": 154.091187
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -369,16 +369,16 @@
         "y": 24.3965816,
         "z": 111.104942
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -389,16 +389,16 @@
         "y": 24.3961983,
         "z": 149.942841
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -409,16 +409,16 @@
         "y": 28.9109421,
         "z": 153.011581
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -432,13 +432,13 @@
       "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -449,16 +449,16 @@
         "y": 22.5971031,
         "z": 240.506088
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -469,16 +469,16 @@
         "y": 23.1659851,
         "z": 174.805267
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -489,16 +489,16 @@
         "y": 22.769083,
         "z": 254.8241
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -509,16 +509,16 @@
         "y": 22.5970783,
         "z": 296.433777
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -529,16 +529,16 @@
         "y": 22.5970783,
         "z": 315.5344
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -549,16 +549,16 @@
         "y": 22.7383156,
         "z": 329.889374
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "sandbox",
@@ -569,16 +569,16 @@
         "y": 30.8667278,
         "z": 156.669449
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -589,16 +589,16 @@
         "y": 32.8090858,
         "z": 283.4413
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "sandbox",
@@ -609,16 +609,16 @@
         "y": 28.1390553,
         "z": 294.020081
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     }
   ]
 }

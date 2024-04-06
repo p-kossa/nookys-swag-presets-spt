@@ -9,16 +9,16 @@
         "y": 21.3254356,
         "z": 229.252136
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -29,16 +29,16 @@
         "y": 23.2172222,
         "z": 172.2647
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -49,16 +49,16 @@
         "y": 21.7046967,
         "z": 231.308624
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -69,16 +69,16 @@
         "y": 21.3254375,
         "z": 133.598785
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -89,16 +89,16 @@
         "y": 27.1066284,
         "z": 128.932785
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -109,16 +109,16 @@
         "y": 27.1066437,
         "z": -6.214079
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -129,16 +129,16 @@
         "y": 21.3254414,
         "z": -55.01232
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -149,16 +149,16 @@
         "y": 21.32544,
         "z": -202.582642
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -169,16 +169,16 @@
         "y": 27.1067,
         "z": -156.021561
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -189,16 +189,16 @@
         "y": 21.32544,
         "z": -296.051178
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -209,16 +209,16 @@
         "y": 21.3254414,
         "z": -346.2481
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -232,13 +232,13 @@
       "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -249,16 +249,16 @@
         "y": 21.3254356,
         "z": -331.79248
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -269,16 +269,16 @@
         "y": 21.4678822,
         "z": -259.948547
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -289,16 +289,16 @@
         "y": 16.962759,
         "z": -260.246
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -309,16 +309,16 @@
         "y": 22.4187317,
         "z": -197.418091
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -329,16 +329,16 @@
         "y": 17.7676353,
         "z": -367.802582
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -349,16 +349,16 @@
         "y": 19.7875385,
         "z": -202.786072
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -369,16 +369,16 @@
         "y": 21.3254375,
         "z": -91.10817
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -389,16 +389,16 @@
         "y": 21.3254414,
         "z": -55.6891975
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -409,16 +409,16 @@
         "y": 21.3254375,
         "z": 133.4176
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -429,16 +429,16 @@
         "y": 21.32544,
         "z": 54.78793
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -452,13 +452,13 @@
       "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -469,16 +469,16 @@
         "y": 21.3254356,
         "z": 367.088257
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -489,16 +489,16 @@
         "y": 21.3254356,
         "z": 321.353241
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -509,16 +509,16 @@
         "y": 21.3254414,
         "z": 267.787048
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -529,16 +529,16 @@
         "y": 21.32544,
         "z": 261.754242
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -549,16 +549,16 @@
         "y": 21.3254375,
         "z": 221.97258
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -569,16 +569,16 @@
         "y": 21.3254871,
         "z": 55.833
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -589,16 +589,16 @@
         "y": 21.3255177,
         "z": 133.9779
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
       "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -609,16 +609,16 @@
         "y": 21.3255177,
         "z": 141.4576
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -629,16 +629,16 @@
         "y": 21.32545,
         "z": 59.23777
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -649,16 +649,16 @@
         "y": 21.3254223,
         "z": 161.629013
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -669,16 +669,16 @@
         "y": 21.3493481,
         "z": -8.342052
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -689,16 +689,16 @@
         "y": 21.3255062,
         "z": -91.19403
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -709,16 +709,16 @@
         "y": 21.3255119,
         "z": -151.5121
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -729,16 +729,16 @@
         "y": 21.3255177,
         "z": -191.654663
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 120,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -749,16 +749,16 @@
         "y": 21.3255119,
         "z": -148.1495
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -769,16 +769,16 @@
         "y": 27.0845032,
         "z": -300.527527
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -789,16 +789,16 @@
         "y": 27.0676746,
         "z": -239.3209
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -809,16 +809,16 @@
         "y": 27.0676727,
         "z": -215.358063
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -829,16 +829,16 @@
         "y": 27.0864944,
         "z": -149.645737
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -852,13 +852,13 @@
       "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -869,16 +869,16 @@
         "y": 27.0864811,
         "z": -148.446579
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -889,16 +889,16 @@
         "y": 27.086483,
         "z": -123.838341
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -909,16 +909,16 @@
         "y": 27.1145363,
         "z": -117.689568
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -932,13 +932,13 @@
       "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -949,16 +949,16 @@
         "y": 27.08619,
         "z": -126.429909
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 120,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -969,16 +969,16 @@
         "y": 27.086195,
         "z": -69.33954
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -989,16 +989,16 @@
         "y": 27.0861835,
         "z": 39.83505
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1009,16 +1009,16 @@
         "y": 27.086174,
         "z": 2.91643834
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1029,16 +1029,16 @@
         "y": 27.086483,
         "z": -61.0069351
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1049,16 +1049,16 @@
         "y": 27.0864754,
         "z": 13.8250217
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1072,13 +1072,13 @@
       "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1089,16 +1089,16 @@
         "y": 27.0864716,
         "z": -38.4127922
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 140,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1109,16 +1109,16 @@
         "y": 27.0864735,
         "z": -53.7915421
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1129,16 +1129,16 @@
         "y": 27.0936184,
         "z": 42.518898
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1149,16 +1149,16 @@
         "y": 27.0864735,
         "z": 140.536621
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1169,16 +1169,16 @@
         "y": 27.08901,
         "z": 65.155
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1189,16 +1189,16 @@
         "y": 27.0864677,
         "z": 36.58988
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1209,16 +1209,16 @@
         "y": 27.0864735,
         "z": 138.569046
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1229,16 +1229,16 @@
         "y": 27.0864677,
         "z": 182.250061
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1249,16 +1249,16 @@
         "y": 27.0864716,
         "z": 156.238968
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1269,16 +1269,16 @@
         "y": 27.0864773,
         "z": 108.286461
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1289,16 +1289,16 @@
         "y": 27.08647,
         "z": 165.970932
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1309,16 +1309,16 @@
         "y": 27.0864677,
         "z": 180.347427
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1329,16 +1329,16 @@
         "y": 36.5696831,
         "z": -62.7935677
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1349,16 +1349,16 @@
         "y": 36.5697632,
         "z": -163.80481
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1369,16 +1369,16 @@
         "y": 36.5810127,
         "z": -173.733124
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1389,16 +1389,16 @@
         "y": 36.5808067,
         "z": -107.860741
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 120,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1409,16 +1409,16 @@
         "y": 36.5938072,
         "z": -0.488228261
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1432,13 +1432,13 @@
       "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1449,16 +1449,16 @@
         "y": 27.0890579,
         "z": 104.264351
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1469,16 +1469,16 @@
         "y": 27.0890541,
         "z": 124.929672
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1489,16 +1489,16 @@
         "y": 27.0890579,
         "z": 102.321487
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1509,16 +1509,16 @@
         "y": 27.0864716,
         "z": 59.45995
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1529,16 +1529,16 @@
         "y": 21.3254375,
         "z": -369.669464
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 200
     },
     {
       "MapName": "interchange",
@@ -1549,16 +1549,16 @@
         "y": 21.3331013,
         "z": -351.799072
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 600,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1569,16 +1569,16 @@
         "y": 36.5697327,
         "z": 59.3421745
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1592,13 +1592,13 @@
       "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 160,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "interchange",
@@ -1609,16 +1609,16 @@
         "y": 27.0676689,
         "z": -192.314835
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 350,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 150
+      "MinSpawnDistanceFromPlayer": 100
     }
   ]
 }
