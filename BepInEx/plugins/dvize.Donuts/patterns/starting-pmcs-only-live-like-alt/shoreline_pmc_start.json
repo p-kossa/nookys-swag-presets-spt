@@ -3,11 +3,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 1,
-      "Name": "Zone_Yellow_East_PMC_Start",
+      "Name": "Zone_Blue_Start_PMC",
       "Position": {
-        "x": -857.042053,
-        "y": -44.07337,
-        "z": 44.4614449
+        "x": 346.192474,
+        "y": -59.70054,
+        "z": 313.434479
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -23,11 +23,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 1,
-      "Name": "Zone_Yellow_East_PMC_Start",
+      "Name": "Zone_Blue_Start_PMC",
       "Position": {
-        "x": -950.0995,
-        "y": -58.12517,
-        "z": 343.5474
+        "x": 426.4788,
+        "y": -47.693615,
+        "z": 241.889328
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -43,11 +43,71 @@
     {
       "MapName": "shoreline",
       "GroupNum": 1,
-      "Name": "Zone_Yellow_East_PMC_Start",
+      "Name": "Zone_Blue_Start_PMC",
       "Position": {
-        "x": -779.1739,
-        "y": -43.6335678,
-        "z": 147.1827
+        "x": 238.05719,
+        "y": -46.3279381,
+        "z": 43.9621735
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 1,
+      "Name": "Zone_Blue_Start_PMC",
+      "Position": {
+        "x": 312.1899,
+        "y": -55.2727776,
+        "z": -157.18013
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 1,
+      "Name": "Zone_Blue_Start_PMC",
+      "Position": {
+        "x": 227.218246,
+        "y": -55.2727776,
+        "z": -195.119568
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 1,
+      "Name": "Zone_Blue_Start_PMC",
+      "Position": {
+        "x": 275.647064,
+        "y": -46.87464,
+        "z": 8.855307
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -63,11 +123,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 2,
-      "Name": "Zone_Yellow_South_PMC_Start",
+      "Name": "Zone_Pink_Start_PMC",
       "Position": {
-        "x": -663.619568,
-        "y": -59.8642654,
-        "z": 479.8578
+        "x": -647.693359,
+        "y": -33.76327,
+        "z": -121.814873
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -83,11 +143,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 2,
-      "Name": "Zone_Yellow_South_PMC_Start",
+      "Name": "Zone_Pink_Start_PMC",
       "Position": {
-        "x": -578.102966,
-        "y": -52.86286,
-        "z": 361.587677
+        "x": -728.826,
+        "y": -41.4609222,
+        "z": -0.7122939
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -103,11 +163,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 2,
-      "Name": "Zone_Yellow_South_PMC_Start",
+      "Name": "Zone_Pink_Start_PMC",
       "Position": {
-        "x": -653.6105,
-        "y": -54.3288956,
-        "z": 324.319916
+        "x": -525.113953,
+        "y": -36.7298622,
+        "z": -15.19117
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -123,11 +183,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 3,
-      "Name": "Zone_Purple_PMC_Start",
+      "Name": "Zone_Yellow_Start_PMC",
       "Position": {
-        "x": -535.9019,
-        "y": -20.2934074,
-        "z": -315.15506
+        "x": -856.9899,
+        "y": -43.24494,
+        "z": 31.7929058
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -143,11 +203,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 3,
-      "Name": "Zone_Purple_PMC_Start",
+      "Name": "Zone_Yellow_Start_PMC",
       "Position": {
-        "x": -571.0331,
-        "y": -32.45719,
-        "z": -125.33004
+        "x": -771.7063,
+        "y": -44.147934,
+        "z": 147.268326
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -163,11 +223,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 4,
-      "Name": "Zone_Green_North_PMC_Start",
+      "Name": "Zone_Orange_Start_PMC",
       "Position": {
-        "x": -268.8724,
-        "y": 2.83521843,
-        "z": -316.597778
+        "x": 48.86367,
+        "y": -59.6620827,
+        "z": 352.652771
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -183,11 +243,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 4,
-      "Name": "Zone_Green_North_PMC_Start",
+      "Name": "Zone_Orange_Start_PMC",
       "Position": {
-        "x": -44.0547256,
-        "y": -19.98136,
-        "z": -331.02533
+        "x": 37.9617844,
+        "y": -46.64249,
+        "z": 259.84668
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -203,11 +263,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 4,
-      "Name": "Zone_Green_North_PMC_Start",
+      "Name": "Zone_Orange_Start_PMC",
       "Position": {
-        "x": 141.081726,
-        "y": -36.8975563,
-        "z": -260.245544
+        "x": 8.15096951,
+        "y": -45.7442055,
+        "z": 177.616257
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -223,11 +283,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 5,
-      "Name": "Zone_Blue_North_PMC_Start",
+      "Name": "Zone_Green_Start_PMC",
       "Position": {
-        "x": 269.6259,
-        "y": -54.3664665,
-        "z": -199.565613
+        "x": -242.422836,
+        "y": -5.127078,
+        "z": -315.6029
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -243,11 +303,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 5,
-      "Name": "Zone_Blue_North_PMC_Start",
+      "Name": "Zone_Green_Start_PMC",
       "Position": {
-        "x": 362.025818,
-        "y": -53.6625671,
-        "z": -54.38199
+        "x": -319.903,
+        "y": -10.9427271,
+        "z": -294.740753
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -263,11 +323,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 6,
-      "Name": "Zone_Blue_South_PMC_Start",
+      "Name": "Zone_Green_Resort_Start_PMC",
       "Position": {
-        "x": 342.8613,
-        "y": -59.67307,
-        "z": 309.0564
+        "x": -233.7294,
+        "y": -5.14097452,
+        "z": -71.3974152
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -283,11 +343,131 @@
     {
       "MapName": "shoreline",
       "GroupNum": 6,
-      "Name": "Zone_Blue_South_PMC_Start",
+      "Name": "Zone_Green_Resort_Start_PMC",
       "Position": {
-        "x": 379.492249,
-        "y": -54.2628937,
-        "z": 144.472382
+        "x": -159.757782,
+        "y": -3.74103785,
+        "z": -82.66865
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "Zone_Green_Resort_Start_PMC",
+      "Position": {
+        "x": -175.100433,
+        "y": -0.8410516,
+        "z": -82.78666
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "Zone_Green_Resort_Start_PMC",
+      "Position": {
+        "x": -217.814362,
+        "y": 2.05198765,
+        "z": -94.78622
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "Zone_Green_Resort_Start_PMC",
+      "Position": {
+        "x": -256.7907,
+        "y": -0.8512883,
+        "z": -94.9071045
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "Zone_Green_Resort_Start_PMC",
+      "Position": {
+        "x": -252.080231,
+        "y": -4.17085934,
+        "z": -120.818764
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "Zone_Green_Resort_Start_PMC",
+      "Position": {
+        "x": -239.6645,
+        "y": -0.7862936,
+        "z": -138.653351
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 6,
+      "Name": "Zone_Green_Resort_Start_PMC",
+      "Position": {
+        "x": -230.557266,
+        "y": -5.140984,
+        "z": -154.148712
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -303,11 +483,31 @@
     {
       "MapName": "shoreline",
       "GroupNum": 7,
-      "Name": "Zone_Orange_Pier_PMC_Start",
+      "Name": "Zone_Orange_Pier_Start_PMC",
       "Position": {
-        "x": -347.096924,
-        "y": -62.076252,
-        "z": 529.1349
+        "x": -418.723267,
+        "y": -63.91924,
+        "z": 544.665649
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "shoreline",
+      "GroupNum": 7,
+      "Name": "Zone_Orange_Pier_Start_PMC",
+      "Position": {
+        "x": -309.710327,
+        "y": -57.6273155,
+        "z": 482.9659
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -323,11 +523,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 8,
-      "Name": "Zone_Orange_PMC_Start",
+      "Name": "Zone_Blue_Camp_Start_PMC",
       "Position": {
-        "x": -149.7489,
-        "y": -44.6102028,
-        "z": 312.112823
+        "x": 294.2695,
+        "y": -56.38294,
+        "z": 143.52359
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -343,31 +543,11 @@
     {
       "MapName": "shoreline",
       "GroupNum": 8,
-      "Name": "Zone_Orange_PMC_Start",
+      "Name": "Zone_Blue_Camp_Start_PMC",
       "Position": {
-        "x": -89.28763,
-        "y": -43.4284019,
-        "z": 182.145447
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 5000,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 95,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 70
-    },
-    {
-      "MapName": "shoreline",
-      "GroupNum": 8,
-      "Name": "Zone_Orange_PMC_Start",
-      "Position": {
-        "x": -354.404755,
-        "y": -49.6936646,
-        "z": 276.546143
+        "x": 426.357056,
+        "y": -54.3388977,
+        "z": 121.515076
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,

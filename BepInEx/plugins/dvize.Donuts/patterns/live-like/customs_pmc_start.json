@@ -62,7 +62,7 @@
     },
     {
       "MapName": "bigmap",
-      "GroupNum": 2,
+      "GroupNum": 1,
       "Name": "Zone_Yellow_Trailer_Start",
       "Position": {
         "x": -312.796021,
@@ -128,26 +128,6 @@
         "x": -55.04195,
         "y": -6.397409,
         "z": -149.426254
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 5000,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 95,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 70
-    },
-    {
-      "MapName": "bigmap",
-      "GroupNum": 3,
-      "Name": "Zone_Red_North_Start",
-      "Position": {
-        "x": -142.353455,
-        "y": 0.3871012,
-        "z": -183.580032
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
