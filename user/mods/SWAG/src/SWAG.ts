@@ -24,6 +24,7 @@ import { RandomUtil } from "@spt-aki/utils/RandomUtil";
 import { DependencyContainer } from "tsyringe";
 import { LocationCallbacks } from "@spt-aki/callbacks/LocationCallbacks";
 import { SeasonalEventService } from "@spt-aki/services/SeasonalEventService";
+import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
 
 import * as fs from "fs";
 import * as path from "path";
@@ -103,6 +104,8 @@ let databaseServer: DatabaseServer;
 let locations: ILocations;
 let seasonalEvents: SeasonalEventService;
 let randomUtil: RandomUtil;
+let profileHelper: ProfileHelper;
+let sessionId : string;
 let BossWaveSpawnedOnceAlready: boolean;
 
 const customPatterns: Record<string, ClassDef.GroupPattern> = {};
@@ -145,7 +148,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     terminal: undefined,
     town: undefined,
   };
-
   public static pmcType: string[] = ["sptbear", "sptusec"];
 
   public static randomWaveTimer = {
@@ -189,6 +191,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ): any => {
+            sessionId = sessionID;
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
             return LocationCallbacks.getLocationData(url, info, sessionID);
@@ -209,7 +212,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ): any => {
-
+            sessionId = sessionID;
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
             return LocationCallbacks.getLocationData(url, info, sessionID);
@@ -230,6 +233,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
             sessionID: string,
             output: string
           ) => {
+            sessionId = sessionID;
             const locationConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<ILocationConfig>(ConfigTypes.LOCATION);
 
             // as of SPT 3.6.0 we need to disable the new spawn system so that SWAG can clear spawns properly
@@ -342,6 +346,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     locations = databaseServer.getTables().locations;
     randomUtil = container.resolve<RandomUtil>("RandomUtil");
     seasonalEvents = container.resolve<SeasonalEventService>("SeasonalEventService");
+    profileHelper = container.resolve<ProfileHelper>("ProfileHelper");
   }
 
   /**
@@ -627,9 +632,11 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       if (bossConfig.CustomBosses.punisher.enabled) {
         if (bossConfig.CustomBosses.punisher.useProgressSpawnChance) {
 
+          const pmcProfile = profileHelper.getPmcProfile(sessionId);
+          const profileId = pmcProfile?._id;
           const punisherBossProgressFilePath = path.resolve(
             __dirname,
-            "../../PunisherBoss/src/progress.json"
+            `../../PunisherBoss/profiles/${profileId}/progress.json`
           );
 
           try {
