@@ -9,16 +9,16 @@
         "y": 2.107799,
         "z": 199.950272
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -29,16 +29,16 @@
         "y": 3.366684,
         "z": 187.688782
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -49,16 +49,16 @@
         "y": 2.081673,
         "z": 208.470657
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -69,16 +69,16 @@
         "y": 0.8804456,
         "z": 173.206543
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -89,16 +89,16 @@
         "y": 0.88043344,
         "z": 105.630379
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -109,16 +109,16 @@
         "y": 0.865581632,
         "z": 75.9740448
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -129,16 +129,16 @@
         "y": 0.781839848,
         "z": 87.1880646
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -149,16 +149,16 @@
         "y": 0.9243626,
         "z": 126.187576
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -169,16 +169,16 @@
         "y": 1.38301468,
         "z": 170.128311
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -189,16 +189,16 @@
         "y": 1.415514,
         "z": 156.487381
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -209,16 +209,16 @@
         "y": 1.41551459,
         "z": 155.552734
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -229,16 +229,16 @@
         "y": 0.932775438,
         "z": 109.174782
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -249,16 +249,16 @@
         "y": 1.78900576,
         "z": 58.3910141
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -269,16 +269,16 @@
         "y": 0.607993,
         "z": -51.61994
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -289,16 +289,16 @@
         "y": 5.119489,
         "z": -13.59517
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -309,16 +309,16 @@
         "y": 9.599994,
         "z": -20.1239128
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -329,16 +329,16 @@
         "y": 0.6034156,
         "z": -29.4487038
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -349,16 +349,16 @@
         "y": 5.092991,
         "z": -63.77947
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -369,16 +369,16 @@
         "y": 5.101333,
         "z": -27.729084
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -389,16 +389,16 @@
         "y": -7.074559e-07,
         "z": -4.810565
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -409,16 +409,16 @@
         "y": 0.5999951,
         "z": -32.7376671
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -429,16 +429,16 @@
         "y": 5.09998941,
         "z": -61.05722
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -449,16 +449,16 @@
         "y": 9.601403,
         "z": -62.2888336
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -469,16 +469,16 @@
         "y": 0.0208243374,
         "z": -26.1403332
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -489,16 +489,16 @@
         "y": 0.6011204,
         "z": -66.51941
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -512,13 +512,13 @@
       "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -529,16 +529,16 @@
         "y": 3.03103065,
         "z": -81.0974045
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -552,13 +552,13 @@
       "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -569,16 +569,16 @@
         "y": 2.881245,
         "z": -127.355537
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -593,12 +593,12 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -609,16 +609,16 @@
         "y": 3.96623588,
         "z": -135.100113
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -629,16 +629,16 @@
         "y": 4.38481331,
         "z": -140.691269
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -649,16 +649,16 @@
         "y": 3.9683342,
         "z": -142.666367
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -669,16 +669,16 @@
         "y": 3.96833158,
         "z": -177.74054
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -689,16 +689,16 @@
         "y": 1.11031866,
         "z": -132.325638
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -709,16 +709,16 @@
         "y": -1.87314129,
         "z": -111.913513
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -729,16 +729,16 @@
         "y": -1.87309527,
         "z": -133.095062
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -749,16 +749,16 @@
         "y": -1.51152873,
         "z": -127.84446
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -769,16 +769,16 @@
         "y": -1.87311709,
         "z": -95.78611
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -789,16 +789,16 @@
         "y": -2.01049829,
         "z": -79.4270554
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -809,16 +809,16 @@
         "y": -3.88318181,
         "z": -36.25435
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -829,16 +829,16 @@
         "y": -2.496752,
         "z": -71.23111
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -849,16 +849,16 @@
         "y": -4.769431,
         "z": -11.5495291
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -869,16 +869,16 @@
         "y": -1.45330012,
         "z": -36.53566
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -889,7 +889,7 @@
         "y": 4.7885313,
         "z": -21.02793
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
@@ -898,7 +898,7 @@
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -909,16 +909,16 @@
         "y": 4.7885313,
         "z": -21.3437519
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -929,16 +929,16 @@
         "y": 4.78853655,
         "z": -40.82078
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -949,16 +949,16 @@
         "y": -1.87313414,
         "z": -57.5473251
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -969,16 +969,16 @@
         "y": -0.162714943,
         "z": -63.05489
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -989,16 +989,16 @@
         "y": 0.249599427,
         "z": -43.4822655
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTimerTrigger": 140,
       "MaxRandomNumBots": 3,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1009,16 +1009,16 @@
         "y": -3.73639441,
         "z": 3.46822286
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1029,16 +1029,16 @@
         "y": -3.73711419,
         "z": 24.567461
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1049,16 +1049,16 @@
         "y": 1.18034458,
         "z": 117.062462
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1069,16 +1069,16 @@
         "y": 1.1803391,
         "z": 75.046875
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1089,16 +1089,16 @@
         "y": 1.18040478,
         "z": 68.9335251
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1109,16 +1109,16 @@
         "y": 0.397140473,
         "z": 57.9545975
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1129,16 +1129,16 @@
         "y": 0.5484973,
         "z": 44.1195946
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1149,16 +1149,16 @@
         "y": 0.549001455,
         "z": 33.5734177
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1169,16 +1169,16 @@
         "y": -2.30012441,
         "z": 57.67052
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 4,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1189,16 +1189,16 @@
         "y": -0.8284732,
         "z": 38.2678642
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1209,16 +1209,16 @@
         "y": -1.1768204,
         "z": 59.16162
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1229,16 +1229,16 @@
         "y": -1.176839,
         "z": 66.06465
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1249,16 +1249,16 @@
         "y": -4.6768446,
         "z": 73.0675
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1269,16 +1269,16 @@
         "y": -4.059657,
         "z": 58.3941765
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1289,16 +1289,16 @@
         "y": 2.99759579,
         "z": 81.23873
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1309,16 +1309,16 @@
         "y": 1.76610351,
         "z": 116.628685
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1329,16 +1329,16 @@
         "y": 0.9566515,
         "z": 172.83461
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1349,16 +1349,16 @@
         "y": 0.490021944,
         "z": 118.469307
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1369,16 +1369,16 @@
         "y": -1.37988162,
         "z": 91.9794
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1389,16 +1389,16 @@
         "y": 3.07040071,
         "z": 247.4064
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1409,16 +1409,16 @@
         "y": 0.9364996,
         "z": 168.858719
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1429,16 +1429,16 @@
         "y": 13.5184221,
         "z": 144.1419
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1449,16 +1449,16 @@
         "y": 3.90368247,
         "z": 142.749069
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1469,16 +1469,16 @@
         "y": 2.11337972,
         "z": 440.323669
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1489,16 +1489,16 @@
         "y": 8.614476,
         "z": 400.048737
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1509,16 +1509,16 @@
         "y": 14.190793,
         "z": 403.492584
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1529,16 +1529,16 @@
         "y": 8.612572,
         "z": 380.022339
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1549,16 +1549,16 @@
         "y": 2.12091279,
         "z": 359.617737
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1569,16 +1569,16 @@
         "y": 2.11335468,
         "z": 361.036774
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1589,16 +1589,16 @@
         "y": -0.183711633,
         "z": 409.8323
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1609,16 +1609,16 @@
         "y": 2.113424,
         "z": 426.888519
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1629,16 +1629,16 @@
         "y": 3.19708133,
         "z": 321.328156
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1649,16 +1649,16 @@
         "y": 3.19744086,
         "z": 339.990051
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1669,16 +1669,16 @@
         "y": 2.60684919,
         "z": 423.9881
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1689,16 +1689,16 @@
         "y": 2.13935924,
         "z": 348.7206
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1709,16 +1709,16 @@
         "y": 2.20006251,
         "z": 297.187775
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1729,16 +1729,16 @@
         "y": 2.62362385,
         "z": 241.884689
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1755,10 +1755,10 @@
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1769,16 +1769,16 @@
         "y": 2.11725163,
         "z": 212.140076
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1789,16 +1789,16 @@
         "y": 3.51010728,
         "z": 241.6138
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1809,16 +1809,16 @@
         "y": 2.358707,
         "z": 249.765717
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1829,16 +1829,16 @@
         "y": 2.19800639,
         "z": 246.6991
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1849,16 +1849,16 @@
         "y": 2.197889,
         "z": 247.816681
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1869,16 +1869,16 @@
         "y": 2.19779921,
         "z": 249.716858
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1889,7 +1889,7 @@
         "y": 2.22095513,
         "z": 227.357285
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
@@ -1898,7 +1898,7 @@
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1909,16 +1909,16 @@
         "y": 6.06641436,
         "z": 223.642975
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
       "MaxRandomNumBots": 3,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -1929,16 +1929,16 @@
         "y": 2.19787431,
         "z": 241.593765
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1949,16 +1949,16 @@
         "y": 6.14867,
         "z": 269.283173
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 180,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1969,16 +1969,16 @@
         "y": 2.19774842,
         "z": 283.637024
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
       "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -1989,16 +1989,16 @@
         "y": 2.63959932,
         "z": 285.9357
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2009,16 +2009,16 @@
         "y": 8.413222,
         "z": 278.134644
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2029,16 +2029,16 @@
         "y": 2.29289651,
         "z": 311.5837
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2049,16 +2049,16 @@
         "y": 2.21096,
         "z": 342.675262
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2069,16 +2069,16 @@
         "y": 2.2109642,
         "z": 328.442841
       },
-      "WildSpawnType": "bosskojaniy",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2089,16 +2089,16 @@
         "y": 2.23712945,
         "z": 343.8944
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2109,16 +2109,16 @@
         "y": 2.56007719,
         "z": 341.5682
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 3,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2129,16 +2129,16 @@
         "y": 2.55628872,
         "z": 336.374237
       },
-      "WildSpawnType": "raiders",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
-      "MaxRandomNumBots": 4,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2152,13 +2152,13 @@
       "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2169,16 +2169,16 @@
         "y": 2.63759279,
         "z": 292.9028
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
       "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2189,16 +2189,16 @@
         "y": 7.021845,
         "z": 305.60614
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2212,13 +2212,13 @@
       "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
-      "MaxRandomNumBots": 4,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 3,
       "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2229,16 +2229,16 @@
         "y": 6.750643,
         "z": 291.625946
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2249,16 +2249,16 @@
         "y": 3.75064158,
         "z": 309.719025
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2269,16 +2269,16 @@
         "y": 2.871796,
         "z": 323.747742
       },
-      "WildSpawnType": "bosssanitar",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2289,16 +2289,16 @@
         "y": 3.3351202,
         "z": 403.055847
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2312,13 +2312,13 @@
       "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
+      "SpawnChance": 75,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2335,10 +2335,10 @@
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 260,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2352,13 +2352,13 @@
       "WildSpawnType": "bossknight",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2369,16 +2369,16 @@
         "y": 3.452028,
         "z": 363.595337
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 3,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2389,16 +2389,16 @@
         "y": 6.3472085,
         "z": 353.991547
       },
-      "WildSpawnType": "followerbigpipe",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
+      "BotTimerTrigger": 260,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 55,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2409,16 +2409,16 @@
         "y": 6.34998941,
         "z": 392.088043
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 180,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 55,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2429,16 +2429,16 @@
         "y": 9.346801,
         "z": 398.385284
       },
-      "WildSpawnType": "followerbirdeye",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 140,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 240,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2449,16 +2449,16 @@
         "y": 10.1858063,
         "z": 87.29144
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 220,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2469,16 +2469,16 @@
         "y": 11.7166243,
         "z": 141.610718
       },
-      "WildSpawnType": "bossbully",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2489,16 +2489,16 @@
         "y": 7.18405867,
         "z": 91.2875
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "followerbigpipe",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2509,16 +2509,16 @@
         "y": 7.24534,
         "z": 107.845139
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 200,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2529,16 +2529,16 @@
         "y": 4.18363047,
         "z": 72.33434
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 70,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2549,16 +2549,16 @@
         "y": 3.521971,
         "z": 219.223389
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "bosstagilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
-      "BotTimerTrigger": 160,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2569,16 +2569,16 @@
         "y": 3.522466,
         "z": 209.78566
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "exusec-rogues",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2589,16 +2589,16 @@
         "y": 3.78719974,
         "z": 115.374573
       },
-      "WildSpawnType": "arenafighterevent",
+      "WildSpawnType": "raiders",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 280,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2609,16 +2609,16 @@
         "y": 3.78719974,
         "z": 122.876549
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bossbully",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2629,16 +2629,16 @@
         "y": 5.041135,
         "z": 46.0307159
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bossboar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 240,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 75,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2649,16 +2649,16 @@
         "y": 5.04112053,
         "z": 48.0756836
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosskilla",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 220,
+      "BotTimerTrigger": 140,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 65,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2669,16 +2669,16 @@
         "y": 5.04111862,
         "z": 51.67197
       },
-      "WildSpawnType": "bosszryachiy",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 240,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2689,16 +2689,16 @@
         "y": 5.0411067,
         "z": 60.3302879
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
-      "MaxRandomNumBots": 4,
-      "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2709,16 +2709,16 @@
         "y": 5.04000044,
         "z": 86.46018
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 160,
       "MaxRandomNumBots": 4,
       "SpawnChance": 65,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2729,16 +2729,16 @@
         "y": 7.94104433,
         "z": 68.35757
       },
-      "WildSpawnType": "bossgluhar",
+      "WildSpawnType": "bosszryachiy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
       "BotTimerTrigger": 260,
       "MaxRandomNumBots": 4,
       "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2749,16 +2749,16 @@
         "y": 7.942249,
         "z": 82.5500259
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "arenafighterevent",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 260,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 180,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 60,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2769,16 +2769,16 @@
         "y": 7.942235,
         "z": 114.22876
       },
-      "WildSpawnType": "bosskilla",
+      "WildSpawnType": "bossgluhar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 250,
+      "BotTriggerDistance": 400,
       "BotTimerTrigger": 180,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2789,16 +2789,16 @@
         "y": 7.93998,
         "z": 144.19
       },
-      "WildSpawnType": "bosskolontay",
+      "WildSpawnType": "followerbirdeye",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 250,
-      "BotTimerTrigger": 120,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 4,
+      "SpawnChance": 65,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2809,16 +2809,16 @@
         "y": 1.40615463,
         "z": 121.4201
       },
-      "WildSpawnType": "exusec-rogues",
+      "WildSpawnType": "bosskojaniy",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
+      "BotTriggerDistance": 250,
       "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
-      "MaxSpawnsBeforeCoolDown": 4,
+      "SpawnChance": 75,
+      "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2829,16 +2829,16 @@
         "y": 8.31007,
         "z": 285.117462
       },
-      "WildSpawnType": "bossknight",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 240,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
-      "SpawnChance": 70,
+      "SpawnChance": 60,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     },
     {
       "MapName": "tarkovstreets",
@@ -2849,16 +2849,16 @@
         "y": 12.9909048,
         "z": 273.2028
       },
-      "WildSpawnType": "bosstagilla",
+      "WildSpawnType": "bosssanitar",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 400,
-      "BotTimerTrigger": 200,
+      "BotTriggerDistance": 250,
+      "BotTimerTrigger": 120,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 65,
+      "SpawnChance": 70,
       "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 85
     },
     {
       "MapName": "tarkovstreets",
@@ -2869,16 +2869,16 @@
         "y": 8.342164,
         "z": 288.4396
       },
-      "WildSpawnType": "bossboar",
+      "WildSpawnType": "bosskolontay",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 400,
-      "BotTimerTrigger": 280,
+      "BotTimerTrigger": 220,
       "MaxRandomNumBots": 4,
       "SpawnChance": 55,
-      "MaxSpawnsBeforeCoolDown": 5,
+      "MaxSpawnsBeforeCoolDown": 4,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 200
+      "MinSpawnDistanceFromPlayer": 125
     }
   ]
 }

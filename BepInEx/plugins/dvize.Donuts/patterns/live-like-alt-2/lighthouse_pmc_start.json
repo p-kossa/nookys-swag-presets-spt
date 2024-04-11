@@ -3,106 +3,346 @@
     {
       "MapName": "lighthouse",
       "GroupNum": 1,
-      "Name": "pmc_mountainpass",
+      "Name": "Zone_Black_Start_PMC",
       "Position": {
-        "x": -168.686218,
-        "y": 30.2290783,
-        "z": -68.67192
+        "x": 25.8800659,
+        "y": 0.9011795,
+        "z": 540.761047
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
       "SpawnChance": 95,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
+      "MinSpawnDistanceFromPlayer": 70
     },
     {
       "MapName": "lighthouse",
       "GroupNum": 1,
-      "Name": "pmc_village",
+      "Name": "Zone_Black_Start_PMC",
       "Position": {
-        "x": -222.78891,
-        "y": 12.4643841,
-        "z": -184.32
+        "x": -215.585068,
+        "y": 5.946455,
+        "z": 420.048065
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
       "SpawnChance": 95,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 1,
+      "Name": "Zone_Black_Start_PMC",
+      "Position": {
+        "x": -27.7648048,
+        "y": 9.104086,
+        "z": 432.565857
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
     },
     {
       "MapName": "lighthouse",
       "GroupNum": 2,
-      "Name": "pmc_path_to_shoreline",
+      "Name": "Zone_Pink_Start_PMC",
       "Position": {
-        "x": -347.068268,
-        "y": 8.340902,
-        "z": -167.687271
+        "x": 152.218628,
+        "y": 0.317387044,
+        "z": -161.839157
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
       "SpawnChance": 95,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
+      "MinSpawnDistanceFromPlayer": 70
     },
     {
       "MapName": "lighthouse",
       "GroupNum": 2,
-      "Name": "pmc_side_tunnel",
+      "Name": "Zone_Pink_Start_PMC",
       "Position": {
-        "x": -59.2930756,
-        "y": 5.95763159,
-        "z": 327.110748
+        "x": 133.877731,
+        "y": 0.492129862,
+        "z": 123.325928
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
       "SpawnChance": 95,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
+      "MinSpawnDistanceFromPlayer": 70
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 3,
-      "Name": "pmc_south_road",
+      "GroupNum": 2,
+      "Name": "Zone_Pink_Start_PMC",
       "Position": {
-        "x": -141.4224,
-        "y": 5.94643164,
-        "z": 464.096466
+        "x": 55.7165031,
+        "y": 29.2337589,
+        "z": -52.53636
       },
       "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 5000,
       "BotTimerTrigger": 10000,
       "MaxRandomNumBots": 5,
       "SpawnChance": 95,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
+      "MinSpawnDistanceFromPlayer": 70
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 3,
+      "GroupNum": 6,
+      "Name": "Zone_Blue_Start_PMC",
+      "Position": {
+        "x": -139.781708,
+        "y": 37.40545,
+        "z": 147.007751
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 6,
+      "Name": "Zone_Blue_Start_PMC",
+      "Position": {
+        "x": -40.05972,
+        "y": 9.582985,
+        "z": 34.02772
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 6,
+      "Name": "Zone_Blue_Start_PMC",
+      "Position": {
+        "x": -68.15224,
+        "y": 26.77016,
+        "z": 126.125023
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 4,
+      "Name": "Zone_Chalet_Start_PMC",
+      "Position": {
+        "x": -100.980667,
+        "y": 17.5896969,
+        "z": -42.4756737
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 4,
+      "Name": "Zone_Chalet_Start_PMC",
+      "Position": {
+        "x": -114.807808,
+        "y": 17.58972,
+        "z": -108.465973
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 4,
+      "Name": "Zone_Chalet_Start_PMC",
+      "Position": {
+        "x": -82.0243,
+        "y": 21.8669586,
+        "z": -89.0494
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 5,
+      "Name": "Zone_Yellow_Start_PMC",
+      "Position": {
+        "x": -40.88638,
+        "y": 5.6223135,
+        "z": -257.333221
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 5,
+      "Name": "Zone_Yellow_Start_PMC",
+      "Position": {
+        "x": -129.145233,
+        "y": 11.0183783,
+        "z": -230.658432
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 5,
+      "Name": "Zone_Yellow_Start_PMC",
+      "Position": {
+        "x": -456.4287,
+        "y": 33.756115,
+        "z": -330.423279
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 6,
+      "Name": "Zone_Blue_Start_PMC",
+      "Position": {
+        "x": 77.1285553,
+        "y": 4.622087,
+        "z": -483.37616
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 6,
+      "Name": "Zone_Blue_Start_PMC",
+      "Position": {
+        "x": 176.437546,
+        "y": 0.4142894,
+        "z": -769.1676
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 70
+    },
+    {
+      "MapName": "lighthouse",
+      "GroupNum": 7,
       "Name": "pmc_beach_cottages",
       "Position": {
         "x": 98.58052,
@@ -118,11 +358,11 @@
       "SpawnChance": 95,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
+      "MinSpawnDistanceFromPlayer": 70
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 4,
+      "GroupNum": 7,
       "Name": "pmc_beach_house",
       "Position": {
         "x": 44.5311,
@@ -138,11 +378,11 @@
       "SpawnChance": 95,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
+      "MinSpawnDistanceFromPlayer": 70
     },
     {
       "MapName": "lighthouse",
-      "GroupNum": 4,
+      "GroupNum": 7,
       "Name": "pmc_beach",
       "Position": {
         "x": 116.02697,
@@ -158,107 +398,7 @@
       "SpawnChance": 95,
       "MaxSpawnsBeforeCoolDown": 5,
       "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 5,
-      "Name": "pmc_hill_road",
-      "Position": {
-        "x": -132.811508,
-        "y": 28.8652363,
-        "z": 262.322144
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 5000,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 95,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 5,
-      "Name": "pmc_mainroad",
-      "Position": {
-        "x": 28.65869,
-        "y": 5.946433,
-        "z": -149.757751
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 5000,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 95,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 6,
-      "Name": "pmc_pier_cottages",
-      "Position": {
-        "x": 117.286369,
-        "y": 0.345267326,
-        "z": -164.265213
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 5000,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 95,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 7,
-      "Name": "pmc_island_cliff",
-      "Position": {
-        "x": -439.2439,
-        "y": 27.98144,
-        "z": -363.8115
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 5000,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 95,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
-    },
-    {
-      "MapName": "lighthouse",
-      "GroupNum": 8,
-      "Name": "pmc_treatment_cliff",
-      "Position": {
-        "x": -355.9492,
-        "y": 28.6134815,
-        "z": -554.9974
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1,
-      "MaxDistance": 1,
-      "BotTriggerDistance": 5000,
-      "BotTimerTrigger": 10000,
-      "MaxRandomNumBots": 5,
-      "SpawnChance": 95,
-      "MaxSpawnsBeforeCoolDown": 5,
-      "IgnoreTimerFirstSpawn": true,
-      "MinSpawnDistanceFromPlayer": 90
+      "MinSpawnDistanceFromPlayer": 70
     }
   ]
 }

@@ -7,8 +7,8 @@
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
       "BossZone": [
-        "ZoneFactoryCenter",
-        "ZoneScavBase"
+        "ZoneBrige",
+        "ZoneBlockPost"
       ]
     }
   ],
@@ -92,7 +92,6 @@
       "BossZone": [
         "ZoneStartVillage",
         "ZoneGasStation",
-        "ZoneForestGasStation",
         "ZonePowerStation"
       ]
     }
@@ -115,11 +114,10 @@
       "BossEscortAmount": "3,4",
       "Time": 1,
       "BossZone": [
-        "ZoneMiniHouse",
         "ZoneClearVill",
         "ZoneRoad",
-        "ZoneBrokenVill",
-        "ZoneScavBase2"
+        "ZoneHouse",
+        "ZoneBigRocks"
       ]
     }
   ]
