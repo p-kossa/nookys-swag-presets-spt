@@ -79,6 +79,7 @@ export const roleCase: object = {
   bossboarsniper: "bossBoarSniper",
   bosskolontay: "bossKolontay",
   bosspunisher: "bosspunisher",
+  bosslegion: "bosslegion",
   followerboar: "followerBoar",
   followerboarclose1: "followerBoarClose1",
   followerboarclose2: "followerBoarClose2",
@@ -128,6 +129,7 @@ export const reverseBossNames: object = {
   crazyassaultevent: "crazyscavs",
   arenafighterevent: "bloodhounds",
   bosspunisher: "punisher",
+  bosslegion: "legion",
   gifter: "santa"
 };
 
