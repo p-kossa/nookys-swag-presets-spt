@@ -64,6 +64,7 @@ import scav_snipers from "../config/other/scav_snipers.json";
 
 // Custom
 import punisher from "../config/custom/punisher.json"
+import legion from "../config/custom/legion.json"
 
 const otherSpawnConfigs = [
   bloodhounds,
@@ -87,7 +88,8 @@ const bossSpawnConfigs = [
 ];
 
 const customSpawnConfigs = [
-  punisher
+  punisher,
+  legion
 ]
 
 const modName = "SWAG";
@@ -655,6 +657,36 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
         return bossConfig.Bosses["punisher"][reverseMapNames[globalmap]];
       }
       // if punisher is not enabled
+      else {
+        return 0;
+      }
+    }
+
+    if (boss.BossName === "bosslegion") {
+      if (bossConfig.CustomBosses.legion.enabled) {
+        if (bossConfig.CustomBosses.legion.useProgressSpawnChance) {
+
+          const legionBossProgressFilePath = path.resolve(
+            __dirname,
+            "../../RaidOverhaul/config/LegionChance.json"
+          );
+
+          try {
+            const progressData = JSON.parse(
+              fs.readFileSync(legionBossProgressFilePath, "utf8")
+            );
+            return progressData?.legionChance ?? 15;
+
+          } catch (error) {
+            logger.warning(
+              "SWAG: Unable to load Legion Boss progress file, either you don't have the mod installed or you deleted your LegionChance.json."
+            );
+          }
+        }
+        // if progress spawn chance is not enabled
+        return bossConfig.Bosses["legion"][reverseMapNames[globalmap]];
+      }
+      // if legion is not enabled
       else {
         return 0;
       }
