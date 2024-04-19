@@ -633,7 +633,6 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     if (boss.BossName === "bosspunisher") {
       if (bossConfig.CustomBosses.punisher.enabled) {
         if (bossConfig.CustomBosses.punisher.useProgressSpawnChance) {
-
           const pmcProfile = profileHelper.getPmcProfile(sessionId);
           const profileId = pmcProfile?._id;
           const punisherBossProgressFilePath = path.resolve(
@@ -646,21 +645,22 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
               fs.readFileSync(punisherBossProgressFilePath, "utf8")
             );
             return progressData?.actualPunisherChance ?? 1;
-
           } catch (error) {
             logger.warning(
-              "SWAG: Unable to load Punisher Boss progress file, either you don't have the mod installed or you don't have a Punisher progress file yet."
+              "SWAG: Unable to load Punisher Boss progress file, either you don't have the mod installed or you don't have a Punisher progress file yet.",
             );
+            return 1;
           }
+        } else {
+          // if progress spawn chance is not enabled
+          return bossConfig.Bosses["punisher"][reverseMapNames[globalmap]];
         }
-        // if progress spawn chance is not enabled
-        return bossConfig.Bosses["punisher"][reverseMapNames[globalmap]];
-      }
-      // if punisher is not enabled
-      else {
+      } else {
+        // if punisher is not enabled
         return 0;
       }
     }
+
 
     if (boss.BossName === "bosslegion") {
       if (bossConfig.CustomBosses.legion.enabled) {
