@@ -637,7 +637,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           const profileId = pmcProfile?._id;
           const punisherBossProgressFilePath = path.resolve(
             __dirname,
-            `../../PunisherBoss/profiles/${profileId}/progress.json`
+            `../../WTT-RogueJustice/profiles/${profileId}/progress.json`
           );
 
           try {
