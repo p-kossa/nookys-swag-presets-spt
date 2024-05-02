@@ -653,7 +653,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           }
         } else {
           // if progress spawn chance is not enabled
-          return bossConfig.Bosses["punisher"][reverseMapNames[globalmap]];
+          return bossConfig.CustomBosses["punisher"][reverseMapNames[globalmap]];
         }
       } else {
         // if punisher is not enabled
@@ -684,7 +684,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           }
         }
         // if progress spawn chance is not enabled
-        return bossConfig.Bosses["legion"][reverseMapNames[globalmap]];
+        return bossConfig.CustomBosses["legion"][reverseMapNames[globalmap]];
       }
       // if legion is not enabled
       else {
