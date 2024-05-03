@@ -1,0 +1,344 @@
+{
+  "Locations": [
+    {
+      "MapName": "laboratory",
+      "GroupNum": 20,
+      "Name": "Zone_Red",
+      "Position": {
+        "x": -259.0605,
+        "y": 0.009293522,
+        "z": -388.4793
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 480,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 20,
+      "Name": "Zone_Red_Parking",
+      "Position": {
+        "x": -220.992188,
+        "y": 0.0228912737,
+        "z": -405.46048
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 20,
+      "Name": "Zone_Red_Infirmary",
+      "Position": {
+        "x": -132.094391,
+        "y": 0.0368003175,
+        "z": -417.220337
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 20,
+      "Name": "Zone_Red_Infirmary",
+      "Position": {
+        "x": -117.814316,
+        "y": 0.008905247,
+        "z": -381.562
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 460,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 60,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 20,
+      "Name": "Zone_RedGreen_BlackRoom",
+      "Position": {
+        "x": -134.64534,
+        "y": 0.008891797,
+        "z": -343.9739
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 21,
+      "Name": "Zone_Green_Servers_PMC_Start",
+      "Position": {
+        "x": -127.087746,
+        "y": 1.36848688,
+        "z": -314.859253
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 140,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 21,
+      "Name": "Zone_Green_Servers_PMC_Start",
+      "Position": {
+        "x": -133.65802,
+        "y": 4.10687542,
+        "z": -284.917175
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 460,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 21,
+      "Name": "Zone_Green_Gym_PMC_Start",
+      "Position": {
+        "x": -224.5817,
+        "y": 0.07067463,
+        "z": -280.653229
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 580,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 21,
+      "Name": "Zone_Green_Gym_PMC_Start",
+      "Position": {
+        "x": -235.9631,
+        "y": 0.02021411,
+        "z": -301.364746
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 280,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 22,
+      "Name": "Zone_Orange_SouthHalls_PMC_Start",
+      "Position": {
+        "x": -117.577316,
+        "y": 4.09994268,
+        "z": -352.15094
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 380,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 22,
+      "Name": "Zone_Orange_SouthHalls_PMC_Start",
+      "Position": {
+        "x": -118.201469,
+        "y": 4.10003853,
+        "z": -406.457977
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 440,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 45,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 22,
+      "Name": "Zone_Orange_Offices_PMC_Start",
+      "Position": {
+        "x": -162.7386,
+        "y": 4.100834,
+        "z": -414.788055
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 120,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 22,
+      "Name": "Zone_Orange_Offices_PMC_Start",
+      "Position": {
+        "x": -180.121933,
+        "y": 4.10083342,
+        "z": -415.823547
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 540,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 50,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 23,
+      "Name": "Zone_Yellow_Sewers_PMC_Start",
+      "Position": {
+        "x": -157.940536,
+        "y": -4.025572,
+        "z": -322.816437
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 520,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 23,
+      "Name": "Zone_Yellow_Hallways_PMC_Start",
+      "Position": {
+        "x": -141.633255,
+        "y": -4.053967,
+        "z": -362.562347
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 220,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 40,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 24,
+      "Name": "Zone_Blue_West_PMC_Start",
+      "Position": {
+        "x": -266.167267,
+        "y": -4.050967,
+        "z": -331.420319
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 200,
+      "BotTimerTrigger": 180,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    },
+    {
+      "MapName": "laboratory",
+      "GroupNum": 24,
+      "Name": "Zone_Blue_West_PMC_Start",
+      "Position": {
+        "x": -246.118454,
+        "y": -4.050969,
+        "z": -315.094421
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 400,
+      "BotTimerTrigger": 520,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 55,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 40
+    }
+  ]
+}

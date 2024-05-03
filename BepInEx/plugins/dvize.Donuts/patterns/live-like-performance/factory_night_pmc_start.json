@@ -1,0 +1,204 @@
+{
+  "Locations": [
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 1,
+      "Name": "3rd Floor Office",
+      "Position": {
+        "x": 35.75434,
+        "y": 8.210877,
+        "z": 35.47881
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCooldown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 1,
+      "Name": "pmc_office_stairs",
+      "Position": {
+        "x": 35.4721527,
+        "y": 0.9928355,
+        "z": 36.7258873
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 2,
+      "Name": "pmc_forklifts",
+      "Position": {
+        "x": 58.5915146,
+        "y": 0.04595239,
+        "z": 22.9955616
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 2,
+      "Name": "pmc_forklifts2",
+      "Position": {
+        "x": 67.5889359,
+        "y": 0.0625619,
+        "z": -48.15893
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 3,
+      "Name": "pmc_redlight",
+      "Position": {
+        "x": 69.52061,
+        "y": 0.0977726951,
+        "z": -6.805648
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 3,
+      "Name": "pmc_breachdoor",
+      "Position": {
+        "x": 39.6255035,
+        "y": 0.287898242,
+        "z": -32.19689
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 4,
+      "Name": "pmc_exitgate",
+      "Position": {
+        "x": -51.7000351,
+        "y": 1.25546634,
+        "z": 54.5383873
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 5,
+      "Name": "pmc_aisle",
+      "Position": {
+        "x": -21.1701565,
+        "y": 1.05264115,
+        "z": 66.05237
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 6,
+      "Name": "pmc_bunker_redlight",
+      "Position": {
+        "x": -17.719492,
+        "y": -2.63406754,
+        "z": 38.2651443
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    },
+    {
+      "MapName": "factory4_night",
+      "GroupNum": 7,
+      "Name": "pmc_ug",
+      "Position": {
+        "x": -18.2344971,
+        "y": 0.191902786,
+        "z": -41.97208
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1,
+      "MaxDistance": 1,
+      "BotTriggerDistance": 5000,
+      "BotTimerTrigger": 10000,
+      "MaxRandomNumBots": 5,
+      "SpawnChance": 95,
+      "MaxSpawnsBeforeCoolDown": 5,
+      "IgnoreTimerFirstSpawn": true,
+      "MinSpawnDistanceFromPlayer": 35
+    }
+  ]
+}

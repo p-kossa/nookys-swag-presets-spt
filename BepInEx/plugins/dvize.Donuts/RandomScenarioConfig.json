@@ -21,15 +21,19 @@
     "Presets": [
       {
         "Name": "starting-pmcs-only-live-like",
-        "Weight": 35
+        "Weight": 45
       },
       {
         "Name": "starting-pmcs-only-live-like-alt",
-        "Weight": 25
+        "Weight": 35
       },
       {
         "Name": "starting-pmcs-only-late-scavs",
-        "Weight": 10
+        "Weight": 15
+      },
+      {
+        "Name": "starting-pmcs-only-split-waves",
+        "Weight": 15
       }
     ]
   },
