@@ -141,6 +141,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     shoreline: undefined,
     tarkovstreets: undefined,
     woods: undefined,
+    sandbox: undefined,
 
     // unused
     develop: undefined,
