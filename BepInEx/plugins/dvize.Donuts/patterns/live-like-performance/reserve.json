@@ -12,13 +12,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -33,9 +33,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 350,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -53,9 +53,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -73,7 +73,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 550,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -92,13 +92,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 500,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 700,
       "MaxRandomNumBots": 3,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -113,9 +113,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 300,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -132,13 +132,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -153,9 +153,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 550,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -173,9 +173,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 550,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -195,7 +195,7 @@
       "BotTriggerDistance": 135,
       "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -208,6 +208,26 @@
         "x": 88.6494,
         "y": -6.9519825,
         "z": 64.59126
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 700,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 50,
+      "Name": "Zone_Blue",
+      "Position": {
+        "x": 98.51677,
+        "y": -6.945814,
+        "z": 28.8258839
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -225,26 +245,6 @@
       "GroupNum": 50,
       "Name": "Zone_Blue",
       "Position": {
-        "x": 98.51677,
-        "y": -6.945814,
-        "z": 28.8258839
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 700,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
-    },
-    {
-      "MapName": "rezervbase",
-      "GroupNum": 50,
-      "Name": "Zone_Blue",
-      "Position": {
         "x": 92.7074356,
         "y": -6.945813,
         "z": -5.53095627
@@ -252,13 +252,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 650,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -273,9 +273,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -292,13 +292,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 750,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -313,9 +313,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 750,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -352,13 +352,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 450,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -372,13 +372,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 450,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 600,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -392,13 +392,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -413,9 +413,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 600,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -432,13 +432,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 450,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -453,9 +453,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -473,9 +473,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 350,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -492,13 +492,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 600,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -512,13 +512,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 850,
       "MaxRandomNumBots": 3,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -533,7 +533,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 600,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -552,30 +552,10 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
-    },
-    {
-      "MapName": "rezervbase",
-      "GroupNum": 54,
-      "Name": "Zone_Red",
-      "Position": {
-        "x": -255.485291,
-        "y": -6.74776745,
-        "z": -30.2126637
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 300,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -585,29 +565,9 @@
       "GroupNum": 54,
       "Name": "Zone_Red",
       "Position": {
-        "x": -176.9809,
-        "y": -6.995809,
-        "z": -94.7485352
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 450,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
-    },
-    {
-      "MapName": "rezervbase",
-      "GroupNum": 54,
-      "Name": "Zone_Red",
-      "Position": {
-        "x": -150.961349,
-        "y": -6.940975,
-        "z": -40.17734
+        "x": -255.485291,
+        "y": -6.74776745,
+        "z": -30.2126637
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -625,6 +585,46 @@
       "GroupNum": 54,
       "Name": "Zone_Red",
       "Position": {
+        "x": -176.9809,
+        "y": -6.995809,
+        "z": -94.7485352
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 600,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 54,
+      "Name": "Zone_Red",
+      "Position": {
+        "x": -150.961349,
+        "y": -6.940975,
+        "z": -40.17734
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 850,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 25,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 54,
+      "Name": "Zone_Red",
+      "Position": {
         "x": -104.7097,
         "y": -6.933003,
         "z": 17.9163322
@@ -633,7 +633,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 550,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -652,13 +652,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 350,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -672,13 +672,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 500,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -692,13 +692,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 700,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -712,13 +712,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -732,13 +732,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 650,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 3,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -752,13 +752,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 800,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -773,7 +773,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -792,13 +792,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 750,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -813,9 +813,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 700,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -832,13 +832,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 650,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -852,13 +852,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 700,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -872,13 +872,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 850,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -893,9 +893,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 750,
+      "BotTimerTrigger": 800,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -913,9 +913,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 650,
+      "BotTimerTrigger": 750,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -932,13 +932,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 850,
       "MaxRandomNumBots": 3,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -955,7 +955,7 @@
       "BotTriggerDistance": 135,
       "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -972,13 +972,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 600,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -993,9 +993,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 550,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -1013,7 +1013,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 550,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -1033,9 +1033,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 850,
+      "BotTimerTrigger": 750,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -1055,7 +1055,7 @@
       "BotTriggerDistance": 135,
       "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -1073,7 +1073,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 700,
+      "BotTimerTrigger": 800,
       "MaxRandomNumBots": 3,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -1092,13 +1092,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 600,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -1112,13 +1112,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 350,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 600,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -1132,13 +1132,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 550,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -1152,13 +1152,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 850,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 35,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -1195,7 +1195,7 @@
       "BotTriggerDistance": 135,
       "BotTimerTrigger": 400,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -1213,9 +1213,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 700,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -1233,7 +1233,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 700,
+      "BotTimerTrigger": 750,
       "MaxRandomNumBots": 3,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -1253,9 +1253,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 750,
+      "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -1273,9 +1273,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 600,
+      "BotTimerTrigger": 850,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -1292,13 +1292,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 800,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 3,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -1312,13 +1312,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 500,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -1332,13 +1332,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 700,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 400,
       "MaxRandomNumBots": 3,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -1352,13 +1352,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 850,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -1373,9 +1373,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 500,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -1392,8 +1392,28 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 750,
+      "MaxRandomNumBots": 3,
+      "SpawnChance": 35,
+      "MaxSpawnsBeforeCoolDown": 3,
+      "IgnoreTimerFirstSpawn": false,
+      "MinSpawnDistanceFromPlayer": 100
+    },
+    {
+      "MapName": "rezervbase",
+      "GroupNum": 70,
+      "Name": "Zone_D2_Hotspot_PMC",
+      "Position": {
+        "x": -53.04862,
+        "y": -14.7038651,
+        "z": 133.14801
+      },
+      "WildSpawnType": "pmc",
+      "MinDistance": 1.0,
+      "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 350,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -1405,9 +1425,9 @@
       "GroupNum": 70,
       "Name": "Zone_D2_Hotspot_PMC",
       "Position": {
-        "x": -53.04862,
-        "y": -14.7038651,
-        "z": 133.14801
+        "x": -56.04584,
+        "y": -15.8924112,
+        "z": 161.490646
       },
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
@@ -1425,26 +1445,6 @@
       "GroupNum": 70,
       "Name": "Zone_D2_Hotspot_PMC",
       "Position": {
-        "x": -56.04584,
-        "y": -15.8924112,
-        "z": 161.490646
-      },
-      "WildSpawnType": "pmc",
-      "MinDistance": 1.0,
-      "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 350,
-      "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
-      "MaxSpawnsBeforeCoolDown": 3,
-      "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
-    },
-    {
-      "MapName": "rezervbase",
-      "GroupNum": 70,
-      "Name": "Zone_D2_Hotspot_PMC",
-      "Position": {
         "x": -55.40273,
         "y": -15.901721,
         "z": 177.212341
@@ -1453,7 +1453,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 600,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
       "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -1472,13 +1472,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 300,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 750,
       "MaxRandomNumBots": 3,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -1492,13 +1492,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
+      "BotTriggerDistance": 135,
       "BotTimerTrigger": 500,
       "MaxRandomNumBots": 3,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -1513,9 +1513,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 800,
+      "BotTimerTrigger": 700,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 100
@@ -1532,13 +1532,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 350,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 700,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -1553,9 +1553,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 300,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 30,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -1573,7 +1573,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 220,
-      "BotTimerTrigger": 850,
+      "BotTimerTrigger": 800,
       "MaxRandomNumBots": 3,
       "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -1592,13 +1592,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 800,
       "MaxRandomNumBots": 3,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -1612,13 +1612,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 450,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 850,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -1633,9 +1633,9 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 350,
+      "BotTimerTrigger": 300,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
       "MinSpawnDistanceFromPlayer": 65
@@ -1652,13 +1652,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 220,
-      "BotTimerTrigger": 750,
+      "BotTriggerDistance": 135,
+      "BotTimerTrigger": 450,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 25,
+      "SpawnChance": 30,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 100
+      "MinSpawnDistanceFromPlayer": 65
     },
     {
       "MapName": "rezervbase",
@@ -1672,13 +1672,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 450,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 550,
       "MaxRandomNumBots": 3,
       "SpawnChance": 35,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     },
     {
       "MapName": "rezervbase",
@@ -1693,7 +1693,7 @@
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
       "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTimerTrigger": 350,
       "MaxRandomNumBots": 3,
       "SpawnChance": 40,
       "MaxSpawnsBeforeCoolDown": 3,
@@ -1712,13 +1712,13 @@
       "WildSpawnType": "pmc",
       "MinDistance": 1.0,
       "MaxDistance": 1.0,
-      "BotTriggerDistance": 135,
-      "BotTimerTrigger": 400,
+      "BotTriggerDistance": 220,
+      "BotTimerTrigger": 600,
       "MaxRandomNumBots": 3,
-      "SpawnChance": 40,
+      "SpawnChance": 25,
       "MaxSpawnsBeforeCoolDown": 3,
       "IgnoreTimerFirstSpawn": false,
-      "MinSpawnDistanceFromPlayer": 65
+      "MinSpawnDistanceFromPlayer": 100
     }
   ]
 }
