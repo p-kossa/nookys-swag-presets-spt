@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "starting-pmcs-only-live-like",
+    "factory4_day": {
+      "PMC": {
+        "MinCount": 4,
+        "MaxCount": 6,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "all"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 1,
+        "MaxCount": 3,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "all"
+        ]
+      }
+    }
+  }
+]
