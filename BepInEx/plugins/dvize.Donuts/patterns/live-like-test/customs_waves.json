@@ -1,0 +1,66 @@
+{
+  "Maps": {
+    "bigmap": {
+      "PMC": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 300,
+          "TriggerDistance": 300,
+          "SpawnChance": 100,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinCount": 1,
+          "MaxCount": 5,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 2,
+          "TriggerTimer": 300,
+          "TriggerDistance": 300,
+          "SpawnChance": 100,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinCount": 1,
+          "MaxCount": 5,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        }
+      ],
+      "SCAV": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 300,
+          "TriggerDistance": 300,
+          "SpawnChance": 100,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinCount": 1,
+          "MaxCount": 5,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 2,
+          "TriggerTimer": 300,
+          "TriggerDistance": 300,
+          "SpawnChance": 100,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinCount": 1,
+          "MaxCount": 5,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        }
+      ]
+    }
+  }
+}
