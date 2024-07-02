@@ -7,7 +7,7 @@
           "GroupNum": 1,
           "TriggerTimer": 300,
           "TriggerDistance": 300,
-          "SpawnChance": 65,
+          "SpawnChance": 100,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinCount": 1,
@@ -19,16 +19,16 @@
         },
         {
           "GroupNum": 2,
-          "TriggerTimer": 180,
+          "TriggerTimer": 300,
           "TriggerDistance": 300,
-          "SpawnChance": 80,
+          "SpawnChance": 100,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinCount": 1,
           "MaxCount": 5,
-          "MaxGroupSize": 3,
+          "MaxGroupSize": 5,
           "Zones": [
-            "hotspot"
+            "all"
           ]
         }
       ]
