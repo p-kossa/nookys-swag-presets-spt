@@ -7,79 +7,7 @@
         "Weight": 25
       },
       {
-        "Name": "live-like-alt",
-        "Weight": 25
-      },
-      {
-        "Name": "live-like-alt-2",
-        "Weight": 25
-      }
-    ]
-  },
-  {
-    "RandomScenarioConfig": "Starting PMCs Only (Random)",
-    "Presets": [
-      {
         "Name": "starting-pmcs-only-live-like",
-        "Weight": 45
-      },
-      {
-        "Name": "starting-pmcs-only-live-like-alt",
-        "Weight": 35
-      },
-      {
-        "Name": "starting-pmcs-only-late-scavs",
-        "Weight": 15
-      },
-      {
-        "Name": "starting-pmcs-only-split-waves",
-        "Weight": 15
-      }
-    ]
-  },
-  {
-    "RandomScenarioConfig": "Whole Lotta Scavs (Random)",
-    "Presets": [
-      {
-        "Name": "morescavs",
-        "Weight": 25
-      },
-      {
-        "Name": "starting-pmcs-only-morescavs",
-        "Weight": 25
-      }
-    ]
-  },
-  {
-    "RandomScenarioConfig": "I Like Pain (Random)",
-    "Presets": [
-      {
-        "Name": "crazyraids",
-        "Weight": 50
-      },
-      {
-        "Name": "impossibleraids",
-        "Weight": 25
-      },
-      {
-        "Name": "morepmcs",
-        "Weight": 15
-      },
-      {
-        "Name": "morescavs",
-        "Weight": 15
-      }
-    ]
-  },
-  {
-    "RandomScenarioConfig": "Quiet Raids (Random)",
-    "Presets": [
-      {
-        "Name": "quietraids",
-        "Weight": 25
-      },
-      {
-        "Name": "starting-pmcs-only-quietraids",
         "Weight": 25
       }
     ]
