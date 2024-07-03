@@ -1,7 +1,21 @@
 {
   "Maps": {
-    "bigmap": {
-      "PMC": [],
+    "woods": {
+      "PMC": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 300,
+          "TriggerDistance": 300,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "hotspot"
+          ]
+        }
+      ],
       "SCAV": [
         {
           "GroupNum": 50,

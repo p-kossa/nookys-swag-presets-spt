@@ -1,14 +1,14 @@
 {
   "Maps": {
-    "factory4_day": {
+    "sandbox": {
       "PMC": [],
       "SCAV": [
         {
           "GroupNum": 50,
           "TriggerTimer": 120,
-          "TriggerDistance": 300,
+          "TriggerDistance": 500,
           "SpawnChance": 80,
-          "MaxTriggersBeforeCooldown": 2,
+          "MaxTriggersBeforeCooldown": 3,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 2,

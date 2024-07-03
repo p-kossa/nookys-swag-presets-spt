@@ -1,22 +1,22 @@
 {
   "Maps": {
-    "factory4_day": {
-      "PMC": [],
-      "SCAV": [
+    "laboratory": {
+      "PMC": [
         {
-          "GroupNum": 50,
-          "TriggerTimer": 120,
+          "GroupNum": 1,
+          "TriggerTimer": 300,
           "TriggerDistance": 300,
           "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
-          "MaxGroupSize": 2,
+          "MaxGroupSize": 5,
           "Zones": [
             "all"
           ]
         }
-      ]
+      ],
+      "SCAV": []
     }
   }
 }
