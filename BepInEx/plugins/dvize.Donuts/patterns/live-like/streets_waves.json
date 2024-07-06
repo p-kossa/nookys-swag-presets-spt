@@ -14,6 +14,19 @@
           "Zones": [
             "hotspot"
           ]
+        },
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 500,
+          "TriggerDistance": 300,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": true,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "hotspot"
+          ]
         }
       ],
       "SCAV": [

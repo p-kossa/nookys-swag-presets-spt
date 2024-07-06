@@ -29,6 +29,19 @@
           "Zones": [
             "all"
           ]
+        },
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 180,
+          "TriggerDistance": 300,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all"
+          ]
         }
       ]
     }

@@ -4,10 +4,10 @@
       "PMC": [
         {
           "GroupNum": 1,
-          "TriggerTimer": 60,
+          "TriggerTimer": 300,
           "TriggerDistance": 300,
-          "SpawnChance": 100,
-          "MaxTriggersBeforeCooldown": 2,
+          "SpawnChance": 75,
+          "MaxTriggersBeforeCooldown": 1,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
