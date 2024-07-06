@@ -1,0 +1,63 @@
+{
+  "Maps": {
+    "woods": {
+      "PMC": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 600,
+          "TriggerDistance": 350,
+          "SpawnChance": 35,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all",
+            "hotspot"
+          ]
+        }
+      ],
+      "SCAV": [
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 300,
+          "TriggerDistance": 600,
+          "SpawnChance": 55,
+          "MaxTriggersBeforeCooldown": 3,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 250,
+          "TriggerDistance": 800,
+          "SpawnChance": 55,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 51,
+          "TriggerTimer": 220,
+          "TriggerDistance": 600,
+          "SpawnChance": 65,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "hotspot"
+          ]
+        }
+      ]
+    }
+  }
+}

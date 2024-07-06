@@ -1,0 +1,50 @@
+{
+  "Maps": {
+    "tarkovstreets": {
+      "PMC": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 600,
+          "TriggerDistance": 400,
+          "SpawnChance": 25,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all",
+            "hotspot"
+          ]
+        }
+      ],
+      "SCAV": [
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 300,
+          "TriggerDistance": 350,
+          "SpawnChance": 55,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 51,
+          "TriggerTimer": 420,
+          "TriggerDistance": 600,
+          "SpawnChance": 55,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "hotspot"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Maps": {
+    "factory4_day": {
+      "PMC": [],
+      "SCAV": [
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 75,
+          "TriggerDistance": 300,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 4,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 120,
+          "TriggerDistance": 300,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 4,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all"
+          ]
+        }
+      ]
+    }
+  }
+}
