@@ -1,10 +1,10 @@
 {
   "name": "SWAG + DONUTS",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "main": "src/SWAG.js",
   "license": "MIT",
   "author": "nooky and props",
-  "akiVersion": "~3.8.0",
+  "sptVersion": "~3.9.0",
   "scripts": {
     "setup": "npm i",
     "build": "node ./packageBuild.ts"

@@ -2,29 +2,29 @@ import {
   BossLocationSpawn,
   ILocationBase,
   Wave,
-} from "@spt-aki/models/eft/common/ILocationBase";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
-import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
-import { ILocations } from "@spt-aki/models/spt/server/ILocations";
-import { ILocationConfig } from "@spt-aki/models/spt/config/ILocationConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { IGlobals } from "@spt-aki/models/eft/common/IGlobals";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
-import { ApplicationContext } from "@spt-aki/context/ApplicationContext";
-import { WeatherController } from "@spt-aki/controllers/WeatherController";
-import { IGetRaidConfigurationRequestData } from "@spt-aki/models/eft/match/IGetRaidConfigurationRequestData";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+} from "@spt/models/eft/common/ILocationBase";
+import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
+import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
+import { IPreAkiLoadMod } from "@spt/models/external/IPreAkiLoadMod";
+import { IBotConfig } from "@spt/models/spt/config/IBotConfig";
+import { ILocations } from "@spt/models/spt/server/ILocations";
+import { ILocationConfig } from "@spt/models/spt/config/ILocationConfig";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { IGlobals } from "@spt/models/eft/common/IGlobals";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
+import { ContextVariableType } from "@spt/context/ContextVariableType";
+import { ApplicationContext } from "@spt/context/ApplicationContext";
+import { WeatherController } from "@spt/controllers/WeatherController";
+import { IGetRaidConfigurationRequestData } from "@spt/models/eft/match/IGetRaidConfigurationRequestData";
+import { HttpResponseUtil } from "@spt/utils/HttpResponseUtil";
+import { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
+import { JsonUtil } from "@spt/utils/JsonUtil";
+import { RandomUtil } from "@spt/utils/RandomUtil";
 import { DependencyContainer } from "tsyringe";
-import { LocationCallbacks } from "@spt-aki/callbacks/LocationCallbacks";
-import { SeasonalEventService } from "@spt-aki/services/SeasonalEventService";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
+import { LocationCallbacks } from "@spt/callbacks/LocationCallbacks";
+import { SeasonalEventService } from "@spt/services/SeasonalEventService";
+import { ProfileHelper } from "@spt/helpers/ProfileHelper";
 
 import * as fs from "fs";
 import * as path from "path";

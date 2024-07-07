@@ -1,6 +1,6 @@
 import {
   BossLocationSpawn,
-} from "@spt-aki/models/eft/common/ILocationBase";
+} from "@spt/models/eft/common/ILocationBase";
 
 export interface BossPattern extends BossLocationSpawn {
   OnlySpawnOnce?: boolean;
