@@ -1,18 +1,18 @@
 {
   "Maps": {
-    "factory4_night": {
+    "sandbox": {
       "PMC": [
         {
           "GroupNum": 1,
-          "TriggerTimer": 300,
-          "TriggerDistance": 300,
-          "SpawnChance": 65,
+          "TriggerTimer": 400,
+          "TriggerDistance": 250,
+          "SpawnChance": 55,
           "MaxTriggersBeforeCooldown": 1,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
-          "MaxGroupSize": 2,
+          "MaxGroupSize": 3,
           "Zones": [
-            "all"
+            "hotspot"
           ]
         }
       ],
@@ -20,9 +20,9 @@
         {
           "GroupNum": 50,
           "TriggerTimer": 120,
-          "TriggerDistance": 300,
-          "SpawnChance": 80,
-          "MaxTriggersBeforeCooldown": 2,
+          "TriggerDistance": 500,
+          "SpawnChance": 70,
+          "MaxTriggersBeforeCooldown": 3,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 2,
@@ -33,9 +33,9 @@
         {
           "GroupNum": 50,
           "TriggerTimer": 180,
-          "TriggerDistance": 300,
+          "TriggerDistance": 500,
           "SpawnChance": 80,
-          "MaxTriggersBeforeCooldown": 2,
+          "MaxTriggersBeforeCooldown": 3,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 2,

@@ -1,0 +1,24 @@
+{
+  "Maps": {
+    "shoreline": {
+      "PMC": {
+        "MinCount": 3,
+        "MaxCount": 6,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "all"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 3,
+        "MaxCount": 6,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "all"
+        ]
+      }
+    }
+  }
+}
