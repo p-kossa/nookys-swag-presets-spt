@@ -4,9 +4,22 @@
       "PMC": [
         {
           "GroupNum": 1,
+          "TriggerTimer": 500,
+          "TriggerDistance": 400,
+          "SpawnChance": 45,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 1,
           "TriggerTimer": 300,
-          "TriggerDistance": 300,
-          "SpawnChance": 80,
+          "TriggerDistance": 400,
+          "SpawnChance": 60,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,

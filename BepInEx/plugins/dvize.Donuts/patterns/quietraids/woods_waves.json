@@ -4,27 +4,15 @@
       "PMC": [
         {
           "GroupNum": 1,
-          "TriggerTimer": 500,
-          "TriggerDistance": 400,
-          "SpawnChance": 45,
+          "TriggerTimer": 600,
+          "TriggerDistance": 350,
+          "SpawnChance": 35,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 5,
           "Zones": [
-            "all"
-          ]
-        },
-        {
-          "GroupNum": 1,
-          "TriggerTimer": 300,
-          "TriggerDistance": 400,
-          "SpawnChance": 60,
-          "MaxTriggersBeforeCooldown": 2,
-          "IgnoreTimerFirstSpawn": false,
-          "MinGroupSize": 1,
-          "MaxGroupSize": 5,
-          "Zones": [
+            "all",
             "hotspot"
           ]
         }
@@ -32,9 +20,9 @@
       "SCAV": [
         {
           "GroupNum": 50,
-          "TriggerTimer": 140,
+          "TriggerTimer": 300,
           "TriggerDistance": 600,
-          "SpawnChance": 65,
+          "SpawnChance": 55,
           "MaxTriggersBeforeCooldown": 3,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
@@ -44,10 +32,10 @@
           ]
         },
         {
-          "GroupNum": 51,
+          "GroupNum": 50,
           "TriggerTimer": 250,
           "TriggerDistance": 800,
-          "SpawnChance": 60,
+          "SpawnChance": 55,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
@@ -57,10 +45,10 @@
           ]
         },
         {
-          "GroupNum": 52,
+          "GroupNum": 51,
           "TriggerTimer": 220,
           "TriggerDistance": 600,
-          "SpawnChance": 75,
+          "SpawnChance": 65,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,

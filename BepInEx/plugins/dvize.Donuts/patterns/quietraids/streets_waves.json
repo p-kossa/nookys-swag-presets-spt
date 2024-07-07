@@ -1,30 +1,18 @@
 {
   "Maps": {
-    "rezervbase": {
+    "tarkovstreets": {
       "PMC": [
         {
           "GroupNum": 1,
-          "TriggerTimer": 500,
-          "TriggerDistance": 300,
-          "SpawnChance": 45,
+          "TriggerTimer": 600,
+          "TriggerDistance": 400,
+          "SpawnChance": 25,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 5,
           "Zones": [
-            "all"
-          ]
-        },
-        {
-          "GroupNum": 2,
-          "TriggerTimer": 300,
-          "TriggerDistance": 300,
-          "SpawnChance": 65,
-          "MaxTriggersBeforeCooldown": 2,
-          "IgnoreTimerFirstSpawn": false,
-          "MinGroupSize": 1,
-          "MaxGroupSize": 5,
-          "Zones": [
+            "all",
             "hotspot"
           ]
         }
@@ -32,26 +20,26 @@
       "SCAV": [
         {
           "GroupNum": 50,
-          "TriggerTimer": 140,
-          "TriggerDistance": 600,
-          "SpawnChance": 60,
+          "TriggerTimer": 300,
+          "TriggerDistance": 350,
+          "SpawnChance": 55,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
-          "MaxGroupSize": 3,
+          "MaxGroupSize": 2,
           "Zones": [
             "all"
           ]
         },
         {
           "GroupNum": 51,
-          "TriggerTimer": 220,
+          "TriggerTimer": 420,
           "TriggerDistance": 600,
-          "SpawnChance": 75,
+          "SpawnChance": 55,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
-          "MaxGroupSize": 3,
+          "MaxGroupSize": 2,
           "Zones": [
             "hotspot"
           ]

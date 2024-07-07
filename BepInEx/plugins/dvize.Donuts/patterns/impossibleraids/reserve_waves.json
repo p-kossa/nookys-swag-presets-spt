@@ -1,12 +1,12 @@
 {
   "Maps": {
-    "woods": {
+    "rezervbase": {
       "PMC": [
         {
           "GroupNum": 1,
-          "TriggerTimer": 500,
-          "TriggerDistance": 400,
-          "SpawnChance": 45,
+          "TriggerTimer": 300,
+          "TriggerDistance": 300,
+          "SpawnChance": 70,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
@@ -16,10 +16,10 @@
           ]
         },
         {
-          "GroupNum": 1,
-          "TriggerTimer": 300,
-          "TriggerDistance": 400,
-          "SpawnChance": 60,
+          "GroupNum": 2,
+          "TriggerTimer": 180,
+          "TriggerDistance": 300,
+          "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
@@ -32,10 +32,10 @@
       "SCAV": [
         {
           "GroupNum": 50,
-          "TriggerTimer": 140,
+          "TriggerTimer": 75,
           "TriggerDistance": 600,
-          "SpawnChance": 65,
-          "MaxTriggersBeforeCooldown": 3,
+          "SpawnChance": 60,
+          "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
@@ -45,20 +45,7 @@
         },
         {
           "GroupNum": 51,
-          "TriggerTimer": 250,
-          "TriggerDistance": 800,
-          "SpawnChance": 60,
-          "MaxTriggersBeforeCooldown": 2,
-          "IgnoreTimerFirstSpawn": false,
-          "MinGroupSize": 1,
-          "MaxGroupSize": 2,
-          "Zones": [
-            "all"
-          ]
-        },
-        {
-          "GroupNum": 52,
-          "TriggerTimer": 220,
+          "TriggerTimer": 120,
           "TriggerDistance": 600,
           "SpawnChance": 75,
           "MaxTriggersBeforeCooldown": 2,
