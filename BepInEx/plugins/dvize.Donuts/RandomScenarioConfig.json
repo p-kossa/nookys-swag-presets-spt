@@ -4,10 +4,48 @@
     "Presets": [
       {
         "Name": "live-like",
-        "Weight": 25
+        "Weight": 50
+      },
+      {
+        "Name": "live-like-alt",
+        "Weight": 50
       },
       {
         "Name": "starting-pmcs-only-live-like",
+        "Weight": 20
+      },
+      {
+        "Name": "starting-pmcs-only-live-like-alt",
+        "Weight": 20
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "Starting PMCs Only (Random)",
+    "Presets": [
+      {
+        "Name": "starting-pmcs-only-live-like",
+        "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-live-like-alt",
+        "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-morescavs",
+        "Weight": 25
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "A Whole Lotta SCAVs",
+    "Presets": [
+      {
+        "Name": "morescavs",
+        "Weight": 50
+      },
+      {
+        "Name": "starting-pmcs-only-morescavs",
         "Weight": 25
       }
     ]
