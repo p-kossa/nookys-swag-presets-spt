@@ -1,32 +1,32 @@
 {
   "Maps": {
-    "shoreline": {
+    "factory4_night": {
       "PMC": [],
       "SCAV": [
         {
           "GroupNum": 50,
-          "TriggerTimer": 160,
-          "TriggerDistance": 600,
-          "SpawnChance": 60,
+          "TriggerTimer": 120,
+          "TriggerDistance": 300,
+          "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
-          "MaxGroupSize": 3,
+          "MaxGroupSize": 2,
           "Zones": [
             "all"
           ]
         },
         {
-          "GroupNum": 51,
-          "TriggerTimer": 240,
-          "TriggerDistance": 400,
-          "SpawnChance": 70,
+          "GroupNum": 50,
+          "TriggerTimer": 180,
+          "TriggerDistance": 300,
+          "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
-          "MaxGroupSize": 3,
+          "MaxGroupSize": 2,
           "Zones": [
-            "hotspot"
+            "all"
           ]
         }
       ]
