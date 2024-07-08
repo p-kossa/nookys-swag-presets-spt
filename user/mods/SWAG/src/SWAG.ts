@@ -188,12 +188,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       [
         {
           url: "/client/match/offline/end",
-          action: (
+          action: async (
             url: string,
             info: any,
             sessionID: string,
             output: string
-          ): any => {
+          ): Promise<any> => {
             sessionId = sessionID;
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
@@ -209,12 +209,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       [
         {
           url: "/client/locations",
-          action: (
+          action: async (
             url: string,
             info: any,
             sessionID: string,
             output: string
-          ): any => {
+          ): Promise<any> => {
             sessionId = sessionID;
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
@@ -230,7 +230,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       [
         {
           url: "/client/items",
-          action: (
+          action: async (
             url: string,
             info: any,
             sessionID: string,
@@ -271,12 +271,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       `${modName}/client/raid/configuration`,
       [{
         url: "/client/raid/configuration",
-        action: (
+        action: async (
           url: string,
           info: any,
           sessionID: string,
           output: string
-        ): any => {
+        ): Promise<any> => {
           try {
             // Retrieve configurations
             const botConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
