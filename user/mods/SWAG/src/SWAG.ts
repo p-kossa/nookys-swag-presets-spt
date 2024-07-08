@@ -5,7 +5,7 @@ import {
 } from "@spt/models/eft/common/ILocationBase";
 import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
 import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
-import { IPreAkiLoadMod } from "@spt/models/external/IPreAkiLoadMod";
+import { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
 import { IBotConfig } from "@spt/models/spt/config/IBotConfig";
 import { ILocations } from "@spt/models/spt/server/ILocations";
 import { ILocationConfig } from "@spt/models/spt/config/ILocationConfig";
@@ -129,7 +129,7 @@ type MapPatterns = {
   MapBosses: BossPattern[];
 };
 
-class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
+class SWAG implements IPreSptLoadMod, IPostDBLoadMod {
   public static savedLocationData: LocationBackupData = {
     factory4_day: undefined,
     factory4_night: undefined,
@@ -175,7 +175,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     count: 0,
   };
 
-  preAkiLoad(container: DependencyContainer): void {
+  preSptLoad(container: DependencyContainer): void {
     const HttpResponse =
       container.resolve<HttpResponseUtil>("HttpResponseUtil");
 
