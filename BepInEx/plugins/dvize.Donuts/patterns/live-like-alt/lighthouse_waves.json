@@ -17,10 +17,10 @@
         },
         {
           "GroupNum": 1,
-          "TriggerTimer": 250,
+          "TriggerTimer": 90,
           "TriggerDistance": 800,
           "SpawnChance": 65,
-          "MaxTriggersBeforeCooldown": 6,
+          "MaxTriggersBeforeCooldown": 7,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 5,
@@ -61,7 +61,7 @@
         },
         {
           "GroupNum": 52,
-          "TriggerTimer": 220,
+          "TriggerTimer": 90,
           "TriggerDistance": 800,
           "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 9,

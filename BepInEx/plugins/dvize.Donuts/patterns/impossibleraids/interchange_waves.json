@@ -4,7 +4,7 @@
       "PMC": [
         {
           "GroupNum": 1,
-          "TriggerTimer": 60,
+          "TriggerTimer": 90,
           "TriggerDistance": 800,
           "SpawnChance": 100,
           "MaxTriggersBeforeCooldown": 10,
@@ -17,7 +17,7 @@
         },
         {
           "GroupNum": 1,
-          "TriggerTimer": 130,
+          "TriggerTimer": 60,
           "TriggerDistance": 800,
           "SpawnChance": 100,
           "MaxTriggersBeforeCooldown": 12,
@@ -60,10 +60,10 @@
         },
         {
           "GroupNum": 52,
-          "TriggerTimer": 180,
+          "TriggerTimer": 170,
           "TriggerDistance": 800,
           "SpawnChance": 100,
-          "MaxTriggersBeforeCooldown": 13,
+          "MaxTriggersBeforeCooldown": 14,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
@@ -75,10 +75,10 @@
         },
         {
           "GroupNum": 53,
-          "TriggerTimer": 250,
+          "TriggerTimer": 90,
           "TriggerDistance": 800,
           "SpawnChance": 100,
-          "MaxTriggersBeforeCooldown": 15,
+          "MaxTriggersBeforeCooldown": 16,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
