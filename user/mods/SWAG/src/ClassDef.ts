@@ -144,7 +144,8 @@ export const reverseMapNames: object = {
   interchange: "interchange",
   laboratory: "laboratory",
   tarkovstreets: "streets",
-  sandbox: "groundzero"
+  sandbox: "groundzero",
+  sandbox_high: "groundzero"
 };
 
 export const diffProper = {
@@ -168,7 +169,8 @@ export const validMaps: string[] = [
   "shoreline",
   "tarkovstreets",
   "woods",
-  "sandbox"
+  "sandbox",
+  "sandbox_high"
 ];
 
 export const aiAmountProper = {

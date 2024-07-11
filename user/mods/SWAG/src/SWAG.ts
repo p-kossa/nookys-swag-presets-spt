@@ -142,6 +142,7 @@ class SWAG implements IPreSptLoadMod, IPostDBLoadMod {
     tarkovstreets: undefined,
     woods: undefined,
     sandbox: undefined,
+    sandbox_high: undefined,
 
     // unused
     develop: undefined,
