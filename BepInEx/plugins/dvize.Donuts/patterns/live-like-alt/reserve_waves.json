@@ -27,6 +27,19 @@
           "Zones": [
             "hotspot"
           ]
+        },
+        {
+          "GroupNum": 3,
+          "TriggerTimer": 260,
+          "TriggerDistance": 800,
+          "SpawnChance": 65,
+          "MaxTriggersBeforeCooldown": 7,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
         }
       ],
       "SCAV": [
@@ -54,6 +67,19 @@
           "MaxGroupSize": 3,
           "Zones": [
             "hotspot"
+          ]
+        },
+        {
+          "GroupNum": 52,
+          "TriggerTimer": 150,
+          "TriggerDistance": 800,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 10,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
           ]
         }
       ]

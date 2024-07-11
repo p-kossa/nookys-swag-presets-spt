@@ -27,12 +27,25 @@
           "Zones": [
             "hotspot"
           ]
+        },
+        {
+          "GroupNum": 3,
+          "TriggerTimer": 350,
+          "TriggerDistance": 800,
+          "SpawnChance": 55,
+          "MaxTriggersBeforeCooldown": 8,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
         }
       ],
       "SCAV": [
         {
           "GroupNum": 50,
-          "TriggerTimer": 90,
+          "TriggerTimer": 100,
           "TriggerDistance": 800,
           "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 6,
@@ -48,7 +61,7 @@
           "TriggerTimer": 160,
           "TriggerDistance": 800,
           "SpawnChance": 80,
-          "MaxTriggersBeforeCooldown": 8,
+          "MaxTriggersBeforeCooldown": 7,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
@@ -58,7 +71,7 @@
         },
         {
           "GroupNum": 52,
-          "TriggerTimer": 230,
+          "TriggerTimer": 210,
           "TriggerDistance": 800,
           "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 9,
@@ -71,7 +84,7 @@
         },
         {
           "GroupNum": 53,
-          "TriggerTimer": 300,
+          "TriggerTimer": 280,
           "TriggerDistance": 800,
           "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 10,
@@ -89,12 +102,25 @@
           "TriggerTimer": 90,
           "TriggerDistance": 800,
           "SpawnChance": 80,
-          "MaxTriggersBeforeCooldown": 12,
+          "MaxTriggersBeforeCooldown": 11,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
           "Zones": [
             "hotspot"
+          ]
+        },
+        {
+          "GroupNum": 55,
+          "TriggerTimer": 340,
+          "TriggerDistance": 800,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 13,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
           ]
         }
       ]

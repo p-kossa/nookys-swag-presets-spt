@@ -18,10 +18,10 @@
         },
         {
           "GroupNum": 51,
-          "TriggerTimer": 130,
+          "TriggerTimer": 120,
           "TriggerDistance": 800,
           "SpawnChance": 100,
-          "MaxTriggersBeforeCooldown": 12,
+          "MaxTriggersBeforeCooldown": 11,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 2,
@@ -31,13 +31,26 @@
         },
         {
           "GroupNum": 52,
-          "TriggerTimer": 200,
+          "TriggerTimer": 180,
+          "TriggerDistance": 800,
+          "SpawnChance": 100,
+          "MaxTriggersBeforeCooldown": 13,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 53,
+          "TriggerTimer": 250,
           "TriggerDistance": 800,
           "SpawnChance": 100,
           "MaxTriggersBeforeCooldown": 14,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
-          "MaxGroupSize": 2,
+          "MaxGroupSize": 3,
           "Zones": [
             "all"
           ]
