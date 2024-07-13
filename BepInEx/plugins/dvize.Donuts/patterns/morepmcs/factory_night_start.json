@@ -7,11 +7,12 @@
         "MinGroupSize": 1,
         "MaxGroupSize": 2,
         "Zones": [
+          "start",
           "all"
         ]
       },
       "SCAV": {
-        "MinCount": 0,
+        "MinCount": 1,
         "MaxCount": 2,
         "MinGroupSize": 1,
         "MaxGroupSize": 2,
