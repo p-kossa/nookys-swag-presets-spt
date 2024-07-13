@@ -4,10 +4,10 @@
       "PMC": [
         {
           "GroupNum": 1,
-          "TriggerTimer": 60,
+          "TriggerTimer": 30,
           "TriggerDistance": 800,
-          "SpawnChance": 100,
-          "MaxTriggersBeforeCooldown": 10,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 20,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 2,
@@ -17,10 +17,10 @@
         },
         {
           "GroupNum": 2,
-          "TriggerTimer": 110,
+          "TriggerTimer": 90,
           "TriggerDistance": 800,
-          "SpawnChance": 100,
-          "MaxTriggersBeforeCooldown": 12,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 22,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 5,
@@ -32,7 +32,20 @@
       "SCAV": [
         {
           "GroupNum": 50,
-          "TriggerTimer": 180,
+          "TriggerTimer": 120,
+          "TriggerDistance": 800,
+          "SpawnChance": 70,
+          "MaxTriggersBeforeCooldown": 3,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 51,
+          "TriggerTimer": 170,
           "TriggerDistance": 800,
           "SpawnChance": 70,
           "MaxTriggersBeforeCooldown": 5,
@@ -44,7 +57,7 @@
           ]
         },
         {
-          "GroupNum": 51,
+          "GroupNum": 52,
           "TriggerTimer": 240,
           "TriggerDistance": 800,
           "SpawnChance": 70,
@@ -57,24 +70,11 @@
           ]
         },
         {
-          "GroupNum": 52,
-          "TriggerTimer": 290,
-          "TriggerDistance": 800,
-          "SpawnChance": 70,
-          "MaxTriggersBeforeCooldown": 7,
-          "IgnoreTimerFirstSpawn": false,
-          "MinGroupSize": 1,
-          "MaxGroupSize": 2,
-          "Zones": [
-            "all"
-          ]
-        },
-        {
           "GroupNum": 53,
-          "TriggerTimer": 360,
+          "TriggerTimer": 320,
           "TriggerDistance": 800,
           "SpawnChance": 70,
-          "MaxTriggersBeforeCooldown": 9,
+          "MaxTriggersBeforeCooldown": 8,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
