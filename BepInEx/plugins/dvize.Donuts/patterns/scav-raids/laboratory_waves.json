@@ -42,21 +42,7 @@
           ]
         }
       ],
-      "SCAV": [
-        {
-          "GroupNum": 1,
-          "TriggerTimer": 90,
-          "TriggerDistance": 800,
-          "SpawnChance": 75,
-          "MaxTriggersBeforeCooldown": 6,
-          "IgnoreTimerFirstSpawn": false,
-          "MinGroupSize": 1,
-          "MaxGroupSize": 3,
-          "Zones": [
-            "all"
-          ]
-        }
-      ]
+      "SCAV": []
     }
   }
 }
