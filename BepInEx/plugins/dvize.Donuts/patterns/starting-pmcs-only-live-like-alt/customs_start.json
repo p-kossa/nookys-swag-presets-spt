@@ -1,0 +1,27 @@
+{
+  "Maps": {
+    "bigmap": {
+      "PMC": {
+        "MinCount": 6,
+        "MaxCount": 10,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "hotspot",
+          "Zone_Blue",
+          "Zone_Blue_South",
+          "Zone_Black"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 0,
+        "MaxCount": 3,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "all"
+        ]
+      }
+    }
+  }
+}

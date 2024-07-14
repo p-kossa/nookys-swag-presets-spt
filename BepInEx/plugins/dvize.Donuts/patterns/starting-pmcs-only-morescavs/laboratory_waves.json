@@ -1,0 +1,22 @@
+{
+  "Maps": {
+    "laboratory": {
+      "PMC": [],
+      "SCAV": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 60,
+          "TriggerDistance": 800,
+          "SpawnChance": 100,
+          "MaxTriggersBeforeCooldown": 10,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
+          ]
+        }
+      ]
+    }
+  }
+}

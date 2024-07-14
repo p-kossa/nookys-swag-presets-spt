@@ -1,0 +1,80 @@
+{
+  "Maps": {
+    "factory4_day": {
+      "PMC": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 90,
+          "TriggerDistance": 800,
+          "SpawnChance": 65,
+          "MaxTriggersBeforeCooldown": 5,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        },
+        {
+          "GroupNum": 2,
+          "TriggerTimer": 150,
+          "TriggerDistance": 800,
+          "SpawnChance": 65,
+          "MaxTriggersBeforeCooldown": 6,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        }
+      ],
+      "SCAV": [
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 90,
+          "TriggerDistance": 800,
+          "SpawnChance": 85,
+          "MaxTriggersBeforeCooldown": 10,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        },
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 160,
+          "TriggerDistance": 800,
+          "SpawnChance": 85,
+          "MaxTriggersBeforeCooldown": 11,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        },
+        {
+          "GroupNum": 51,
+          "TriggerTimer": 210,
+          "TriggerDistance": 800,
+          "SpawnChance": 85,
+          "MaxTriggersBeforeCooldown": 13,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        }
+      ]
+    }
+  }
+}

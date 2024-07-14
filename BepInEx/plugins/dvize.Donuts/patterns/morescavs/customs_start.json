@@ -1,0 +1,24 @@
+{
+  "Maps": {
+    "bigmap": {
+      "PMC": {
+        "MinCount": 6,
+        "MaxCount": 8,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "start"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 2,
+        "MaxCount": 5,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 3,
+        "Zones": [
+          "all"
+        ]
+      }
+    }
+  }
+}

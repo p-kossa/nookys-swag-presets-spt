@@ -1,0 +1,65 @@
+{
+  "Maps": {
+    "factory4_night": {
+      "PMC": [],
+      "SCAV": [
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 60,
+          "TriggerDistance": 800,
+          "SpawnChance": 85,
+          "MaxTriggersBeforeCooldown": 10,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        },
+        {
+          "GroupNum": 51,
+          "TriggerTimer": 140,
+          "TriggerDistance": 800,
+          "SpawnChance": 85,
+          "MaxTriggersBeforeCooldown": 12,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        },
+        {
+          "GroupNum": 52,
+          "TriggerTimer": 200,
+          "TriggerDistance": 800,
+          "SpawnChance": 85,
+          "MaxTriggersBeforeCooldown": 14,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 2,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        },
+        {
+          "GroupNum": 53,
+          "TriggerTimer": 250,
+          "TriggerDistance": 800,
+          "SpawnChance": 85,
+          "MaxTriggersBeforeCooldown": 15,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all",
+            "start"
+          ]
+        }
+      ]
+    }
+  }
+}

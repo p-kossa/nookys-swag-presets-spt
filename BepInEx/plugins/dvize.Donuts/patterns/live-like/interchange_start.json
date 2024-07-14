@@ -1,0 +1,24 @@
+{
+  "Maps": {
+    "interchange": {
+      "PMC": {
+        "MinCount": 6,
+        "MaxCount": 10,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "start"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 0,
+        "MaxCount": 3,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "all"
+        ]
+      }
+    }
+  }
+}

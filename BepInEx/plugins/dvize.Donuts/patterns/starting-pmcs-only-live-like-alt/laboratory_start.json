@@ -1,0 +1,24 @@
+{
+  "Maps": {
+    "laboratory": {
+      "PMC": {
+        "MinCount": 5,
+        "MaxCount": 8,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "all"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 0,
+        "MaxCount": 0,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "all"
+        ]
+      }
+    }
+  }
+}
