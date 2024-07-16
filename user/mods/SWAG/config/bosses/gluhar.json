@@ -95,6 +95,30 @@
       "Time": -1
     }
   ],
+  "groundzero_high": [
+    {
+      "BossChance": 35,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followergluharassault",
+      "BossName": "bossgluhar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharsecurity"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "Time": -1
+    }
+  ],
   "interchange": [
     {
       "BossChance": 35,

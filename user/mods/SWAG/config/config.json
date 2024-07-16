@@ -16,6 +16,7 @@
          "factory": 0,
          "factory_night": 0,
          "groundzero": 0,
+         "groundzero_high": 44,
          "interchange": 0,
          "laboratory": 0,
          "lighthouse": 0,
@@ -29,6 +30,7 @@
          "factory": 0,
          "factory_night": 2,
          "groundzero": 0,
+         "groundzero_high": 0,
          "interchange": 0,
          "laboratory": 0,
          "lighthouse": 0,
@@ -42,6 +44,7 @@
          "factory": 0,
          "factory_night": 0,
          "groundzero": 0,
+         "groundzero_high": 0,
          "interchange": 0,
          "laboratory": 65,
          "lighthouse": 0,
@@ -55,6 +58,7 @@
          "factory": 0,
          "factory_night": 0,
          "groundzero": 0,
+         "groundzero_high": 0,
          "interchange": 0,
          "laboratory": 0,
          "lighthouse": 75,
@@ -68,6 +72,7 @@
          "factory": 0,
          "factory_night": 0,
          "groundzero": 0,
+         "groundzero_high": 0,
          "interchange": 0,
          "laboratory": 0,
          "lighthouse": 65,
@@ -87,7 +92,8 @@
       "interchange": 24,
       "laboratory": 18,
       "streets": 26,
-      "groundzero": 22
+      "groundzero": 22,
+      "groundzero_high": 0
    },
    "NightMaxBotCap": {
       "factory_night": 16,
@@ -99,7 +105,8 @@
       "interchange": 24,
       "laboratory": 18,
       "streets": 26,
-      "groundzero": 22
+      "groundzero": 22,
+      "groundzero_high": 0
    },
    "UseDefaultSpawns": {
       "Waves": false,

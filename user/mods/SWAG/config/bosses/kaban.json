@@ -71,6 +71,30 @@
       "Time": -1
     }
   ],
+  "groundzero_high": [
+    {
+      "BossChance": 11,
+      "BossEscortAmount": "6",
+      "BossEscortType": "followerboar",
+      "BossName": "bossboar",
+      "BossZone": null,
+      "Supports": [
+        {
+          "BossEscortAmount": "4",
+          "BossEscortType": "followerboar"
+        },
+        {
+          "BossEscortAmount": "1",
+          "BossEscortType": "followerboarclose1"
+        },
+        {
+          "BossEscortAmount": "1",
+          "BossEscortType": "followerboarclose2"
+        }
+      ],
+      "Time": -1
+    }
+  ],
   "groundzero": [
     {
       "BossChance": 11,

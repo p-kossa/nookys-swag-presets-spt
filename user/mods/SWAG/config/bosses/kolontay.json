@@ -95,6 +95,30 @@
       "BossZone": null
     }
   ],
+  "groundzero_high": [
+    {
+      "BossName": "bosskolontay",
+      "BossChance": 35,
+      "Time": -1,
+      "BossEscortAmount": "2",
+      "BossEscortType": "followerkolontaysecurity",
+      "Supports": [
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followerkolontayassault"
+        },
+        {
+          "BossEscortAmount": "2",
+          "BossEscortType": "followerkolontaysecurity"
+        },
+        {
+          "BossEscortAmount": "0",
+          "BossEscortType": "followergluharscout"
+        }
+      ],
+      "BossZone": null
+    }
+  ],
   "interchange": [
     {
       "BossName": "bosskolontay",

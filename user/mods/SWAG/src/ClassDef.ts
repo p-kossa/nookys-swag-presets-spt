@@ -145,7 +145,7 @@ export const reverseMapNames: object = {
   laboratory: "laboratory",
   tarkovstreets: "streets",
   sandbox: "groundzero",
-  sandbox_high: "groundzero"
+  sandbox_high: "groundzero_high"
 };
 
 export const diffProper = {

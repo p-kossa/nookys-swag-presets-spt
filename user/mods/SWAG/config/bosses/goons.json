@@ -61,6 +61,26 @@
       "BossZone": null
     }
   ],
+  "groundzero_high": [
+    {
+      "BossName": "bossknight",
+      "BossChance": 15,
+      "Time": -1,
+      "BossEscortAmount": "2",
+      "BossEscortType": "exusec",
+      "Supports": [
+        {
+          "BossEscortAmount": "1",
+          "BossEscortType": "followerbigpipe"
+        },
+        {
+          "BossEscortAmount": "1",
+          "BossEscortType": "followerbirdeye"
+        }
+      ],
+      "BossZone": null
+    }
+  ],
   "groundzero": [
     {
       "BossName": "bossknight",
