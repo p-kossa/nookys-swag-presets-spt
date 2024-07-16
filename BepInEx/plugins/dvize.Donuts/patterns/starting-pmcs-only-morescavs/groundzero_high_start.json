@@ -1,0 +1,24 @@
+{
+  "Maps": {
+    "sandbox_high": {
+      "PMC": {
+        "MinCount": 4,
+        "MaxCount": 6,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "start"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 2,
+        "MaxCount": 5,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 3,
+        "Zones": [
+          "all"
+        ]
+      }
+    }
+  }
+}
