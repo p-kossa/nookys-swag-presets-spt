@@ -1,0 +1,64 @@
+{
+  "Maps": {
+    "lighthouse": {
+      "PMC": [],
+      "SCAV": [
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 300,
+          "TriggerDistance": 800,
+          "SpawnChance": 70,
+          "MaxTriggersBeforeCooldown": 3,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 51,
+          "TriggerTimer": 370,
+          "TriggerDistance": 800,
+          "SpawnChance": 70,
+          "MaxTriggersBeforeCooldown": 4,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "Zone_Red",
+            "Zone_Yellow",
+            "Zone_Purple",
+            "Zone_Black"
+          ]
+        },
+        {
+          "GroupNum": 52,
+          "TriggerTimer": 430,
+          "TriggerDistance": 800,
+          "SpawnChance": 70,
+          "MaxTriggersBeforeCooldown": 5,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "hotspot"
+          ]
+        },
+        {
+          "GroupNum": 53,
+          "TriggerTimer": 500,
+          "TriggerDistance": 800,
+          "SpawnChance": 70,
+          "MaxTriggersBeforeCooldown": 6,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
+          ]
+        }
+      ]
+    }
+  }
+}

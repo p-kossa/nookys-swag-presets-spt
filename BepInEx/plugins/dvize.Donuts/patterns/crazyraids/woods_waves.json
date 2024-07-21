@@ -1,0 +1,130 @@
+{
+  "Maps": {
+    "woods": {
+      "PMC": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 120,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 6,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 180,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 7,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "hotspot"
+          ]
+        },
+        {
+          "GroupNum": 2,
+          "TriggerTimer": 230,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 9,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        }
+      ],
+      "SCAV": [
+        {
+          "GroupNum": 50,
+          "TriggerTimer": 90,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 7,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 51,
+          "TriggerTimer": 150,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 9,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 52,
+          "TriggerTimer": 210,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 10,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "Zone_Red",
+            "Zone_Pink",
+            "Zone_Orange",
+            "Zone_Black"
+          ]
+        },
+        {
+          "GroupNum": 53,
+          "TriggerTimer": 270,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 11,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 54,
+          "TriggerTimer": 320,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 12,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "hotspot"
+          ]
+        },
+        {
+          "GroupNum": 55,
+          "TriggerTimer": 370,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 13,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "all"
+          ]
+        }
+      ]
+    }
+  }
+}

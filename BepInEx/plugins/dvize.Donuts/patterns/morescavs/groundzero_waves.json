@@ -4,10 +4,10 @@
       "PMC": [
         {
           "GroupNum": 1,
-          "TriggerTimer": 90,
-          "TriggerDistance": 800,
+          "TriggerTimer": 600,
+          "TriggerDistance": 600,
           "SpawnChance": 35,
-          "MaxTriggersBeforeCooldown": 3,
+          "MaxTriggersBeforeCooldown": 2,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
@@ -17,10 +17,10 @@
         },
         {
           "GroupNum": 2,
-          "TriggerTimer": 300,
-          "TriggerDistance": 800,
+          "TriggerTimer": 660,
+          "TriggerDistance": 600,
           "SpawnChance": 35,
-          "MaxTriggersBeforeCooldown": 5,
+          "MaxTriggersBeforeCooldown": 3,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 5,
@@ -45,7 +45,7 @@
         },
         {
           "GroupNum": 51,
-          "TriggerTimer": 130,
+          "TriggerTimer": 120,
           "TriggerDistance": 800,
           "SpawnChance": 100,
           "MaxTriggersBeforeCooldown": 12,
@@ -58,7 +58,7 @@
         },
         {
           "GroupNum": 52,
-          "TriggerTimer": 200,
+          "TriggerTimer": 170,
           "TriggerDistance": 800,
           "SpawnChance": 100,
           "MaxTriggersBeforeCooldown": 14,
@@ -71,10 +71,10 @@
         },
         {
           "GroupNum": 53,
-          "TriggerTimer": 280,
+          "TriggerTimer": 240,
           "TriggerDistance": 800,
           "SpawnChance": 100,
-          "MaxTriggersBeforeCooldown": 15,
+          "MaxTriggersBeforeCooldown": 16,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,

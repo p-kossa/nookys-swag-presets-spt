@@ -1,0 +1,48 @@
+{
+  "Maps": {
+    "laboratory": {
+      "PMC": [
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 120,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 6,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 1,
+          "TriggerTimer": 180,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 8,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 2,
+          "TriggerTimer": 230,
+          "TriggerDistance": 800,
+          "SpawnChance": 90,
+          "MaxTriggersBeforeCooldown": 10,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "all"
+          ]
+        }
+      ],
+      "SCAV": []
+    }
+  }
+}
