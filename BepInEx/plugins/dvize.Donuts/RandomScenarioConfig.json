@@ -30,7 +30,7 @@
     ]
   },
   {
-    "RandomScenarioConfig": "A Whole Lotta SCAVs",
+    "RandomScenarioConfig": "A Whole Lotta SCAVs (Random)",
     "Presets": [
       {
         "Name": "morescavs",
@@ -38,6 +38,27 @@
       },
       {
         "Name": "starting-pmcs-only-morescavs",
+        "Weight": 25
+      }
+    ]
+  },
+  {
+    "RandomScenarioConfig": "Death Wish (Random)",
+    "Presets": [
+      {
+        "Name": "impossibleraids",
+        "Weight": 75
+      },
+      {
+        "Name": "crazyraids",
+        "Weight": 75
+      },
+      {
+        "Name": "morepmcs",
+        "Weight": 25
+      },
+      {
+        "Name": "morescavs",
         "Weight": 25
       }
     ]
