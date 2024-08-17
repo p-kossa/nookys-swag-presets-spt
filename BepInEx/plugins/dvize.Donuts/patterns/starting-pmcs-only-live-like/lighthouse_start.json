@@ -18,7 +18,44 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosszryachiy",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Lighthouse"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerzryachiy"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Blue",
+            "Zone_Red",
+            "Zone_Chalet_Hotspot",
+            "Zone_WTP_Hotspot"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        }
+      ]
     }
   }
 }

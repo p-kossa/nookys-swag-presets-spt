@@ -19,6 +19,26 @@
           "all"
         ]
       }
-    }
+    },
+    "BOSSES": [
+      {
+        "BossName": "bosskolontay",
+        "BossChance": 100,
+        "TimeDelay": 0,
+        "Zones": [
+          "all"
+        ],
+        "Supports": [
+          {
+            "BossEscortAmount": "2",
+            "BossEscortType": "followerkolontayassault"
+          },
+          {
+            "BossEscortAmount": "2",
+            "BossEscortType": "followerkolontaysecurity"
+          }
+        ]
+      }
+    ]
   }
 }

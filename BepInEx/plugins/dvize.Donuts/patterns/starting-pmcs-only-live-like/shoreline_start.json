@@ -18,7 +18,43 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosssanitar",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Orange_Pier_Hotspot",
+            "Zone_Green_Resort_Hotspot"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followersanitar"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Yellow_Radio_Hotspot",
+            "Zone_Blue"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -18,7 +18,31 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bossgluhar",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followergluharassault"
+            },
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followergluharsecurity"
+            },
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followergluharscout"
+            }
+          ]
+        }
+      ]
     }
   }
 }

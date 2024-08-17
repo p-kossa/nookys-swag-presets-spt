@@ -19,7 +19,18 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosstagilla",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        }
+      ]
     }
   }
 }
