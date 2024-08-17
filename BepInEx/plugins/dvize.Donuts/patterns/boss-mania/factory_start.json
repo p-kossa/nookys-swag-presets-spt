@@ -1,0 +1,108 @@
+{
+  "Maps": {
+    "factory4_day": {
+      "PMC": {
+        "MinCount": 0,
+        "MaxCount": 0,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "start",
+          "all"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 0,
+        "MaxCount": 0,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "all"
+        ]
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosstagilla",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "bosskilla",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "bossboar",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "bossbully",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "bosssanitar",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "bosskolontay",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "bosskojaniy",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        }
+      ]
+    }
+  }
+}

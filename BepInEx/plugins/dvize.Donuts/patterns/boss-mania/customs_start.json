@@ -1,0 +1,184 @@
+{
+  "Maps": {
+    "bigmap": {
+      "PMC": {
+        "MinCount": 0,
+        "MaxCount": 0,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 5,
+        "Zones": [
+          "start"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 0,
+        "MaxCount": 0,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "all"
+        ]
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosstagilla",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "bosskilla",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "bossboar",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "4",
+              "BossEscortType": "followerboar"
+            },
+            {
+              "BossEscortAmount": "1",
+              "BossEscortType": "followerboarclose1"
+            },
+            {
+              "BossEscortAmount": "1",
+              "BossEscortType": "followerboarclose2"
+            }
+          ]
+        },
+        {
+          "BossName": "bossbully",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "4",
+              "BossEscortType": "followerbully"
+            }
+          ]
+        },
+        {
+          "BossName": "bosssanitar",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followersanitar"
+            }
+          ]
+        },
+        {
+          "BossName": "bosskolontay",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerkolontayassault"
+            },
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerkolontaysecurity"
+            },
+            {
+              "BossEscortAmount": "0",
+              "BossEscortType": "followergluharscout"
+            }
+          ]
+        },
+        {
+          "BossName": "bosskojaniy",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerkojaniy"
+            }
+          ]
+        },
+        {
+          "BossName": "bossgluhar",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followergluharassault"
+            },
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followergluharsecurity"
+            },
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followergluharscout"
+            }
+          ]
+        },
+        {
+          "BossName": "bosszryachiy",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerzryachiy"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

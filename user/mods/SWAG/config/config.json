@@ -2,12 +2,12 @@
    "BossDifficulty": "normal",
    "BossEscortDifficulty": "normal",
    "disableAllSpawns": {
-      "bosses": false,
-      "rogues": false,
-      "raiders": false,
-      "cultists": false,
-      "scav_snipers": false,
-      "bloodhounds": false
+      "bosses": true,
+      "rogues": true,
+      "raiders": true,
+      "cultists": true,
+      "scav_snipers": true,
+      "bloodhounds": true
    },
    "Spawns": {
       "useGlobalSpawnChance": true,
