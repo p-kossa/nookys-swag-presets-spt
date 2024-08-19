@@ -1,0 +1,59 @@
+{
+  "Maps": {
+    "factory4_day": {
+      "PMC": {
+        "MinCount": 0,
+        "MaxCount": 0,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "start",
+          "all"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 0,
+        "MaxCount": 0,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "all"
+        ]
+      },
+      "BOSSES": [
+        {
+          "BossName": "pmcbot",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 3,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        },
+        {
+          "BossName": "exusec",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        }
+      ]
+    }
+  }
+}
