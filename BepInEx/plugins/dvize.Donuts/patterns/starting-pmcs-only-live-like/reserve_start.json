@@ -22,7 +22,7 @@
       "BOSSES": [
         {
           "BossName": "bossgluhar",
-          "BossChance": 100,
+          "BossChance": 35,
           "TimeDelay": 0,
           "Zones": [
             "all"
@@ -39,6 +39,21 @@
             {
               "BossEscortAmount": "2",
               "BossEscortType": "followergluharscout"
+            }
+          ]
+        },
+        {
+          "BossName": "raiders",
+          "BossChance": 40,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Underground_Bunker_Hotspot",
+            "Zone_D2_Hotspot"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 2,
+              "BossEscortType": "raiders"
             }
           ]
         }

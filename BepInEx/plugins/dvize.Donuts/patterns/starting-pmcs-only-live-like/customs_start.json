@@ -22,7 +22,7 @@
       "BOSSES": [
         {
           "BossName": "bossbully",
-          "BossChance": 100,
+          "BossChance": 35,
           "TimeDelay": 0,
           "Zones": [
             "Zone_Green_Dorms_2nd_Hotspot",
@@ -38,7 +38,7 @@
         },
         {
           "BossName": "bossknight",
-          "BossChance": 100,
+          "BossChance": 35,
           "TimeDelay": 0,
           "Zones": [
             "Zone_Black",
@@ -52,6 +52,34 @@
             {
               "BossEscortAmount": 1,
               "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 20,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 4,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        },
+        {
+          "BossName": "arenafighterevent",
+          "BossChance": 5,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 3,
+              "BossEscortType": "arenafighterevent"
             }
           ]
         }

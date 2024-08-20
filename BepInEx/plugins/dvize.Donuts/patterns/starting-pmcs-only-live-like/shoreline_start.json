@@ -22,7 +22,7 @@
       "BOSSES": [
         {
           "BossName": "bosssanitar",
-          "BossChance": 100,
+          "BossChance": 37,
           "TimeDelay": 0,
           "Zones": [
             "Zone_Orange_Pier_Hotspot",
@@ -37,7 +37,7 @@
         },
         {
           "BossName": "bossknight",
-          "BossChance": 100,
+          "BossChance": 37,
           "TimeDelay": 0,
           "Zones": [
             "Zone_Yellow_Radio_Hotspot",
@@ -51,6 +51,34 @@
             {
               "BossEscortAmount": 1,
               "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 20,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 43,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 20,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 3,
+              "BossEscortType": "sectantwarrior"
             }
           ]
         }
