@@ -1,0 +1,25 @@
+{
+  "Maps": {
+    "factory4_night": {
+      "PMC": {
+        "MinCount": 4,
+        "MaxCount": 8,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "start",
+          "all"
+        ]
+      },
+      "SCAV": {
+        "MinCount": 1,
+        "MaxCount": 2,
+        "MinGroupSize": 1,
+        "MaxGroupSize": 2,
+        "Zones": [
+          "all"
+        ]
+      }
+    }
+  }
+}
