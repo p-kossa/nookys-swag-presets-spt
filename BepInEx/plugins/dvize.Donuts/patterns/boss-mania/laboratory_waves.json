@@ -1,0 +1,136 @@
+{
+  "Maps": {
+    "laboratory": {
+      "PMC": [],
+      "SCAV": [],
+      "BOSSES": [
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "MaxTriggersBeforeCooldown": 1,
+          "IgnoreTimerFirstSpawn": true,
+          "TriggerID": "autoId_00014_EXFIL",
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "MaxTriggersBeforeCooldown": 1,
+          "IgnoreTimerFirstSpawn": true,
+          "TriggerID": "autoId_00014_EXFIL",
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "MaxTriggersBeforeCooldown": 1,
+          "IgnoreTimerFirstSpawn": true,
+          "TriggerID": "autoId_00014_EXFIL",
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "MaxTriggersBeforeCooldown": 1,
+          "IgnoreTimerFirstSpawn": true,
+          "TriggerID": "00418",
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "MaxTriggersBeforeCooldown": 1,
+          "IgnoreTimerFirstSpawn": true,
+          "TriggerID": "00418",
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 100,
+          "TimeDelay": 0,
+          "MaxTriggersBeforeCooldown": 1,
+          "IgnoreTimerFirstSpawn": true,
+          "TriggerID": "00418",
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
