@@ -18,7 +18,72 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bossbully",
+          "BossChance": 35,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Green_Dorms_2nd_Hotspot",
+            "Zone_Green_Dorms_3rd_Hotspot",
+            "Zone_Blue"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "4",
+              "BossEscortType": "followerbully"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 35,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Black",
+            "Zone_Yellow"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 20,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 4,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        },
+        {
+          "BossName": "arenafighterevent",
+          "BossChance": 5,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 3,
+              "BossEscortType": "arenafighterevent"
+            }
+          ]
+        }
+      ]
     }
   }
 }

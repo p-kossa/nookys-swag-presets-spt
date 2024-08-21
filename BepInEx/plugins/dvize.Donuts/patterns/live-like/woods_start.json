@@ -18,7 +18,72 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosskojaniy",
+          "BossChance": 37,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Blue",
+            "Zone_Orange"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerkojaniy"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 37,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Red",
+            "Zone_Black",
+            "Zone_Red_Scav_Bunker_Hotspot"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 20,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 4,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        },
+        {
+          "BossName": "arenafighterevent",
+          "BossChance": 5,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 3,
+              "BossEscortType": "arenafighterevent"
+            }
+          ]
+        }
+      ]
     }
   }
 }

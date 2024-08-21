@@ -19,7 +19,32 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosstagilla",
+          "BossChance": 35,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 2,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 4,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        }
+      ]
     }
   }
 }

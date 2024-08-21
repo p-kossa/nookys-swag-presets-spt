@@ -18,7 +18,18 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosskilla",
+          "BossChance": 35,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": []
+        }
+      ]
     }
   }
 }

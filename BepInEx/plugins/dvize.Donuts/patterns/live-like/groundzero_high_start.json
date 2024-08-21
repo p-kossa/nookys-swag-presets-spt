@@ -18,7 +18,41 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosskolontay",
+          "BossChance": 45,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerkolontayassault"
+            },
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerkolontaysecurity"
+            }
+          ]
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 44,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 4,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        }
+      ]
     }
   }
 }

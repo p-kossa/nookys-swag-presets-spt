@@ -18,7 +18,71 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bosssanitar",
+          "BossChance": 37,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Orange_Pier_Hotspot",
+            "Zone_Green_Resort_Hotspot"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followersanitar"
+            }
+          ]
+        },
+        {
+          "BossName": "bossknight",
+          "BossChance": 37,
+          "TimeDelay": 0,
+          "Zones": [
+            "Zone_Yellow_Radio_Hotspot",
+            "Zone_Blue"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbigpipe"
+            },
+            {
+              "BossEscortAmount": 1,
+              "BossEscortType": "followerbirdeye"
+            }
+          ]
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 20,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 43,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        },
+        {
+          "BossName": "sectantpriest",
+          "BossChance": 20,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 3,
+              "BossEscortType": "sectantwarrior"
+            }
+          ]
+        }
+      ]
     }
   }
 }

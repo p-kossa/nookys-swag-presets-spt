@@ -18,7 +18,49 @@
         "Zones": [
           "all"
         ]
-      }
+      },
+      "BOSSES": [
+        {
+          "BossName": "bossboar",
+          "BossChance": 37,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "4",
+              "BossEscortType": "followerboar"
+            },
+            {
+              "BossEscortAmount": "1",
+              "BossEscortType": "followerboarclose1"
+            },
+            {
+              "BossEscortAmount": "1",
+              "BossEscortType": "followerboarclose2"
+            }
+          ]
+        },
+        {
+          "BossName": "bosskolontay",
+          "BossChance": 37,
+          "TimeDelay": 0,
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerkolontayassault"
+            },
+            {
+              "BossEscortAmount": "2",
+              "BossEscortType": "followerkolontaysecurity"
+            }
+          ]
+        }
+      ]
     }
   }
 }
