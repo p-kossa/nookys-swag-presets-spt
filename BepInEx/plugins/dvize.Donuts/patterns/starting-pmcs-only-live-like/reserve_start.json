@@ -43,7 +43,7 @@
           ]
         },
         {
-          "BossName": "raiders",
+          "BossName": "pmcbot",
           "BossChance": 40,
           "TimeDelay": 0,
           "Zones": [
@@ -53,7 +53,7 @@
           "Supports": [
             {
               "BossEscortAmount": 2,
-              "BossEscortType": "raiders"
+              "BossEscortType": "pmcbot"
             }
           ]
         }

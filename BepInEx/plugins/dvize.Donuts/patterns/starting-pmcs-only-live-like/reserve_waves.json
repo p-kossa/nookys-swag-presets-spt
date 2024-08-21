@@ -68,6 +68,25 @@
             "all"
           ]
         }
+      ],
+      "BOSSES": [
+        {
+          "BossName": "pmcbot",
+          "BossChance": 50,
+          "TimeDelay": 0,
+          "MaxTriggersBeforeCooldown": 2,
+          "IgnoreTimerFirstSpawn": true,
+          "TriggerID": "",
+          "Zones": [
+            "all"
+          ],
+          "Supports": [
+            {
+              "BossEscortAmount": 2,
+              "BossEscortType": "pmcbot"
+            }
+          ]
+        }
       ]
     }
   }
