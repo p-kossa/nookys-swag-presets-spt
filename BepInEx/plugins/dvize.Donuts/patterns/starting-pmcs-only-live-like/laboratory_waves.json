@@ -27,23 +27,6 @@
           "TimeDelay": 0,
           "MaxTriggersBeforeCooldown": 1,
           "IgnoreTimerFirstSpawn": true,
-          "TriggerID": "00418",
-          "Zones": [
-            "all"
-          ],
-          "Supports": [
-            {
-              "BossEscortAmount": 3,
-              "BossEscortType": "pmcbot"
-            }
-          ]
-        },
-        {
-          "BossName": "pmcbot",
-          "BossChance": 100,
-          "TimeDelay": 0,
-          "MaxTriggersBeforeCooldown": 1,
-          "IgnoreTimerFirstSpawn": true,
           "TriggerID": "autoId_00008_EXFIL",
           "Zones": [
             "all"
